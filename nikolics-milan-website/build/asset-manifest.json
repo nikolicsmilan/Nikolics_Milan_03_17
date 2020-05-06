@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cf548c2.chunk.css",
+    "main.js": "/static/js/main.e3588cea.chunk.js",
+    "main.js.map": "/static/js/main.e3588cea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.b607c34e.chunk.js": "/static/js/2.b607c34e.chunk.js",
+    "static/js/2.b607c34e.chunk.js.map": "/static/js/2.b607c34e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d079415b7df4a8845f14aee26aac6a51.js": "/precache-manifest.d079415b7df4a8845f14aee26aac6a51.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
+    "static/css/main.1cf548c2.chunk.css.map": "/static/css/main.1cf548c2.chunk.css.map",
+    "static/js/2.b607c34e.chunk.js.LICENSE.txt": "/static/js/2.b607c34e.chunk.js.LICENSE.txt",
+    "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
+    "static/media/Bevetel2.PNG": "/static/media/Bevetel2.cb38f7cf.PNG",
+    "static/media/Ceges_Mobil.png": "/static/media/Ceges_Mobil.bd7e9759.png",
+    "static/media/EU_logo_Desktop.jpg": "/static/media/EU_logo_Desktop.5e3dd14f.jpg",
+    "static/media/NM_kep.jpg": "/static/media/NM_kep.ebac684e.jpg",
+    "static/media/Nepszeru2.PNG": "/static/media/Nepszeru2.2a95df8c.PNG",
+    "static/media/Ugyfel2.PNG": "/static/media/Ugyfel2.b7c2fcd8.PNG",
+    "static/media/Ugyfelszerzo_Mobil-min.png": "/static/media/Ugyfelszerzo_Mobil-min.72c64d0d.png",
+    "static/media/email-min.PNG": "/static/media/email-min.aa7faa1a.PNG",
+    "static/media/info-gomb.svg": "/static/media/info-gomb.08f42893.svg",
+    "static/media/nikolicsmilan_logo_9.png": "/static/media/nikolicsmilan_logo_9.a19b9f96.png",
+    "static/media/osztonzo_szoveg.PNG": "/static/media/osztonzo_szoveg.43a42860.PNG",
+    "static/media/pipa2.svg": "/static/media/pipa2.586316b4.svg",
+    "static/media/telefon-min.PNG": "/static/media/telefon-min.c32d6193.PNG",
+    "static/media/thinking.PNG": "/static/media/thinking.df216860.PNG",
+    "static/media/xa.svg": "/static/media/xa.56f4be01.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f67dda9.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.b607c34e.chunk.js",
+    "static/css/main.1cf548c2.chunk.css",
+    "static/js/main.e3588cea.chunk.js"
+  ]
+}
