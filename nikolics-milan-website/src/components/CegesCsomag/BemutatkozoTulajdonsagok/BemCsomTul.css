@@ -1,0 +1,201 @@
+.Bem_csom_tul_egesz{
+  /* border: 3px solid red;*/
+  padding-top: 1.5%;
+  padding-left:2.5%;
+  padding-right:2.5%;
+}
+
+
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+
+  .Ceg_appear{
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:3rem;
+    height:21rem;  
+    width:10rem; 
+    line-height: 0.8rem;    
+    z-index: 10000;  
+    margin-left: 30px;
+    margin-top: 2rem;
+    padding:1%;
+  }
+  .Ceg_appear p {
+    font-size: 0.8rem;
+  }
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  .Ceg_appear{
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:3rem;
+    height:21rem;  
+    width:15rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 30px;
+    margin-top: 2rem;
+    padding:1%;
+  }    
+  .Ceg_appear p {
+    font-size: 0.8rem;
+  }
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .Ceg_appear{
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:3rem;
+    height:13rem;  
+    width:25rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 30px;
+    margin-top: 2rem;
+    padding:1%;
+  }  
+
+  .Ceg_appear p {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Ceg_appear{
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:10rem;
+    height:11rem;  
+    width:30rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 30px;
+    margin-top: 2.5rem;
+    padding:1%;
+  }
+}
+.Ceg_appear p {
+  font-size: 0.8rem;
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .Ceg_appear{
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:5rem;
+    height:11rem;  
+    width:30rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 150px;
+    margin-top: 2rem;
+    padding:1%;
+  }
+  .Ceg_appear p {
+    font-size: 0.8rem;
+  }
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .Ceg_appear{
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:5rem;
+    height:13rem;  
+    width:30rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 400px;
+    margin-top: 2.5rem;
+    padding:0.2%;
+  } 
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+  .Ceg_appear{ 
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:5rem;
+    height:13rem;  
+    width:30rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 550px;
+    margin-top: 2rem;
+    padding:0.2%;
+  }
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+  .Ceg_appear{ 
+    border: 2px solid rgba(40, 164, 241, 0.938);
+    background-color: white;
+    border-radius:2%;
+    position: absolute;
+    justify-content: center;
+    left:5rem;
+    height:13rem;  
+    width:30rem; 
+    line-height: 1.2rem;    
+    z-index: 10000;  
+    margin-left: 750px;
+    margin-top: 2rem;
+    padding:0.2%;
+  }
+}
+
+/* 7. Larger screen VÉGE*/

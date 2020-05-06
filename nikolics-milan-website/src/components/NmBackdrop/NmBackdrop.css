@@ -1,0 +1,9 @@
+.NMbackdrop { 
+    position: relative;
+    width: 100%;
+    min-height: 32000px;   
+    background: white;
+    z-index: 9000;
+    border:6px solid green;
+    opacity: 0;
+}

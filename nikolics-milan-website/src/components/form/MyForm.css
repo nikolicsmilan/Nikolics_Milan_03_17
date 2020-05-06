@@ -1,0 +1,133 @@
+.form-control {
+    border-radius: 0px !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+
+.myform-textarea {
+    border: 1px solid #7ABEC2 !important;
+}
+
+.myform-btn {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: red;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.form-label {
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem;
+}
+
+.form-group {
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.form-padding {
+    padding: 2rem 0 2rem 0 !important;
+}
+
+.g-recaptcha {
+    transform: scale(0.95);
+}
+
+.captcha-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form-example-label {
+    font-size: 1rem;
+    font-style: italic;
+    color: black;
+   /* border-bottom: 3px solid red;*/
+}
+
+.facebook-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.facebook-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+    .facebook-wrapper > label {
+        color: #838588;
+        text-align: justify;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+/*POPUP*/
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 2rem;
+}
+
+.modal-items {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+    .modal-items > label {
+        color: #838588;
+    }
+
+@media (orientation: landscape) {
+    #contact {
+        width: 60%;
+        margin: auto;
+    }
+
+    .g-recaptcha {
+        transform: scale(0.95);
+    }
+}
+
+/* 
+  ##Device = Desktops
+*/
+
+@media (min-width: 1350px) {
+    #contact {
+        width: 60%;
+        margin: auto;
+    }
+
+    .g-recaptcha {
+        transform: scale(0.95);
+    }
+
+    .facebook-page {
+        padding-bottom: 2rem;
+    }
+
+    .facebook-wrapper {
+        flex-direction: row;
+        width: 100%;
+    }
+
+        .facebook-wrapper > label {
+            color: #838588;
+            text-align: justify;
+            padding: 0 2rem 0 2rem;
+        }
+}

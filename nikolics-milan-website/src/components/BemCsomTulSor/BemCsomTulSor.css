@@ -1,0 +1,417 @@
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+  .Bem_csom_tul_sor_egesz {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    border-bottom:1px solid rgba(40, 164, 241, 0.938);
+    width: 100%;
+    /*border-radius: 21px;*/
+    padding-top:1%;
+    padding-bottom:1%;
+    }
+
+    .Mindig-lathato {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;  
+     /*border:3px solid red; */
+     height: 1rem;
+     }
+    
+    .info_kontener {
+    display: flex;
+    width:25rem;
+    align-items: center;
+  /* border:3px solid yellow; */
+     }
+    
+    .info_gomb {
+    width:1.2rem;
+    margin-right: 3%;
+    }
+    
+    .felirat {
+    font-size: 0.7rem;
+    letter-spacing: -1px; 
+    }
+
+    .hidden {
+    display:none;
+    }  
+        
+    .pipa {
+    width:1.5rem;
+    float:left;
+    } 
+
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+    .Bem_csom_tul_sor_egesz {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(0, 128, 128);
+        border-bottom:1px solid rgba(40, 164, 241, 0.938);
+        width: 100%;
+        /*border-radius: 21px;*/
+        padding-top:1%;
+        padding-bottom:1%;
+        }
+    
+        .Mindig-lathato {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+         /*border:3px solid red; */
+         height: 1.2rem;
+         }
+        
+        .info_kontener {
+        display: flex;
+        width:25rem;
+        align-items: center;
+      /* border:3px solid yellow; */
+         }
+        
+        .info_gomb {
+        width:1.2rem;
+        margin-right: 3%;
+        }
+        
+        .felirat {
+        font-size: 1.1rem;
+        letter-spacing: -1px; 
+        }
+    
+        .hidden {
+        display:none;
+        }  
+            
+        .pipa {
+        width:1.5rem;
+        float:left;
+        }    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .Bem_csom_tul_sor_egesz {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(0, 128, 128);
+        border-bottom:1px solid rgba(40, 164, 241, 0.938);
+        width: 100%;
+        /*border-radius: 21px;*/
+        padding-top:1%;
+        padding-bottom:1%;
+        }
+    
+        .Mindig-lathato {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+         /*border:3px solid red; */
+         height: 1.2rem;
+         }
+        
+        .info_kontener {
+        display: flex;
+        width:25rem;
+        align-items: center;
+      /* border:3px solid yellow; */
+         }
+        
+        .info_gomb {
+        width:1.2rem;
+        margin-right: 3%;
+        }
+        
+        .felirat {
+        font-size: 1.1rem;
+        letter-spacing: -1px; 
+        }
+    
+        .hidden {
+        display:none;
+        }  
+            
+        .pipa {
+        width:1.6rem;
+        float:left;
+        } 
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .Bem_csom_tul_sor_egesz {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(0, 128, 128);
+        border-bottom:1px solid rgba(40, 164, 241, 0.938);
+        width: 100%;
+        /*border-radius: 21px;*/
+        padding-top:1%;
+        padding-bottom:1%;
+        }
+    
+        .Mindig-lathato {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+         /*border:3px solid red; */
+         height: 1.2rem;
+         }
+        
+        .info_kontener {
+        display: flex;
+        width:25rem;
+        align-items: center;
+       /* border:3px solid yellow; */
+         }
+        
+        .info_gomb {
+        width:1.5rem;
+        margin-right: 3%;
+        }
+        
+        .felirat {
+        font-size: 1.4rem;
+        }
+    
+        .hidden {
+        display:none;
+        }  
+            
+        .pipa {
+        width:1.6rem;
+        float:left;
+        }
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .Bem_csom_tul_sor_egesz {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(0, 128, 128);
+        border-bottom:1px solid rgba(40, 164, 241, 0.938);
+        width: 100%;
+        /*border-radius: 21px;*/
+        padding-top:1%;
+        padding-bottom:1%;
+     }
+    
+     .Mindig-lathato {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+         /*border:3px solid red; */
+         height: 1.2rem;
+      }
+        
+    .info_kontener {
+        display: flex;
+        width:25rem;
+        align-items: center;
+       /* border:3px solid yellow; */
+        line-height: 1.2rem;
+        font-size: 1.2rem; 
+        letter-spacing: -1px; 
+    }
+        
+    .info_gomb {
+        width:1.2rem;
+        margin-right: 3%;
+      }
+        
+    .felirat {
+          line-height: 1.2rem;
+          font-size: 1rem; 
+          letter-spacing: -1px; 
+    }
+    
+    .hidden {
+        display:none;
+    }  
+            
+    .pipa {
+        width:1.6rem;
+        float:left;
+    }
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .Bem_csom_tul_sor_egesz {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(0, 128, 128);
+        border-bottom:1px solid rgba(40, 164, 241, 0.938);
+        width: 100%;
+        /*border-radius: 21px;*/
+        padding-top:1%;
+        padding-bottom:1%;
+        }
+    
+        .Mindig-lathato {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+        /*border:3px solid yellow; */
+         }
+        
+        .info_kontener {
+        display: flex;
+        width:15rem;
+        align-items: center;
+        /* border:3px solid yellow; */
+        font-weight: 500;
+        font-size: 1rem;
+          }
+        
+        .info_gomb {
+        width:1.5rem;
+        margin-right: 1%;
+        }
+        
+        .felirat {
+        font-size: 1.2rem;
+        }
+    
+        .hidden {
+        display:none;
+        }  
+    
+        .pipa {
+        width:2rem;
+        float:left;
+        }
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width:1599px) { 
+    .Bem_csom_tul_sor_egesz {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(0, 128, 128);
+        border-bottom:1px solid rgba(40, 164, 241, 0.938);
+        width: 100%;
+        /*border-radius: 21px;*/
+        padding-top:1%;
+        padding-bottom:1%;
+        }
+    
+        .Mindig-lathato {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+        /*border:3px solid purple;*/
+        height:1.5rem;
+         }
+        
+        .info_kontener {
+        display: flex;
+        width:20rem;
+        align-items: center;
+        /*  border:3px solid yellow; */
+        font-weight: 500;
+        font-size: 1rem;
+          }
+        
+        .info_gomb {
+        width:1.5rem;
+        margin-right: 1%;
+        }
+        
+        .felirat {
+        font-size: 1rem;
+        }
+    
+        .hidden {
+        display:none;
+        }  
+    
+        .pipa {
+        width:2rem;
+        float:left;
+        }
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+@media screen and (min-width: 1600px) {
+
+    .Bem_csom_tul_sor_egesz {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    border-bottom:1px solid rgba(40, 164, 241, 0.938);
+    width: 100%;
+    /*border-radius: 21px;*/
+    padding-top:1%;
+    padding-bottom:1%;
+    }
+
+    .Mindig-lathato {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;  
+    /*border:3px solid purple;*/
+    height:1.5rem;
+     }
+    
+    .info_kontener {
+    display: flex;
+    width:20rem;
+    align-items: center;
+    /*  border:3px solid yellow; */
+    font-weight: 500;
+    font-size: 1rem;
+      }
+    
+    .info_gomb {
+    width:1.5rem;
+    margin-right: 1%;
+    }
+    
+    .felirat {
+    font-size: 1.2rem;
+    }
+
+    .hidden {
+    display:none;
+    }  
+
+    .pipa {
+    width:1.8rem;
+    float:left;
+    }
+}
+/*Larger screen VÉGE*/

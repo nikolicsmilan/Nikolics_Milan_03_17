@@ -1,0 +1,36 @@
+version: "2.1"
+networks:
+    webappnetwork:
+        driver: bridge
+services:
+    nikolics-milan-website:
+        build: ./nikolics-milan-website
+        restart: always
+        volumes:
+            - ./nikolics-milan-website:/nikolics-milan-website
+            - /nikolics-milan-website/node_modules
+            - /etc/letsencrypt:/etc/letsencrypt
+        networks:
+            - webappnetwork
+    nikolics-milan-api:
+        depends_on:
+            - nikolics-milan-website
+        build: ./nikolics-milan-api
+        restart: always
+        ports:
+            - "9000:9000"
+        volumes:
+            - ./nikolics-milan-api:/nikolics-milan-api
+            - /nikolics-milan-api/node_modules
+            - /etc/letsencrypt:/etc/letsencrypt
+            - ./nikolics-milan-website/build:/nikolics-milan-website/build
+            - ./nikolics-milan-website/public:/nikolics-milan-website/public
+        environment:
+            - DB_CONNECTION
+            - EMAIL_USER
+            - EMAIL_CLIENT_ID
+            - EMAIL_CLIENT_SECRET
+            - EMAIL_REFRESH_TOKEN
+            - EMAIL_ACCESS_TOKEN
+        networks:
+            - webappnetwork

@@ -1,0 +1,566 @@
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+  .NMside-drawer {
+    height: 100%;
+    background: white;
+   /* box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);*/
+    position: absolute;
+    top: 5rem;;
+    left: 0;
+    width: 100%;
+    /*background:  #cca353;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0.5rem;
+    /*max-width: 400px;*/
+  
+    /*Itt a megoldás- lacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 980;
+    transform: translateY(-160%);
+    transition: transform 0.3s ease-out;
+     max-height: 12rem;
+   /*border: 6px solid yellow;*/
+   /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
+    opacity:0.9;
+  }
+  
+  .NMside-drawer.open {
+      transform: translateY(0);
+      /*ide kell írni valamit*/      
+  } 
+  .nav_kisegit{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .nav_kisegit_A{
+    padding:3%;
+    /*border:3px solid yellow;*/
+  }
+
+
+ .appear_csomagok{
+  /* border:3px solid yellow;*/
+
+ }
+
+ .hidden_csomagok{
+  border:3px solid blue;
+  display: none;
+ }
+   
+  .NMside-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1020;
+  }
+  
+  .NMside-drawer li {
+    margin: 0.5rem 0;
+   /* color:red;*/
+   position: relative;
+   z-index: 1020;
+  }
+  
+  .NMside-drawer a {
+  
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*color:#cca353;*/
+    color:black;
+    font-style: oblique;
+    /*color:orange;*/
+    position: relative;
+   z-index: 1020;
+  }
+  
+  .NMside-drawer a:hover,
+  .NMside-drawer a:active {
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;    
+  }
+  
+
+
+}
+
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  .NMside-drawer {
+    height: 100%;
+    background: white;
+   /* box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);*/
+    position: absolute;
+    top: 5rem;;
+    left: 0;
+    width: 100%;
+    /*background:  #cca353;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0.5rem;
+    /*max-width: 400px;*/
+  
+    /*Itt a megoldás- lacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 980;
+    transform: translateY(-160%);
+    transition: transform 0.3s ease-out;
+     max-height: 12rem;
+   /*border: 6px solid yellow;*/
+   /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
+    opacity:0.9;
+  }
+  
+  .NMside-drawer.open {
+      transform: translateY(0);
+      /*ide kell írni valamit*/      
+  } 
+  .nav_kisegit{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .nav_kisegit_A{
+    padding:3%;
+    /*border:3px solid yellow;*/
+  }
+
+
+ .appear_csomagok{
+  /* border:3px solid yellow;*/
+
+ }
+
+ .hidden_csomagok{
+  border:3px solid blue;
+  display: none;
+ }
+   
+  .NMside-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1020;
+  }
+  
+  .NMside-drawer li {
+    margin: 0.5rem 0;
+   /* color:red;*/
+   position: relative;
+   z-index: 1020;
+  }
+  
+  .NMside-drawer a {
+  
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*color:#cca353;*/
+    color:black;
+    font-style: oblique;
+    /*color:orange;*/
+    position: relative;
+   z-index: 1020;
+  }
+  
+  .NMside-drawer a:hover,
+  .NMside-drawer a:active {
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;    
+  }
+  
+    
+}
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+ .NMside-drawer {
+    height: 100%;
+    background: white;
+   /* box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);*/
+    position: absolute;
+    top: 7rem;;
+    left: 0;
+    width: 100%;
+    /*background:  #cca353;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0.8rem;
+    /*max-width: 400px;*/
+  
+    /*Itt a megoldás- lacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 980;
+    transform: translateY(-160%);
+    transition: transform 0.3s ease-out;
+     max-height: 20rem;
+   /*border: 6px solid yellow;*/
+    opacity:0.9;
+    
+  }
+  
+  .NMside-drawer.open {
+      transform: translateY(0);
+      /*ide kell írni valamit*/      
+  } 
+  .nav_kisegit{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .nav_kisegit_A{
+    padding:5%;
+   
+  }
+
+ .appear_csomagok{
+  /* border:3px solid yellow;*/
+
+ }
+
+ .hidden_csomagok{
+  border:3px solid blue;
+  display: none;
+ }
+   
+  .NMside-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1020;
+    /*border:3px solid red;*/
+  }
+  
+  .NMside-drawer li {
+    margin: 0.5rem 0;
+   /* color:red;*/
+   position: relative;
+   z-index: 1020;
+   
+  }
+  
+  .NMside-drawer a {  
+    text-decoration: none;
+    font-size: 1.5rem;
+    /*color:#cca353;*/
+    color:black;
+    font-style: oblique;
+    /*color:orange;*/
+    position: relative;
+   z-index: 1020;
+   
+  }
+  
+  .NMside-drawer a:hover,
+  .NMside-drawer a:active {
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;    
+  }
+
+
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .NMside-drawer {
+    height: 100%;
+    background: white;
+   /* box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);*/
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    width: 100%;
+    /*background:  #cca353;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2rem;
+    /*max-width: 400px;*/
+  
+    /*Itt a megoldás- lacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 980;
+    transform: translateY(-130%);
+    transition: transform 0.3s ease-out;
+     max-height: 20rem;
+     /*border: 6px solid green;*/
+    opacity:0.9;
+  }
+  
+  .NMside-drawer.open {
+      transform: translateY(0);
+      /*ide kell írni valamit*/      
+  } 
+  .nav_kisegit{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .nav_kisegit_A{
+    /*padding:3%;*/
+    /*border:3px solid green;*/
+  }
+
+ .appear_csomagok{
+   /*border:3px solid green;*/
+
+ }
+
+ .hidden_csomagok{
+  /**border:3px solid blue;*/
+  display: none;
+ }
+   
+  .NMside-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1020;
+  }
+  
+  .NMside-drawer li {
+    margin: 0.5rem 0;
+   /* color:red;*/
+   position: relative;
+   z-index: 1020;
+  }
+  
+  .NMside-drawer a {  
+    text-decoration: none;
+    font-size: 1.8rem;
+    /*color:#cca353;*/
+    color:black;
+    font-style: oblique;
+    /*color:orange;*/
+    position: relative;
+    z-index: 1020;
+    padding-left:0.01rem;
+    /*border: 3px solid orange;*/
+    width:5rem;
+  }
+  
+  .NMside-drawer a:hover,
+  .NMside-drawer a:active {
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;    
+  }
+
+
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+
+
+
+
+
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .NMside-drawer {
+    height: 100%;
+    background: white;
+   /* box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);*/
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    width: 100%;
+    /*background:  #cca353;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2rem;
+    /*max-width: 400px;*/
+  
+    /*Itt a megoldás- lacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 980;
+    transform: translateY(-130%);
+    transition: transform 0.3s ease-out;
+     max-height: 20rem;
+     /*border: 6px solid green;*/
+    opacity:0.9;
+  }
+  
+  .NMside-drawer.open {
+      transform: translateY(0);
+      /*ide kell írni valamit*/      
+  } 
+  .nav_kisegit{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .nav_kisegit_A{
+    padding:3%
+  }
+
+ .appear_csomagok{
+  /* border:3px solid green;*/
+
+ }
+
+ .hidden_csomagok{
+ /* border:3px solid blue;*/
+  display: none;
+ }
+   
+  .NMside-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1020;
+  }
+  
+  .NMside-drawer li {
+    margin: 0.5rem 0;
+   /* color:red;*/
+   position: relative;
+   z-index: 1020;
+  }
+  
+  .NMside-drawer a {  
+    text-decoration: none;
+    font-size: 1.8rem;
+    /*color:#cca353;*/
+    color:black;
+    font-style: oblique;
+    position: relative;
+    z-index: 1020;
+    width:5rem;
+  }
+  
+  .NMside-drawer a:hover,
+  .NMside-drawer a:active {
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;    
+  }
+
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+
+
+
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .side-drawer {
+    display: none;        
+}
+
+.NMside-drawer.open {
+  display: none;      
+}
+
+.NMside-drawer ul {
+  display: none;   
+}
+
+.NMside-drawer li {
+  display: none;   
+}
+
+.NMside-drawer a {
+
+  display: none;   
+}
+
+.NMside-drawer a:hover,
+.NMside-drawer a:active {
+  display: none;   
+  
+}
+
+
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) {
+  .side-drawer {
+    display: none;        
+}
+
+.NMside-drawer.open {
+  display: none;      
+}
+
+.NMside-drawer ul {
+  display: none;   
+}
+
+.NMside-drawer li {
+  display: none;   
+}
+
+.NMside-drawer a {
+
+  display: none;   
+}
+
+.NMside-drawer a:hover,
+.NMside-drawer a:active {
+  display: none;   
+  
+}
+
+}
+
+/* 6. Higher resolution desktops VÉGE*/

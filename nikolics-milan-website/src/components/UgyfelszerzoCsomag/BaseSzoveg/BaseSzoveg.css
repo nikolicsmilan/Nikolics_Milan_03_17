@@ -1,0 +1,770 @@
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        font-size: 1.4rem;
+        font-weight: 900;
+        padding-bottom: 5%;
+        /*border:3px solid red;*/
+    }
+
+    .CsomagCimUgy h1 {    
+        padding-top: 1rem;
+         border: 2px solid rgba(47,218,241,.87);
+         border:2px solid rgba(40, 164, 241, 0.938);
+         border-radius: 3%;
+         width:12rem;
+         height: 3rem;
+         padding: 0;
+         padding-top: 2%;
+         margin: 0;
+    }   
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+
+    .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 900;
+        padding-top:3%;
+        padding-bottom: 5%;
+        padding-left:2%;
+        padding-right:2%;
+        padding-top: 2rem;
+       /* border: 3px solid red;*/
+        min-height: 2rem;
+        max-height: 2rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/    
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+       /* border: 3px solid red;*/       
+        padding:0;
+        padding-top: 5%;
+        margin:0;
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: left; 
+        line-height: 1rem;
+        font-size: 0.9rem; 
+        letter-spacing: -0.5px; 
+        padding:0;
+        margin:0;
+    }  
+
+    .EredUgyAr {
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+   }  
+
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        font-size: 1.8rem;
+        font-weight: 900;
+        padding-bottom: 5%;
+        /*border:3px solid red;*/
+    }
+
+    .CsomagCimUgy h1 {    
+        padding-top: 1rem;
+         border: 2px solid rgba(47,218,241,.87);
+         border:2px solid rgba(40, 164, 241, 0.938);
+         border-radius: 3%;
+         width:17rem;
+         height: 3rem;
+         padding: 0;
+         padding-top: 2%;
+         margin: 0;
+    }   
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+
+    .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 900;
+        padding-top:3%;
+        padding-bottom: 5%;
+        padding-left:2%;
+        padding-right:2%;
+        padding-top: 2rem;
+       /* border: 3px solid red;*/
+        min-height: 2rem;
+        max-height: 2rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/    
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+       /* border: 3px solid red;*/       
+        padding:0;
+        padding-top: 5%;
+        margin:0;
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: left; 
+        line-height: 1rem;
+        font-size: 1rem; 
+        letter-spacing: -0.5px; 
+        padding:0;
+        margin:0;
+    }  
+
+    .EredUgyAr {
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+   }  
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        font-size: 1.8rem;
+        font-weight: 900;
+        padding-bottom: 5%;
+        /*border:3px solid red;*/
+    }
+
+    .CsomagCimUgy h1 {    
+        padding-top: 1rem;
+         border: 2px solid rgba(47,218,241,.87);
+         border:2px solid rgba(40, 164, 241, 0.938);
+         border-radius: 3%;
+         width:17rem;
+         height: 3rem;
+         padding: 0;
+         padding-top: 2%;
+         margin: 0;
+    }   
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+
+    .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 900;
+        padding-top:3%;
+        padding-bottom: 5%;
+        padding-left:2%;
+        padding-right:2%;
+        padding-top: 2rem;
+       /* border: 3px solid red;*/
+        min-height: 2rem;
+        max-height: 2rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/    
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+       /* border: 3px solid red;*/       
+        padding:0;
+        padding-top: 5%;
+        margin:0;
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: left; 
+        line-height: 1.4rem;
+        font-size: 1.1rem; 
+        letter-spacing: -0.5px; 
+        padding:0;
+        margin:0;
+    }  
+
+    .EredUgyAr {
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+   }  
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column; 
+        align-items: center;    
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display: flex;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        color:rgba(40, 164, 241, 0.938);
+        font-size: 2rem;
+        font-weight: 900;
+        padding:2%;            
+    }
+
+    .CsomagCimUgy h1 {     
+         padding-top: 1rem;
+         border: 2px solid rgba(47,218,241,.87);
+         border:3px solid rgba(40, 164, 241, 0.938);
+         border-radius: 3%;
+         width:17rem;
+         height: 4rem;
+         padding-bottom: 3%;
+     }   
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+
+      .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 2rem;
+        font-size: 2rem;
+        font-weight: 900;
+        padding-top:3%;
+        padding-bottom: 3%;
+        padding-left:2%;
+        padding-right:2%;
+        padding-top: 2rem;
+       /* border: 3px solid red;*/
+        min-height: 2rem;
+        max-height: 2rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/      
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 11rem;
+        max-height: 11rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+       /* border: 3px solid red;*/       
+        padding:0;
+        padding-top: 5%;
+        margin:0;
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+       /* border: 3px solid yellow;*/
+        text-align: left; 
+        line-height: 1.8rem;
+        font-size: 1.3rem; 
+        letter-spacing: -1.2px; 
+        padding:0;
+        margin:0;
+    }   
+
+    .EredUgyAr {
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+   }  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        color: rgba(40, 164, 241, 0.938);
+        font-size: 1.5rem;
+        font-weight: 900;
+        padding:2%;        
+    }
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+
+    .CsomagCimUgy h1 {      
+        padding-top: 0.5rem;
+        border: 2px solid rgba(47,218,241,.87);
+        border:2px solid rgba(40, 164, 241, 0.938);
+        border-radius: 3%;
+        width:14rem;
+        height: 3rem;
+        padding-bottom: 3%;
+    }   
+
+     .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+       /* align-items: center;*/
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 900;
+        padding-top:7%;
+        padding-bottom: 3%;
+        padding-left:2%;
+        padding-right:2%;
+       /* padding-top: 1rem;*/
+       /* border: 3px solid red;*/
+        min-height: 2rem;
+        max-height: 2rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/
+      
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+       /* border: 3px solid red;*/       
+        padding:0;
+        padding-top: 5%;
+        margin:0;
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: left; 
+        line-height: 1.2rem;
+        font-size: 1.1rem; 
+        letter-spacing: -1.1px; 
+        padding:0;
+        margin:0;
+    }  
+
+    .EredUgyAr{
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr{
+       color:red;
+   } 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        color: rgba(40, 164, 241, 0.938);
+        font-size: 2rem;
+        font-weight: 900;
+        padding:2%;        
+    }
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+
+    .CsomagCimUgy h1 {      
+        padding-top: 1rem;
+        border: 2px solid rgba(47,218,241,.87);
+        border:2px solid rgba(40, 164, 241, 0.938);
+        border-radius: 3%;
+        width:17rem;
+        height: 4rem;
+    }   
+
+     .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*align-items: center;*/
+        font-size: 1.8rem;
+        font-weight: 900;
+        padding-left:2%;
+        padding-right:2%;
+       /* padding-top: 1rem;*/
+       /* border: 3px solid yellow;*/
+        min-height: 5rem;
+        max-height: 5rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+        /*border: 3px solid red;*/
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: left; 
+        line-height: 1.5rem;
+        font-size: 1.2rem; 
+        letter-spacing: -1px;        
+    } 
+
+   .EredUgyAr{
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+   }  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width:1599px) {
+  
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        color: rgba(40, 164, 241, 0.938);
+        font-size: 2rem;
+        font-weight: 900;
+        padding:2%;        
+    }
+
+    .keretUgy{
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+
+    .CsomagCimUgy h1 {      
+        padding-top: 1rem;
+        border: 2px solid rgba(47,218,241,.87);
+        border:2px solid rgba(40, 164, 241, 0.938);
+        border-radius: 3%;
+        width:17rem;
+        height: 4rem;
+    }   
+
+    .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*align-items: center;*/
+        font-size: 2rem;
+        font-weight: 900;
+        padding-left:2%;
+        padding-right:2%;
+       /* padding-top: 1rem;*/
+      /*  border: 3px solid yellow;*/
+        min-height: 5rem;
+        max-height: 5rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+        /*border: 3px solid red;*/
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+      /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: justify; 
+        line-height: 1.8rem;
+        font-size: 1.2rem; 
+        letter-spacing: -0.5px;      
+    }
+
+   .EredUgyAr{
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+        }  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+   
+    .BaseSzovegEgeszUgy {
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+        /*border: 3px dashed red;*/
+        max-height: 19rem;      
+    }   
+
+    .CsomagCimUgy {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgba(47,218,241,.87);
+        color:rgba(40, 164, 241, 0.938);
+        color: rgba(40, 164, 241, 0.938);
+        font-size: 2rem;
+        font-weight: 900;
+        padding:2%;        
+    }
+
+    .keretUgy {
+        border-radius: 20px;
+        border: 1px solid rgba(47,218,241,.87);
+        border:1px solid rgba(40, 164, 241, 0.938);
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+
+    .CsomagCimUgy h1 {      
+        padding-top: 1rem;
+        border: 2px solid rgba(47,218,241,.87);
+        border:2px solid rgba(40, 164, 241, 0.938);
+        border-radius: 3%;
+        width:17rem;
+        height: 4rem;
+    }   
+
+    .CsomagArUgy {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+       /*align-items: center;*/
+        font-size: 2rem;
+        font-weight: 900;
+        padding-left:2%;
+        padding-right:2%;
+        padding-top: 0.5rem;
+       /* border: 3px solid yellow;*/
+        min-height: 5rem;
+        max-height: 5rem;
+      /*  min-width: 25rem;
+        max-width: 25rem;*/
+    }    
+
+    .CsomagLeirasUgy {
+        max-width: 100%;       
+        min-height: 9rem;
+        max-height: 9rem;
+         /* margin-top: 2%;*/
+       /*padding-bottom: 4%;*/
+        /*border: 3px solid red;*/
+    }  
+
+    .SzovegUgy {
+       /* letter-spacing: -1.5px;
+        line-height: 3rem;*/
+        /*  width:25rem;*/
+        /*border: 3px solid yellow;*/
+        text-align: justify; 
+        line-height: 1.5rem;
+        font-size: 1.4rem; 
+        letter-spacing: normal;        
+    }
+
+   .EredUgyAr{
+        text-decoration-line: line-through;
+    }
+
+   .CsokUgyAr {
+       color:red;
+  }
+}
+
+/*7. Larger screen VÉGE*/
