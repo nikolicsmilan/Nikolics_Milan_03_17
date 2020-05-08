@@ -61,11 +61,12 @@
   }
 
 .Tel_Email_kontener{
-  display:flex;
+ /* display:flex;
   flex-direction: column; 
   color: rgba(40, 164, 241, 0.938);  
  /* border: 3px solid green;*/
-  width: 14rem;
+ /* width: 14rem;*/
+ display: none;
 }    
 .Telefon{
   display: flex;
@@ -891,6 +892,9 @@ height: 12rem;
 width:15rem;
 min-height:10rem;
 }
+li .AktivMenu{
+  color:rgba(40, 164, 241, 0.938);;
+  } 
 }
 /* 5. Laptops, Desktops VÉGE  */
 
@@ -1080,7 +1084,9 @@ height: 12rem;
 width:15rem;
 min-height:10rem;
 }
-  
+li .AktivMenu{
+  color:rgba(40, 164, 241, 0.938);;
+  } 
 }
 
 /* 6. Higher resolution desktops VÉGE*/
@@ -1270,6 +1276,9 @@ height: 12rem;
 width:15rem;
 min-height:10rem;
 }
+li .AktivMenu{
+  color:rgba(40, 164, 241, 0.938);;
+  }  
 }
 
 /* 7. Larger screen VÉGE*/

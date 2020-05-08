@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './NmToolbar.css';
 import NmButton from'../NmButton/NmButton';
 import EU_logo_Mobil from '../../assets/EU_logo_Mobil.jpg';
@@ -6,6 +6,9 @@ import EU_logo_Desktop from '../../assets/EU_logo_Desktop.jpg';
 import tel from '../../assets/telefon-min.PNG';
 import email from '../../assets/email-min.PNG';
 import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+/*import DropDown from '../../components/DropDown/DropDown';*/
+
 
 const NM_Toolbar = props => (
 
@@ -51,7 +54,7 @@ const NM_Toolbar = props => (
 
           {/*3*/}
                 <div className="EU_Logo_kontener_mobil">
-                  <img className="EU_logo_Mobil" src={EU_logo_Mobil} ></img> 
+                  <img className="EU_logo_Mobil" src={EU_logo_Mobil} alt="EU_logo_Mobil" ></img> 
                 </div>
           
       </div>  
@@ -63,19 +66,20 @@ const NM_Toolbar = props => (
             <div className='desktop_menu_belso'>  
                       <ul >
                         {/*DESKTOP NÉZETBEN LÁTHATÓ*/}
-                        <li><Link to="/">Főoldal</Link></li> 
-                        <li> <Link to={{         
+                        <li><NavLink to="/" >Főoldal</NavLink></li> 
+                        <li> <NavLink to={{         
                           pathname: "/",      
                           hash: "#bemutatkozo",
-                          }}>Weboldal-Árak</Link>  </li>
-                        <li><Link to="/SEO">SEO</Link></li> 
-                        <li><Link to="/SEO">Technológia</Link></li> 
-                        <li> <Link to="/Kapcsolat">Kapcsolat</Link></li>                                
+                          }}>Weboldal-Árak</NavLink>  </li>
+                        <li><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
+                        <li><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
+                        <li><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
+                                                  
                       </ul>               
             </div>
 
             <div className="EU_Logo_kontener_desktop">
-                  <img className="EU_logo_Desktop" src={EU_logo_Desktop} ></img> 
+                  <img className="EU_logo_Desktop" src={EU_logo_Desktop} alt="EU_logo_Desktop"></img> 
             </div>        
 
    </div>    

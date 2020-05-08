@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './BemCsomTul.css';
 import BemCsomTulSor from '../../BemCsomTulSor/BemCsomTulSor';
 import pipa2 from '../../../assets/Card/pipa2.svg';
@@ -7,7 +7,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const BemCsomTul = props => { 
     return (
-        <div className="Bem_csom_tul_egesz">           
+        <div className="BemCsomTulEgesz">           
            <BemCsomTulSor
                 kep={pipa2}
                 felirat='Egyedi tervezés'
@@ -15,7 +15,7 @@ const BemCsomTul = props => {
                 ön igényeihez van szabva és  igazán kiemelkedik a többi közül. 
                 Ezzel szemben a sablonból készült weboldalaknak több ezer klónja is lehet,
                 amit így egy lehetséges vásárló bóvlinak mínősíthet.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -24,7 +24,7 @@ const BemCsomTul = props => {
                  Az internetet használók fele nem asztali számítógépet hanem
                  mobiltelefont vagy más okoseszközt használ. Ha nem akar elesni kliensei 
                  felétől szüksége van erre az opcióra.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -32,7 +32,7 @@ const BemCsomTul = props => {
                 felugro='Modernebb és drágább mint a hagyományos tárhelyek. Az eredmény megnövekedett
                 kiszolgálási sebbeség, ami kulcsfontosságú tényező a vásárlók szempontjából. Ha
                 weboldala nem tőltödik be néhány másodperc alatt a legtöbben elkattintanak...'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -43,7 +43,7 @@ const BemCsomTul = props => {
                 Az SSL nélküli weboldalakat a chrome weböngésző  nem biztonságosnak minősíti.
                 Nem érdemes ilyen weboldalakkal foglalkozni, adatokat megadni pedig főleg nem.
                 (pedig a weboldalak fele még ilyen)'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -53,7 +53,7 @@ const BemCsomTul = props => {
                  Általános Adatvédelmi Szabályozás). Ennek megfelelő
                  cookie kezelés valamint az adatvédelmi tájékoztató.
                  Ennek hiánya büntetést vonhat maga után.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -65,7 +65,7 @@ const BemCsomTul = props => {
                  ezáltal minél gyorsabb legyen a betöltődés. Az ön weboldlala react-al készül
                  ami SPA(single-page application) így sokkal gyorsabb mint a más MPA -t 
                  használó weboldalak.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
                <BemCsomTulSor
                 kep={pipa2}
@@ -74,7 +74,7 @@ const BemCsomTul = props => {
                 valamint korlátlan adatforgalommal. Apache webszerver fut rajta amin egyszerre 
                 (maximum) 10 000 szál lehet. A többi technológiával együtt ez lehetővé teszi hogy
                 webodlala akkor is elérhető legyen ha egyszerre sokan látogatják meg.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                   kep={pipa2}
@@ -83,7 +83,7 @@ const BemCsomTul = props => {
                 aloldalra lehet szüksége, amiken főtéma több altémára van bontva.
                  A bemutatkozó csomagban 5 ilyen aloldalra van lehetőség. Ha ennél többre
                  van igénye az megegyezés kérdése'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -97,7 +97,7 @@ const BemCsomTul = props => {
                  természetesen nem vonatkozik az ön által biztosított képekre(részletek a szerződésben),
                  de minden egyes plusz tartalom, főként képek, videók, lassítják weboldalát és plusz munka 
                  is mivel méretezni és konvertálni kell őket.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -107,7 +107,7 @@ const BemCsomTul = props => {
                 megfelelően műkdödjön. Az árak számos szempontól függnek például a változtatások típusa,
                 gyakorisága, menyisége, ráfordítandó idő... stb. Bemutatkozó csomagban
                 heti maximum 1 óra ingyenes az első hónapban.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -116,7 +116,7 @@ const BemCsomTul = props => {
                 Ezt az opciót választva ez a szám 7- re emelkedik hogy weboldala a lehető legtöbb
                 eszközön optimálisan jelenjen meg. Ezenkívül weboladala kiegészülhet igény szerint
                 különböző grafikai elemmekkel például: Slider, Slidehsow, Animációk, Efektusok ...stb'
-                 appear='Ceg_appear'  
+                 appear='CegAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -125,7 +125,7 @@ const BemCsomTul = props => {
                 vállalkozását, weblapját. Fontos része cége kommunikációs eszköztárának.
                 Ha már rendelkezik vele felölthetjük vagy akár újat is tervezhetünk igényei szerint.
                 Fontos: A logó levédetése külön procedúra, amit nem válalunk.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>             
              <BemCsomTulSor
                 kep={pipa2}
@@ -135,7 +135,7 @@ const BemCsomTul = props => {
                 csak látszólagosan működik jóla valóságban nem működik biztonságosan.
                  Ezen megvalósításban viszont a weboldlala gmail API -n keresztül authentikálódik
                  ami a magasabb szintű biztonságról gondoskodik egy átlagos weblaphoz képest.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
               <BemCsomTulSor
                 kep={pipa2}
@@ -145,7 +145,7 @@ const BemCsomTul = props => {
                  fiókkal. A facebook messenger alkalmalazás chatbotként beépül 
                  weblapjába ezáltal azonali üzenetküldést tesz lehetővé, ami
                  a prémium érzését kölcsönzi ügyfeleinek.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -155,7 +155,7 @@ const BemCsomTul = props => {
                 ön, hogy milyen szöveget helyezünk el a weblapjára, vagy ránk bízza annak tartalommarketingjét.
                  A Szövegírás nem része a Bemutatkozó csomagnak,
                   ebben az esetben azt önnek kell kitalálnia weboldala szövegezését.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={xa}
@@ -164,7 +164,7 @@ const BemCsomTul = props => {
                 A SEO azaz a keresőmotor optimalizálás legdrágább ugyanakkor a leginkább 
                 megtérülő része weblapjának. Akkora jelentőséggel bír mint egy autóban 
                 a motor. Részletek a SEO aloldalon.'
-                appear='Ceg_appear'  
+                appear='CegAppear'  
             ></BemCsomTulSor>
            <div className="Megrendelem_gomb">
             <Link to={{         

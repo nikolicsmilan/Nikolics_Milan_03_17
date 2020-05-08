@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './NmBemutatkozas2.css';
 import nikolics_logo from './../../assets/nikolicsmilan_logo_9.png';
 import bevetel from './../../assets/SzovegKep/Bevetel2.PNG';
 import nepszeru from './../../assets/SzovegKep/Nepszeru2.PNG';
 import ugyfel from './../../assets/SzovegKep/Ugyfel2.PNG';
-import thinking from './../../assets/SzovegKep/thinking.PNG';
+/*import thinking from './../../assets/SzovegKep/thinking.PNG';*/
 import osztonzo from './../../assets/SzovegKep/osztonzo_szoveg.PNG';
 
 const NmBemutatkozas2 = props => (

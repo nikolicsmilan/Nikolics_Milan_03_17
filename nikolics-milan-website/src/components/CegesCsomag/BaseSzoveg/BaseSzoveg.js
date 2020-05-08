@@ -1,21 +1,21 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './BaseSzoveg.css';
 
 const BaseSzoveg = props =>{
     return(           
-    <div className="Base_szoveg_egesz_ceg">
+    <div className="BaseSzovegEgeszCeg">
 
-        <div className="Csomag_cim_ceg">
+        <div className="CsomagCimCeg">
                 <h1>CÉGES</h1>                
         </div>
 
-        <div className="keret_ceg">
-                <div className="Csomag_ar_ceg">
+        <div className="KeretCeg">
+                <div className="CsomagArCeg">
                         <h1>250 000 HUF</h1>
                 </div>
 
-                <div className='Csomag_leiras_ceg'>
-                        <div className='Szoveg_ceg'>          
+                <div className='CsomagLeirasCeg'>
+                        <div className='SzovegCeg'>          
                                 Mindent tud, amit a bemutatkozó weboldal.
                                 Haladó szintű weboldal, nagyobb igényű, dinamikusan fejlődőni vágyó
                                 vállalkozások számára lett kifejlesztve.

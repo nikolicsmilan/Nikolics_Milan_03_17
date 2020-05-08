@@ -1,11 +1,11 @@
 
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg   {           
+    .OpenSidedrawerCeg   {           
         border:1px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         text-align: left; 
@@ -16,14 +16,14 @@
         margin-bottom:1%;
         }
        
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
         /*border:3px solid red;*/
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:11rem;
@@ -32,7 +32,7 @@
        /* border: 3px solid red;*/
     }
     
-    .button_ceg {
+    .ButtonCeg {
         /*border: 3px solid blue;*/
         color:white;
        /* background-color: rgb(100, 250, 2);*/
@@ -50,7 +50,7 @@
         font-size: 1.3rem; */    
     }
     
-   ul.felsorol_ceg {
+   ul.FelsorolCeg {
         list-style-type: circle;
         margin-left:3rem;
         text-align: left; 
@@ -64,10 +64,10 @@
         text-indent:-18px;
     }   
     
- .Kep_start_ceg {    
+ .KepStartCeg {    
         width: 100%;
     }
- .Kep_start_ceg img {
+ .KepStartCeg img {
         width: 100%;
     }
 }
@@ -76,11 +76,11 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg   {           
+    .OpenSidedrawerCeg   {           
         border:1px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         text-align: left; 
@@ -91,14 +91,14 @@
         margin-bottom:1%;
         }
        
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
         /*border:3px solid red;*/
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:11rem;
@@ -107,7 +107,7 @@
        /* border: 3px solid red;*/
     }
     
-    .button_ceg {
+    .ButtonCeg {
         /*border: 3px solid blue;*/
         color:white;
        /* background-color: rgb(100, 250, 2);*/
@@ -125,7 +125,7 @@
         font-size: 1.3rem; */    
     }
     
-   ul.felsorol_ceg {
+   ul.FelsorolCeg {
         list-style-type: circle;
         margin-left:3rem;
         text-align: left; 
@@ -139,10 +139,10 @@
         text-indent:-18px;
     }   
     
- .Kep_start_ceg {    
+ .KepStartCeg {    
         width: 100%;
     }
- .Kep_start_ceg img {
+ .KepStartCeg img {
         width: 100%;
     }  
   }
@@ -152,11 +152,11 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg   {           
+    .OpenSidedrawerCeg   {           
         border:1px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         text-align: justify; 
@@ -167,14 +167,14 @@
         margin-bottom:1%;
         }
        
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
         /*border:3px solid red;*/
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:11rem;
@@ -183,7 +183,7 @@
        /* border: 3px solid red;*/
     }
     
-    .button_ceg {
+    .ButtonCeg {
         /*border: 3px solid blue;*/
         color:white;
        /* background-color: rgb(100, 250, 2);*/
@@ -201,7 +201,7 @@
         font-size: 1.3rem; */    
     }
     
-   ul.felsorol_ceg {
+   ul.FelsorolCeg {
         list-style-type: circle;
         margin-left:3rem;
         text-align: left; 
@@ -215,10 +215,10 @@
         text-indent:-18px;
     }   
     
- .Kep_start_ceg {    
+ .KepStartCeg {    
         width: 100%;
     }
- .Kep_start_ceg img {
+ .KepStartCeg img {
         width: 100%;
     }
 
@@ -231,11 +231,11 @@
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
   
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg   {
+    .OpenSidedrawerCeg   {
         border:1px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         text-align: left; 
@@ -246,14 +246,14 @@
         margin-bottom:1%;
     }
        
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
         /*border:3px solid red;*/
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:11rem;
@@ -262,7 +262,7 @@
        /* border: 3px solid red;*/
     }
     
-    .button_ceg {
+    .ButtonCeg {
         /*border: 3px solid blue;*/
         color:white;
        /* background-color: rgb(100, 250, 2);*/
@@ -280,7 +280,7 @@
         font-size: 1.3rem; */   
     }
     
-   ul.felsorol_ceg {
+   ul.FelsorolCeg {
         list-style-type: circle;
         margin-left:3rem;
         text-align: justify; 
@@ -294,10 +294,10 @@
         text-indent:-18px;
     }   
     
- .Kep_start_ceg {    
+ .KepStartCeg {    
         width: 100%;
     }
- .Kep_start_ceg img {
+ .KepStartCeg img {
         width: 100%;
     }
 }
@@ -306,7 +306,7 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
@@ -314,7 +314,7 @@
         margin-top:2%;
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:9rem;
@@ -322,7 +322,7 @@
         /*border: 3px solid red;*/      
     }
 
-    .button_ceg {
+    .ButtonCeg {
         border:1px solid rgba(40, 164, 241, 0.938);   
         border-radius: 5%;
         background-color: rgba(40, 164, 241, 0.938);
@@ -339,11 +339,11 @@
         font-size: 1.2rem;    
     }
 
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg {
+    .OpenSidedrawerCeg {
         border:3px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         border-radius: 3%;
@@ -362,7 +362,7 @@
         /*width:25rem;*/        
     }   
     
-    ul.felsorol_ceg {
+    ul.FelsorolCeg {
         text-align: left; 
         line-height: 1.2rem;
         font-size: 1.2rem; 
@@ -372,7 +372,7 @@
         margin-left:3rem;               
     }
   
-    .Kep_start_ceg {    
+    .KepStartCeg {    
         width: 100%;
        /* border: 3px solid red;*/
        /* width:25rem;*/
@@ -380,7 +380,7 @@
         min-height: 16rem;*/
     }
 
-    .Kep_start_ceg img {
+    .KepStartCeg img {
         width: 100%;
        /* width:25rem;*/
        /* max-height: 16rem;
@@ -393,7 +393,7 @@
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
@@ -401,7 +401,7 @@
         margin-top:2%;
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:9rem;
@@ -409,7 +409,7 @@
         /*border: 3px solid red;*/      
     }
 
-    .button_ceg {
+    .ButtonCeg {
         border:1px solid rgba(40, 164, 241, 0.938);   
         border-radius: 5%;
         background-color: rgba(40, 164, 241, 0.938);
@@ -426,11 +426,11 @@
         font-size: 1.3rem;*/     
     }
 
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg {
+    .OpenSidedrawerCeg {
         border:3px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         border-radius: 3%;
@@ -449,7 +449,7 @@
         /*width:25rem;*/        
     }   
     
-    ul.felsorol_ceg {
+    ul.FelsorolCeg {
         text-align: left; 
         line-height: 1.5rem;
         font-size: 1.2rem; 
@@ -459,7 +459,7 @@
         margin-left:3rem;               
     }
   
-    .Kep_start_ceg {    
+    .KepStartCeg {    
         width: 100%;
        /* border: 3px solid red;*/
        /* width:25rem;*/
@@ -467,7 +467,7 @@
         min-height: 16rem;*/
     }
 
-    .Kep_start_ceg img {
+    .KepStartCeg img {
         width: 100%;
        /* width:25rem;*/
        /* max-height: 16rem;
@@ -482,7 +482,7 @@
 
 @media (min-width: 1281px) and (max-width:1599px){
    
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
@@ -490,7 +490,7 @@
         margin-top:2%;
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:9rem;
@@ -498,7 +498,7 @@
         /*border: 3px solid red;*/      
     }
 
-    .button_ceg {
+    .ButtonCeg {
         border:1px solid rgba(40, 164, 241, 0.938);   
         border-radius: 5%;
         background-color: rgba(40, 164, 241, 0.938);
@@ -515,11 +515,11 @@
         font-size: 1.3rem;*/     
     }
 
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg {
+    .OpenSidedrawerCeg {
         border:3px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         border-radius: 3%;
@@ -538,7 +538,7 @@
         /*width:25rem;*/        
     }   
     
-    ul.felsorol_ceg {
+    ul.FelsorolCeg {
         text-align: left;
         line-height: 1.8rem;
         font-size: 1.2rem; 
@@ -548,7 +548,7 @@
         margin-left:3rem;               
     }
   
-    .Kep_start_ceg {    
+    .KepStartCeg {    
         width: 100%;
        /* border: 3px solid red;*/
        /* width:25rem;*/
@@ -556,7 +556,7 @@
         min-height: 16rem;*/
     }
 
-    .Kep_start_ceg img {
+    .KepStartCeg img {
         width: 100%;
        /* width:25rem;*/
        /* max-height: 16rem;
@@ -571,7 +571,7 @@
 
 @media  (min-width: 1600px) {
 
-    .Base_expand_egesz_ceg {
+    .BaseExpandEgeszCeg {
         display: flex;
         flex-direction: column;  
         align-items: center;
@@ -579,7 +579,7 @@
         margin-top:2%;
     }
     
-    .Button_kontener_ceg {
+    .ButtonKontenerCeg {
         display:flex;
         justify-content: center;
         width:9rem;
@@ -587,7 +587,7 @@
         /*border: 3px solid red;*/      
     }
 
-    .button_ceg {
+    .ButtonCeg {
         border:1px solid rgba(40, 164, 241, 0.938);   
         border-radius: 5%;
         background-color: rgba(40, 164, 241, 0.938);
@@ -604,11 +604,11 @@
         font-size: 1.3rem;*/     
     }
 
-    .close_sidedrawer_ceg {
+    .CloseSidedrawerCeg {
         display:none;
     }
     
-    .open_sidedrawer_ceg {
+    .OpenSidedrawerCeg {
         border:3px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         border-radius: 3%;
@@ -626,7 +626,7 @@
         /*width:25rem;*/        
     }   
     
-    ul.felsorol_ceg {
+    ul.FelsorolCeg {
         text-align: left;
         line-height: 2rem; 
         font-size: 1.4rem; 
@@ -635,7 +635,7 @@
         margin-left:3rem;               
     }
   
-    .Kep_start_ceg {    
+    .KepStartCeg {    
         width: 100%;
        /* border: 3px solid red;*/
        /* width:25rem;*/
@@ -643,12 +643,11 @@
         min-height: 16rem;*/
     }
 
-    .Kep_start_ceg img {
+    .KepStartCeg img {
         width: 100%;
        /* width:25rem;*/
        /* max-height: 16rem;
         min-height: 16rem;*/
     }
 }
-
 /*7. Larger screen VÉGE*/

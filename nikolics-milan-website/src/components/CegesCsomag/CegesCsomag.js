@@ -15,13 +15,13 @@ const CegesCsomag = props => {
       
       return (
          <div>
-                <div className="akcio_ceg">
+                <div className="AkcioCeg">
                 <h1> </h1>
                 </div>
 
-                <div className="Ceges_csomag_egesz">
+                <div className="CegesCsomagEgesz">
                    <BaseSzoveg></BaseSzoveg>
-                   <div className="Ceges_csomag_alja">
+                   <div className="CegesCsomagAlja">
                       <BaseExpand
                       click={toogleHandler}
                       boolean_open_sidedrawer={isToggledOn}

@@ -6,7 +6,10 @@ import Route from 'react-router-dom/Route';
 import { HashLink as Link } from 'react-router-hash-link';
 import NmNavBar from '../NmNavBar/NmNavBar';
 import NmBemutatkozas2 from '../NmBemutatkozas2/NmBemutatkozas2';
+
+import Seo from '../Seo/Seo';
 import Kapcsolat from '../Kapcsolat/Kapcsolat';
+import Technologia from '../Technologia/Technologia';
 import Nmchat from '../NM_chat/Nmchat';
 import Csomagok from '../Csomagok/Csomagok';
 /*const AsyncNmchat = asyncComponent(() => {
@@ -26,6 +29,8 @@ class App extends Component {
           <div className="App_egesz-body">
               <Route exact path="/" component={NmBemutatkozas2}/>           
               <Route exact path="/" component={Csomagok}/> 
+              <Route path="/Seo" component={Seo}/>
+              <Route path="/Technologia" component={Technologia}/>
               <Route path="/Kapcsolat" component={Kapcsolat}/>
          </div>  
         

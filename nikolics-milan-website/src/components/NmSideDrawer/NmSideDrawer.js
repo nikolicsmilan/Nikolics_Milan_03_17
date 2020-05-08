@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './NmSideDrawer.css';
 import NmBackdrop from '../NmBackdrop/NmBackdrop';
 import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 /*
 import NM_Backdrop_1 from '../NM_Backdrop/NM_Backdrop_1';
 */
@@ -22,9 +23,10 @@ if (props.open &&  toogleState.toogles[0].number1===true ) {
 } else {
   changing_css_class = "hidden_csomagok";
 }  
-  
+  /*open ez egy boolean a navbarban */
   if (props.open) {
     drawerClasses = 'NMside-drawer open';
+    /*A click egy onclick ami egy tooglehanlerhez van bekötve a navbarban */
     backdrop=  <NmBackdrop click={props.click}
       
     ></NmBackdrop>
@@ -38,9 +40,6 @@ if (props.open &&  toogleState.toogles[0].number1===true ) {
   }
   /*izé */
  
-
-
-
 /*First Handlers*/
 const toogleHandler_in = () =>{
   console.log('Be');
@@ -57,60 +56,38 @@ const toogleHandler_out = () =>{
   console.log(toogleState.toogles[0].number1);   
 setToogleState ({
     toogles: [
-        { number1: false},  
-                     
+        { number1: false},                       
  ] 
 }); 
 };
-
-  /* izé*/
-
-  /*
-  let backdrop;
-  
-  /*Nem jó itt nincs state*/
-  /*A backdrop nem vonalak, ez nem egy button hanem a képernyőt
-  elfoglaló teljes valami. Ezt belehetne állítani vissza szó vagy nyílnak 
-  vagy a kinyiló rész hátterének */
-  /*
-  if (props.akarmi) {
-    backdrop = <NM_Backdrop_1 click={props.valami} />
-  }
-*/
   return (
     <nav className={drawerClasses}>  
     <div className="nav_kisegit"> 
-
-    <div className="nav_kisegit_A"> 
-        <ul>
-               <li onClick={toogleHandler_out}><Link to="/">Főoldal</Link></li> 
-               <li  onClick={toogleHandler_in}> <Link to="">Weboldal-Árak</Link> </li> 
-               <li  onClick={toogleHandler_out}><Link to="/SEO">SEO</Link></li> 
-               <li  onClick={toogleHandler_out}><Link to="/Tech">Technológia</Link></li> 
-               <li onClick={toogleHandler_out}><Link to="/Kapcsolat">Kapcsolat</Link></li> 
-        </ul>
-   </div>
-    
-   <div className={changing_css_class}> 
-      <ul>
-     <li> <Link to={{         
-                 pathname: "/",      
-                 hash: "#bemutatkozo",
-                }}>Bemutatkozó</Link>  </li>
-    <li> <Link to={{         
-                 pathname: "/",      
-                 hash: "#ceges",
-                }}>Céges</Link>  </li>
-     <li> <Link to={{         
-                 pathname: "/",      
-                 hash: "#ugyfelszerzo",
-                }}>Ügyfélszerző</Link>  </li>             
-     
-     
-       
-      </ul>
-  </div>
-
+            <div className="nav_kisegit_A"> 
+                <ul>
+                      <li onClick={toogleHandler_out}><NavLink to="/"  >Főoldal</NavLink></li> 
+                      <li onClick={toogleHandler_in}> <NavLink to="" >Weboldal-Árak</NavLink> </li> 
+                      <li onClick={toogleHandler_out}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
+                      <li onClick={toogleHandler_out}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
+                      <li onClick={toogleHandler_out}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
+                </ul>
+          </div>            
+          <div className={changing_css_class}> 
+              <ul>
+                  <li> <NavLink to={{         
+                              pathname: "/",      
+                              hash: "#bemutatkozo",
+                              }}>Bemutatkozó</NavLink>  </li>
+                  <li> <NavLink to={{         
+                              pathname: "/",      
+                              hash: "#ceges",
+                              }}>Céges</NavLink>  </li>
+                  <li> <NavLink to={{         
+                              pathname: "/",      
+                              hash: "#ugyfelszerzo",
+                              }}>Ügyfélszerző</NavLink>  </li>                 
+              </ul>
+          </div>
       </div>
     
     {backdrop}

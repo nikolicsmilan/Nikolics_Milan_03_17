@@ -1,7 +1,7 @@
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
 
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -9,7 +9,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         justify-content: center;
         color: rgba(47,218,241,.87);
@@ -20,7 +20,7 @@
         /*border:3px solid red;*/
     }
 
-    .Csomag_cim_ceg h1 {    
+    .CsomagCimCeg h1 {    
         padding-top: 1rem;
          border: 2px solid rgba(47,218,241,.87);
          border:2px solid rgba(40, 164, 241, 0.938);
@@ -32,7 +32,7 @@
          margin: 0;
     }   
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border:1px solid rgba(40, 164, 241, 0.938);
@@ -41,7 +41,7 @@
         padding-bottom: 3%;
     }
 
-    .Csomag_ar_ceg {
+    .CsomagArCeg {
         display:flex;
         flex-direction: column;
         justify-content: space-around;
@@ -61,7 +61,7 @@
         max-width: 25rem;*/    
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -73,7 +73,7 @@
         margin:0;
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -97,7 +97,7 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -105,7 +105,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         justify-content: center;
         color: rgba(47,218,241,.87);
@@ -116,7 +116,7 @@
         /*border:3px solid red;*/
     }
 
-    .Csomag_cim_ceg h1 {    
+    .CsomagCimCeg h1 {    
         padding-top: 1rem;
          border: 2px solid rgba(47,218,241,.87);
          border:2px solid rgba(40, 164, 241, 0.938);
@@ -128,7 +128,7 @@
          margin: 0;
     }   
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border:1px solid rgba(40, 164, 241, 0.938);
@@ -137,7 +137,7 @@
         padding-bottom: 3%;
     }
 
-    .Csomag_ar_ceg {
+    .CsomagArCeg {
         display:flex;
         flex-direction: column;
         justify-content: space-around;
@@ -157,7 +157,7 @@
         max-width: 25rem;*/    
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -169,7 +169,7 @@
         margin:0;
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -189,7 +189,7 @@
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
   
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -197,7 +197,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         justify-content: center;
         color: rgba(47,218,241,.87);
@@ -208,7 +208,7 @@
         /*border:3px solid red;*/
     }
 
-    .Csomag_cim_ceg h1 {    
+    .CsomagCimCeg h1 {    
         padding-top: 1rem;
          border: 2px solid rgba(47,218,241,.87);
          border:2px solid rgba(40, 164, 241, 0.938);
@@ -220,7 +220,7 @@
          margin: 0;
     }   
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border:1px solid rgba(40, 164, 241, 0.938);
@@ -229,7 +229,7 @@
         padding-bottom: 3%;
     }
 
-    .Csomag_ar_ceg {
+    .CsomagArCeg {
         display:flex;
         flex-direction: column;
         justify-content: space-around;
@@ -249,7 +249,7 @@
         max-width: 25rem;*/    
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -261,7 +261,7 @@
         margin:0;
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -283,7 +283,7 @@
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
   
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -291,7 +291,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         justify-content: center;
         color: rgba(47,218,241,.87);
@@ -302,7 +302,7 @@
         padding:2%;        
     }
 
-    .Csomag_cim_ceg h1 {     
+    .CsomagCimCeg h1 {     
         padding-top: 1rem;
         border: 2px solid rgba(47,218,241,.87);
         border:3px solid rgba(40, 164, 241, 0.938);
@@ -312,7 +312,7 @@
         padding-bottom: 3%;
     }   
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border:1px solid rgba(40, 164, 241, 0.938);
@@ -321,7 +321,7 @@
         padding-bottom: 3%;
     }  
 
-     .Csomag_ar_ceg {
+     .CsomagArCeg {
         display:flex;
         flex-direction: column;
         justify-content: space-around;
@@ -341,7 +341,7 @@
         max-width: 25rem;*/    
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 11rem;
         max-height: 11rem;
@@ -353,7 +353,7 @@
         margin:0;
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -372,7 +372,7 @@
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -380,7 +380,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -392,7 +392,7 @@
         padding:2%;        
     }
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border: 1px solid rgba(40, 164, 241, 0.938);
@@ -401,7 +401,7 @@
         padding-bottom: 3%;
     }
 
-    .Csomag_cim_ceg h1 {      
+    .CsomagCimCeg h1 {      
         padding-top: 0.5rem;
         border: 2px solid rgba(47,218,241,.87);
         border: 2px solid rgba(40, 164, 241, 0.938);
@@ -411,7 +411,7 @@
         padding-bottom: 3%;
     }   
 
-     .Csomag_ar_ceg {
+     .CsomagArCeg {
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -431,7 +431,7 @@
       
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -443,7 +443,7 @@
         margin:0;
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -462,7 +462,7 @@
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -470,7 +470,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -482,7 +482,7 @@
         padding:2%;        
     }
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border: 1px solid rgba(40, 164, 241, 0.938);
@@ -491,7 +491,7 @@
         padding-bottom: 1%;
     }
 
-    .Csomag_cim_ceg h1 {      
+    .CsomagCimCeg h1 {      
         padding-top: 1rem;
         border: 2px solid rgba(47,218,241,.87);
         border: 2px solid rgba(40, 164, 241, 0.938);
@@ -500,7 +500,7 @@
         height: 4rem;
     }   
 
-     .Csomag_ar_ceg {
+     .CsomagArCeg {
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -516,7 +516,7 @@
         max-width: 25rem;*/
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -525,7 +525,7 @@
         /*border: 3px solid red;*/
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -543,7 +543,7 @@
 
 @media (min-width: 1281px) and (max-width:1599px) {
   
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -551,7 +551,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -563,7 +563,7 @@
         padding:2%;        
     }
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border: 1px solid rgba(40, 164, 241, 0.938);
@@ -572,7 +572,7 @@
         padding-bottom: 1%;
     }
 
-    .Csomag_cim_ceg h1 {      
+    .CsomagCimCeg h1 {      
         padding-top: 1rem;
         border: 2px solid rgba(47,218,241,.87);
         border: 2px solid rgba(40, 164, 241, 0.938);
@@ -581,7 +581,7 @@
         height: 4rem;
     }   
 
-     .Csomag_ar_ceg {
+     .CsomagArCeg {
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -597,7 +597,7 @@
         max-width: 25rem;*/
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -606,7 +606,7 @@
         /*border: 3px solid red;*/
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
       /*  width:25rem;*/
@@ -625,7 +625,7 @@
 
 @media  (min-width: 1600px) {
     
-    .Base_szoveg_egesz_ceg {
+    .BaseSzovegEgeszCeg {
         display:flex;
         flex-direction: column;
         text-align: center;  
@@ -633,7 +633,7 @@
         max-height: 19rem;      
     }   
 
-    .Csomag_cim_ceg {
+    .CsomagCimCeg {
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -645,7 +645,7 @@
         padding:2%;        
     }
 
-    .keret_ceg {
+    .KeretCeg {
         border-radius: 20px;
         border: 1px solid rgba(47,218,241,.87);
         border:1px solid rgba(40, 164, 241, 0.938);
@@ -654,7 +654,7 @@
         padding-bottom: 1%;
     }
 
-    .Csomag_cim_ceg h1 {      
+    .CsomagCimCeg h1 {      
         padding-top: 1rem;
         border: 2px solid rgba(47,218,241,.87);
         border:2px solid rgba(40, 164, 241, 0.938);
@@ -663,7 +663,7 @@
         height: 4rem;
     }   
 
-    .Csomag_ar_ceg {
+    .CsomagArCeg {
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -679,7 +679,7 @@
         max-width: 25rem;*/
     }    
 
-    .Csomag_leiras_ceg {
+    .CsomagLeirasCeg {
         max-width: 100%;       
         min-height: 9rem;
         max-height: 9rem;
@@ -688,7 +688,7 @@
         /*border: 3px solid red;*/
     }  
 
-    .Szoveg_ceg {
+    .SzovegCeg {
        /* letter-spacing: -1.5px;
         line-height: 3rem;*/
         /*  width:25rem;*/

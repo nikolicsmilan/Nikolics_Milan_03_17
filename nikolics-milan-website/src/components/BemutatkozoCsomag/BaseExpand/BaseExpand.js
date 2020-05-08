@@ -5,18 +5,17 @@ import Bemutatkozo_Mobil from '../../../assets/Card/Bemutatkozo_Mobil.jpg';
 
 const BaseExpand = props =>{
 
-  let changing_class = 'close_sidedrawer_bem';
+  let changing_class = 'CloseSidedrawerBem';
 
   if (props.boolean_open_sidedrawer) {
-    changing_class = 'open_sidedrawer_bem';
+    changing_class = 'OpenSidedrawerBem';
   }
 
     return(
+     <div className="BaseExpandEgeszBem">
 
-     <div className="Base_expand_egesz_bem">
-
-        <div className="Button_kontener_bem">
-          <button className="button_bem" onClick= {props.click}>Részletek</button>
+        <div className="ButtonKontenerBem">
+          <button className="ButtonBem" onClick= {props.click}>Részletek</button>
         </div>
         
         <div className={changing_class}>        
@@ -25,17 +24,16 @@ const BaseExpand = props =>{
           vagy alacsony költségvetésű vállakozások számára.          
           Kiválóan alkalmas a következőkre pl:     
 
-          <ul className="felsorol_bem">
+          <ul className="FelsorolBem">
             <li><span>Potenciális ügyfelei tájékoztatására.</span></li>
             <li><span>Vállalkozása színvonalának növelésére</span></li>
             <li><span>Termékei népszerűsítésére</span></li>
             <li><span>Vállalkozása online referenciapontjának</span></li>
             <li><span>Munkamintái bemutatására.</span></li>
-          </ul>         
-         
+          </ul>        
         </div>
 
-        <div className="Kep_start_bem">
+        <div className="KepStartBem">
           <img src={Bemutatkozo_Mobil} alt='pipa'/>
         </div>
 

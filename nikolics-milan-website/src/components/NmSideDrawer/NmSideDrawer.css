@@ -20,12 +20,13 @@
     /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
     KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
     z-index: 980;
+    max-height: 12rem;
+    /*border: 6px solid yellow;*/
+    /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
+     opacity:0.9;
     transform: translateY(-160%);
     transition: transform 0.3s ease-out;
-     max-height: 12rem;
-   /*border: 6px solid yellow;*/
-   /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
-    opacity:0.9;
+  
   }
   
   .NMside-drawer.open {
@@ -90,7 +91,9 @@
     padding-bottom: 0.3rem;    
   }
   
-
+  li .AktivMenu{
+    color:rgba(40, 164, 241, 0.938);;
+    }  
 
 }
 
@@ -189,7 +192,9 @@
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;    
   }
-  
+  li .AktivMenu{
+    color:rgba(40, 164, 241, 0.938);;
+    }  
     
 }
 
@@ -221,7 +226,7 @@
     transform: translateY(-160%);
     transition: transform 0.3s ease-out;
      max-height: 20rem;
-   /*border: 6px solid yellow;*/
+   border: 6px solid yellow;
     opacity:0.9;
     
   }
@@ -289,6 +294,9 @@
     padding-bottom: 0.3rem;    
   }
 
+  li .AktivMenu{
+    color:rgba(40, 164, 241, 0.938);;
+    }  
 
 }
 
@@ -313,23 +321,47 @@
     justify-content: left;
     padding-left: 2rem;
     /*max-width: 400px;*/
-  
+    
     /*Itt a megoldás- lacsonybnak kell 
     lennie mint minden más kivéve a backdrop*/
     /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
     KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
     z-index: 980;
-    transform: translateY(-130%);
+    max-height: 20rem;
+    /* border: 3px solid green;*/
+     opacity:0.9;
+
+     /*itt jönnek a transformok*/
+    transform: translateY(-180%);
     transition: transform 0.3s ease-out;
-     max-height: 20rem;
-     /*border: 6px solid green;*/
-    opacity:0.9;
+
+    -webkit-transform: translateY(-180%);
+    -moz-transform: translateY(-180%);
+    -ms-transform: translateY(-180%);
+    -o-transform: translateY(-180%);
+    transform: translateY(-180%);
+
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+
+   
   }
   
   .NMside-drawer.open {
       transform: translateY(0);
+      -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+
+
+
       /*ide kell írni valamit*/      
   } 
+  
   .nav_kisegit{
     display: flex;
     flex-direction: row;
@@ -338,11 +370,12 @@
   .nav_kisegit_A{
     /*padding:3%;*/
     /*border:3px solid green;*/
+   
   }
 
  .appear_csomagok{
-   /*border:3px solid green;*/
-
+  /* border:3px solid yellow;*/
+  
  }
 
  .hidden_csomagok{
@@ -379,6 +412,7 @@
     padding-left:0.01rem;
     /*border: 3px solid orange;*/
     width:5rem;
+    /*background-color: green;*/
   }
   
   .NMside-drawer a:hover,
@@ -389,15 +423,13 @@
     padding-bottom: 0.3rem;    
   }
 
-
+ 
+   li .AktivMenu{
+    color:rgba(40, 164, 241, 0.938);;
+    }   
 }
 
 /* 3. Device = Tablets, Ipads (portrait) VÉGE*/
-
-
-
-
-
 
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
@@ -422,10 +454,10 @@
     /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
     KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
     z-index: 980;
-    transform: translateY(-130%);
+    transform: translateY(-180%);
     transition: transform 0.3s ease-out;
      max-height: 20rem;
-     /*border: 6px solid green;*/
+     border: 6px solid purple;
     opacity:0.9;
   }
   
@@ -487,14 +519,12 @@
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;    
   }
+  .piros8 a{ 
+    color: rgba(40, 164, 241, 0.938);
+   }
 
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/
-
-
-
-
-
 
 
 /* 5. Laptops, Desktops ELEJE  */

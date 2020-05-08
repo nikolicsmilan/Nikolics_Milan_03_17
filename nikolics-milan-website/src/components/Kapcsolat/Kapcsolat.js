@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import './Kapcsolat.css';
 import '../form/MyForm';
 import MyForm from '../form/MyForm';
@@ -6,9 +6,7 @@ import milan from '../../assets/NM_kep.jpg';
 import tel from '../../assets/telefon-min.PNG';
 import email from '../../assets/email-min.PNG';
 
-const Kapcsolat = props => {
-
-   
+const Kapcsolat = props => { 
       
       return (
                 <div  className='Kapcsolat_egesz'>  

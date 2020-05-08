@@ -1,28 +1,28 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './BaseExpand.css';
 import Ceges_Mobil from '../../../assets/Card/Ceges_Mobil.png';
 
 const BaseExpand = props =>{
 
-  let changing_class = 'close_sidedrawer_ceg';
+  let changing_class = 'CloseSidedrawerCeg';
 
   if (props.boolean_open_sidedrawer) {
-    changing_class = 'open_sidedrawer_ceg';
+    changing_class = 'OpenSidedrawerCeg';
   }
 
     return(
-      <div className="Base_expand_egesz_ceg">
+      <div className="BaseExpandEgeszCeg">
 
-              <div className="Button_kontener_ceg">
-                <button className="button_ceg" onClick= {props.click}>Részletek</button>
+              <div className="ButtonKontenerCeg">
+                <button className="ButtonCeg" onClick= {props.click}>Részletek</button>
               </div>
               
               <div className={changing_class}>
-                  Azon cégeknek akik szeretnék modernizálni vállalkozásukat, 
+                  Azon cégeknek, akik szeretnék modernizálni vállalkozásukat, 
                   megtartani a versenyképességüket és nem elégszenek meg csupán
                   az alapszolgáltatásokkal. Ehhez a következőket nyújtjunk:
 
-                <ul className="felsorol_ceg">
+                <ul className="FelsorolCeg">
                   <li><span>Weblapja kiemelkedik a többi közül tartalmában és megjelenésében</span></li>        
                   <li><span>Azonali üzenet küldés lehetőségét ügyfeleinek</span></li>
                   <li><span>Szövegírást és céges logót</span></li>
@@ -32,7 +32,7 @@ const BaseExpand = props =>{
                     
               </div>
 
-              <div className="Kep_start_ceg">
+              <div className="KepStartCeg">
                 <img src={Ceges_Mobil} alt='pipa'/>
               </div>
 
