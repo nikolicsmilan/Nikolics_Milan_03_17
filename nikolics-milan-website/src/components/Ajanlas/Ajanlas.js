@@ -15,17 +15,18 @@ const Ajanlas= props => {
 
                     <div className="AjanlasSzoveg">
                         <div  className="AjanlasSzoveg2">
-                        Itt van a mi cégünk koronavírusra adott válasza:
+                        Itt van  cégünk koronavírusra adott válasza.
                         Ha az ajánlásából kifolyólag sikeres üzlet lesz
-                        akkor kifizetem önnek 
+                        akkor kifizetem önnek:
 
                         <ul>
                             <li>A teljes ár 10% -át a Bemutatkozó és
-                                Céges csomag esetében</li>
+                                Céges csomag esetében.</li>
                             <li>Illetve 5% -át az Ügyfélszerző csomag esetében.</li>
                         </ul> 
+                        (A sikeres üzlet itt azt jelenti, hogy elkészült és kifizetve).
                         </div>
-                    
+                   
 
                     </div>
 

@@ -13,6 +13,7 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 2.2rem;   
         text-align: center;    
@@ -64,11 +65,7 @@
         min-width:15rem;
         max-height: 20rem;
     } 
- 
-
-
-
-}
+ }
 
 /* 0. Mini SmartPhones VÉGE*/
 
@@ -86,6 +83,7 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 2.2rem;   
         text-align: center;    
@@ -156,6 +154,7 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 2.2rem;   
         text-align: center;    
@@ -228,21 +227,20 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 3rem;       
       }
     
       .AjanlasKontener {
         display:flex;
-       flex-direction: column-reverse;
+        flex-direction: column-reverse;
         padding: 1%;
         padding-top: 5%;
-       align-items: center;
-      
+        align-items: center;      
       }
     
-      .AjanlasSzoveg{
-     
+      .AjanlasSzoveg{     
         font-size: 1.5rem;
         padding:1%;
         min-width:30rem;
@@ -298,6 +296,7 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 3rem;       
       }
@@ -307,7 +306,7 @@
        /* flex-direction: column-reverse;*/
         padding: 1%;
         padding-top: 5%;
-       align-items: center;
+        align-items: center;
       }
     
       .AjanlasSzoveg{
@@ -360,6 +359,7 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 3rem;       
       }
@@ -376,7 +376,7 @@
       }
     
       .AjanlasSzoveg ul {
-        padding:2%;
+        padding:5%;
         text-decoration: initial;
         list-style-type: circle;
       }
@@ -415,6 +415,7 @@
       .AjanlasCim {       
         display: flex;
         justify-content: center;
+        text-align: center;
        /* color:red;*/
         font-size: 5rem;       
       }
@@ -431,7 +432,7 @@
       }
     
       .AjanlasSzoveg ul {
-        padding:2%;
+        padding:5%;
         text-decoration: initial;
         list-style-type: circle;
       }
@@ -483,18 +484,24 @@
   }
 
   .AjanlasSzoveg{
-    font-size: 3rem;
+   
+  }
+  
+  .AjanlasSzoveg2{
+    max-height: 1rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     padding:1%;
   }
 
   .AjanlasSzoveg ul {
     padding:4%;
-    text-decoration: initial;
     list-style-type: circle;
+    padding-bottom: 0%;
   }
 
   .AjanlasSzoveg li {
-    padding:2%;   
+    padding:1%;   
   }
 
   .AjanlasKep {
