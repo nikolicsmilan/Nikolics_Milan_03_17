@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter } from 'react-g-analytics';
 import Route from 'react-router-dom/Route';
-import { HashLink as Link } from 'react-router-hash-link';
+/*import { HashLink as Link } from 'react-router-hash-link';*/
 import NmNavBar from '../NmNavBar/NmNavBar';
 import NmBemutatkozas2 from '../NmBemutatkozas2/NmBemutatkozas2';
+import Ajanlas from '../Ajanlas/Ajanlas';
 
 import Seo from '../Seo/Seo';
 import Kapcsolat from '../Kapcsolat/Kapcsolat';
@@ -27,8 +28,10 @@ class App extends Component {
               <Route path="/" component={NmNavBar}/>
           </div>
           <div className="App_egesz-body">
-              <Route exact path="/" component={NmBemutatkozas2}/>           
+              <Route exact path="/" component={NmBemutatkozas2}/>          
               <Route exact path="/" component={Csomagok}/> 
+              <Route exact path="/" component={Ajanlas}/> 
+              
               <Route path="/Seo" component={Seo}/>
               <Route path="/Technologia" component={Technologia}/>
               <Route path="/Kapcsolat" component={Kapcsolat}/>
