@@ -74,7 +74,7 @@ const BemCsomTul = props => {
                 felugro='A weboldalt kiszolgáló szerver 1 Gbps sávszélességű kapcsolattal rendelkezik
                 valamint korlátlan adatforgalommal. Apache webszerver fut rajta amin egyszerre 
                 (maximum) 10 000 szál lehet. A többi technológiával együtt ez lehetővé teszi hogy
-                webodlala akkor is elérhető legyen ha egyszerre sokan látogatják meg.'
+                webodala akkor is elérhető legyen ha egyszerre sokan látogatják meg.'
                 appear='BemAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
@@ -133,8 +133,8 @@ const BemCsomTul = props => {
                 felirat='Üzenet küldő rendszer'
                 felugro='Ez tulajdonképen egy form amit a weboldalon kitöltve a látogató képes 
                 üzenetet küldeni önnek egy tetszőleges gmail címre. De ennél több. Sok ilyen form
-                csak látszólagosan működik jóla valóságban nem működik biztonságosan.
-                 Ezen megvalósításban viszont a weboldlala gmail API -n keresztül authentikálódik
+                csak látszólagosan működik jól, a valóságban nem működik biztonságosan.
+                 Ezen megvalósításban viszont a weboldala gmail API -n keresztül authentikálódik,
                  ami a magasabb szintű biztonságról gondoskodik egy átlagos weblaphoz képest.'
                 appear='BemAppear'  
             ></BemCsomTulSor>

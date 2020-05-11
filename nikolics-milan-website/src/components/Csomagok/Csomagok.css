@@ -32,10 +32,6 @@
 /* 0. Mini SmartPhones VÉGE*/
 
 
-
-
-
-
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
     .Csomagok_egesz{
@@ -176,7 +172,7 @@
        margin-bottom:5%;
        /* border: 3px solid red;*/
        /* max-width:30rem;*/
-       width:100%;
+       width:33%;
     }
   
 }
