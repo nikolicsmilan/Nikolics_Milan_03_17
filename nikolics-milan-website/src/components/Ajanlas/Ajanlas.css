@@ -43,15 +43,16 @@
      padding-left: 15%;
      list-style-type: circle;
    }
+
    .AjanlasKep {
      min-width:50%;
      max-height: 30rem;
    }
  
- .AjanlasKep img{
+   .AjanlasKep img{
    min-width:50%;
    max-height: 30rem;
- }  
+   }  
  
    .AjanlomGomb {
     display: flex;
@@ -75,6 +76,14 @@
  
  .AjanlomGomb2 h1{
   color:white;
+ }
+
+ .AjanlomGomb2:hover { 
+  background-color:red;
+ }
+
+ .AjanlomGomb2 a { 
+  text-decoration: none;
  }
  }
 
@@ -108,7 +117,7 @@
      padding-top: 3%;  
    }
  
-   .AjanlasSzoveguj{
+   .AjanlasSzoveguj {
      padding: 2%;
      margin: 0;
      width:100%;
@@ -124,12 +133,13 @@
      padding-left: 5%;
      list-style-type: circle;
    }
+
    .AjanlasKep {
      min-width:50%;
      max-height: 30rem;
    }
  
- .AjanlasKep img{
+  .AjanlasKep img {  
    min-width:50%;
    max-height: 30rem;
  }  
@@ -137,9 +147,9 @@
    .AjanlomGomb {
     display: flex;
     justify-content: center; 
-    height: 3rem;
+    height: 5rem;
     padding-top: 1rem;
-  /*  border: 3px solid purple;*/
+  /* border: 3px solid purple;*/
   }
  
    .AjanlomGomb2 {
@@ -147,17 +157,25 @@
    flex-direction: column;
    align-items: center;
    justify-content: center; 
-   width:10rem;
-   height: 2rem;
-   font-size: 1.5rem;  
+   width:14rem;
+   height: 3rem;
+   font-size: 2rem;
    border-radius: 3px;  
    background-color: rgba(40, 164, 241, 0.938);
  }
  
- .AjanlomGomb2 h1{
+ .AjanlomGomb2 h1 {
   color:white;
  }
-  }
+
+ .AjanlomGomb2:hover { 
+  background-color:red;
+}
+
+ .AjanlomGomb2 a { 
+  text-decoration: none;
+}
+}
 
 /* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
 
@@ -179,7 +197,7 @@
      justify-content: center;
      text-align: center;
     /* color:red;*/
-     font-size: 2rem;     
+     font-size: 2.5rem;     
     /* border: 3px solid purple; */
    }
  
@@ -212,16 +230,16 @@
      max-height: 30rem;
    }
  
- .AjanlasKep img{
+  .AjanlasKep img {
    min-width:50%;
    max-height: 30rem;
- }  
+  }  
  
    .AjanlomGomb {
     display: flex;
     justify-content: center; 
-    height: 3rem;
-    padding-top: 1rem;
+    margin-top:2rem;
+    height: 5rem;
   /*  border: 3px solid purple;*/
   }
  
@@ -230,15 +248,23 @@
    flex-direction: column;
    align-items: center;
    justify-content: center; 
-   width:10rem;
-   height: 2rem;
-   font-size: 1.5rem;  
+   width:14rem;
+   height: 3rem;
+   font-size: 2rem;  
    border-radius: 3px;  
    background-color: rgba(40, 164, 241, 0.938);
- }
+  }
  
- .AjanlomGomb2 h1{
-  color:white;
+  .AjanlomGomb2 h1{
+   color:white;
+  }
+
+ .AjanlomGomb2:hover { 
+  background-color:red;
+ }
+
+ .AjanlomGomb2 a { 
+  text-decoration: none;
  }
 }
 
@@ -255,7 +281,7 @@
      flex-direction: column;
      border-top: 1px solid rgba(40, 164, 241, 0.938); 
      border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
-     padding:1%;
+     padding:2%;
    }
  
    .AjanlasCim {       
@@ -273,11 +299,12 @@
     /* padding: 10%;*/
      padding:0%;
      padding-top: 3%;  
+    /* border: 3px solid red;*/
    }
  
    .AjanlasSzoveguj {
-    padding-left:5%;
-    padding-right:5%;
+    /*padding-left:5%;
+    padding-right:5%;*/
      margin: 0;
      width:100%;
      min-width: 50%;
@@ -297,23 +324,25 @@
      margin: 0 auto;
      min-width:80%;
      padding-top: 1%;
-     padding-left:5%;
-     padding-right:5%;
+    /* padding-left:5%;
+     padding-right:5%;*/
     /* max-height: 30rem;*/
    }
  
- .AjanlasKep img{
-   min-width:80%;
+  .AjanlasKep img {
+   /*min-width:80%;*/
+   width:100%;
+  /* border: 3px solid purple;*/
   /* padding:3%*/
   /* max-height: 30rem;*/
- }  
+  }  
  
    .AjanlomGomb {
     display: flex;
     justify-content: center; 
+    margin-top:2rem;
     height: 5rem;
-    padding-top: 1rem;
-  /*  border: 3px solid purple;*/
+  /* border: 3px solid purple;*/
   }
  
    .AjanlomGomb2 {
@@ -321,15 +350,23 @@
    flex-direction: column;
    align-items: center;
    justify-content: center; 
-   width:12rem;
+   width:14rem;
    height: 3rem;
-   font-size:2rem;  
+   font-size: 2rem; 
    border-radius: 3px;  
    background-color: rgba(40, 164, 241, 0.938);
  }
  
- .AjanlomGomb2 h1{
+ .AjanlomGomb2 h1 {
   color:white;
+ }
+
+ .AjanlomGomb2:hover { 
+  background-color:red;
+ }
+
+ .AjanlomGomb2 a { 
+  text-decoration: none;
  }
 
 }
@@ -393,8 +430,8 @@
   .AjanlomGomb {
    display: flex;
    justify-content: center; 
-   height: 3rem;
-   padding-top: 1rem;
+   margin-top:2rem;
+   height: 4rem;
  /*  border: 3px solid purple;*/
  }
 
@@ -403,15 +440,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-  width:10rem;
-  height: 2rem;
-  font-size: 1.5rem;  
+  width:11rem;
+  height: 2.5rem;
+  font-size: 1.5rem; 
   border-radius: 3px;  
   background-color: rgba(40, 164, 241, 0.938);
 }
 
-.AjanlomGomb h1{
+.AjanlomGomb2 h1{
  color:white;
+}
+
+.AjanlomGomb2:hover { 
+  background-color:red;
+}
+
+.AjanlomGomb2 a { 
+  text-decoration: none;
 }
 
 }
@@ -473,8 +518,8 @@
   .AjanlomGomb {
    display: flex;
    justify-content: center; 
-   height: 3rem;
-   padding-top: 1rem;
+   margin-top:2rem;
+   height: 5rem;
    /* border: 3px solid purple;*/
  }
 
@@ -483,18 +528,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-  width:10rem;
-  height: 2rem;
-  font-size: 1.5rem;  
+  width:14rem;
+  height: 3rem;
+  font-size: 2rem;  
   border-radius: 3px;  
   background-color: rgba(40, 164, 241, 0.938);
 }
 
-.AjanlomGomb h1{
+.AjanlomGomb2 h1{
  color:white;
 }
 
-  
+.AjanlomGomb2:hover { 
+  background-color:red;
+}
+
+.AjanlomGomb2 a { 
+  text-decoration: none;
+}  
 }
 /* 5. Laptops, Desktops VÉGE  */
 
@@ -554,8 +605,8 @@
       .AjanlomGomb {
        display: flex;
        justify-content: center; 
-       height: 3rem;
-       padding-top: 1rem;
+       margin-top:2rem;
+        height: 5rem;
        /* border: 3px solid purple;*/
      }
     
@@ -564,15 +615,23 @@
       flex-direction: column;
       align-items: center;
       justify-content: center; 
-      width:10rem;
-      height: 2rem;
-      font-size: 1.5rem;  
+      width:14rem;
+      height: 3rem;
+      font-size: 2rem;
       border-radius: 3px;  
       background-color: rgba(40, 164, 241, 0.938);
     }
     
-    .AjanlomGomb h1{
+    .AjanlomGomb2 h1{
      color:white;
+    }
+
+    .AjanlomGomb2:hover { 
+      background-color:red;
+    }
+
+    .AjanlomGomb2 a { 
+      text-decoration: none;
     }
   
 }
@@ -628,7 +687,7 @@
       max-height: 40rem;
   }
 
-  .AjanlasKep img{
+  .AjanlasKep img {
     min-width:50%;
     max-height: 40rem;
 }
@@ -636,7 +695,8 @@
 .AjanlomGomb {
   display: flex;
   justify-content: center; 
-  height: 3rem;
+  margin-top:2rem;
+  height: 5rem;
  /* border: 3px solid purple;*/
  }
 
@@ -644,18 +704,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:12rem;
+  width:14rem;
   height: 3rem;
+  font-size: 2rem;
   justify-content: center; 
- /* margin:2rem;*/
-  font-size: 2rem;  
+ /* margin:2rem;*/  
   border-radius: 3px;  
  /* border:3px solid red;*/
   background-color: rgba(40, 164, 241, 0.938);
 }
 
-.AjanlomGomb h1{
+.AjanlomGomb2 h1 {
  color:white;
+}
+
+.AjanlomGomb2:hover { 
+  background-color:red;
+}
+
+.AjanlomGomb2 a { 
+  text-decoration: none;
 }
 
 }

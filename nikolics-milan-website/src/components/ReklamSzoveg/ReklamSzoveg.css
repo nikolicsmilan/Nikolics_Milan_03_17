@@ -102,9 +102,17 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1{
    color:white;
-  }     
+  }
+  
+  .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
+  }
 
 }
 
@@ -195,8 +203,8 @@
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
-    padding-top: 2rem;
-    height: 6rem;
+    /*margin-top:2rem;*/
+    height: 5rem;
     /*border: 3px solid purple;*/
    }
   
@@ -204,19 +212,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:12rem;
+    width:14rem;
     height: 3rem;
+    font-size: 2rem;
     justify-content: center; 
    /* margin:2rem;*/
-    font-size: 2rem;  
+    
     border-radius: 3px;  
    /* border:3px solid red;*/
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1{
    color:white;
-  }     
+  }
+  
+  .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
+  }
     
   }
 
@@ -239,7 +256,7 @@
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 2rem;   
+    font-size: 2.5rem;   
   }
 
   .ReklamKontener {
@@ -298,8 +315,8 @@
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
-    padding-top: 2rem;
-    height: 6rem;
+    margin-top:2rem;
+    height: 5rem;
     /*border: 3px solid purple;*/
    }
   
@@ -309,16 +326,26 @@
     align-items: center;
     width:12rem;
     height: 3rem;
-    justify-content: center; 
-   /* margin:2rem;*/
+    width:14rem;
+    height: 3rem;
     font-size: 2rem;  
+    justify-content: center; 
+   /* margin:2rem;*/   
     border-radius: 3px;  
    /* border:3px solid red;*/
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1{
    color:white;
+  }
+
+  .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
   }
 }
 
@@ -333,7 +360,7 @@
     flex-direction: column;
    /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
     border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
-    padding:1%;
+    padding:2%;
   }
 
   .ReklamCim {   
@@ -354,7 +381,7 @@
 
   .ReklamKepekKontener {
       display: flex;
-     /* border: 3px solid red;*/
+      /*border: 3px solid red;*/
       padding-bottom: 1%;
   }
   
@@ -386,8 +413,8 @@
   }
 
   .ReklamSzoveg1 {
-    font-size: 1.2rem;
-    line-height: 1.5rem;  
+    font-size: 1.5rem;
+    line-height: 1.7rem; 
    /* padding:1%;*/
     /*padding:1%;*/
     /*border: 3px solid green; */
@@ -396,8 +423,8 @@
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
-    padding-top: 2rem;
-    height: 6rem;
+    margin-top:2rem;
+    height: 5rem;
     /*border: 3px solid purple;*/
    }
   
@@ -405,19 +432,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:12rem;
+    width:14rem;
     height: 3rem;
+    font-size: 2rem; 
     justify-content: center; 
    /* margin:2rem;*/
-    font-size: 2rem;  
     border-radius: 3px;  
    /* border:3px solid red;*/
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1{
    color:white;
-  }  
+  }
+  
+  .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
+  }
 }
 
 /* 3. Device = Tablets, Ipads (portrait) VÉGE*/
@@ -493,8 +528,8 @@
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
-    padding-top: 2rem;
-    height: 6rem;
+    margin-top:2rem;
+    height: 4rem;
     /*border: 3px solid purple;*/
    }
   
@@ -502,18 +537,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:12rem;
-    height: 3rem;
+    width:11rem;
+    height: 2.5rem;
+    font-size: 1.5rem; 
     justify-content: center; 
    /* margin:2rem;*/
-    font-size: 2rem;  
     border-radius: 3px;  
    /* border:3px solid red;*/
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1 {
    color:white;
+  }
+
+  .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
   }
  
 }
@@ -591,8 +634,8 @@
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
-    padding-top: 2rem;
-    height: 6rem;
+    margin-top:2rem;
+    height: 5rem;
     /*border: 3px solid purple;*/
    }
   
@@ -600,20 +643,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:12rem;
+    width:14rem;
     height: 3rem;
+    font-size: 2rem; 
     justify-content: center; 
    /* margin:2rem;*/
-    font-size: 2rem;  
     border-radius: 3px;  
    /* border:3px solid red;*/
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1{
    color:white;
   }
   
+  .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
+  }
   
 }
 /* 5. Laptops, Desktops VÉGE  */
@@ -690,8 +740,8 @@
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
-    padding-top: 2rem;
-    height: 6rem;
+    margin-top:2rem;
+    height: 5rem;
     /*border: 3px solid purple;*/
    }
   
@@ -699,20 +749,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:12rem;
+    width:14rem;
     height: 3rem;
+    font-size: 2rem;
     justify-content: center; 
    /* margin:2rem;*/
-    font-size: 2rem;  
     border-radius: 3px;  
    /* border:3px solid red;*/
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR h1{
+  .AjanlomGombR2 h1{
    color:white;
   }
-  
+
+ .AjanlomGombR2:hover {
+    background-color:red ;
+  }
+
+  .AjanlomGombR2 a {
+   text-decoration: none;
+  }  
 }
 
 /* 6. Higher resolution desktops VÉGE*/
@@ -788,25 +845,35 @@
     .AjanlomGombR {
       display: flex;
      justify-content: center; 
-      height: 3rem;
+     margin-top:2rem;
+     height: 5rem;
       /*border: 3px solid purple;*/
      }
     
     .AjanlomGombR2 {
       display: flex;
       flex-direction: column;
-     align-items: center;
-      width:12rem;
+      align-items: center;
+      width:14rem;
       height: 3rem;
+      font-size: 2rem;
       justify-content: center; 
      /* margin:2rem;*/
-      font-size: 2rem;  
       border-radius: 3px;  
      /* border:3px solid red;*/
       background-color: rgba(40, 164, 241, 0.938);
     }
     
-    .AjanlomGombR h1{
+    .AjanlomGombR2 h1{
      color:white;
     }
+
+    .AjanlomGombR2:hover {
+    background-color:red ;
+     }
+
+    .AjanlomGombR2 a {
+      text-decoration: none;
+      }
+
 }

@@ -31,7 +31,7 @@ const ReklamSzoveg= props => {
 
                         <div className="ReklamKepKontener">
                                  <div className="ReklamSzoveg1">
-                                    Akár most indítja vállalkozását akár van már egy mükdődő
+                                    Akár most indítja vállalkozását akár van már egy mükődő
                                     vállalkozása a bevételszerzéshez ügyfelekre van szüksége. Két választási lehetősége van:
                                     Várhatja a sült galambot is, vagy tehet azért, hogy sikeres legyen.
                                     Manapság minden az interneten zajlik. Ha az embereknek problémájuk
