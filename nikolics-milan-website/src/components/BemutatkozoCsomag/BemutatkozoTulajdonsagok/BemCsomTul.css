@@ -51,25 +51,21 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
+    color:white;  
   }
   
-  .MegrendelemGomb2 h1:hover {
+  .MegrendelemGomb2:hover {
     background-color:red;
-   /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 100%;*/
-  }
-  
-  .MegrendelemGomb a {
-    color:red;
-    /*background-color: teal;*/
+   }
+
+  /*
+  .MegrendelemGomb2 h1:hover {
+    color:purple;
+    }
+  */ 
+
+  .MegrendelemGomb2 a {
     text-decoration: none;
-  }
-  
-  .MegrendelemGomb a:hover {
-   /* color:grey;
-    background-color: teal;*/
   }
 }
 
@@ -121,25 +117,21 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
+    color:white;  
   }
   
-  .MegrendelemGomb2 h1:hover {
+  .MegrendelemGomb2:hover {
     background-color:red;
-   /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 100%;*/
-  }
-  
-  .MegrendelemGomb a {
-    color:red;
-    /*background-color: teal;*/
+   }
+
+  /*
+  .MegrendelemGomb2 h1:hover {
+    color:purple;
+    }
+  */ 
+
+  .MegrendelemGomb2 a {
     text-decoration: none;
-  }
-  
-  .MegrendelemGomb a:hover {
-   /* color:grey;
-    background-color: teal;*/
   }
   }
 
@@ -190,25 +182,21 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
+    color:white;  
   }
   
-  .MegrendelemGomb2 h1:hover {
+  .MegrendelemGomb2:hover {
     background-color:red;
-   /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 100%;*/
-  }
-  
-  .MegrendelemGomb a {
-    color:red;
-    /*background-color: teal;*/
+   }
+
+  /*
+  .MegrendelemGomb2 h1:hover {
+    color:purple;
+    }
+  */ 
+
+  .MegrendelemGomb2 a {
     text-decoration: none;
-  }
-  
-  .MegrendelemGomb a:hover {
-   /* color:grey;
-    background-color: teal;*/
   }
 }
 
@@ -261,25 +249,21 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
+    color:white;  
   }
   
-  .MegrendelemGomb2 h1:hover {
+  .MegrendelemGomb2:hover {
     background-color:red;
-   /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 100%;*/
-  }
-  
-  .MegrendelemGomb a {
-    color:red;
-    /*background-color: teal;*/
+   }
+
+  /*
+  .MegrendelemGomb2 h1:hover {
+    color:purple;
+    }
+  */ 
+
+  .MegrendelemGomb2 a {
     text-decoration: none;
-  }
-  
-  .MegrendelemGomb a:hover {
-   /* color:grey;
-    background-color: teal;*/
   }
 }
 
@@ -330,25 +314,21 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
+    color:white;  
   }
   
-  .MegrendelemGomb2 h1:hover {
+  .MegrendelemGomb2:hover {
     background-color:red;
-   /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 100%;*/
-  }
-  
-  .MegrendelemGomb a {
-    color:red;
-    /*background-color: teal;*/
+   }
+
+  /*
+  .MegrendelemGomb2 h1:hover {
+    color:purple;
+    }
+  */ 
+
+  .MegrendelemGomb2 a {
     text-decoration: none;
-  }
-  
-  .MegrendelemGomb a:hover {
-   /* color:grey;
-    background-color: teal;*/
   }
  }
 /* 4. Tablets, Ipads (landscape) VÉGE*/
@@ -395,25 +375,21 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
+    color:white;  
   }
   
-  .MegrendelemGomb2 h1:hover {
+  .MegrendelemGomb2:hover {
     background-color:red;
-   /* padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 100%;*/
-  }
-  
-  .MegrendelemGomb a {
-    color:red;
-    /*background-color: teal;*/
+   }
+
+  /*
+  .MegrendelemGomb2 h1:hover {
+    color:purple;
+    }
+  */ 
+
+  .MegrendelemGomb2 a {
     text-decoration: none;
-  }
-  
-  .MegrendelemGomb a:hover {
-   /* color:grey;
-    background-color: teal;*/
   }
   }
 /* 5. Laptops, Desktops VÉGE  */
@@ -460,8 +436,7 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
-  
+    color:white;  
   }
   
   .MegrendelemGomb2:hover {
@@ -524,8 +499,7 @@
   }
   
   .MegrendelemGomb2 h1 {
-    color:white;
-  
+    color:white;  
   }
   
   .MegrendelemGomb2:hover {
