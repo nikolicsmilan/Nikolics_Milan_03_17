@@ -168,11 +168,13 @@ const BemCsomTul = props => {
                 a motor. Részletek a SEO aloldalon.'
                 appear='UgyAppear'  
             ></BemCsomTulSor>
-           <div className="Megrendelem_gomb">
+             <div className="MegrendelemGomb">
+                <div  className="MegrendelemGomb2">
             <Link to={{         
                  pathname: "/Kapcsolat",      
                  hash: "#form-1",
-                }}> <h1>Megrendelem!</h1></Link>               
+                }}> <h1>Megrendelem!</h1></Link>   
+                </div>            
             </div>
 
         </div>

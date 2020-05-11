@@ -7,6 +7,7 @@ import Route from 'react-router-dom/Route';
 import NmNavBar from '../NmNavBar/NmNavBar';
 import NmBemutatkozas2 from '../NmBemutatkozas2/NmBemutatkozas2';
 import Ajanlas from '../Ajanlas/Ajanlas';
+import ReklamSzoveg from '../ReklamSzoveg/ReklamSzoveg';
 
 import Seo from '../Seo/Seo';
 import Kapcsolat from '../Kapcsolat/Kapcsolat';
@@ -31,7 +32,8 @@ class App extends Component {
               <Route exact path="/" component={NmBemutatkozas2}/>          
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
-              
+              <Route exact path="/" component={ReklamSzoveg}/> 
+
               <Route path="/Seo" component={Seo}/>
               <Route path="/Technologia" component={Technologia}/>
               <Route path="/Kapcsolat" component={Kapcsolat}/>

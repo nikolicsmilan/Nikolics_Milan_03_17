@@ -1,0 +1,812 @@
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 1.2rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+      flex-direction: column;
+      max-height: 40rem;
+      min-width: 80%;
+    /*  border: 3px solid red;*/
+      padding-bottom: 1%;
+  }
+  
+  .ReklamKep1 {
+    min-width:50%;
+     max-height: 30rem;
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+     min-width:50%;
+   max-height: 30rem;
+    /* max-height: 15rem;
+     min-width: 100%;*/
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:3rem;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+      /*border: 3px solid green;*/
+      min-width:3rem;
+      font-size: 2rem;
+    }
+  
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    padding: 2%;
+    margin: 0;
+    width:100%;
+    min-width: 50%;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    margin-top:1rem;
+    height: 3rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:10rem;
+    height: 2rem;
+    font-size: 1.2rem; 
+    justify-content: center; 
+   /* margin:2rem;*/  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }     
+
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 2rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+      flex-direction: column;
+      max-height: 40rem;
+      min-width: 80%;
+    /*  border: 3px solid red;*/
+      padding-bottom: 1%;
+  }
+  
+  .ReklamKep1 {
+    min-width:50%;
+     max-height: 30rem;
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+     min-width:50%;
+   max-height: 30rem;
+    /* max-height: 15rem;
+     min-width: 100%;*/
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:3rem;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+      /*border: 3px solid green;*/
+      min-width:3rem;
+      font-size: 2rem;
+    }
+  
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    padding: 2%;
+    margin: 0;
+    width:100%;
+    min-width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5rem; 
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+    height: 6rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:12rem;
+    height: 3rem;
+    justify-content: center; 
+   /* margin:2rem;*/
+    font-size: 2rem;  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }     
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 2rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+     /* border: 3px solid red;*/
+      padding-bottom: 1%;
+      min-height: 15rem;
+  }
+  
+  .ReklamKep1 {
+     /*üres*/
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+     min-height: 15rem;
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:3rem;
+      align-items: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+     /* border: 3px solid green;*/
+      min-width:3rem;
+      font-size: 2rem;
+  }
+ 
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    display: flex;
+    font-size: 1.2rem;
+    line-height: 1.5rem;  
+    padding: 1%;
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+    height: 6rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:12rem;
+    height: 3rem;
+    justify-content: center; 
+   /* margin:2rem;*/
+    font-size: 2rem;  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }
+}
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 3rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+     /* border: 3px solid red;*/
+      padding-bottom: 1%;
+  }
+  
+  .ReklamKep1 {
+     /*üres*/
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:10rem;
+      align-items: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+     /* border: 3px solid green;*/
+      min-width:10rem;
+      font-size: 5rem;
+  }
+ 
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;  
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+    height: 6rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:12rem;
+    height: 3rem;
+    justify-content: center; 
+   /* margin:2rem;*/
+    font-size: 2rem;  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 3rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+     /* border: 3px solid red;*/
+      padding-bottom: 1%;
+  }
+  
+  .ReklamKep1 {
+     /*üres*/
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:10rem;
+      align-items: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+     /* border: 3px solid green;*/
+      min-width:10rem;
+      font-size: 5rem;
+  }
+ 
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;  
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+    height: 6rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:12rem;
+    height: 3rem;
+    justify-content: center; 
+   /* margin:2rem;*/
+    font-size: 2rem;  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 3rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+     /* border: 3px solid red;*/
+      padding-bottom: 1%;
+  }
+  
+  .ReklamKep1 {
+     /*üres*/
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:10rem;
+      align-items: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+     /* border: 3px solid green;*/
+      min-width:10rem;
+      font-size: 5rem;
+  }
+ 
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    font-size: 1.5rem;
+    line-height: 2rem;  
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+    height: 6rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:12rem;
+    height: 3rem;
+    justify-content: center; 
+   /* margin:2rem;*/
+    font-size: 2rem;  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+@media (min-width: 1281px) and (max-width: 1599px) {
+  .ReklamEgesz {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+    padding:1%;
+  }
+
+  .ReklamCim {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   /* color:red;*/
+    font-size: 3rem;   
+  }
+
+  .ReklamKontener {
+    display:flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 3%;
+    /*border: 3px solid purple;*/
+  }
+
+  .ReklamKepekKontener {
+      display: flex;
+     /* border: 3px solid red;*/
+      padding-bottom: 1%;
+  }
+  
+  .ReklamKep1 {
+     /*üres*/
+  }
+
+  .ReklamKep1 img {
+     /*üres*/
+  }
+
+  .ReklamVsKontener {
+      display: flex;
+    /*  border: 3px solid orange;*/
+      min-width:10rem;
+      align-items: center;
+  }
+
+  .ReklamVs {
+      display: flex;
+      justify-content: center;
+     /* border: 3px solid green;*/
+      min-width:10rem;
+      font-size: 5rem;
+  }
+ 
+  .ReklamSzovKont {
+      display: flex;
+  }
+
+  .ReklamSzoveg1 {
+    font-size: 1.5rem;
+    line-height: 2rem;  
+   /* padding:1%;*/
+    /*padding:1%;*/
+    /*border: 3px solid green; */
+  }
+
+  .AjanlomGombR {
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+    height: 6rem;
+    /*border: 3px solid purple;*/
+   }
+  
+  .AjanlomGombR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:12rem;
+    height: 3rem;
+    justify-content: center; 
+   /* margin:2rem;*/
+    font-size: 2rem;  
+    border-radius: 3px;  
+   /* border:3px solid red;*/
+    background-color: rgba(40, 164, 241, 0.938);
+  }
+  
+  .AjanlomGombR h1{
+   color:white;
+  }
+  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+    .ReklamEgesz {
+      /*border: 3px solid red;*/
+      display: flex;
+      flex-direction: column;
+     /* border-top: 1px solid rgba(40, 164, 241, 0.938); */
+      border-bottom: 1px solid rgba(40, 164, 241, 0.938); 
+      padding:1%;
+    }
+  
+    .ReklamCim {   
+      display: flex;
+      justify-content: center;
+      text-align: center;
+     /* color:red;*/
+      font-size: 4rem;   
+    }
+  
+    .ReklamKontener {
+      display:flex;
+      flex-direction: column;
+      padding: 0%;
+      padding-top: 3%;
+      /*border: 3px solid purple;*/
+    }
+
+    .ReklamKepekKontener {
+        display: flex;
+       /* border: 3px solid red;*/
+        padding-bottom: 1%;
+    }
+    
+    .ReklamKep1 {
+       /*üres*/
+    }
+
+    .ReklamKep1 img {
+       /*üres*/
+    }
+
+    .ReklamVsKontener {
+        display: flex;
+      /*  border: 3px solid orange;*/
+        min-width:10rem;
+        align-items: center;
+    }
+
+    .ReklamVs {
+        display: flex;
+        justify-content: center;
+       /* border: 3px solid green;*/
+        min-width:10rem;
+        font-size: 5rem;
+    }
+   
+    .ReklamSzovKont {
+        display: flex;
+    }
+
+    .ReklamSzoveg1 {
+       font-size: 2rem;
+       line-height: 3rem;   
+      /*border: 3px solid green; */
+    }
+
+    .AjanlomGombR {
+      display: flex;
+     justify-content: center; 
+      height: 3rem;
+      /*border: 3px solid purple;*/
+     }
+    
+    .AjanlomGombR2 {
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+      width:12rem;
+      height: 3rem;
+      justify-content: center; 
+     /* margin:2rem;*/
+      font-size: 2rem;  
+      border-radius: 3px;  
+     /* border:3px solid red;*/
+      background-color: rgba(40, 164, 241, 0.938);
+    }
+    
+    .AjanlomGombR h1{
+     color:white;
+    }
+}
