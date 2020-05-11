@@ -20,15 +20,15 @@ const BaseExpand = props =>{
         
         <div className={changing_class}>        
       
-          Jó választás lehet területileg korlátozott
+          Jó választás lehet területileg korlátozott,
           vagy alacsony költségvetésű vállakozások számára.          
           Kiválóan alkalmas a következőkre pl:     
 
           <ul className="FelsorolBem">
             <li><span>Potenciális ügyfelei tájékoztatására.</span></li>
-            <li><span>Vállalkozása színvonalának növelésére</span></li>
-            <li><span>Termékei népszerűsítésére</span></li>
-            <li><span>Vállalkozása online referenciapontjának</span></li>
+            <li><span>Vállalkozása színvonalának növelésére.</span></li>
+            <li><span>Termékei népszerűsítésére.</span></li>
+            <li><span>Vállalkozása online referenciapontjának.</span></li>
             <li><span>Munkamintái bemutatására.</span></li>
           </ul>        
         </div>

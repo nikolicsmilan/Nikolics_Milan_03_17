@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eca0e857defa51a7ab677cf92614f6a8",
+    "revision": "16805c507c6850ef438c6a5705245224",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "850d12060c9b7df377f9",
-    "url": "/static/css/main.cefe5719.chunk.css"
+    "revision": "221d412f9ac653ae9943",
+    "url": "/static/css/main.482e637e.chunk.css"
   },
   {
     "revision": "39813749c72eb9ef970a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.6bdf9668.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "850d12060c9b7df377f9",
-    "url": "/static/js/main.a69e2269.chunk.js"
+    "revision": "221d412f9ac653ae9943",
+    "url": "/static/js/main.1f2c6ae7.chunk.js"
   },
   {
     "revision": "a277459dddbcac43ed44",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nikolicsmilan_logo_9.a19b9f96.png"
   },
   {
-    "revision": "43a4286049ef8bf791d4bbc03728aeae",
-    "url": "/static/media/osztonzo_szoveg.43a42860.PNG"
+    "revision": "c526a05be0823149cdb3914707dd17ef",
+    "url": "/static/media/osztonzo_szoveg_2.c526a05b.PNG"
   },
   {
     "revision": "586316b4af3c5d4ade3c765a1bc41371",

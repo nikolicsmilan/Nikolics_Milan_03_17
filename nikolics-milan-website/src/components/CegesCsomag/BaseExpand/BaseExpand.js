@@ -20,13 +20,13 @@ const BaseExpand = props =>{
               <div className={changing_class}>
                   Azon cégeknek, akik szeretnék modernizálni vállalkozásukat, 
                   megtartani a versenyképességüket és nem elégszenek meg csupán
-                  az alapszolgáltatásokkal. Ehhez a következőket nyújtjunk:
+                  az alapszolgáltatásokkal. Ehhez a következőket nyújtjuk:
 
                 <ul className="FelsorolCeg">
                   <li><span>Weblapja kiemelkedik a többi közül tartalmában és megjelenésében</span></li>        
-                  <li><span>Azonali üzenet küldés lehetőségét ügyfeleinek</span></li>
+                  <li><span>Azonnali üzenetküldés lehetőségét ügyfeleinek</span></li>
                   <li><span>Szövegírást és céges logót</span></li>
-                  <li><span>Meghosszabbítot ingyenes karbantartást és több profi képet</span></li>
+                  <li><span>Meghosszabbított ingyenes karbantartást és több profi képet</span></li>
                   <li><span>Weblapját összekapcsoljuk facebook oldalával</span></li>     
                 </ul>                
                     

@@ -17,9 +17,9 @@ const BaseSzoveg = props =>{
                 <div className='CsomagLeirasCeg'>
                         <div className='SzovegCeg'>          
                                 Mindent tud, amit a bemutatkozó weboldal.
-                                Haladó szintű weboldal, nagyobb igényű, dinamikusan fejlődőni vágyó
+                                Haladó szintű weboldal, nagyobb igényű, dinamikusan fejlődni vágyó
                                 vállalkozások számára lett kifejlesztve.
-                                Ha nem akar kompromiszumokat válasza ezt a típust.           
+                                Ha nem akar kompromisszumokat válasza ezt a típust.           
                         </div>   
                 </div>
         </div>         

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.cefe5719.chunk.css",
-    "main.js": "/static/js/main.a69e2269.chunk.js",
-    "main.js.map": "/static/js/main.a69e2269.chunk.js.map",
+    "main.css": "/static/css/main.482e637e.chunk.css",
+    "main.js": "/static/js/main.1f2c6ae7.chunk.js",
+    "main.js.map": "/static/js/main.1f2c6ae7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
     "static/js/2.6bdf9668.chunk.js": "/static/js/2.6bdf9668.chunk.js",
     "static/js/2.6bdf9668.chunk.js.map": "/static/js/2.6bdf9668.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.39b4808c83a54768d2d218a040deabf3.js": "/precache-manifest.39b4808c83a54768d2d218a040deabf3.js",
+    "precache-manifest.c9487ad95ea96438ccc43a122432b98b.js": "/precache-manifest.c9487ad95ea96438ccc43a122432b98b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.cefe5719.chunk.css.map": "/static/css/main.cefe5719.chunk.css.map",
+    "static/css/main.482e637e.chunk.css.map": "/static/css/main.482e637e.chunk.css.map",
     "static/js/2.6bdf9668.chunk.js.LICENSE.txt": "/static/js/2.6bdf9668.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
@@ -28,7 +28,7 @@
     "static/media/info-gomb.svg": "/static/media/info-gomb.08f42893.svg",
     "static/media/megoldas2.png": "/static/media/megoldas2.32f6ed78.png",
     "static/media/nikolicsmilan_logo_9.png": "/static/media/nikolicsmilan_logo_9.a19b9f96.png",
-    "static/media/osztonzo_szoveg.PNG": "/static/media/osztonzo_szoveg.43a42860.PNG",
+    "static/media/osztonzo_szoveg_2.PNG": "/static/media/osztonzo_szoveg_2.c526a05b.PNG",
     "static/media/pipa2.svg": "/static/media/pipa2.586316b4.svg",
     "static/media/telefon-min.PNG": "/static/media/telefon-min.c32d6193.PNG",
     "static/media/xa.svg": "/static/media/xa.56f4be01.svg"
@@ -37,7 +37,7 @@
     "static/js/runtime-main.3f67dda9.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.6bdf9668.chunk.js",
-    "static/css/main.cefe5719.chunk.css",
-    "static/js/main.a69e2269.chunk.js"
+    "static/css/main.482e637e.chunk.css",
+    "static/js/main.1f2c6ae7.chunk.js"
   ]
 }

@@ -140,7 +140,7 @@ const BemCsomTul = props => {
             ></BemCsomTulSor>
               <BemCsomTulSor
                 kep={xa}
-                felirat='Közöségi média kapcsolat'
+                felirat='Közösségi média kapcsolat'
                 felugro='Weboldala összeköttetésben van facebook oldalával.
                  Weboldala kommentelhetővé és lájkolhatóvá válik a facebook
                  fiókkal. A facebook messenger alkalmalazás chatbotként beépül 
