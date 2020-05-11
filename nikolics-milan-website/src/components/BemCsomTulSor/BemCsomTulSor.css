@@ -16,7 +16,7 @@
      align-items: center;
      justify-content: space-between;  
      /*border:3px solid red; */
-     height: 1rem;
+     height: 0.8rem;
      }
     
     .info_kontener {
@@ -27,12 +27,12 @@
      }
     
     .info_gomb {
-    width:1.2rem;
+    width:0.8rem;
     margin-right: 3%;
     }
     
     .felirat {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     letter-spacing: -1px; 
     }
 
@@ -178,9 +178,9 @@
         
         .info_kontener {
         display: flex;
-        width:25rem;
+        width:30rem;
         align-items: center;
-       /* border:3px solid yellow; */
+        border:3px solid yellow; 
          }
         
         .info_gomb {

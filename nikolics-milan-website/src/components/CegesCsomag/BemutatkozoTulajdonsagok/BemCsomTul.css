@@ -24,6 +24,7 @@
     margin-top: 2rem;
     padding:1%;
   }
+  
   .CegAppear p {
     font-size: 0.8rem;
   }
@@ -49,6 +50,7 @@
     margin-top: 2rem;
     padding:1%;
   }    
+
   .CegAppear p {
     font-size: 0.8rem;
   }
@@ -102,9 +104,10 @@
     margin-top: 2.5rem;
     padding:1%;
   }
-}
-.CegAppear p {
-  font-size: 0.8rem;
+
+  .CegAppear p {
+    font-size: 0.8rem;
+  }
 }
 
 /* 3. Device = Tablets, Ipads (portrait) VÉGE*/
@@ -151,6 +154,10 @@
     margin-top: 2.5rem;
     padding:0.2%;
   } 
+
+  .CegAppear p {
+    font-size: 1rem;
+   }
 }
 /* 5. Laptops, Desktops VÉGE  */
 
@@ -165,7 +172,7 @@
     position: absolute;
     justify-content: center;
     left:5rem;
-    height:13rem;  
+    height:15rem;  
     width:30rem; 
     line-height: 1.2rem;    
     z-index: 10000;  
@@ -173,6 +180,10 @@
     margin-top: 2rem;
     padding:0.2%;
   }
+
+  .CegAppear p {
+    font-size: 1.2rem;
+   }
 }
 
 /* 6. Higher resolution desktops VÉGE*/
@@ -188,7 +199,7 @@
     position: absolute;
     justify-content: center;
     left:5rem;
-    height:13rem;  
+    height:15rem;  
     width:30rem; 
     line-height: 1.2rem;    
     z-index: 10000;  
@@ -196,6 +207,10 @@
     margin-top: 2rem;
     padding:0.2%;
   }
+
+  .CegAppear p {
+    font-size: 1.2rem;
+   }
 }
 
 /* 7. Larger screen VÉGE*/

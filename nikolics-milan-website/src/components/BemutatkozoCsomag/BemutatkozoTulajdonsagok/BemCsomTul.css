@@ -10,7 +10,7 @@
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
 
-  .Bem_appear{
+  .BemAppear{
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
@@ -26,9 +26,10 @@
     padding:1%;
   }
   
-  .Bem_appear p {
+  .BemAppear p {
     font-size: 0.8rem;
   }
+  
   .MegrendelemGomb {
     display: flex;
     justify-content: center; 
@@ -74,7 +75,7 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
-  .Bem_appear{
+  .BemAppear{
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
@@ -90,7 +91,7 @@
     padding:1%;
   }
   
-  .Bem_appear p {
+  .BemAppear p {
     font-size: 0.8rem;
   }
 
@@ -140,7 +141,7 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-  .Bem_appear{
+  .BemAppear{
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
@@ -156,7 +157,7 @@
     padding:1%;
   }
   
-  .Bem_appear p {
+  .BemAppear p {
     font-size: 0.8rem;
   }
 
@@ -207,7 +208,7 @@
 
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  .Bem_appear{
+  .BemAppear{
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
@@ -223,7 +224,7 @@
     padding:1%;
   }
   
-  .Bem_appear p {
+  .BemAppear p {
     font-size: 0.8rem;
   }
 
@@ -272,7 +273,7 @@
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  .Bem_appear {
+  .BemAppear {
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
@@ -288,7 +289,7 @@
     padding:1%;
   }
 
-  .Bem_appear p {
+  .BemAppear p {
     font-size: 0.8rem;
   }
 
@@ -337,7 +338,7 @@
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
  
-  .Bem_appear{
+  .BemAppear {
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
@@ -353,6 +354,10 @@
     padding:0.2%;
   }
 
+  .BemAppear p {
+    font-size: 1rem;
+   }
+
   .MegrendelemGomb {
     display: flex;
     justify-content: center; 
@@ -360,7 +365,7 @@
     height: 5rem;
   }
 
-  .MegrendelemGomb2{
+  .MegrendelemGomb2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -398,14 +403,14 @@
 /* 6. Higher resolution desktops ELEJE*/
 
 @media (min-width: 1281px) and (max-width: 1599px) {
-  .Bem_appear{
+  .BemAppear {
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
     position: absolute;
     justify-content: center;
     left:5rem;
-    height:13rem;  
+    height:15rem;  
     width:30rem; 
     line-height: 1.2rem;    
     z-index: 10000;  
@@ -413,6 +418,10 @@
     margin-top: 2rem;
     padding:0.2%;
   }
+
+  .BemAppear p {
+    font-size: 1.2rem;
+   }
 
   .MegrendelemGomb {
     display: flex;
@@ -461,20 +470,24 @@
 /* 7. Larger screen ELEJE*/
 
 @media (min-width: 1600px) {
-  .Bem_appear{
+  .BemAppear {
     border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
     position: absolute;
     justify-content: center;
     left:5rem;
-    height:13rem;  
+    height:15rem;  
     width:30rem; 
     line-height: 1.2rem;    
     z-index: 10000;  
     margin-left: 30px;
     margin-top: 2rem;
     padding:0.2%;
+  }
+
+  .BemAppear p {
+   font-size: 1.2rem;
   }
 
   .MegrendelemGomb {

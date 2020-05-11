@@ -23,6 +23,7 @@
     margin-top: 2rem;
     padding:1%;
   }
+  
   .UgyAppear p {
     font-size: 0.8rem;
   }
@@ -48,6 +49,7 @@
     margin-top: 2rem;
     padding:1%;
   }  
+
   .UgyAppear p {
     font-size: 0.8rem;
   }
@@ -73,6 +75,7 @@
     margin-top: 2rem;
     padding:1%;
   }  
+
   .UgyAppear p {
     font-size: 0.8rem;
   }
@@ -80,7 +83,6 @@
 
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
-
 
 
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
@@ -152,6 +154,10 @@
     margin-top: 2.5rem;
     padding:0.2%;
   } 
+
+  .UgyAppear {
+    font-size: 1rem;
+  }
 }
 /* 5. Laptops, Desktops VÉGE  */
 
@@ -166,7 +172,7 @@
     position: absolute;
     justify-content: center;
     left:5rem;
-    height:13rem;  
+    height:15rem;  
     width:30rem; 
     line-height: 1.2rem;    
     z-index: 10000;  
@@ -175,7 +181,9 @@
     padding:0.2%;
   }
   
-  
+  .UgyAppear {
+    font-size: 1.2rem;
+  }  
 }
 
 /* 6. Higher resolution desktops VÉGE*/
@@ -199,6 +207,9 @@
     margin-top: 2rem;
     padding:0.2%;
   }
-}
 
+  .UgyAppear {
+    font-size: 1.2rem;
+  }
+}
 /* 7. Larger screen VÉGE*/

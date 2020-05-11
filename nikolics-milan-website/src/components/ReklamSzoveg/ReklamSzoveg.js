@@ -40,7 +40,7 @@ const ReklamSzoveg= props => {
                                     kapcsolat a kettő között. Nem tudnak egymásról.   
                                     Hogyan lehet kiépíteni egy  hidat az ön által nyújtott szolgáltatás és a potenciális ügyfelei között?
                                     Egy profeszionális weblap által!
-                                    Ha versenytársainak van, de önnek nincs, akkor komoly hátrányba kerül.
+                                    Ha versenytársainak van, de Önnek nincs, akkor komoly hátrányba kerül.
                                     A XXI. században a legolcsóbb és leghatékonyabb eszköz a célcsoportja elérése
                                     érdekében a vállalkozásához kapcsolódó saját honlap.
                                     Rendelje meg tőlünk most, és valósítsa meg céljait!      
