@@ -663,7 +663,7 @@ const toogleHandler10 = () => {
 
                { /*SeoBsorCim */}
                   <div className={sorCim}>
-                    <h1>Prémium Linképítés (magyar nyelvű forrás)</h1>   
+                    <h1>Prémium Linképítés (magyar forrás)</h1>   
                   </div>
 
                   <div>
