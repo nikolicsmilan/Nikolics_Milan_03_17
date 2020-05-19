@@ -441,13 +441,13 @@ const toogleHandler10 = () => {
                                 <p> Ügyfélszerző csomagban 6 hónapra:</p>                                
             </div>      
       <div  className={akcio2}>              
-                    <h1> 315 000 HUF <br></br>(2. részletben)</h1>                                    
+                    <h1> 430 000 HUF <br></br>(2. részletben)</h1>                                    
             </div>       
             <div  className={akcio3}>                    
                                 <p>Ügyfélszerző csomagban 8 hónapra:</p>                                
             </div> 
             <div  className={akcio2}>                       
-                    <h1> 420 000 HUF <br></br>  (2. részletben)</h1> 
+                    <h1> 545 000 HUF <br></br>  (2. részletben)</h1> 
                    
             </div>       
       </div>

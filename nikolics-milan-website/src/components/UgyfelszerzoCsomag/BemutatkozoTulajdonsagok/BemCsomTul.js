@@ -161,7 +161,7 @@ const BemCsomTul = props => {
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
-                felirat='(SEO) 6 hónap'
+                felirat='SEO START (6 hónap)'
                 felugro='Bevétel szerzés szempontjából a legfontosabb eleme weboldalának.
                 A SEO azaz a keresőmotor optimalizálás legdrágább ugyanakkor a leginkább 
                 megtérülő része weblapjának. Akkora jelentőséggel bír mint egy autóban 

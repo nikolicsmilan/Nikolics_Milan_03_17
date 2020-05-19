@@ -1,0 +1,382 @@
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+    .SeoDiagramEgesz {
+        display: flex;
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*2*/
+    .SeoDiagram {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly; 
+      }
+    
+      /*2*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:100%;
+      }
+    
+      /*2*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:100%;
+        font-size: 1.3rem; 
+        line-height: 2rem;
+        padding: 1%; 
+       text-align: left;
+      }
+    
+    /*2*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 2.5rem;  
+        padding: 5%;
+      }
+
+
+
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+    .SeoDiagramEgesz {
+        display: flex;
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*2*/
+    .SeoDiagram {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly; 
+      }
+    
+      /*2*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:100%;
+      }
+    
+      /*2*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:100%;
+        font-size: 1.3rem; 
+        line-height: 2rem;
+        padding: 1%; 
+       text-align: left;
+      }
+    
+    /*2*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 2.5rem;  
+        padding: 5%;
+      }    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .SeoDiagramEgesz {
+        display: flex;
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*2*/
+    .SeoDiagram {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly; 
+      }
+    
+      /*2*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:100%;
+      }
+    
+      /*2*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:100%;
+        font-size: 1.3rem; 
+        line-height: 2rem;
+        padding: 1%; 
+       text-align: left;
+      }
+    
+    /*2*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 2.5rem;  
+        padding: 5%;
+      }
+  
+
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .SeoDiagramEgesz {
+        display: flex;
+       /* justify-content: space-evenly;*/
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*3*/
+    .SeoDiagram {
+        display: flex;
+        justify-content: space-evenly; 
+      }
+    
+      /*3*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:65%;
+      }
+    
+      /*3*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:26%;
+        font-size: 1.3rem; 
+        line-height: 2rem;
+        padding: 1%; 
+       text-align: left;
+      }
+    
+    /*3*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 2.5rem;  
+        padding: 5%;
+      }
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .SeoDiagramEgesz {
+        display: flex;
+       /* justify-content: space-evenly;*/
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*4*/
+    .SeoDiagram {
+        display: flex;
+        justify-content: space-evenly; 
+      }
+    
+      /*4*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:50%;
+      }
+    
+      /*4*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:30%;
+        font-size: 1.1rem; 
+        line-height: 1.5rem;
+        padding: 1%; 
+        text-align: left;
+      }
+    
+    /*4*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 2rem;  
+        padding: 5%;
+      } 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .SeoDiagramEgesz {
+        display: flex;
+       /* justify-content: space-evenly;*/
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*5*/
+    .SeoDiagram {
+        display: flex;
+        justify-content: space-evenly; 
+      }
+    
+      /*5*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:50%;
+      }
+    
+      /*5*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:30%;
+        font-size: 1.5rem; 
+        line-height: 2rem;
+        padding: 1%; 
+        text-align: left;
+      }
+    
+    /*5*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 3rem;  
+        padding: 3%;
+      }
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+    /*6*/
+    .SeoDiagramEgesz {
+        display: flex;
+       /* justify-content: space-evenly;*/
+        /*border: 30px solid purple;*/
+        /*text-align: center;*/
+        border-top: 1px solid rgba(40, 164, 241, 0.938);
+        border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+      }
+    
+     /*6*/
+    .SeoDiagram {
+        display: flex;
+        justify-content: space-evenly; 
+      }
+    
+      /*6*/
+    .SeoDiagramKep {
+       /* border: 3px solid red;*/
+        width:50%;
+      }
+    
+      /*6*/
+    .SeoDiagramSzoveg {
+       /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+        width:30%;
+        font-size: 1.8rem; 
+        line-height: 2rem;
+        padding: 1%; 
+       /* text-align: left;*/
+      }
+    
+    /*6*/
+    .SeoDiagramSzoveg h1{
+        text-align: center;
+        font-size: 3rem;  
+        padding: 3%;
+      }
+    }
+  
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+
+  /*7*/
+  .SeoDiagramEgesz{
+    display: flex;
+   /* justify-content: space-evenly;*/
+    /*border: 30px solid purple;*/
+    /*text-align: center;*/
+    border-top: 1px solid rgba(40, 164, 241, 0.938);
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+  }
+
+   /*7*/
+   .SeoDiagram{
+    display: flex;
+    justify-content: space-evenly; 
+  }
+
+  /*7*/
+  .SeoDiagramKep {
+   /* border: 3px solid red;*/
+    width:40%;
+  }
+
+  /*7*/
+  .SeoDiagramSzoveg {
+   /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+    width:40%;
+    font-size: 2.5rem; 
+    line-height: 3.5rem;
+    padding: 1%; 
+    text-align: left;
+    
+  }
+
+  /*7*/
+  .SeoDiagramSzoveg h1{
+    text-align: center;
+    font-size: 3rem;  
+    padding: 1%;
+  }
+}
+
+/* 7. Larger screen VÉGE*/
+
+
+
+
+
+
+
+
+
+
+
+
+

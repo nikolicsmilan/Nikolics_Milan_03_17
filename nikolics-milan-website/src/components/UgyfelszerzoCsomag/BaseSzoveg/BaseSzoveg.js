@@ -12,8 +12,8 @@ const BaseSzoveg = props =>{
                         <div className="keretUgy">
 
                                 <div className="CsomagArUgy">
-                                        <h1 className="EredUgyAr">800 000 HUF</h1>
-                                        <h1 className="CsokUgyAr">550 000 HUF</h1>
+                                        <h1 className="EredUgyAr">630 000 HUF</h1>
+                                        <h1 className="CsokUgyAr">430 000 HUF</h1>
                                 </div>
 
                                 <div className='CsomagLeirasUgy'>

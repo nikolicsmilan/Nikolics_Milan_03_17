@@ -796,7 +796,7 @@
   .SeoAcim {
     display: flex;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/
@@ -990,7 +990,7 @@
   .SeoAcim {
     display: flex;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 3rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/

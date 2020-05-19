@@ -23,7 +23,7 @@
     width:100%;  
   }
 
-  .SeoBevezeto{
+  .SeoDiagram{
       text-align: center;
      /* border: 3px solid purple;*/
   }
@@ -39,13 +39,13 @@
 
    .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+  /*  border: 3px solid green;*/
     justify-content: space-evenly;
   }
 
   .SeoCsomag {
     /*width:40%;*/
-    margin: 2rem;
+    margin-top: 2rem;
   }  
     
     
@@ -64,7 +64,7 @@
     width:100%;  
   }
 
-  .SeoBevezeto{
+  .SeoDiagram{
       text-align: center;
      /* border: 3px solid purple;*/
   }
@@ -80,13 +80,13 @@
 
    .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     justify-content: space-evenly;
   }
 
   .SeoCsomag {
     /*width:40%;*/
-    margin: 2rem;
+    margin-top: 2rem;
   }  
 
 }
@@ -105,7 +105,7 @@
     width:100%;  
   }
 
-  .SeoBevezeto{
+  .SeoDiagram{
       text-align: center;
   }
 
@@ -119,13 +119,13 @@
 
    .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+   /* border: 3px solid green;*/
     justify-content: space-evenly;
   }
 
   .SeoCsomag {
     width:40%;
-    margin: 2rem;
+    margin-top: 2rem;
   }
  
  
@@ -143,10 +143,6 @@
     width:100%;  
   }
 
-  .SeoBevezeto{
-      text-align: center;
-  }
-
   .SeoFelsok {
     display: flex;
     flex-direction: row;
@@ -157,13 +153,13 @@
 
    .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+  /* border: 3px solid purple;*/
     justify-content: space-evenly;
   }
 
   .SeoCsomag {
     width:40%;
-    margin: 2rem;
+    margin-top: 2rem;
   }
  
 }
@@ -172,18 +168,16 @@
 
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
+  /*5*/
   .SeoEgesz {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     /*border: 3px solid red;*/
     width:100%;  
   }
 
-  .SeoBevezeto{
-      text-align: center;
-  }
 
+  /*5*/
   .SeoFelsok {
     display: flex;
     flex-direction: row;
@@ -192,18 +186,18 @@
 
   }
 
-   .SeoAlsok {
+  /*5*/
+ .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     justify-content: space-evenly;
   }
 
-  .SeoCsomag {
+  /*5*/
+ .SeoCsomag {
     width:40%;
-    margin: 2rem;
-  }
-  
-  
+    margin-top: 2rem;
+  } 
 }
 /* 5. Laptops, Desktops VÉGE  */
 
@@ -211,19 +205,16 @@
 /* 6. Higher resolution desktops ELEJE*/
 
 @media (min-width: 1281px) and (max-width: 1599px) {
-  
+  /*6*/
   .SeoEgesz {
     display: flex;
     flex-direction: column;
-    
-    /*border: 3px solid red;*/
+      /*border: 3px solid red;*/
     width:100%;  
   }
 
-  .SeoBevezeto{
-      text-align: center;
-  }
-
+ 
+  /*6*/
   .SeoFelsok {
     display: flex;
     flex-direction: row;
@@ -232,38 +223,28 @@
 
   }
 
-   .SeoAlsok {
+  /*6*/
+ .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     justify-content: space-evenly;
   }
 
-  .SeoCsomag {
+  /*6*/
+.SeoCsomag {
     width:40%;
-    margin: 2rem;
-  }
-  
+   margin-top: 2rem;
+  }  
 }
 
 /* 6. Higher resolution desktops VÉGE*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* 7. Larger screen ELEJE*/
 
 @media (min-width: 1600px) {
-
+/*7*/
   .SeoEgesz {
     display: flex;
     flex-direction: column;
@@ -272,10 +253,38 @@
     width:100%;  
   }
 
-  .SeoBevezeto{
-      text-align: center;
+  /*7*/
+  .SeoDiagram{
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 30px solid purple;*/
+    /*text-align: center;*/
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
   }
 
+  /*7*/
+  .SeoDiagramKep {
+   /* border: 3px solid red;*/
+    width:40%;
+  }
+
+  /*7*/
+  .SeoDiagramSzoveg {
+   /* border: 1px solid rgba(40, 164, 241, 0.938);*/
+    width:40%;
+    font-size: 2.5rem; 
+    line-height: 3.5rem;
+    padding: 1%; 
+  }
+
+  /*7*/
+  .SeoDiagramSzoveg h1{
+    text-align: center;
+    font-size: 3rem;  
+    padding: 1%;
+  }
+
+  /*7*/
   .SeoFelsok {
     display: flex;
     flex-direction: row;
@@ -284,18 +293,18 @@
 
   }
 
+  /*7*/
   .SeoAlsok {
     display: flex;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     justify-content: space-evenly;
   }
 
+  /*7*/
   .SeoCsomag {
     width:40%;
     margin: 2rem;
   }
-
-
 }
 
 /* 7. Larger screen VÉGE*/
