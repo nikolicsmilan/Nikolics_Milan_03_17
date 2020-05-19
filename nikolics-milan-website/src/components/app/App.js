@@ -8,6 +8,7 @@ import NmNavBar from '../NmNavBar/NmNavBar';
 import NmBemutatkozas2 from '../NmBemutatkozas2/NmBemutatkozas2';
 import Ajanlas from '../Ajanlas/Ajanlas';
 import ReklamSzoveg from '../ReklamSzoveg/ReklamSzoveg';
+import Footer from '../Footer/Footer';
 
 import Seo from '../Seo/Seo';
 import Kapcsolat from '../Kapcsolat/Kapcsolat';
@@ -33,10 +34,18 @@ class App extends Component {
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               <Route exact path="/" component={ReklamSzoveg}/> 
+              <Route exact path="/" component={Footer}/> 
 
               <Route path="/Seo" component={Seo}/>
+              <Route path="/Seo" component={Footer}/>
+
+
               <Route path="/Technologia" component={Technologia}/>
+              <Route path="/Technologia" component={Footer}/>
+
+
               <Route path="/Kapcsolat" component={Kapcsolat}/>
+              <Route path="/Kapcsolat" component={Footer}/>
          </div>  
         
             </BrowserRouter>
