@@ -1,4 +1,311 @@
-.TechnologiaEgesz{
-    border: 3px solid red;
-    width:100%;
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+
+
+
+
 }
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+   /* border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+     /* border: 3px solid purple;*/
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: column;
+    /*border: 30px solid green;*/
+    justify-content: center;
+    width: 100%;
+
+  }
+
+   .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    /*width:40%;*/
+    margin: 2rem;
+  }  
+    
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+   /* border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+     /* border: 3px solid purple;*/
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: column;
+    /*border: 30px solid green;*/
+    justify-content: center;
+    width: 100%;
+
+  }
+
+   .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    /*width:40%;*/
+    margin: 2rem;
+  }  
+
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: row;
+   /* border: 3px solid green;*/
+    justify-content: space-evenly;
+
+  }
+
+   .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    width:40%;
+    margin: 2rem;
+  }
+ 
+ 
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: row;
+   /* border: 3px solid green;*/
+    justify-content: space-evenly;
+
+  }
+
+   .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    width:40%;
+    margin: 2rem;
+  }
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: row;
+   /* border: 3px solid green;*/
+    justify-content: space-evenly;
+
+  }
+
+   .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    width:40%;
+    margin: 2rem;
+  }
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+  
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: row;
+   /* border: 3px solid green;*/
+    justify-content: space-evenly;
+
+  }
+
+   .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    width:40%;
+    margin: 2rem;
+  }
+  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+  .SeoEgesz {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 3px solid red;*/
+    width:100%;  
+  }
+
+  .SeoBevezeto{
+      text-align: center;
+  }
+
+  .SeoFelsok {
+    display: flex;
+    flex-direction: row;
+   /* border: 3px solid green;*/
+    justify-content: space-evenly;
+
+  }
+
+  .SeoAlsok {
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-evenly;
+  }
+
+  .SeoCsomag {
+    width:40%;
+    margin: 2rem;
+  }
+
+
+}
+
+/* 7. Larger screen VÉGE*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1552 @@
+
+
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+/* 0. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*0.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*0.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgba(40, 164, 241, 0.938);
+    text-align: center;
+    /*border: 3px solid red;*/
+  }
+
+   /*0.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*0.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*0.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*0.*/
+  .SeoAakcio2 h1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 10rem; 
+  }
+
+   /*0.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+    font-size: 0.8rem;
+    height: 3rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*0.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*0.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 1.3rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*0.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*0.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*0.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
+   /*0.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*0.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*0.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*0.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+   /*0.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*0.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*0.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:7rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*0.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*0.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*0.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*SOROK (TULAJDONSÁGOK) VÉGE*/  
+  
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* 1. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*1.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*1.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgba(40, 164, 241, 0.938);
+    /*border: 3px solid red;*/
+    text-align: center;
+  }
+
+   /*1.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*1.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*1.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*1.*/
+  .SeoAakcio2 h1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 15rem; 
+  }
+
+   /*1.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+    font-size: 1rem;
+    height: 3rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*1.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*1.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 1.3rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*1.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*1.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*1.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
+   /*1.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*1.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*1.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*1.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+   /*1.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*1.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*1.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:9rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*1.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*1.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*1.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/  
+  
+    
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+   /* 2. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*2.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*2.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgba(40, 164, 241, 0.938);
+    text-align: center;
+    /*border: 3px solid red;*/
+  }
+
+   /*2.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*2.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*2.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*2.*/
+  .SeoAakcio2 h1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 15rem; 
+  }
+
+   /*2.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+    font-size: 1rem;
+    height: 3rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*2.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*2.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 1.3rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*2.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*2.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*2.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
+   /*2.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*2.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*2.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*2.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+   /*2.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*2.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*2.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:9rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*2.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*2.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*2.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/  
+  
+
+}
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* 3. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*3.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*3.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color:rgba(40, 164, 241, 0.938);
+    text-align: center;
+    /*border: 3px solid red;*/
+  }
+
+   /*3.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*3.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*3.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*3.*/
+  .SeoAakcio2 h1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 15rem; 
+  }
+
+   /*3.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+    font-size: 1rem;
+    height: 2rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*3.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*3.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 1.3rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*3.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*3.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*3.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
+   /*3.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*3.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*3.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*3.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+   /*3.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*3.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*3.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:9rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*3.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*3.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*3.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/ 
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* 4. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*4.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*4.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color:rgba(40, 164, 241, 0.938);
+    text-align: center;
+    /*border: 3px solid red;*/
+  }
+
+   /*4.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*4.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*4.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*4.*/
+  .SeoAakcio2 h1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 15rem; 
+  }
+
+   /*4.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+    font-size: 1rem;
+    height: 2rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*4.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*4.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 1.3rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*4.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*4.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*4.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+   /*4.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*4.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*4.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*4.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+   /*4.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*4.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*4.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:9rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*4.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*4.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*4.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* 5. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*5.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*5.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color:rgba(40, 164, 241, 0.938);
+    text-align: center;
+    /*border: 3px solid red;*/
+  }
+
+   /*5.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*5.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*5.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*5.*/
+  .SeoAakcio2 h1{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 20rem; 
+  }
+
+   /*5.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+   font-size: 1.3rem;
+   height: 3rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*5.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*5.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 1.5rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*5.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*5.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*5.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+   /*5.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*5.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*5.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*5.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+   /*5.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*5.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*5.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:9rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*5.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*5.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*5.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+
+  /* 6. EGÉSZ ÉS ÁRAK ELEJE*/
+
+  /*6.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+ /*6.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color:rgba(40, 164, 241, 0.938);
+    /*border: 3px solid red;*/
+    text-align: center;
+  }
+
+   /*6.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*6.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*6.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*6.*/
+  .SeoAakcio2 h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 20rem; 
+  }
+
+   /*6.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    /*border: 3px solid magenta;*/
+    font-size: 1.3rem;
+    height: 3rem;
+   }
+
+   /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+
+     /*6.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*6.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 2rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*6.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*6.*/
+   .SeoAido {
+    display: flex;
+    flex-direction: column;
+   }
+
+    /*6.*/
+   .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+   /*6.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+    /*6.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*6.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*6.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+   /*6.*/
+  .SeoAsorCim {
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;   
+    padding-left: 1%; 
+    /*border: 3px solid red;*/
+    width:100%;
+  }
+
+   /*6.*/
+  .SeoAsorCim h1 {
+    text-align: left;
+   /* padding-left: 2%;*/
+  }
+
+   /*6.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:9rem;
+    min-height: 2rem;
+    /*border: 3px solid red;*/
+  }
+
+   /*6.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*6.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*6.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+  /*EGÉSZ ÉS ÁRAK ELEJE*/
+   /*7.*/
+  .SeoAegesz {
+    /*üres*/
+    }
+
+  /*7.*/
+  .SeoAcim {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color:rgba(40, 164, 241, 0.938);   
+    text-align: center;
+  }
+
+   /*7.*/
+  .SeoAkeret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(40, 164, 241, 0.938); 
+    border-radius: 3px;
+    width:100%;
+    padding:2%;
+  }
+
+   /*7.*/
+  .SeoAakcio {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 3px;  
+    padding:2%;
+  }
+ 
+   /*7.*/
+  .SeoAakcio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+  }
+  
+   /*7.*/
+  .SeoAakcio2 h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding:1%;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    min-width: 20rem; 
+  }
+
+   /*7.*/
+  .SeoAakcio3 {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+   /* border: 3px solid magenta;*/
+    font-size: 1.4rem;
+    height: 3rem;
+   }
+
+    /*EGÉSZ ÉS ÁRAK VÉGE*/
+
+    /*CÉLOK ÉS IDŐ ELEJE*/
+     /*7.*/
+  .SeoAcelokEgesz {
+    display: flex;
+    flex-direction: column;
+   margin-top:1rem;
+  }
+
+   /*7.*/
+  .SeoAcelokEgesz h1{
+    text-align: center;
+    font-size: 2.5rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+  }
+
+   /*7.*/
+  .SeoAgombjobbra {
+      display: flex;
+      justify-content: flex-end;    
+      padding-top: 0.2rem; 
+      padding-bottom: 0.2rem; 
+   }
+
+    /*7.*/
+  .SeoAido {
+    display: flex;
+    flex-direction: column;
+  }
+
+   /*7.*/
+  .SeoAido p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+   }
+
+  /*CÉLOK ÉS IDŐ VÉGE*/
+
+
+   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+   /*7.*/
+   .SeoAsorKont {
+    /* margin-top:1rem;*/
+   }
+
+  /*7.*/
+  .SeoAsorCelKont {
+    margin-top:1%;
+  }
+
+   /*7.*/
+  .SeoAsorCel {
+    border: 1px solid rgba(40, 164, 241, 0.938);
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /*7.*/
+ .SeoAsorCel h1{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+   /*7.*/
+  .SeoAsorCim {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+ /*7.*/
+  .SeoAbutton {
+    background-color: rgba(40, 164, 241, 0.938);
+    color: white;
+    min-width:3.5rem;
+    min-height: 2rem;
+  }
+
+   /*7.*/
+  .OpenSeoAsor {
+    display: flex;
+    flex-direction: column;
+    border:  2px dashed rgba(40, 164, 241, 0.938);
+    min-width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-left: 0rem;
+  }
+
+   /*7.*/
+  .OpenSeoAsor ul {
+    padding:1rem;
+    padding-left: 2rem;
+    list-style-type: circle;
+  }
+
+   /*7.*/
+  .CloseSeoAsor {
+     visibility: hidden;
+      max-height:0rem;
+   }
+
+   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+}
+/* 7. Larger screen VÉGE*/
+
+

@@ -1,4 +1,59 @@
-.TechnologiaEgesz{
+.TechnologiaEgesz {
     border: 3px solid purple;
     width:100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 10rem;
+   
+}
+
+.piros {
+    color:red;
+    min-height: 10rem;
+    border: 3px solid orange;
+    margin:3rem;
+}
+
+.button {
+    max-width:10rem;
+    background-color: blue;;
+}
+
+.zold {
+    color:green;
+    min-height: 10rem;
+    border: 3px solid orange;
+    margin:3rem;
+}
+
+.lila{
+    color: purple;
+    min-height: 10rem;
+    border: 3px solid orange;
+    margin:3rem;
+}
+
+.kek {
+    color: blue;
+    min-height: 10rem;
+    border: 3px solid blue;
+    margin:3rem; 
+}
+
+.sarga {
+    color: orange;
+    min-height: 10rem;
+    border: 3px solid orange;
+    margin:3rem; 
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    height:5rem;
+}
+
+.options select {
+    /*color:red;*/
 }

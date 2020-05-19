@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './BaseExpand.css';
 import Bemutatkozo_Mobil from '../../../assets/Card/Bemutatkozo_Mobil.jpg';
 

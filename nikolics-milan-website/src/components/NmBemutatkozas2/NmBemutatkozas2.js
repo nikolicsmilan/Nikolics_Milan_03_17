@@ -28,7 +28,7 @@ const NmBemutatkozas2 = props => (
                             </div>
 
                             <div className="Osztonzo_szoveg_2">
-                            <img src={osztonzo} ></img>
+                            <img src={osztonzo} alt="osztonzo"></img>
                                 {/*
                                 <div className="Bold_kontener_2">
                                     <li className="NM_Bemutat_szoveg_bold_2" >Akkor jó helyen jár!</li>

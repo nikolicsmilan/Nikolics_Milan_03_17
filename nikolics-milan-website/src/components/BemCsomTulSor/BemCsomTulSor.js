@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import './BemCsomTulSor.css';
 import info_button from '../../assets/Card/info-gomb.svg';
-import pipa2 from '../../assets/Card/pipa2.svg';
-import xa from '../../assets/Card/xa.svg';
+
 
 const BemCsomTulSor = props => {
 
@@ -54,7 +53,7 @@ setToogleState ({
                    <div className="info_kontener"  >                            
                        <img className="info_gomb"
                        onMouseLeave={toogleHandler_out} onMouseEnter={toogleHandler_in}
-                       src={info_button} alt='I button image'/>
+                       src={info_button} alt='I button'/>
                         <div className="felirat">{props.felirat}</div>  
                    </div>                            
                       

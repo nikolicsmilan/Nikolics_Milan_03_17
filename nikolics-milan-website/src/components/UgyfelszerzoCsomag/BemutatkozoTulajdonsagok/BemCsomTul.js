@@ -8,7 +8,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const BemCsomTul = props => {   
 
     return (
-        <div className="Bem_csom_tul_egesz">
+        <div className="BemCsomTulEgesz">
           
           <BemCsomTulSor
                 kep={pipa2}

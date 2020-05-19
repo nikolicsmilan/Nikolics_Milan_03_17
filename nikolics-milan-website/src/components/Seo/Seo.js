@@ -1,21 +1,50 @@
 import React  from 'react';
 import './Seo.css';
-import '../form/MyForm';
-import MyForm from '../form/MyForm';
-import milan from '../../assets/NM_kep.jpg';
-import tel from '../../assets/telefon-min.PNG';
-import email from '../../assets/email-min.PNG';
+import SeoA from './SeoA/SeoA';
+import SeoB from './SeoB/SeoB';
+
+
 
 const Seo= props => { 
       
       return (
-                <div  className='SeoEgesz'>  
+            
+       <div className="SeoEgesz">
+             {/*
+             <div className="SeoBevezeto">
+                  <h1>Bevezető arról hogy miért fontos a SEO emberi nyelven. Aztán vigyázat
+                        technikai leírás következik.Képpel autó nem megy sehová üzemanyag nélkül 
+                        vagy mit ér az autó motor nélkül. Képpel.
+                        IDE KELL A KÖR ALAKÚ STATISZTIKA!!!
+                  </h1>
+             </div>          
+             */}
+            <div className="SeoFelsok">
+                        <div className="SeoCsomag">
+                              
+                        <SeoA></SeoA>
+                        </div>
 
-           <h1>SEO val kapcsolatos dolgok itt lesznek</h1>
-                
-                </div>
+                        <div className="SeoCsomag">
+                      
+                        <SeoB></SeoB>
+                        </div>
+            </div>
+
+             <div className="SeoAlsok">
+                        <div className="SeoCsomag">
+
+                        </div>
+
+                        <div className="SeoCsomag">
+
+                        </div>
+            </div>
+      </div>
+   
 
 
+         
 
       )
 

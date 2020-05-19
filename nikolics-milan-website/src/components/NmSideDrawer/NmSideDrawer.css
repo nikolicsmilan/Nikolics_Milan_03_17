@@ -171,16 +171,17 @@
    /* color:red;*/
    position: relative;
    z-index: 1020;
+  /* border:3px solid blue;*/
+   min-width: 10rem;
   }
   
-  .NMside-drawer a {
-  
+  .NMside-drawer a {  
     text-decoration: none;
     font-size: 1.2rem;
     /*color:#cca353;*/
     color:black;
     font-style: oblique;
-    /*color:orange;*/
+   /* color:orange;*/
     position: relative;
    z-index: 1020;
   }
@@ -225,8 +226,8 @@
     z-index: 980;
     transform: translateY(-160%);
     transition: transform 0.3s ease-out;
-     max-height: 20rem;
-   border: 6px solid yellow;
+    max-height: 20rem;
+   /* border: 6px solid yellow;*/
     opacity:0.9;
     
   }
@@ -263,27 +264,27 @@
     justify-content: center;
     position: relative;
     z-index: 1020;
-    /*border:3px solid red;*/
+    /*border:3px solid purple;*/
   }
   
   .NMside-drawer li {
-    margin: 0.5rem 0;
+    margin: 0.9rem 0;
    /* color:red;*/
    position: relative;
    z-index: 1020;
-   
+   /*border:3px solid green;*/
   }
   
   .NMside-drawer a {  
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     /*color:#cca353;*/
     color:black;
     font-style: oblique;
     /*color:orange;*/
     position: relative;
    z-index: 1020;
-   
+  /* border:3px solid red;*/
   }
   
   .NMside-drawer a:hover,

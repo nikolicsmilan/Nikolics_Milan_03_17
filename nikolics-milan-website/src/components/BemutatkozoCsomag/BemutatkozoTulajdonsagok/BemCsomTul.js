@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import './BemCsomTul.css';
 import BemCsomTulSor from '../../BemCsomTulSor/BemCsomTulSor';
 import pipa2 from '../../../assets/Card/pipa2.svg';
@@ -8,7 +8,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const BemCsomTul = props => {
 
     return (
-        <div className="Bem_csom_tul_egesz">       
+        <div className="BemCsomTulEgesz">       
             <BemCsomTulSor
                 kep={pipa2}
                 felirat='Egyedi tervezés'

@@ -5,12 +5,12 @@ import EU_logo_Mobil from '../../assets/EU_logo_Mobil.jpg';
 import EU_logo_Desktop from '../../assets/EU_logo_Desktop.jpg';
 import tel from '../../assets/telefon-min.PNG';
 import email from '../../assets/email-min.PNG';
-import { HashLink as Link } from 'react-router-hash-link';
+/*import { HashLink as Link } from 'react-router-hash-link';*/
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 /*import DropDown from '../../components/DropDown/DropDown';*/
 
 
-const NM_Toolbar = props => (
+const NmToolbar = props => (
 
   <header className="Toolbar_header_egesz">
     <nav className="Toolbar_nav_egesz">
@@ -90,4 +90,4 @@ const NM_Toolbar = props => (
       
     </header>
 );
-export default NM_Toolbar;
+export default NmToolbar;

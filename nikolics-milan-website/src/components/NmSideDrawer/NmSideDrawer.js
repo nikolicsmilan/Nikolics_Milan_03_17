@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './NmSideDrawer.css';
 import NmBackdrop from '../NmBackdrop/NmBackdrop';
-import { HashLink as Link } from 'react-router-hash-link';
+/*import { HashLink as Link } from 'react-router-hash-link';*/
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 /*
 import NM_Backdrop_1 from '../NM_Backdrop/NM_Backdrop_1';
@@ -66,7 +66,7 @@ setToogleState ({
             <div className="nav_kisegit_A"> 
                 <ul>
                       <li onClick={toogleHandler_out}><NavLink to="/"  >Főoldal</NavLink></li> 
-                      <li onClick={toogleHandler_in}> <NavLink to="" >Weboldal-Árak</NavLink> </li> 
+                      <li onClick={toogleHandler_in}> <NavLink to="/" >Weboldal-Árak</NavLink> </li> 
                       <li onClick={toogleHandler_out}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
                       <li onClick={toogleHandler_out}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
                       <li onClick={toogleHandler_out}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
