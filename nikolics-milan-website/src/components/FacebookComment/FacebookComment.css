@@ -1,11 +1,13 @@
 .HozzaszolasEgesz {
-    border: 3px solid red;
+   /* border: 3px solid red;*/
     display: flex;
     justify-content: center;
     max-height: 100rem;
 }
 
 .Hozzaszolas {
-    border: 3px solid green;
+   /* border: 3px solid green;*/
+   padding-top: 3rem;
     max-height: 100rem;
+    width:30%;
 }
