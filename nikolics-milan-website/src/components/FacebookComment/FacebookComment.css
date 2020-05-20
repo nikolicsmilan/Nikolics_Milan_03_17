@@ -6,8 +6,8 @@
 }
 
 .Hozzaszolas {
-   /* border: 3px solid green;*/
-   padding-top: 3rem;
+   border: 3px solid green;
+    padding: 3rem;
     max-height: 100rem;
     width:30%;
 }
