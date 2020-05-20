@@ -1,13 +1,32 @@
 .HozzaszolasEgesz {
    /* border: 3px solid red;*/
     display: flex;
+   
+    flex-direction: column;
+    max-height: 100rem;
+}
+.FaceFelso {
+    display: flex;
     justify-content: center;
     max-height: 100rem;
+
 }
 
 .Hozzaszolas {
    border: 3px solid green;
+   display: flex;
+   justify-content: center;
+   margin-top:1rem;
+   padding: 3rem;
+   max-height: 100rem;
+   width:50%;
+}
+.Hozzaszolas2 {
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
     padding: 3rem;
     max-height: 100rem;
-    width:30%;
-}
+    width:50%;
+ }

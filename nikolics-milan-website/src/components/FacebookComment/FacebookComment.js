@@ -8,15 +8,30 @@ class EmbeddedComment extends Component {
     render() {
         return (
             <div className="HozzaszolasEgesz">
-                <div className="Hozzaszolas">
-                    <FacebookProvider appId="483066125703881">
-                          <Comments ></Comments>
-                    </FacebookProvider>                  
+                <div className="FaceFelso">
+                    <div className="Hozzaszolas">
+                        <FacebookProvider appId="483066125703881">
+                            <Comments ></Comments>
+                        </FacebookProvider>                  
+                    </div>
+                    <div className="Hozzaszolas2">
+                        <FacebookProvider appId="483066125703881">
+                        <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=145274667062735&id=108139094109626" /> 
+                        </FacebookProvider>                  
+                    </div>
                 </div>
-                <div className="Hozzaszolas">
-                    <FacebookProvider appId="483066125703881">
-                      <EmbeddedPost href="https://www.facebook.com/pg/Nikolicsmilanhu-108139094109626/posts/?ref=page_internal" width="500" /> 
-                    </FacebookProvider>                  
+
+                <div className="FaceFelso">
+                    <div className="Hozzaszolas">
+                        <FacebookProvider appId="483066125703881">
+                            <Comments ></Comments>
+                        </FacebookProvider>                  
+                    </div>
+                    <div className="Hozzaszolas2">
+                        <FacebookProvider appId="483066125703881">
+                        <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=145274667062735&id=108139094109626" /> 
+                        </FacebookProvider>                  
+                    </div>
                 </div>
             </div>
         );
