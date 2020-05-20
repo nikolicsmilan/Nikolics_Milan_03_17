@@ -447,7 +447,7 @@ const toogleHandler10 = () => {
                                 <p>Ügyfélszerző csomagban 8 hónapra:</p>                                
             </div> 
             <div  className={akcio2}>                       
-                    <h1> 545 000 HUF <br></br>  (2. részletben)</h1> 
+                    <h1> 545 000 HUF <br></br>  (3. részletben)</h1> 
                    
             </div>       
       </div>
