@@ -13,7 +13,7 @@
 }
 
 .Hozzaszolas {
-   border: 3px solid green;
+  /* border: 3px solid green;*/
    display: flex;
    justify-content: center;
    margin-top:1rem;

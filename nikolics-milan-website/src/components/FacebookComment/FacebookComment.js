@@ -14,13 +14,14 @@ class EmbeddedComment extends Component {
                             <Comments ></Comments>
                         </FacebookProvider>                  
                     </div>
+                    {/*
                     <div className="Hozzaszolas2">
                         <FacebookProvider appId="483066125703881">
                         <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=145274667062735&id=108139094109626" /> 
                         </FacebookProvider>                  
-                    </div>
+                    </div>*/}
                 </div>
-
+{/*
                 <div className="FaceFelso">
                     <div className="Hozzaszolas">
                         <FacebookProvider appId="483066125703881">
@@ -29,10 +30,23 @@ class EmbeddedComment extends Component {
                     </div>
                     <div className="Hozzaszolas2">
                         <FacebookProvider appId="483066125703881">
-                        <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=145274667062735&id=108139094109626" /> 
+                        <EmbeddedPost href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" /> 
+                        </FacebookProvider>                  
+                    </div>
+
+                    <div className="FaceFelso">
+                    <div className="Hozzaszolas">
+                        <FacebookProvider appId="483066125703881">
+                            <Comments ></Comments>
+                        </FacebookProvider>                  
+                    </div>
+                    <div className="Hozzaszolas2">
+                        <FacebookProvider appId="483066125703881">
+                        <EmbeddedPost href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" /> 
                         </FacebookProvider>                  
                     </div>
                 </div>
+</div>*/}
             </div>
         );
     }
