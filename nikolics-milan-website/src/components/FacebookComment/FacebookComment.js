@@ -10,8 +10,8 @@ class EmbeddedComment extends Component {
             <div className="HozzaszolasEgesz">
                    
                 <div className="FaceFelso">
-                    
-                    <div className="Hozzaszolas">
+
+                    <div className="Hozzaszolas2">
                         <FacebookProvider appId="483066125703881">
                             <Like href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" colorScheme="dark" showFaces share />
                         </FacebookProvider>                  
