@@ -8,13 +8,13 @@ class EmbeddedComment extends Component {
     render() {
         return (
             <div className="HozzaszolasEgesz">
-               
-                <div className="FaceFelso">
-                <div className="Hozzaszolas2">
+                    <div className="Hozzaszolas">
                         <FacebookProvider appId="483066125703881">
                             <Like href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" colorScheme="dark" showFaces share />
                         </FacebookProvider>                  
                     </div>
+                <div className="FaceFelso">
+               
                     <div className="Hozzaszolas">
                         <FacebookProvider appId="483066125703881">
                             <Comments ></Comments>
