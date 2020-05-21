@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b18fe20.chunk.css",
-    "main.js": "/static/js/main.56c5649d.chunk.js",
-    "main.js.map": "/static/js/main.56c5649d.chunk.js.map",
+    "main.css": "/static/css/main.6a00cdd2.chunk.css",
+    "main.js": "/static/js/main.e3e5f76a.chunk.js",
+    "main.js.map": "/static/js/main.e3e5f76a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.3fcf43d4.chunk.js": "/static/js/2.3fcf43d4.chunk.js",
-    "static/js/2.3fcf43d4.chunk.js.map": "/static/js/2.3fcf43d4.chunk.js.map",
+    "static/js/2.9be8866e.chunk.js": "/static/js/2.9be8866e.chunk.js",
+    "static/js/2.9be8866e.chunk.js.map": "/static/js/2.9be8866e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3dab4df7483311a08b6011b8a884a57c.js": "/precache-manifest.3dab4df7483311a08b6011b8a884a57c.js",
+    "precache-manifest.61bd5b331e0108db446b8c4b37a1f7fb.js": "/precache-manifest.61bd5b331e0108db446b8c4b37a1f7fb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.2b18fe20.chunk.css.map": "/static/css/main.2b18fe20.chunk.css.map",
-    "static/js/2.3fcf43d4.chunk.js.LICENSE.txt": "/static/js/2.3fcf43d4.chunk.js.LICENSE.txt",
+    "static/css/main.6a00cdd2.chunk.css.map": "/static/css/main.6a00cdd2.chunk.css.map",
+    "static/js/2.9be8866e.chunk.js.LICENSE.txt": "/static/js/2.9be8866e.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
     "static/media/Bevetel2.PNG": "/static/media/Bevetel2.cb38f7cf.PNG",
+    "static/media/CarSeo1E.png": "/static/media/CarSeo1E.d9f99acb.png",
+    "static/media/CarSeo2.jpg": "/static/media/CarSeo2.1855deeb.jpg",
     "static/media/Ceges_Mobil.png": "/static/media/Ceges_Mobil.bd7e9759.png",
     "static/media/EU_logo_Desktop.jpg": "/static/media/EU_logo_Desktop.5e3dd14f.jpg",
     "static/media/NM_kep.jpg": "/static/media/NM_kep.ebac684e.jpg",
@@ -37,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.3f67dda9.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.3fcf43d4.chunk.js",
-    "static/css/main.2b18fe20.chunk.css",
-    "static/js/main.56c5649d.chunk.js"
+    "static/js/2.9be8866e.chunk.js",
+    "static/css/main.6a00cdd2.chunk.css",
+    "static/js/main.e3e5f76a.chunk.js"
   ]
 }

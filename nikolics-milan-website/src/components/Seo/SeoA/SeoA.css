@@ -12,12 +12,26 @@
  /*0.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 3rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/
   }
+
+  /*0.*/
+  .SeoAcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  /*0.*/
+  .SeoAcim img {
+      max-height: 13rem;
+      min-height: 13rem;
+  }
+
 
    /*0.*/
   .SeoAkeret {
@@ -208,11 +222,24 @@
  /*1.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 3rem;
     color:rgba(40, 164, 241, 0.938);
     /*border: 3px solid red;*/
     text-align: center;
+  }
+
+  /*1.*/
+  .SeoAcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  /*1.*/
+  .SeoAcim img {
+      max-height: 13rem;
+      min-height: 13rem;
   }
 
    /*1.*/
@@ -405,11 +432,24 @@
  /*2.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 3rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/
+  }
+
+  /*2.*/
+  .SeoAcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  /*2.*/
+  .SeoAcim img {
+      max-height: 15rem;
+      min-height: 15rem;
   }
 
    /*2.*/
@@ -601,11 +641,24 @@
  /*3.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 4rem;
+    align-items: center;
+    font-size: 2.5rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/
+  }
+
+  /*3.*/
+  .SeoAcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  /*3.*/
+  .SeoAcim img {
+      max-height: 12rem;
+      min-height: 12rem;
   }
 
    /*3.*/
@@ -795,11 +848,22 @@
  /*4.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 2.5rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/
+  }
+
+  .SeoAcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  .SeoAcim img {
+      max-height: 13rem;
+      min-height: 13rem;
   }
 
    /*4.*/
@@ -989,11 +1053,22 @@
  /*5.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 3rem;
     color:rgba(40, 164, 241, 0.938);
     text-align: center;
     /*border: 3px solid red;*/
+  }
+
+  .SeoAcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  .SeoAcim img {
+      max-height: 15rem;
+      min-height: 15rem;
   }
 
    /*5.*/
@@ -1186,12 +1261,29 @@
  /*6.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 4rem;
     color:rgba(40, 164, 241, 0.938);
     /*border: 3px solid red;*/
     text-align: center;
   }
+  .SeoAcim h1 {
+  /*  margin-bottom: 2rem;*/
+   
+  }
+
+  .SeoAcim img {
+    max-height: 20rem;
+    min-height: 20rem;
+   /* max-width:50%;
+    margin-top:1rem;
+    margin-bottom:1rem;
+   /* border:3px solid red;*/
+  }
+
+
 
    /*6.*/
   .SeoAkeret {
@@ -1381,10 +1473,27 @@
   /*7.*/
   .SeoAcim {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 5rem;
-    color:rgba(40, 164, 241, 0.938);   
+    align-items: center;
+    font-size: 5rem;   
     text-align: center;
+    color:rgba(40, 164, 241, 0.938);   
+    /*border:3px solid green;*/
+  }
+
+  .SeoAcim h1 {
+    margin-bottom: 2rem;
+   
+  }
+
+  .SeoAcim img {
+    max-height: 20rem;
+    min-height: 20rem;
+   /* max-width:50%;
+    margin-top:1rem;
+    margin-bottom:1rem;
+   /* border:3px solid red;*/
   }
 
    /*7.*/
@@ -1545,7 +1654,7 @@
       max-height:0rem;
    }
 
-   /*sOROK (TULAJDONSÁGOK) ELEJE*/
+   /*SOROK (TULAJDONSÁGOK) ELEJE*/
 }
 /* 7. Larger screen VÉGE*/
 

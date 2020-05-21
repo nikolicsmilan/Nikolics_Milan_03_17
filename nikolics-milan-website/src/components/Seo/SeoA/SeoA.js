@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './SeoA.css';
-
+import CarSeo1 from '../../../assets/Car/CarSeo1E.png';
 
 const SeoA = props => { 
 
@@ -429,6 +429,7 @@ const toogleHandler10 = () => {
      { /*SeoAcim */}
           <div className={cim}>
                 <h1>SEO START</h1>
+                <img src={CarSeo1} alt="kordiagram" ></img>
           </div>
     <div className={keret}>
 

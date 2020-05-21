@@ -13,19 +13,33 @@
    /*0.*/
     .SeoBcim {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       font-size: 3rem;
-      color:orange;
+      color:red;
       text-align: center;
       /*border: 3px solid red;*/
     }
+
+    /*0.*/
+  .SeoBcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  /*0.*/
+  .SeoBcim img {
+      max-height: 13rem;
+      min-height: 13rem;
+  }
+
   
      /*0.*/
     .SeoBkeret {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -56,7 +70,7 @@
       font-size: 1rem;
       line-height: 1.5rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 10rem; 
     }
@@ -88,7 +102,7 @@
       font-size: 1.3rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -128,7 +142,7 @@
   
      /*0.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -156,7 +170,7 @@
   
      /*0.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:7rem;
       min-height: 2rem;
@@ -167,7 +181,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1rem;
       line-height: 1.2rem;
@@ -209,19 +223,32 @@
    /*1.*/
     .SeoBcim {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       font-size: 3rem;
-      color:orange;
+      color:red;
       /*border: 3px solid red;*/
       text-align: center;
     }
+
+      /*1.*/
+  .SeoBcim h1 {
+    /*  margin-bottom: 2rem;*/     
+  }
+  
+  /*1.*/
+  .SeoBcim img {
+      max-height: 13rem;
+      min-height: 13rem;
+  }
   
      /*1.*/
     .SeoBkeret {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -252,7 +279,7 @@
       font-size: 1rem;
       line-height: 1.5rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 15rem; 
     }
@@ -284,7 +311,7 @@
       font-size: 1.3rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -324,7 +351,7 @@
   
      /*1.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -352,7 +379,7 @@
   
      /*1.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -363,7 +390,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1rem;
       line-height: 1.2rem;
@@ -406,19 +433,32 @@
    /*2.*/
     .SeoBcim {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       font-size: 3rem;
-      color:orange;
+      color:red;
       text-align: center;
       /*border: 3px solid red;*/
     }
   
+    /*2.*/
+    .SeoBcim h1 {
+      /*  margin-bottom: 2rem;*/     
+    }
+    
+    /*2.*/
+    .SeoBcim img {
+        max-height: 15rem;
+        min-height: 15rem;
+    }
+
      /*2.*/
     .SeoBkeret {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -449,7 +489,7 @@
       font-size: 1rem;
       line-height: 1.5rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 15rem; 
     }
@@ -481,7 +521,7 @@
       font-size: 1.3rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -521,7 +561,7 @@
   
      /*2.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -549,7 +589,7 @@
   
      /*2.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -560,7 +600,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1rem;
       line-height: 1.2rem;
@@ -601,12 +641,25 @@
   
    /*3.*/
     .SeoBcim {
-      display: flex;
-      justify-content: center;
-      font-size: 4rem;
-      color:orange;
-      text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 2.5rem;
+     color:red;
+     text-align: center;
       /*border: 3px solid red;*/
+    }
+
+    /*3.*/
+    .SeoBcim h1 {
+      /*  margin-bottom: 2rem;*/     
+    }
+    
+    /*3.*/
+    .SeoBcim img {
+        max-height: 12rem;
+        min-height: 12rem;
     }
   
      /*3.*/
@@ -614,7 +667,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -645,7 +698,7 @@
       font-size: 1rem;
       line-height: 1.5rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 15rem; 
     }
@@ -677,7 +730,7 @@
       font-size: 1.3rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -717,7 +770,7 @@
   
      /*3.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -745,7 +798,7 @@
   
      /*3.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -756,7 +809,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1rem;
       line-height: 1.2rem;
@@ -796,11 +849,22 @@
    /*4.*/
     .SeoBcim {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       font-size: 2.5rem;
-      color:orange;
+      color:red;
       text-align: center;
       /*border: 3px solid red;*/
+    }
+
+    .SeoBcim h1 {
+      /*  margin-bottom: 2rem;*/     
+    }
+    
+    .SeoBcim img {
+        max-height: 13rem;
+        min-height: 13rem;
     }
   
      /*4.*/
@@ -808,7 +872,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -839,7 +903,7 @@
       font-size: 1rem;
       line-height: 1.5rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 15rem; 
     }
@@ -871,7 +935,7 @@
       font-size: 1.3rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -911,7 +975,7 @@
   
      /*4.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -939,7 +1003,7 @@
   
      /*4.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -950,7 +1014,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1rem;
       line-height: 1.2rem;
@@ -989,12 +1053,25 @@
   
    /*5.*/
     .SeoBcim {
-      display: flex;
-      justify-content: center;
-      font-size: 3rem;
-      color:orange;
-      text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 3rem;
+     color:red;
+     text-align: center;
       /*border: 3px solid red;*/
+    }
+
+    /*5.*/
+    .SeoBcim h1 {
+      /*  margin-bottom: 2rem;*/       
+    }
+
+     /*5.*/
+    .SeoBcim img {
+      max-height: 15rem;
+      min-height: 15rem;
     }
   
      /*5.*/
@@ -1002,7 +1079,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -1033,7 +1110,7 @@
       font-size: 1.2rem;
       line-height: 2rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 20rem; 
     }
@@ -1065,7 +1142,7 @@
       font-size: 1.5rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -1105,7 +1182,7 @@
   
      /*5.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -1133,7 +1210,7 @@
   
      /*5.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -1144,7 +1221,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1.2rem;
       line-height: 1.5rem;
@@ -1187,19 +1264,36 @@
    /*6.*/
     .SeoBcim {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       font-size: 4rem;
-      color:orange;
+      color:red;
       /*border: 3px solid red;*/
       text-align: center;
     }
+
+    .SeoBcim h1 {
+      /*  margin-bottom: 2rem;*/
+       
+      }
+    
+      .SeoBcim img {
+        max-height: 20rem;
+        min-height: 20rem;
+       /* max-width:50%;
+        margin-top:1rem;
+        margin-bottom:1rem;
+       /* border:3px solid red;*/
+      }
+    
   
      /*6.*/
     .SeoBkeret {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -1230,7 +1324,7 @@
       font-size: 1.5rem;
       line-height: 2rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 20rem; 
     }
@@ -1262,7 +1356,7 @@
       font-size: 2rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -1302,7 +1396,7 @@
   
      /*6.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -1330,7 +1424,7 @@
   
      /*6.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -1341,7 +1435,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1.2rem;
       line-height: 1.5rem;
@@ -1382,10 +1476,27 @@
     /*7.*/
     .SeoBcim {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       font-size: 5rem;
-      color:orange;   
+      color:red;   
       text-align: center;
+     /*border:3px solid green;*/
+    }
+
+    .SeoBcim h1 {
+      margin-bottom: 2rem;
+      
+    }
+
+    .SeoBcim img {
+      max-height: 20rem;
+      min-height: 20rem;
+     /* max-width:50%;
+      margin-top:1rem;
+      margin-bottom:1rem;
+     /* border:3px solid red;*/
     }
   
      /*7.*/
@@ -1393,7 +1504,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid orange; 
+      border: 2px solid red; 
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -1424,7 +1535,7 @@
       font-size: 1.5rem;
       line-height: 2rem;
       padding:1%;
-      background-color: orange;
+      background-color: red;
       color:white;
       min-width: 20rem; 
     }
@@ -1455,7 +1566,7 @@
       font-size: 2.5rem;  
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
-      background-color: orange;
+      background-color: red;
       color:white;
     }
   
@@ -1495,7 +1606,7 @@
   
      /*7.*/
     .SeoBsorCel {
-      border: 1px solid orange;
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
     }
@@ -1514,7 +1625,7 @@
   
    /*7.*/
     .SeoBbutton {
-      background-color: orange;
+      background-color: red;
       color: white;
       min-width:3.5rem;
       min-height: 2rem;
@@ -1524,7 +1635,7 @@
     .OpenSeoBsor {
       display: flex;
       flex-direction: column;
-      border:  2px dashed orange;
+      border:  2px dashed red;
       min-width: 100%;
       font-size: 1.2rem;
       line-height: 1.5rem;

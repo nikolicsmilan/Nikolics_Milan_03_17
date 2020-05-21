@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './SeoB.css';
+import CarSeo2 from '../../../assets/Car/CarSeo2.jpg';
 
 
 const SeoB = props => { 
@@ -428,7 +429,8 @@ const toogleHandler10 = () => {
   <div className={egesz}>
      { /*SeoBcim */}
           <div className={cim}>
-                <h>SEO ULTIMATE</h>
+                <h1>SEO ULTIMATE</h1>
+                <img src={CarSeo2} alt="kordiagram" ></img>  
           </div>
     <div className={keret}>
 
@@ -504,7 +506,7 @@ const toogleHandler10 = () => {
               <div className={sorCel}>
 
                   <div className={sorCim}>
-                    <h1>Teljes weboldal elemzés</h1>   
+                    <h1>Teljes weboldal elemzés</h1>
                   </div>
 
                   <div>
