@@ -1,0 +1,77 @@
+.SeoBevEgesz{
+  /*  border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SeoBevSzov {
+    display: flex;
+    flex-direction: column;
+   /* border: 3px solid green;*/
+}
+
+.SeoBevSzov h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.SeoBevSzovKeret {
+    display: flex;
+    flex-direction: row;
+   /* border: 3px solid red;*/
+    /*padding:2rem;*/
+ }
+
+ .SeoBevSzovbal {
+    /* border: 2px solid orange;*/
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width:50%;     
+     padding:3rem;
+     padding-bottom: 1rem;
+    /* margin-top: 1rem;*/
+    /* margin-bottom: 1rem;*/
+     padding-top:1rem;
+     font-size: 1.5rem;
+     line-height: 2rem;
+ }
+
+ .SeoBevSzovbalCim {
+    text-align: center;
+    font-size: 2rem;
+    height:5rem;
+    padding-bottom: 1rem;
+    /*border: 2px solid orange;*/
+    width:100%;
+ }
+
+
+ .SeoBevSzovjobb {
+    display: flex;
+    width:50%;
+    border: 6px solid yellow;
+ }
+
+
+
+
+
+
+.SeoBevSzov p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.SeoBevKep {
+    /*  border: 3px solid green;*/
+     /* max-height: 40rem;*/
+     width:100%;
+  }
+  
+  .SeoBevKep img {
+      max-height: 30rem;
+      width:100%;
+  }

@@ -1,5 +1,6 @@
 import React  from 'react';
 import './Seo.css';
+import SeoBev from './SeoBev/SeoBev';
 import SeoA from './SeoA/SeoA';
 import SeoB from './SeoB/SeoB';
 import SeoDiagram from './SeoDiagram/SeoDiagram';
@@ -10,7 +11,7 @@ const Seo= props => {
             
        <div className="SeoEgesz">
          
-            
+            <SeoBev></SeoBev>
      
             <div className="SeoFelsok">
                         <div className="SeoCsomag">
