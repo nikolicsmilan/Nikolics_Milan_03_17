@@ -58,10 +58,11 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .SeoEgesz {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
    /* border: 3px solid red;*/
     width:100%;  
+    margin-left:1rem;
+    margin-right:1rem;
   }
 
   .SeoDiagram{
