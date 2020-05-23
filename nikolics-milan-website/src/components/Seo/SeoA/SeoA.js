@@ -428,6 +428,7 @@ const toogleHandler10 = () => {
   <div className={egesz}>
      { /*SeoAcim */}
           <div className={cim}>
+            
                 <h1>SEO START</h1>
                 <img src={CarSeo1} alt="kordiagram" ></img>
           </div>
@@ -436,6 +437,9 @@ const toogleHandler10 = () => {
        {/*  Ár  */}
       <div className={akcio}>
       <div  className={akcio2}>
+          <div  className={akcio3}>                    
+                   <p> Weblapot külön rendelve:</p>                                
+          </div> 
                     <h1>Ár: 60 00 HUF/hó </h1>                                  
       </div>   
             <div  className={akcio3}>                    

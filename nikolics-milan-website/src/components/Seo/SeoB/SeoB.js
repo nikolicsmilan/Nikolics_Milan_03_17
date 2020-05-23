@@ -437,6 +437,9 @@ const toogleHandler10 = () => {
        {/*  Ár  */}
       <div className={akcio}>
       <div  className={akcio2}>
+           <div  className={akcio3}>                    
+                   <p> Weblapot külön rendelve:</p>                                
+          </div> 
                     <h1>Ár: 90 00 HUF/hó </h1>                                  
       </div>   
             <div  className={akcio3}>                    
