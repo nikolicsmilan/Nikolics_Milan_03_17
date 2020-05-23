@@ -1,77 +1,731 @@
-.SeoBevEgesz{
-  /*  border: 3px solid red;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.SeoBevSzov {
-    display: flex;
-    flex-direction: column;
-   /* border: 3px solid green;*/
-}
-
-.SeoBevSzov h1{
-    font-size: 4rem;
-    text-align: center;
-}
-
-.SeoBevSzovKeret {
-    display: flex;
-    flex-direction: row;
-   /* border: 3px solid red;*/
-    /*padding:2rem;*/
- }
-
- .SeoBevSzovbal {
-    /* border: 2px solid orange;*/
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width:50%;     
-     padding:3rem;
-     padding-bottom: 1rem;
-    /* margin-top: 1rem;*/
-    /* margin-bottom: 1rem;*/
-     padding-top:1rem;
-     font-size: 1.5rem;
-     line-height: 2rem;
- }
-
- .SeoBevSzovbalCim {
-    text-align: center;
-    font-size: 2rem;
-    height:5rem;
-    padding-bottom: 1rem;
-    /*border: 2px solid orange;*/
-    width:100%;
- }
-
-
- .SeoBevSzovjobb {
-    display: flex;
-    width:50%;
-    border: 6px solid yellow;
- }
 
 
 
-
-
-
-.SeoBevSzov p{
-    font-size: 2rem;
-    text-align: center;
-}
-
-
-.SeoBevKep {
-    /*  border: 3px solid green;*/
-     /* max-height: 40rem;*/
-     width:100%;
-  }
+  /* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 2rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+           border: 1px solid rgba(40, 164, 241, 0.938);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           padding:0.5rem;
+           padding-bottom: 1rem;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+           padding-top:1rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.2rem;
+          height:2.5rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+          line-height: 1.2rem;
+       }           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 20rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+            
+        .SeoBevSzovbef {
+           border-top: 1px solid rgba(40, 164, 241, 0.938);
+          /* border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           padding: 2%;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+           padding-top:0.5rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+          /* color:red;*/
+        } 
   
-  .SeoBevKep img {
-      max-height: 30rem;
-      width:100%;
+
+
+
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 2rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+           border: 1px solid rgba(40, 164, 241, 0.938);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           padding:0.5rem;
+           padding-bottom: 1rem;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+           padding-top:1rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.2rem;
+          height:2.5rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+          line-height: 1.2rem;
+       }           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 20rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+            
+        .SeoBevSzovbef {
+           border-top: 1px solid rgba(40, 164, 241, 0.938);
+          /* border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           padding: 2%;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+           padding-top:0.5rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+          /* color:red;*/
+        } 
+      
   }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 2rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+           border: 1px solid rgba(40, 164, 241, 0.938);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           padding:0.5rem;
+           padding-bottom: 1rem;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+           padding-top:1rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.2rem;
+          height:1.5rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+          line-height: 1.2rem;
+       }           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 20rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+            
+        .SeoBevSzovbef {
+           border-top: 1px solid rgba(40, 164, 241, 0.938);
+          /* border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           padding: 2%;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+           padding-top:0.5rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+          /* color:red;*/
+        } 
+  
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 3rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: row;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+          /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:50%;     
+           padding:0.5rem;
+           padding-bottom: 1rem;
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.2rem;
+          height:3.5rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+          line-height: 1.2rem;
+       }           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 20rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+            
+        .SeoBevSzovbef {
+          /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           /*padding:3rem;*/
+          /* padding-bottom: 1rem;*/
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:0.5rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+          /* color:red;*/
+        }  
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 3rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: row;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+          /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:50%;     
+           padding:0.5rem;
+           padding-bottom: 1rem;
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.2rem;
+          height:4rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+          line-height: 1.5rem;
+       }           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 20rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+      
+      
+        .SeoBevSzovbef {
+                /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           /*padding:3rem;*/
+          /* padding-bottom: 1rem;*/
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:0.5rem;
+           font-size: 1rem;
+           line-height: 1.2rem;
+          /* color:red;*/
+        }  
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 4rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: row;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+          /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:50%;     
+           padding:1rem;
+           padding-bottom: 1rem;
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1.2rem;
+           line-height: 1.5rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.5rem;
+          line-height: 1.8rem;
+          height:4rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+       }
+           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 30rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+      
+      
+        .SeoBevSzovbef {
+                /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           /*padding:3rem;*/
+          /* padding-bottom: 1rem;*/
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1.2rem;
+           line-height: 2rem;
+        }   
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 4rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: row;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+          /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:50%;     
+           padding:1rem;
+           padding-bottom: 1rem;
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1.5rem;
+           line-height: 2rem;
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 1.9rem;
+          height:5rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+       }
+           
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 30rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+      
+      
+        .SeoBevSzovbef {
+                /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           /*padding:3rem;*/
+          /* padding-bottom: 1rem;*/
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1.5rem;
+           line-height: 2rem;
+        } 
+  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+    .SeoBevEgesz{
+        /*  border: 3px solid red;*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .SeoBevSzov {
+          display: flex;
+          flex-direction: column;
+         /* border: 3px solid green;*/
+      }
+      
+      .SeoBevSzov h1{
+          font-size: 4rem;
+          text-align: center;
+          margin-bottom: 2rem;
+      }
+      
+      .SeoBevSzovKeret {
+          display: flex;
+          flex-direction: row;
+         /* border: 3px solid red;*/
+          /*padding:2rem;*/
+       }
+      
+       .SeoBevSzovbev {
+          /* border: 2px solid orange;*/
+          /* border:1px solid rgba(40, 164, 241, 0.938);*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:50%;     
+           padding:3rem;
+           padding-bottom: 1rem;
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1.5rem;
+           line-height: 2rem;
+          /* margin:1%;*/
+       }
+      
+       .SeoBevSzovbevCim {
+          text-align: center;
+          font-size: 2rem;
+          height:5rem;
+          padding-bottom: 1rem;
+          /*border: 2px solid orange;*/
+          width:100%;
+       }
+         
+      
+      .SeoBevKep {
+          /*  border: 3px solid green;*/
+           /* max-height: 40rem;*/
+           width:100%;
+        }
+        
+        .SeoBevKep img {
+            max-height: 30rem;
+            width:100%;
+        }
+      
+        .SeoBevSzovKeretBef {
+          display: flex;
+          flex-direction: column;
+        }
+      
+      
+        .SeoBevSzovbef {
+                /* border: 2px solid orange;*/
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width:100%;     
+           /*padding:3rem;*/
+          /* padding-bottom: 1rem;*/
+          /* margin-top: 1rem;*/
+          /* margin-bottom: 1rem;*/
+           padding-top:1rem;
+           font-size: 1.5rem;
+           line-height: 2rem;
+        }
+
+}
+
+/* 7. Larger screen VÉGE*/

@@ -19,7 +19,11 @@
       font-size: 3rem;
       color:red;
       text-align: center;
-      /*border: 3px solid red;*/
+       /*border: 3px solid red;*/
+      /*Világos piros*/
+      /*  color:rgb(255, 104, 112);*/
+      /*Sötét piros*/
+      /*  color:rgb(139, 19, 21);*/
     }
 
     /*0.*/
@@ -660,6 +664,7 @@
     .SeoBcim img {
         max-height: 12rem;
         min-height: 12rem;
+        margin-bottom: 0.5rem;
     }
   
      /*3.*/
@@ -699,6 +704,7 @@
       line-height: 1.5rem;
       padding:1%;
       background-color: red;
+      border: 3px solid black;   
       color:white;
       min-width: 15rem; 
     }
@@ -731,6 +737,7 @@
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
       background-color: red;
+      border: 2px solid black;
       color:white;
     }
   
@@ -799,6 +806,7 @@
      /*3.*/
     .SeoBbutton {
       background-color: red;
+      border: 2px solid black;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -863,8 +871,9 @@
     }
     
     .SeoBcim img {
-        max-height: 13rem;
-        min-height: 13rem;
+        max-height: 15rem;
+        min-height: 15rem;
+        margin-bottom: 1rem;
     }
   
      /*4.*/
@@ -904,6 +913,7 @@
       line-height: 1.5rem;
       padding:1%;
       background-color: red;
+      border: 3px solid black;  
       color:white;
       min-width: 15rem; 
     }
@@ -936,6 +946,7 @@
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
       background-color: red;
+      border: 2px solid black;
       color:white;
     }
   
@@ -983,7 +994,7 @@
      /*4.*/
    .SeoBsorCel h1{
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   
      /*4.*/
@@ -1004,6 +1015,7 @@
      /*4.*/
     .SeoBbutton {
       background-color: red;
+      border: 2px solid black;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -1072,6 +1084,7 @@
     .SeoBcim img {
       max-height: 15rem;
       min-height: 15rem;
+      margin-bottom: 1rem;
     }
   
      /*5.*/
@@ -1111,6 +1124,7 @@
       line-height: 2rem;
       padding:1%;
       background-color: red;
+      border: 3px solid black;  
       color:white;
       min-width: 20rem; 
     }
@@ -1143,6 +1157,7 @@
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
       background-color: red;
+      border: 2px solid black;
       color:white;
     }
   
@@ -1211,6 +1226,7 @@
      /*5.*/
     .SeoBbutton {
       background-color: red;
+      border: 2px solid black;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -1281,6 +1297,7 @@
       .SeoBcim img {
         max-height: 20rem;
         min-height: 20rem;
+        margin-bottom: 1rem;
        /* max-width:50%;
         margin-top:1rem;
         margin-bottom:1rem;
@@ -1325,6 +1342,7 @@
       line-height: 2rem;
       padding:1%;
       background-color: red;
+      border: 3px solid black;   
       color:white;
       min-width: 20rem; 
     }
@@ -1357,6 +1375,7 @@
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
       background-color: red;
+      border: 2px solid black;   
       color:white;
     }
   
@@ -1425,6 +1444,7 @@
      /*6.*/
     .SeoBbutton {
       background-color: red;
+      border: 2px solid black;
       color: white;
       min-width:9rem;
       min-height: 2rem;
@@ -1493,6 +1513,7 @@
     .SeoBcim img {
       max-height: 20rem;
       min-height: 20rem;
+      margin-bottom: 1rem;
      /* max-width:50%;
       margin-top:1rem;
       margin-bottom:1rem;
@@ -1505,6 +1526,7 @@
       flex-direction: column;
       align-items: center;
       border: 2px solid red; 
+      /*box-shadow: 0px 0px 5px 3px black;*/
       border-radius: 3px;
       width:100%;
       padding:2%;
@@ -1535,7 +1557,8 @@
       font-size: 1.5rem;
       line-height: 2rem;
       padding:1%;
-      background-color: red;
+      background-color: red; 
+      border: 3px solid black;    
       color:white;
       min-width: 20rem; 
     }
@@ -1567,6 +1590,7 @@
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
       background-color: red;
+      border: 2px solid black;
       color:white;
     }
   
@@ -1626,6 +1650,7 @@
    /*7.*/
     .SeoBbutton {
       background-color: red;
+      border: 3px solid black;
       color: white;
       min-width:3.5rem;
       min-height: 2rem;

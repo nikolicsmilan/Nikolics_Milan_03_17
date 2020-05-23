@@ -158,8 +158,9 @@
   }
 
   .SeoCsomag {
-    width:40%;
-    margin-top: 2rem;
+    width:45%;
+   margin-top: 2rem;
+   /*border: 3px solid purple;*/
   }
  
 }

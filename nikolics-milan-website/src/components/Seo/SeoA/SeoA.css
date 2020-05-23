@@ -659,6 +659,7 @@
   .SeoAcim img {
       max-height: 12rem;
       min-height: 12rem;
+      margin-bottom: 0.5rem;
   }
 
    /*3.*/
@@ -698,6 +699,7 @@
     line-height: 1.5rem;
     padding:1%;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 3px solid black;   
     color:white;
     min-width: 15rem; 
   }
@@ -730,6 +732,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color:white;
   }
 
@@ -798,6 +801,7 @@
    /*3.*/
   .SeoAbutton {
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color: white;
     min-width:9rem;
     min-height: 2rem;
@@ -862,8 +866,9 @@
   }
   
   .SeoAcim img {
-      max-height: 13rem;
-      min-height: 13rem;
+      max-height: 15rem;
+      min-height: 15rem;
+      margin-bottom: 1rem;
   }
 
    /*4.*/
@@ -903,6 +908,7 @@
     line-height: 1.5rem;
     padding:1%;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 3px solid black;  
     color:white;
     min-width: 15rem; 
   }
@@ -935,6 +941,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color:white;
   }
 
@@ -982,7 +989,7 @@
    /*4.*/
  .SeoAsorCel h1{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
    /*4.*/
@@ -1003,6 +1010,7 @@
    /*4.*/
   .SeoAbutton {
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color: white;
     min-width:9rem;
     min-height: 2rem;
@@ -1069,6 +1077,7 @@
   .SeoAcim img {
       max-height: 15rem;
       min-height: 15rem;
+      margin-bottom: 1rem;
   }
 
    /*5.*/
@@ -1108,6 +1117,7 @@
     line-height: 2rem;
     padding:1%;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 3px solid black;   
     color:white;
     min-width: 20rem; 
   }
@@ -1140,6 +1150,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color:white;
   }
 
@@ -1208,6 +1219,7 @@
    /*5.*/
   .SeoAbutton {
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color: white;
     min-width:9rem;
     min-height: 2rem;
@@ -1277,6 +1289,7 @@
   .SeoAcim img {
     max-height: 20rem;
     min-height: 20rem;
+    margin-bottom: 1rem;
    /* max-width:50%;
     margin-top:1rem;
     margin-bottom:1rem;
@@ -1322,6 +1335,7 @@
     line-height: 2rem;
     padding:1%;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 3px solid black;  
     color:white;
     min-width: 20rem; 
   }
@@ -1354,6 +1368,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;  
     color:white;
   }
 
@@ -1422,6 +1437,7 @@
    /*6.*/
   .SeoAbutton {
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color: white;
     min-width:9rem;
     min-height: 2rem;
@@ -1490,6 +1506,7 @@
   .SeoAcim img {
     max-height: 20rem;
     min-height: 20rem;
+    margin-bottom: 1rem;
    /* max-width:50%;
     margin-top:1rem;
     margin-bottom:1rem;
@@ -1533,6 +1550,7 @@
     line-height: 2rem;
     padding:1%;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 3px solid black;   
     color:white;
     min-width: 20rem; 
   }
@@ -1564,6 +1582,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color:white;
   }
 
@@ -1623,6 +1642,7 @@
  /*7.*/
   .SeoAbutton {
     background-color: rgba(40, 164, 241, 0.938);
+    border: 2px solid black;
     color: white;
     min-width:3.5rem;
     min-height: 2rem;

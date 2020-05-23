@@ -16,9 +16,9 @@ const SeoDiagram= props => {
 
                    <div className="SeoDiagramSzoveg">
                          <h1>Tudta?</h1>
-                        <p1>A keresőmarketing területén a Google egyeduralkodó 
-                              azokkal a városi legendákkal szemben miszerint a Facebook megelőzte vagy
-                              a közeljővőben meg fogja előzni. A valóságban a Google-n
+                        <p1>A keresőmarketing területén a Google egyeduralkodó. 
+                              Vannak "városi legendák"  miszerint a Facebook megelőzte vagy
+                              a közeljővőben meg fogja előzni. A valóságban azonban Google-n
                               történik az internetes keresések 90%-a! 
                          </p1>
                    </div>
