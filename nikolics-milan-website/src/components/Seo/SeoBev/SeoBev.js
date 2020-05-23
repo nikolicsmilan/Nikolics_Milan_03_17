@@ -95,7 +95,7 @@ const SeoBev= props => {
                     </div>
                     <div className="SeoBevSzovbef">
                   
-                                    <div>
+                                    <div className="SeoBevSzovbevCim">
                                     FIGYELEM, MOST MINDEN ÁR AKCIÓS!
                                     </div>          
                     </div>      
