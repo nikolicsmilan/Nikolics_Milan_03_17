@@ -21,11 +21,11 @@ const NmBemutatkozas2 = props => (
                             <div className="Li_kontener_2">
                                 <li className="BemSzovLi_1_2"> <img src={bevetel} alt="bevetel_kep"></img> </li>
                                 <li  className="BemSzovLi_1_2"> <img src={nepszeru} alt="nepszeru_kep"></img></li>
-                                                  
+                                <li  className="BemSzovLi_1_2 Bemszovli_ugy_2"> <img src={ugyfel} alt="ugyfel_kep"></img></li>            
                             </div>
                             
                             <div className="Li_kontener_3">
-                                <li  className="BemSzovLi_1_2 Bemszovli_ugy_2"> <img src={ugyfel} alt="ugyfel_kep"></img></li>                
+                                             
                             </div>
                             <div className="Osztonzo_szoveg_3">
                             <img src={felfele2} alt="osztonzo"></img>
