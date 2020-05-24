@@ -83,7 +83,7 @@
    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
    border-radius: 3px;
    line-height: 2rem;
-   margin-top:2rem;
+  /* margin-top:2rem;*/
   }
   .Osztonzo_szoveg_2 img{
     height:3rem;
@@ -196,7 +196,7 @@
    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
    border-radius: 3px;
    line-height: 2rem;
-   margin-top:2rem;
+  /* margin-top:2rem;*/
   }
   .Osztonzo_szoveg_2 img{
     height:3.5rem;
@@ -310,7 +310,7 @@
    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
    border-radius: 3px;
    line-height: 2rem;
-   margin-top:2rem;
+   /*margin-top:2rem;*/
   }
   
   .Bold_kontener_2 {
@@ -422,7 +422,7 @@
    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
    border-radius: 3px;
    line-height: 3rem;
-   margin-top:2rem;
+   /*margin-top:2rem;*/
   }
   
   .Bold_kontener_2 {
@@ -534,7 +534,7 @@
    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
    border-radius: 3px;
    line-height: 3rem;
-   margin-top:2rem;
+ /*  margin-top:2rem;*/
   }
   
   .Bold_kontener_2 {
@@ -644,7 +644,7 @@
     border-bottom: 1px solid rgba(40, 164, 241, 0.938);
     border-radius: 3px;
     line-height: 2.5rem;
-    margin-top:2rem;
+   /* margin-top:2rem;*/
    }
   
   .Bold_kontener_2 {
@@ -755,7 +755,7 @@
     border-bottom: 1px solid rgba(40, 164, 241, 0.938);
     border-radius: 3px;
     line-height: 3rem;
-    margin-top:2rem;
+    /*margin-top:2rem;*/
    }
   
   .Bold_kontener_2 {
@@ -865,6 +865,22 @@
   width:100%;
 }
 
+.Osztonzo_szoveg_3 {
+  display: flex;
+  flex-direction: column;
+ /* align-items: center;*/
+  border-radius: 3px;
+  line-height: 4rem;
+/*  margin-top:2rem;*/
+  /*border:3px solid green;*/
+ /* height: 50rem;*/
+ }
+
+ .Osztonzo_szoveg_3 img{
+  margin-top:3rem;
+  height: 60rem;
+ }
+
 .Osztonzo_szoveg_2 {
   display: flex;
   flex-direction: column;
@@ -873,7 +889,7 @@
   border-bottom: 1px solid rgba(40, 164, 241, 0.938);
   border-radius: 3px;
   line-height: 4rem;
-  margin-top:2rem;
+ /* margin-top:2rem;*/
  }
 
 .Bold_kontener_2 {

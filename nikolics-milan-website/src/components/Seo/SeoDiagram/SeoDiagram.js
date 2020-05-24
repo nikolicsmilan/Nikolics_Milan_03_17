@@ -12,6 +12,7 @@ const SeoDiagram= props => {
             <div className="SeoDiagram">
                    <div className="SeoDiagramKep">
                         <img src={kordiagram} alt="kordiagram" ></img>
+                        * https://sparktoro.com/blog/2018-search-market-share-myths-vs-realities-of-google-bing-amazon-facebook-duckduckgo-more/
                    </div>
 
                    <div className="SeoDiagramSzoveg">
