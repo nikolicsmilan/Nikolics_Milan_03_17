@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e7fb4f333605a2098661cd69bd55cd7",
+    "revision": "c839d9ae008c8c9471a4154fe7cbbbc1",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "a561b49bc5a12de07507",
-    "url": "/static/css/main.dc9ecd5c.chunk.css"
+    "revision": "c7a9cdda5fcca81d25df",
+    "url": "/static/css/main.115c7d3c.chunk.css"
   },
   {
     "revision": "f4bb8e11344aecf58fe5",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9a6dfb01.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a561b49bc5a12de07507",
-    "url": "/static/js/main.1afcf154.chunk.js"
+    "revision": "c7a9cdda5fcca81d25df",
+    "url": "/static/js/main.d67af85a.chunk.js"
   },
   {
     "revision": "a277459dddbcac43ed44",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg"
   },
   {
-    "revision": "cb38f7cf56db68cfd235210a3bdc5755",
-    "url": "/static/media/Bevetel2.cb38f7cf.PNG"
+    "revision": "bdad138e12fa4acb61f7e93ed0bc9717",
+    "url": "/static/media/Bevetel5.bdad138e.png"
   },
   {
     "revision": "d9f99acbd894c6725ea310e1013f1c47",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NM_kep.ebac684e.jpg"
   },
   {
-    "revision": "2a95df8c2dcb2f7f6a2bdcab9bc702e1",
-    "url": "/static/media/Nepszeru2.2a95df8c.PNG"
+    "revision": "3141f94269ff98b8a2f598f639df36de",
+    "url": "/static/media/Nepszeru5.3141f942.PNG"
   },
   {
-    "revision": "b7c2fcd8f251992cc0baf3c4352c990d",
-    "url": "/static/media/Ugyfel2.b7c2fcd8.PNG"
+    "revision": "2a4829e02f47cf72814ff23fa61701e9",
+    "url": "/static/media/Ugyfel5.2a4829e0.PNG"
   },
   {
     "revision": "72c64d0dc7d78242a53f0a39be54a895",
