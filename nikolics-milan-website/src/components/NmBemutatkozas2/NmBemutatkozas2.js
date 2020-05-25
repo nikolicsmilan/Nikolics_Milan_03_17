@@ -28,7 +28,7 @@ const NmBemutatkozas2 = props => (
                                              
                             </div>
                             <div className="Osztonzo_szoveg_3">
-                            <img src={felfele2} alt="osztonzo"></img>
+                            
                             </div>
 
                             <div className="Osztonzo_szoveg_2">
