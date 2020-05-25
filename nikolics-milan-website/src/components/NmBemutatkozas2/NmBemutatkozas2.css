@@ -45,6 +45,7 @@
   .Li_kontener_2 {
    display: flex;
    justify-content:space-around;
+   flex-wrap: wrap;
    width:100%;
    margin: 0;
    padding: 0;
@@ -79,11 +80,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-top: 1px solid rgba(40, 164, 241, 0.938);
-   border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+ /*  border-top: 1px solid rgba(40, 164, 241, 0.938);
+   border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
    border-radius: 3px;
    line-height: 2rem;
-  /* margin-top:2rem;*/
+   margin-top:2rem;
   }
   .Osztonzo_szoveg_2 img{
     height:3rem;
@@ -158,6 +159,7 @@
   .Li_kontener_2 {
    display: flex;
    justify-content:space-around;
+   flex-wrap: wrap;
    width:100%;
    margin: 0;
    padding: 0;
@@ -192,11 +194,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-top: 1px solid rgba(40, 164, 241, 0.938);
-   border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+  /* border-top: 1px solid rgba(40, 164, 241, 0.938);
+   border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
    border-radius: 3px;
    line-height: 2rem;
-  /* margin-top:2rem;*/
+   margin-top:2rem;
   }
   .Osztonzo_szoveg_2 img{
     height:3.5rem;
@@ -272,6 +274,7 @@
   .Li_kontener_2 {
    display: flex;
    justify-content:space-around;
+   flex-wrap: wrap;
    width:100%;
    margin: 0;
    padding: 0;
@@ -306,11 +309,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-top: 1px solid rgba(40, 164, 241, 0.938);
-   border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+  /* border-top: 1px solid rgba(40, 164, 241, 0.938);
+   border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
    border-radius: 3px;
    line-height: 2rem;
-   /*margin-top:2rem;*/
+    margin-top:2rem;
   }
   
   .Bold_kontener_2 {
@@ -418,11 +421,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-top: 1px solid rgba(40, 164, 241, 0.938);
-   border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+   /*border-top: 1px solid rgba(40, 164, 241, 0.938);
+   border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
    border-radius: 3px;
    line-height: 3rem;
-   /*margin-top:2rem;*/
+   margin-top:2rem;
   }
   
   .Bold_kontener_2 {
@@ -499,7 +502,7 @@
    width:100%;
    margin: 0;
    padding: 0;
-   /*border:3px solid red;*/
+  /* border:3px solid red;*/
   }
   
   .Li_kontener_3 {
@@ -530,11 +533,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-top: 1px solid rgba(40, 164, 241, 0.938);
-   border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+  /* border-top: 1px solid rgba(40, 164, 241, 0.938);
+   border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
    border-radius: 3px;
    line-height: 3rem;
- /*  margin-top:2rem;*/
+   margin-top:2rem;
   }
   
   .Bold_kontener_2 {
@@ -640,11 +643,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 1px solid rgba(40, 164, 241, 0.938);
-    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938);
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
     border-radius: 3px;
     line-height: 2.5rem;
-   /* margin-top:2rem;*/
+    margin-top:2rem;
    }
   
   .Bold_kontener_2 {
@@ -751,11 +754,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 1px solid rgba(40, 164, 241, 0.938);
-    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+   /* border-top: 1px solid rgba(40, 164, 241, 0.938);
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
     border-radius: 3px;
     line-height: 3rem;
-    /*margin-top:2rem;*/
+    margin-top:2rem;
    }
   
   .Bold_kontener_2 {
@@ -886,11 +889,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 1px solid rgba(40, 164, 241, 0.938);
-  border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+ /* border-top: 1px solid rgba(40, 164, 241, 0.938);*/
+  /*border-bottom: 1px solid rgba(40, 164, 241, 0.938);*/
   border-radius: 3px;
   line-height: 4rem;
- /* margin-top:2rem;*/
+  margin-top:2rem;
  }
 
 .Bold_kontener_2 {
