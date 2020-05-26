@@ -129,6 +129,7 @@
     border: 6px solid yellow;
    /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
     opacity:0.9;
+    
   }
   
   .NMside-drawer.open {
@@ -178,6 +179,7 @@
    min-width: 10rem;
  /*  transform: translateY(-160%);*/
    transition: transform 0.3s ease-out;
+  
   }
   
   .NMside-drawer a {  
@@ -189,6 +191,7 @@
    /* color:orange;*/
     position: relative;
    z-index: 1020;
+   color:purple;
   }
   
   .NMside-drawer a:hover,
