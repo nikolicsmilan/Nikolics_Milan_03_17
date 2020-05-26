@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './NmNavBar.css';
 import NmToolbar from '../NmToolbar/NmToolbar';
 import NmSideDrawer from '../NmSideDrawer/NmSideDrawer';
+import NmSideDrawer2 from '../NmSideDrawer2/NmSideDrawer2';
 /*import NmBackdrop from '../NmBackdrop/NmBackdrop';*/
 
 const NmNavBar = props => { 
@@ -16,10 +17,10 @@ const NmNavBar = props => {
                        return(
                     <div className="NM_NavBar_egesz">
                       <NmToolbar click={toogleHandler}></NmToolbar>
-                      <NmSideDrawer
+                      <NmSideDrawer2
                       open={isToggledOn}
                       click={toogleHandler}
-                      ></NmSideDrawer>                      
+                      ></NmSideDrawer2>                      
                     </div> 
                     )
                     }
