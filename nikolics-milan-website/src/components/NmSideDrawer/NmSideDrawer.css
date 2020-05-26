@@ -125,8 +125,8 @@
     z-index: 980;
     transform: translateY(-160%);
     transition: transform 0.3s ease-out;
-     max-height: 12rem;
-   /*border: 6px solid yellow;*/
+    max-height: 12rem;
+    border: 6px solid yellow;
    /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
     opacity:0.9;
   }
@@ -164,6 +164,7 @@
     justify-content: center;
     position: relative;
     z-index: 1020;
+    border:3px solid red;
   }
   
   .NMside-drawer li {
@@ -171,7 +172,7 @@
    /* color:red;*/
    position: relative;
    z-index: 1020;
-  /* border:3px solid blue;*/
+   border:3px solid blue;
    min-width: 10rem;
   }
   
@@ -460,7 +461,7 @@
     transform: translateY(-180%);
     transition: transform 0.3s ease-out;
      max-height: 20rem;
-    /* border: 6px solid purple;*/
+    /*border: 6px solid purple;*/
     opacity:0.9;
   }
   

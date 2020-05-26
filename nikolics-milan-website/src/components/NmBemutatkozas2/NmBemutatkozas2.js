@@ -1,6 +1,6 @@
 import React from 'react';
 import './NmBemutatkozas2.css';
-import nikolics_logo from './../../assets/nikolicsmilan_logo_9.png';
+import nikolics_logo from './../../assets/nikolicsmilan_logo_12.PNG';
 import bevetel from './../../assets/SzovegKep/Bevetel5.png';
 import nepszeru from './../../assets/SzovegKep/Nepszeru5.PNG';
 import ugyfel from './../../assets/SzovegKep/Ugyfel5.PNG';
@@ -19,8 +19,8 @@ const NmBemutatkozas2 = props => (
             <div className="Szoveg-Kep_kontener_2">                      
                         <ul className="Bemutat_szoveg_keret_ul_2">
                             <div className="Li_kontener_2">
-                                <li className="BemSzovLi_1_2"> <img src={bevetel} alt="bevetel_kep"></img> </li>
                                 <li  className="BemSzovLi_1_2"> <img src={nepszeru} alt="nepszeru_kep"></img></li>
+                                <li className="BemSzovLi_1_2"> <img src={bevetel} alt="bevetel_kep"></img> </li>                                
                                 <li  className="BemSzovLi_1_2 "> <img src={ugyfel} alt="ugyfel_kep"></img></li>            
                             </div>
 

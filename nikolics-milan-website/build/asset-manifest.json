@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.791c4971.chunk.css",
-    "main.js": "/static/js/main.f98e0bf6.chunk.js",
-    "main.js.map": "/static/js/main.f98e0bf6.chunk.js.map",
+    "main.css": "/static/css/main.8868f4ef.chunk.css",
+    "main.js": "/static/js/main.f7cce29b.chunk.js",
+    "main.js.map": "/static/js/main.f7cce29b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
     "static/js/2.6788e035.chunk.js": "/static/js/2.6788e035.chunk.js",
     "static/js/2.6788e035.chunk.js.map": "/static/js/2.6788e035.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2822a9b559aed3eecfab8a9a05dd1c2d.js": "/precache-manifest.2822a9b559aed3eecfab8a9a05dd1c2d.js",
+    "precache-manifest.1526afd435e51bae5e91e6fdf8ee58d2.js": "/precache-manifest.1526afd435e51bae5e91e6fdf8ee58d2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.791c4971.chunk.css.map": "/static/css/main.791c4971.chunk.css.map",
+    "static/css/main.8868f4ef.chunk.css.map": "/static/css/main.8868f4ef.chunk.css.map",
     "static/js/2.6788e035.chunk.js.LICENSE.txt": "/static/js/2.6788e035.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
@@ -32,7 +32,7 @@
     "static/media/info-gomb.svg": "/static/media/info-gomb.08f42893.svg",
     "static/media/kordiagram.png": "/static/media/kordiagram.950b3200.png",
     "static/media/megoldas2.png": "/static/media/megoldas2.32f6ed78.png",
-    "static/media/nikolicsmilan_logo_9.png": "/static/media/nikolicsmilan_logo_9.a19b9f96.png",
+    "static/media/nikolicsmilan_logo_12.PNG": "/static/media/nikolicsmilan_logo_12.fbc00f9f.PNG",
     "static/media/osztonzo_szoveg_2.PNG": "/static/media/osztonzo_szoveg_2.c526a05b.PNG",
     "static/media/pipa2.svg": "/static/media/pipa2.586316b4.svg",
     "static/media/telefon-min.PNG": "/static/media/telefon-min.c32d6193.PNG",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.3f67dda9.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.6788e035.chunk.js",
-    "static/css/main.791c4971.chunk.css",
-    "static/js/main.f98e0bf6.chunk.js"
+    "static/css/main.8868f4ef.chunk.css",
+    "static/js/main.f7cce29b.chunk.js"
   ]
 }
