@@ -123,9 +123,9 @@
     /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
     KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
     z-index: 980;
-    transform: translateY(-160%);
+    transform: translateY(-260%);
     transition: transform 0.3s ease-out;
-    max-height: 18rem;
+    max-height: 28rem;
     border: 6px solid yellow;
    /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
     opacity:0.9;
@@ -138,22 +138,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
     z-index: 1020;
      border:3px solid red;
   /*  transform: translateY(-160%);*/
-    transition: transform 0.3s ease-out;
+   /* transition: transform 0.3s ease-out;*/
+    /* margin-top: 2rem;*/
   }
   
   .NMside-drawer li {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
    /* color:red;*/
    position: relative;
    z-index: 1020;
    border:3px solid blue;
-   min-width: 10rem;
+   min-width: 1rem;
+   padding:1rem;
  /*  transform: translateY(-160%);*/
-   transition: transform 0.3s ease-out;
+  /* transition: transform 0.3s ease-out;*/
   
   }
   .NMside-drawer a {  
@@ -166,6 +169,10 @@
     position: relative;
    z-index: 1020;
   /* color:purple;*/
+    border:3px solid blue;
+    width: 10rem;
+    color:orange;
+    padding-right:2rem;
   }
 
     
@@ -181,19 +188,32 @@
       transform: translateY(0);
       /*ide kell írni valamit*/      
   } 
+
   .nav_kisegit{
     display: flex;
     flex-direction: row;
-
+    border:3px dashed green;
+    margin:1rem;
   }
-  .nav_kisegit_A{
+
+  .nav_kisegit_A { 
     padding:3%;
-    /*border:3px solid yellow;*/
+    border:3px solid green;
+    margin:1rem;
+    width:15rem;
   }
 
+  .nav_kisegit_A ul{
+    border:6px solid purple;
+  }
+
+  .nav_kisegit_A li{
+   border:3px dashed red;
+    width:12rem;
+  }
 
  .appear_csomagok{
-  /* border:3px solid yellow;*/
+   border:30px solid blue;
 
  }
 
