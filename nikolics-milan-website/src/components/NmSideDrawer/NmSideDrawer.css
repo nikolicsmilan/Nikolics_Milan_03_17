@@ -125,11 +125,56 @@
     z-index: 980;
     transform: translateY(-160%);
     transition: transform 0.3s ease-out;
-    max-height: 12rem;
+    max-height: 18rem;
     border: 6px solid yellow;
    /*border-bottom: 1px dashed rgba(40, 164, 241, 0.938);*/
     opacity:0.9;
     
+  }
+
+  .NMside-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1020;
+     border:3px solid red;
+  /*  transform: translateY(-160%);*/
+    transition: transform 0.3s ease-out;
+  }
+  
+  .NMside-drawer li {
+    margin: 0.5rem 0;
+   /* color:red;*/
+   position: relative;
+   z-index: 1020;
+   border:3px solid blue;
+   min-width: 10rem;
+ /*  transform: translateY(-160%);*/
+   transition: transform 0.3s ease-out;
+  
+  }
+  .NMside-drawer a {  
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*color:#cca353;*/
+    color:black;
+    font-style: oblique;
+   /* color:orange;*/
+    position: relative;
+   z-index: 1020;
+  /* color:purple;*/
+  }
+
+    
+  .NMside-drawer a:hover,
+  .NMside-drawer a:active {
+    background-color: rgba(40, 164, 241, 0.938);
+    color:white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;    
   }
   
   .NMside-drawer.open {
@@ -157,50 +202,7 @@
   display: none;
  }
    
-  .NMside-drawer ul {
-    height: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    z-index: 1020;
-     border:3px solid red;
-  /*  transform: translateY(-160%);*/
-    transition: transform 0.3s ease-out;
-  }
-  
-  .NMside-drawer li {
-    margin: 0.5rem 0;
-   /* color:red;*/
-   position: relative;
-   z-index: 1020;
-   border:3px solid blue;
-   min-width: 10rem;
- /*  transform: translateY(-160%);*/
-   transition: transform 0.3s ease-out;
-  
-  }
-  
-  .NMside-drawer a {  
-    text-decoration: none;
-    font-size: 1.2rem;
-    /*color:#cca353;*/
-    color:black;
-    font-style: oblique;
-   /* color:orange;*/
-    position: relative;
-   z-index: 1020;
-   color:purple;
-  }
-  
-  .NMside-drawer a:hover,
-  .NMside-drawer a:active {
-    background-color: rgba(40, 164, 241, 0.938);
-    color:white;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;    
-  }
+
   li .AktivMenu{
     color:rgba(40, 164, 241, 0.938);;
     }  
