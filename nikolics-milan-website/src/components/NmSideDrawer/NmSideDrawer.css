@@ -152,7 +152,7 @@
  }
 
  .hidden_csomagok{
-  border:3px solid blue;
+ /* border:3px solid blue;*/
   display: none;
  }
    
@@ -164,7 +164,9 @@
     justify-content: center;
     position: relative;
     z-index: 1020;
-    border:3px solid red;
+     border:3px solid red;
+  /*  transform: translateY(-160%);*/
+    transition: transform 0.3s ease-out;
   }
   
   .NMside-drawer li {
@@ -174,6 +176,8 @@
    z-index: 1020;
    border:3px solid blue;
    min-width: 10rem;
+ /*  transform: translateY(-160%);*/
+   transition: transform 0.3s ease-out;
   }
   
   .NMside-drawer a {  
