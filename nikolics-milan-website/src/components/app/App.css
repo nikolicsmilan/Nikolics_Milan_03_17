@@ -454,7 +454,7 @@ textarea {
   display:flex;
   flex-direction: column;
   /*position: relative;*/
-  /*border: 3px dashed red;*/
+  border: 3px dashed purple;
   justify-self: center;
   align-items: center;
   width:100%; 
@@ -489,7 +489,38 @@ textarea {
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
 
-
+    .App_egesz {
+        display:flex;
+        flex-direction: column;
+        /*position: relative;*/
+       /* border: 3px dashed red;*/
+        justify-self: center;
+        align-items: center;
+        width:100%;        
+      }
+      
+    .App_navbar {
+          display:flex;
+          flex-direction: row;
+          /*position: relative;*/
+         /* border: 3px dashed orange;*/
+         /* justify-self: center;
+          align-items: center;*/
+          width:100%;  
+          /*margin-bottom: 3rem;*/
+      }     
+      
+    .App_egesz-body {
+       padding-top: 0.5%;
+       padding-left: 1.5%;
+       padding-right: 1.5%;
+       display:flex;
+       flex-direction: column;
+       justify-self: center;
+       width:100%; 
+      /*border: 3px dashed blue;*/      
+    } 
+ 
 
 
 }
@@ -504,7 +535,39 @@ textarea {
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
   
-    
+    .App_egesz {
+        display:flex;
+        flex-direction: column;
+        /*position: relative;*/
+        border: 3px dashed red;
+        justify-self: center;
+        align-items: center;
+        width:100%;    
+        margin:0;    
+      }
+      
+    .App_navbar {
+          display:flex;
+          flex-direction: row;
+          /*position: relative;*/
+         /* border: 3px dashed orange;*/
+         /* justify-self: center;
+          align-items: center;*/
+          width:100%;  
+          /*margin-bottom: 3rem;*/
+      }     
+      
+    .App_egesz-body {
+       padding-top: 0.5%;
+       padding-left: 1.5%;
+       padding-right: 1.5%;
+       display:flex;
+       flex-direction: column;
+       justify-self: center;
+       width:100%; 
+      /*border: 3px dashed blue;*/      
+    } 
+ 
     
   }
 
@@ -513,7 +576,38 @@ textarea {
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-  
+    .App_egesz {
+        display:flex;
+        flex-direction: column;
+        /*position: relative;*/
+       /* border: 3px dashed red;*/
+        justify-self: center;
+        align-items: center;
+        width:100%;        
+      }
+      
+    .App_navbar {
+          display:flex;
+          flex-direction: row;
+          /*position: relative;*/
+         /* border: 3px dashed orange;*/
+         /* justify-self: center;
+          align-items: center;*/
+          width:100%;  
+          /*margin-bottom: 3rem;*/
+      }     
+      
+    .App_egesz-body {
+       padding-top: 0.5%;
+       padding-left: 1.5%;
+       padding-right: 1.5%;
+       display:flex;
+       flex-direction: column;
+       justify-self: center;
+       width:100%; 
+      /*border: 3px dashed blue;*/      
+    } 
+ 
   
 
 }

@@ -3,95 +3,150 @@ import './NmSideDrawer2.css';
 import NmBackdrop from '../NmBackdrop/NmBackdrop';
 /*import { HashLink as Link } from 'react-router-hash-link';*/
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-/*
-import NM_Backdrop_1 from '../NM_Backdrop/NM_Backdrop_1';
-*/
+
+
+
 const NmSideDrawer2 = props => {
-  const [toogleState, setToogleState] = useState({
-    toogles: [
-       { number1: false}           
-    ]
-});  
+    const [toogleState, setToogleState] = useState({
+  
+        toogles: [
+           { number0: 0},
+          /* { number1: 1}, 
+           { number2: 2},  
+           { number3: 3},
+           { number4: 4},   */        
+        ]
+    });   
+ 
+   /*A click egy onclick ami egy tooglehanlerhez van bekötve a navbarban */
+   let backdrop=  <NmBackdrop click={props.click}></NmBackdrop>
 
-  let drawerClasses = 'NMside-drawer';
-  let backdrop;
-  var changing_css_class; 
+   /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
+   let sideDrawerClass = "Closed";
+   if (props.open){
+    sideDrawerClass="Open";
+   }
+   /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
 
-  /*HA IGAZ AKKOR LÁTSZANAK A CSOMAGOK ALMENÜ */
-if (props.open &&  toogleState.toogles[0].number1===true ) {
-  changing_css_class = "appear_csomagok";
-} else {
-  changing_css_class = "hidden_csomagok";
-}  
-  /*open ez egy boolean a navbarban */
-  if (props.open) {
-    drawerClasses = 'NMside-drawer open';
-    /*A click egy onclick ami egy tooglehanlerhez van bekötve a navbarban */
-    backdrop=  <NmBackdrop click={props.click}
-      
-    ></NmBackdrop>
+   let Fooszlop;
+   let changingCssClass1;
+   let changingCssClass2;
+   let changingCssClass3;
+   let changingCssClass4;
 
-  }else{
-    console.log('Itt logolok');
-    toogleState.toogles[0].number1='false'; 
-    console.log(toogleState.toogles[0].number1);
-    console.log(changing_css_class);
-    changing_css_class='hidden_csomagok'
-  }
-  /*izé */
+   if(toogleState.toogles[0].number0 ===0) {
+    Fooszlop='Nyit';
+    changingCssClass1='Zar1';
+    changingCssClass2='Zar';
+    changingCssClass3='Zar';
+    changingCssClass4='Zar';
+    /*state hogy itt vagyok */
+
+   }else if (toogleState.toogles[0].number0 ===1) {
+    Fooszlop='Nyit';
+    changingCssClass1='Nyit2';
+    changingCssClass2='Zar';
+    changingCssClass3='Zar';
+    changingCssClass4='Zar';
+
+   }else if (toogleState.toogles[0].number0 ===2){
+    Fooszlop='Zar1';
+    changingCssClass1='Zar1';
+    changingCssClass2='Zar';
+    changingCssClass3='Zar';
+    changingCssClass4='Zar';
+   }else if (toogleState.toogles[0].number0 ===3){
+    Fooszlop='Zar1';
+    changingCssClass1='Zar1';
+    changingCssClass2='Zar';
+    changingCssClass3='Zar';
+    changingCssClass4='Zar';
+   }
+
  
 /*First Handlers*/
-const toogleHandler_in = () =>{
+const toogleHandler0 = () =>{
   console.log('Be');
-  console.log(toogleState.toogles[0].number1);
+  console.log(toogleState.toogles[0].number0);
 setToogleState ({
     toogles: [
-        { number1: true},           
+        { number0: 0},           
  ] 
 }); 
 };
 
-const toogleHandler_out = () =>{
-  console.log('Ki');
-  console.log(toogleState.toogles[0].number1);   
+const toogleHandler1 = () =>{ 
 setToogleState ({
     toogles: [
-        { number1: false},                       
+        { number0: 1},                       
  ] 
 }); 
 };
+
+const toogleHandler2 = () =>{
+  setToogleState ({
+      toogles: [
+          { number0: 2},                       
+   ] 
+  }); 
+  };
+
+  const toogleHandler3 = () =>{ 
+  setToogleState ({
+      toogles: [
+          { number0: 3},                       
+   ] 
+  }); 
+  };
+
+  const toogleHandler4 = () =>{  
+  setToogleState ({
+      toogles: [
+          { number1: 4},                       
+   ] 
+  }); 
+  };
+
   return (
-    <nav className={drawerClasses}>  
+<div className="SideEgesz">
+    {/* Open vagy Closed*/}
+    <nav className={sideDrawerClass}>  
    
-                <ul>
-                      <li onClick={toogleHandler_out}><NavLink to="/"  >Főoldal</NavLink></li> 
-                      <li onClick={toogleHandler_in}> <NavLink to="/" >Weboldal-Árak</NavLink> </li> 
-                      <li onClick={toogleHandler_out}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
-                      <li onClick={toogleHandler_out}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
-                      <li onClick={toogleHandler_out}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
-                </ul>
-                
-          <div className={changing_css_class}> 
-              <ul>
-                  <li> <NavLink to={{         
-                              pathname: "/",      
-                              hash: "#bemutatkozo",
-                              }}>Bemutatkozó</NavLink>  </li>
-                  <li> <NavLink to={{         
-                              pathname: "/",      
-                              hash: "#ceges",
-                              }}>Céges</NavLink>  </li>
-                  <li> <NavLink to={{         
-                              pathname: "/",      
-                              hash: "#ugyfelszerzo",
-                              }}>Ügyfélszerző</NavLink>  </li>                 
-              </ul>
-          </div>
-    
-    
-    {backdrop}
-    
+        <ul className={Fooszlop}>
+            <li onClick={toogleHandler0}><NavLink to="/"  >Főoldal</NavLink></li> 
+         </ul>
+<ul>
+            <li onClick={toogleHandler1}> <NavLink to="/"  >Weboldal-Árak</NavLink> </li> 
+                <ul className={changingCssClass1}>
+                    <li> <NavLink to={{         
+                                        pathname: "/",      
+                                        hash: "#bemutatkozo",
+                                        }}>Bemutatkozó</NavLink>  </li>
+                    <li> <NavLink to={{         
+                                        pathname: "/",      
+                                        hash: "#ceges",
+                                        }}>Céges</NavLink>  </li>
+                    <li> <NavLink to={{         
+                                        pathname: "/",      
+                                        hash: "#ugyfelszerzo",
+                                        }}>Ügyfélszerző</NavLink>  </li>               
+                 </ul>
+                 </ul>
+                 <ul>
+            <li onClick={toogleHandler2}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
+            <li onClick={toogleHandler3}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
+            <li onClick={toogleHandler4}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
+        </ul>
+                    
+            
+       
+        
     </nav>
+    <div>
+    {backdrop} 
+    </div>
+      
+    </div> 
   );
 };
 

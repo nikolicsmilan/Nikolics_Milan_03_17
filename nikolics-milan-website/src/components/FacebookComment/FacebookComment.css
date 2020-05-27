@@ -47,7 +47,7 @@
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
     .HozzaszolasEgesz {
-        /* border: 3px solid red;*/
+        border: 3px solid red;
          display: flex;
         
          flex-direction: column;

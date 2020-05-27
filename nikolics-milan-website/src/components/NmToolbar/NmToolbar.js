@@ -9,25 +9,35 @@ import email from '../../assets/email-min.PNG';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 /*import DropDown from '../../components/DropDown/DropDown';*/
 
+/*VÁLASZTANI KELETT HOGY NAVBARBA IMPORTÁLJAK BE
+KÉT KÜLÖNBÖZŐ FAJTÁJÚ TOOLBART VAGY A TOOLBARBA SZEDJEM
+SZÉT A MOBIL ÉS A DESKTOP NÉZETET. UTÓBBI MELETT DÖNTÖTTEM */
 
 const NmToolbar = props => (
 
-  <header className="Toolbar_header_egesz">
-    <nav className="Toolbar_nav_egesz">
+  <header className="ToolbarHeaderEgesz">
+    <nav className="ToolbarNavEgesz">
 
     {/*MOBIL NÉZETBEN LÁTHATÓ ELEJE*/} 
 
       {/*Kék*/}
-      <div className="Mobil_nezet">
+      <div className="MobilNezet">
 
           {/*1*/}
-                <div className="Button_Logo_kontener">
+                <div className="ButtonLogoKontener">
                     <div className="Button">
+
+                      <div className="ButKozepre">
                       <h2>Menü</h2>
+                      </div>
+
+                      <div className="ButKozepre"> 
                       <NmButton click={props.click} ></NmButton>
+                      </div>
+                     
                     </div>
                     
-                    <div className="Tel_Email_kontener">
+                    <div className="TelEmailKontener">
                       
                       <div className="Telefon">
                         <div>
@@ -42,7 +52,7 @@ const NmToolbar = props => (
                    
                       <div className="Email" >
                         <img src={email} alt="email" ></img> 
-                        <h2>nikolicsmilan@gmail.com</h2>
+                         <p>nikolicsmilan@gmail.com</p>
                       </div>
                     
                     </div>
@@ -78,8 +88,8 @@ const NmToolbar = props => (
                       </ul>               
             </div>
 
-            <div className="EU_Logo_kontener_desktop">
-                  <img className="EU_logo_Desktop" src={EU_logo_Desktop} alt="EU_logo_Desktop"></img> 
+            <div className="EuLogoKontenerDesktop">
+                  <img className="EuLogoDesktop" src={EU_logo_Desktop} alt="EU_logo_Desktop"></img> 
             </div>        
 
    </div>    
