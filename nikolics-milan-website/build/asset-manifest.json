@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.edbb5263.chunk.css",
-    "main.js": "/static/js/main.d236ed36.chunk.js",
-    "main.js.map": "/static/js/main.d236ed36.chunk.js.map",
+    "main.css": "/static/css/main.d8c8359d.chunk.css",
+    "main.js": "/static/js/main.afadd582.chunk.js",
+    "main.js.map": "/static/js/main.afadd582.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
     "static/js/2.36fdd192.chunk.js": "/static/js/2.36fdd192.chunk.js",
     "static/js/2.36fdd192.chunk.js.map": "/static/js/2.36fdd192.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8462c92a479941ee10af7124cd0196ec.js": "/precache-manifest.8462c92a479941ee10af7124cd0196ec.js",
+    "precache-manifest.a50b920ab173b008168163c0aaad6709.js": "/precache-manifest.a50b920ab173b008168163c0aaad6709.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.edbb5263.chunk.css.map": "/static/css/main.edbb5263.chunk.css.map",
+    "static/css/main.d8c8359d.chunk.css.map": "/static/css/main.d8c8359d.chunk.css.map",
     "static/js/2.36fdd192.chunk.js.LICENSE.txt": "/static/js/2.36fdd192.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
@@ -29,7 +29,7 @@
     "static/media/email-min.PNG": "/static/media/email-min.aa7faa1a.PNG",
     "static/media/felfele13.PNG": "/static/media/felfele13.69e17332.PNG",
     "static/media/finish.jpg": "/static/media/finish.f00fce78.jpg",
-    "static/media/info-gomb.svg": "/static/media/info-gomb.08f42893.svg",
+    "static/media/info-gomb3.svg": "/static/media/info-gomb3.4c955413.svg",
     "static/media/kordiagram.png": "/static/media/kordiagram.950b3200.png",
     "static/media/megoldas2.png": "/static/media/megoldas2.32f6ed78.png",
     "static/media/nikolicsmilan_logo_12.PNG": "/static/media/nikolicsmilan_logo_12.fbc00f9f.PNG",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.3f67dda9.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.36fdd192.chunk.js",
-    "static/css/main.edbb5263.chunk.css",
-    "static/js/main.d236ed36.chunk.js"
+    "static/css/main.d8c8359d.chunk.css",
+    "static/js/main.afadd582.chunk.js"
   ]
 }

@@ -48,9 +48,9 @@
 .ButtonLogoKontener {
   display: flex;
   flex-direction: column;
-  float: left;
+ /* float: left;*/
   align-items: left;
-  /*border: 3px solid purple;*/
+  border: 3px solid purple;
   margin-left: 1rem;
   padding-left: 1%;
 }
@@ -75,7 +75,7 @@
 
   /*1*/
 .ButKozepre {
-   /* border: 1px solid red;*/
+   border: 1px solid green;
   }
 
   /*1*/
@@ -83,7 +83,7 @@
   display:flex;
   flex-direction: column; 
   color: rgba(40, 164, 241, 0.938);  
- /* border: 3px solid green;*/
+  border: 3px solid green;
   width: 100%;
   padding-left: 1%;
   margin-top: 2%;
@@ -93,7 +93,7 @@
 .Telefon {
   display: flex;
   width:1.3rem;
- /* border: 3px solid yellow;*/
+  border: 3px solid yellow;
   width: 13rem;
   align-items: center;
   padding-bottom: 1%;

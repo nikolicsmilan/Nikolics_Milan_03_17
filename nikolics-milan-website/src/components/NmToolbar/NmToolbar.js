@@ -25,8 +25,8 @@ const NmToolbar = props => (
 
           {/*1*/}
                 <div className="ButtonLogoKontener">
-                    <div className="Button">
 
+                    <div className="Button">
                       <div className="ButKozepre">
                       <h2>Menü</h2>
                       </div>

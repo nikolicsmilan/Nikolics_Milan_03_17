@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './BemCsomTulSor.css';
-import info_button from '../../assets/Card/info-gomb.svg';
+import info_button from '../../assets/Card/info-gomb3.svg';
 
 
 const BemCsomTulSor = props => {

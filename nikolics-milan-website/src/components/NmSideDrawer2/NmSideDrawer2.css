@@ -23,7 +23,7 @@
       background: white;     
       position: absolute;
       /*top: 4rem;*/
-      left: 0;       
+     /* left: 0;      */ 
       opacity:0.9;
       /*Itt a megoldás- alacsonybnak kell 
       lennie mint minden más kivéve a backdrop*/
@@ -33,7 +33,7 @@
       /*background:  #cca353;*/
       transform: translateY(0);
       transition: transform 0.3s ease-out;
-      border: 3px solid red;
+      border: 3px solid orange;
 
     }
 
