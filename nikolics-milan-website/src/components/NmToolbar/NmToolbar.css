@@ -29,9 +29,10 @@
   width: 100%;  
   flex-direction: column; 
   background-color: white;
-  max-height: 3rem;
+ /* max-height: 3rem;*/
   z-index: 999;  
   top:0;
+  border: 3px solid purple;
 }
 
  /*1*/
@@ -53,6 +54,8 @@
   border: 3px solid purple;
   margin-left: 1rem;
   padding-left: 1%;
+  /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
+ /* height:10rem;*/
 }
 
  /*1*/
@@ -75,7 +78,7 @@
 
   /*1*/
 .ButKozepre {
-   border: 1px solid green;
+   border: 1px dashed green;
   }
 
   /*1*/

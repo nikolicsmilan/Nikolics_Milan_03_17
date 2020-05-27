@@ -15,14 +15,15 @@
     .Open {
       display: flex;
       flex-direction: row;
-      justify-content: left;
+      /*justify-content: left;*/
       border-bottom: 3px dashed rgba(40, 164, 241, 0.938);
       height: 100%;
       max-height: 20rem;
       width: 100%;
       background: white;     
-      position: absolute;
+      /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
       /*top: 4rem;*/
+      /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
      /* left: 0;      */ 
       opacity:0.9;
       /*Itt a megoldás- alacsonybnak kell 
@@ -33,7 +34,7 @@
       /*background:  #cca353;*/
       transform: translateY(0);
       transition: transform 0.3s ease-out;
-      border: 3px solid orange;
+      border: 3px solid violet;
 
     }
 
