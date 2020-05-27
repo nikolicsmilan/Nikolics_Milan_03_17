@@ -19,7 +19,7 @@ const BaseSzoveg = props =>{
 
              <div className='Csomag_leiras_bem'>  
                  <div className='Szoveg_bem'>         
-                        Ez a Professzionális Weboldal ideális arra,
+                        Ez a Professzionális weboldal ideális arra,
                         hogy bemutassa vállakozását ügyfelei
                         számára megnyerő módon. Alapkövetelmény egy sikeres
                         és modern vállalkozás számára.                  

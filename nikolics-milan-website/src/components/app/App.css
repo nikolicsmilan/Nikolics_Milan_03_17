@@ -78,7 +78,9 @@ select {
 }
 
 
-/*EZ EGY MÁSIK RESET*/
+/*EZ EGY MÁSIK RESET ELEJE*/
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -450,40 +452,7 @@ textarea {
 
 /*EZ EGY MÁSIK RESET VÉGE*/
 
-.App_egesz{
-  display:flex;
-  flex-direction: column;
-  /*position: relative;*/
-  border: 3px dashed purple;
-  justify-self: center;
-  align-items: center;
-  width:100%; 
- 
-}
 
-.App_navbar{
-    display:flex;
-    flex-direction: row;
-    /*position: relative;*/
-   /* border: 3px dashed orange;*/
-   /* justify-self: center;
-    align-items: center;*/
-    width:100%;  
-    /*margin-bottom: 3rem;*/
-}
-
-
-.App_egesz-body{
- padding-top: 0.5%;
- padding-left: 1.5%;
- padding-right: 1.5%;
- display:flex;
- flex-direction: column;
- justify-self: center;
- width:100%; 
-/*border: 3px dashed blue;*/
-
-}
 
 
 /* 0. Mini SmartPhones ELEJE*/
