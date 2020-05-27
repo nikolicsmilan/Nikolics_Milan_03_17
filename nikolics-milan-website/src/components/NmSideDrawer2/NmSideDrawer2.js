@@ -50,13 +50,13 @@ const NmSideDrawer2 = props => {
     changingCssClass4='Zar';
 
    }else if (toogleState.toogles[0].number0 ===2){
-    Fooszlop='Zar1';
+    Fooszlop='Nyit';
     changingCssClass1='Zar1';
     changingCssClass2='Zar';
     changingCssClass3='Zar';
     changingCssClass4='Zar';
    }else if (toogleState.toogles[0].number0 ===3){
-    Fooszlop='Zar1';
+    Fooszlop='Nyit';
     changingCssClass1='Zar1';
     changingCssClass2='Zar';
     changingCssClass3='Zar';
@@ -115,7 +115,7 @@ const toogleHandler2 = () =>{
         <ul className={Fooszlop}>
             <li onClick={toogleHandler0}><NavLink to="/"  >Főoldal</NavLink></li> 
          </ul>
-<ul>
+        <ul>
             <li onClick={toogleHandler1}> <NavLink to="/"  >Weboldal-Árak</NavLink> </li> 
                 <ul className={changingCssClass1}>
                     <li> <NavLink to={{         
@@ -131,12 +131,16 @@ const toogleHandler2 = () =>{
                                         hash: "#ugyfelszerzo",
                                         }}>Ügyfélszerző</NavLink>  </li>               
                  </ul>
-                 </ul>
-                 <ul>
-            <li onClick={toogleHandler2}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
-            <li onClick={toogleHandler3}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
-            <li onClick={toogleHandler4}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
         </ul>
+        <ul>
+            <li onClick={toogleHandler2}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
+        </ul>
+        <ul>
+            <li onClick={toogleHandler3}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
+      </ul>
+       <ul>
+            <li onClick={toogleHandler4}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
+     </ul>
                     
             
        
