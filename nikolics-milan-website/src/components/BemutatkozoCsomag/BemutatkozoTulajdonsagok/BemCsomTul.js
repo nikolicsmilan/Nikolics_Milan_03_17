@@ -12,8 +12,8 @@ const BemCsomTul = props => {
             <BemCsomTulSor
                 kep={pipa2}
                 felirat='Egyedi tervezés'
-                felugro='Az ön weboldala egyedi tervezéssel készül így az 
-                ön igényeihez van szabva és  igazán kiemelkedik a többi közül. 
+                felugro='Az Ön weboldala egyedi tervezéssel készül, így az 
+                Ön igényeihez van szabva, és  igazán kiemelkedik a többi közül. 
                 Ezzel szemben a sablonból készült weboldalaknak több ezer klónja is lehet,
                 amit így egy lehetséges vásárló bóvlinak mínősíthet.'
                 appear='BemAppear'  
@@ -22,28 +22,28 @@ const BemCsomTul = props => {
                   kep={pipa2}
                 felirat='Mobilbarát'
                 felugro='Weboldala mínőségi módon jelenik meg több fajta eszközön is.
-                 Az internetet használók fele nem asztali számítógépet hanem
+                 Az internetet használók fele nem asztali számítógépet, hanem
                  mobiltelefont vagy más okoseszközt használ. Ha nem akar elesni kliensei 
-                 felétől szüksége van erre az opcióra.'
+                 felétől, szüksége van erre az opcióra.'
                 appear='BemAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
                 felirat='SSD tárhely'
-                felugro='Modernebb és drágább mint a hagyományos tárhelyek. Az eredmény megnövekedett
+                felugro='Modernebb és drágább, mint a hagyományos tárhelyek. Az eredmény megnövekedett
                 kiszolgálási sebbeség, ami kulcsfontosságú tényező a vásárlók szempontjából. Ha
-                weboldala nem tőltödik be néhány másodperc alatt a legtöbben elkattintanak...'
+                weboldala nem tőltödik be néhány másodperc alatt, a legtöbben elkattintanak...'
                 appear='BemAppear'  
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
                 felirat='Biztonság'
                 felugro='Weboldalát  SSL tanusítvány védi.
-                Így a  weboldalán megadott adatok nem láthatók mindenki számára 
-                aki az internetet használja. Ez alapkövetelmény ma már egy weboldaltól.
-                Az SSL nélküli weboldalakat a chrome weböngésző  nem biztonságosnak minősíti.
-                Nem érdemes ilyen weboldalakkal foglalkozni, adatokat megadni pedig főleg nem.
-                (pedig a weboldalak fele még ilyen)'
+                Így a  weboldalán megadott adatok nem láthatók mindenki számára, 
+                aki az internetet használja. Ez ma már alapkövetelmény egy weboldaltól.
+                Az SSL nélküli weboldalakat a Chrome webböngésző  nem biztonságosnak minősíti.
+                Nem érdemes ilyen weboldalakkal foglalkozni, adatokat megadni pedig főleg nem
+                (pedig a weboldalak fele még ilyen).'
                 appear='BemAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
@@ -52,7 +52,7 @@ const BemCsomTul = props => {
                 felugro='A weboldala megefelel a GDPR irányelveinek
                  (General Data Protection Regulation -
                  Általános Adatvédelmi Szabályozás). Ennek megfelelő
-                 cookie kezelés valamint az adatvédelmi tájékoztató.
+                 a cookie kezelés, valamint az adatvédelmi tájékoztató.
                  Ennek hiánya büntetést vonhat maga után.'
                 appear='BemAppear'  
             ></BemCsomTulSor>
@@ -61,25 +61,25 @@ const BemCsomTul = props => {
                 felirat='Webgyorsítás'
                 felugro='Weboldalának sebbesége nem csak
                  a kiszolgáló szervertől, illetve az internetkapcsolat minőségétől
-                 függ. A megírt kódot bizonyos struktuába kell helyezni, képeket, szövegeket
-                 be kell tömöríteni hogy minél kevésbé terhelje meg az ügyfél eszközét, 
-                 ezáltal minél gyorsabb legyen a betöltődés. Az ön weboldlala react-al készül
-                 ami SPA(single-page application) így sokkal gyorsabb mint a más MPA -t 
-                 használó weboldalak.'
+                 függ. A megírt kódot bizonyos struktúrába kell helyezni, a képeket és szövegeket
+                 be kell tömöríteni, hogy minél kevésbé terhelje meg az ügyfél eszközét, és 
+                 ezáltal minél gyorsabb legyen a betöltődés. Az Ön weboldlala React-tal készül,
+                 ami SPA (single-page application), így sokkal gyorsabb, mint a más,
+                 MPA-t (multi-page application) használó weboldalak.'
                 appear='BemAppear'  
             ></BemCsomTulSor>
                <BemCsomTulSor
                 kep={pipa2}
                 felirat='1 Gbps internetkapcsolat'
-                felugro='A weboldalt kiszolgáló szerver 1 Gbps sávszélességű kapcsolattal rendelkezik
-                valamint korlátlan adatforgalommal. Apache webszerver fut rajta amin egyszerre 
-                (maximum) 10 000 szál lehet. A többi technológiával együtt ez lehetővé teszi hogy
-                webodala akkor is elérhető legyen ha egyszerre sokan látogatják meg.'
+                felugro='A weboldalt kiszolgáló szerver 1 Gbps sávszélességű kapcsolattal rendelkezik,
+                valamint korlátlan adatforgalommal. Apache webszerver fut rajta, amin egyszerre 
+                akár 10 000 szál is lehet. A többi technológiával együtt ez lehetővé teszi, hogy
+                weboldala akkor is elérhető legyen, ha egyszerre sokan látogatják meg.'
                 appear='BemAppear'  
             ></BemCsomTulSor>
             <BemCsomTulSor
                   kep={pipa2}
-                felirat='Max 5 aloldal'
+                felirat='Maximum 5 aloldal'
                 felugro='Weboldala nem csupán egy főoldalból áll. Vállalkozásától függően több
                 aloldalra lehet szüksége, amiken főtéma több altémára van bontva.
                  A bemutatkozó csomagban 5 ilyen aloldalra van lehetőség. Ha ennél többre
@@ -88,7 +88,7 @@ const BemCsomTul = props => {
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
-                felirat='Max 5 kép'
+                felirat='Maximum 5 db kép'
                 felugro='Weboldalának megjelenésének minőségét jelentősen befolyásoljak a rajta
                  elhelyezett jól megválasztott képek. Ilyen magas minőségű
                  képeket lehet találni ingyenesen is, de nem biztos hogy passzolni fognak
@@ -102,7 +102,7 @@ const BemCsomTul = props => {
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
-                felirat='1 Hónap ingyenes karbantartás'
+                felirat='1 hónap ingyenes karbantartás'
                 felugro='Idővel biztosan szeretne kisebb nagyobb változatatásokat, frissítésket weblapján.
                 Weboldala olyan mint a gépjárműje: folyamatos karbantartásra szorul annak érdekében hogy
                 megfelelően műkdödjön. Az árak számos szempontól függnek például a változtatások típusa,

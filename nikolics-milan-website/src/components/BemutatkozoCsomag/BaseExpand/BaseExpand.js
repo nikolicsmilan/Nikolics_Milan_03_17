@@ -22,14 +22,14 @@ const BaseExpand = props =>{
       
           Jó választás lehet területileg korlátozott,
           vagy alacsony költségvetésű vállakozások számára.          
-          Kiválóan alkalmas a következőkre pl:     
+          Kiválóan alkalmas például a következőkre:    
 
           <ul className="FelsorolBem">
-            <li><span>Potenciális ügyfelei tájékoztatására.</span></li>
-            <li><span>Vállalkozása színvonalának növelésére.</span></li>
-            <li><span>Termékei népszerűsítésére.</span></li>
-            <li><span>Vállalkozása online referenciapontjának.</span></li>
-            <li><span>Munkamintái bemutatására.</span></li>
+            <li><span>Potenciális ügyfelei tájékoztatására</span></li>
+            <li><span>Vállalkozása színvonalának növelésére</span></li>
+            <li><span>Termékei népszerűsítésére</span></li>
+            <li><span>Vállalkozása online referenciapontjának</span></li>
+            <li><span>Munkamintái bemutatására</span></li>
           </ul>        
         </div>
 
