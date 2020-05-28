@@ -455,8 +455,6 @@ textarea {
   flex-direction: column;
   /*position: relative;*/
   border: 3px dashed red;
-  
-  align-items: center;
   width:100%; 
  
 }
@@ -464,11 +462,12 @@ textarea {
 .App_navbar{
     display:flex;
     flex-direction: row;
+    width:100%;  
     /*position: relative;*/
    /* border: 3px dashed orange;*/
    /* justify-self: center;
     align-items: center;*/
-    width:100%;  
+   
     /*margin-bottom: 3rem;*/
 }
 
@@ -503,17 +502,17 @@ textarea {
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
   
-    .App_egesz{
+    .AppEgesz {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
-        border: 3px dashed red;
-        align-items: flex-start;
+       /* border: 3px dashed red;*/
+       /* align-items: flex-start;*/
        /* width:100%; */
        
       }
       
-      .App_navbar{
+      .AppNavbar {
           display:flex;
           flex-direction: row;
           justify-content: flex-start;
@@ -527,14 +526,13 @@ textarea {
       }
       
       
-      .App_egesz-body{
+      .AppEgeszBody{
        padding-top: 0.5%;
        padding-left: 1.5%;
        padding-right: 1.5%;
-       display:flex;
-       flex-direction: column;
+      
       /* width:100%; */
-      /*border: 3px dashed blue;*/
+     /* border: 3px dashed blue;*/
       
       }
       

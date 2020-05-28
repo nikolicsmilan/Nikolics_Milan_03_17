@@ -15,7 +15,7 @@ import Kapcsolat from '../Kapcsolat/Kapcsolat';
 import Technologia from '../Technologia/Technologia';
 import Nmchat from '../NM_chat/Nmchat';
 import Csomagok from '../Csomagok/Csomagok';
-import FacebookComment from '../FacebookComment/FacebookComment';
+import FacebookComment from '../MyComment/MyComment';
 /*const AsyncNmchat = asyncComponent(() => {
   return import('./../NM_chat/Nmchat');
 });*/
@@ -25,17 +25,20 @@ class App extends Component {
   
         render() {
         return (
-          <div className="App_egesz">      
+             
+
           <BrowserRouter id="UA-158844454-1">
-          <div className="App_navbar">
+        <div className="AppEgesz">   
+
+          <div className="AppNavbar">
               <Route path="/" component={NmNavBar}/>
           </div>
-          <div className="App_egesz-body">
+          <div className="AppEgeszBody">
         
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               <Route exact path="/" component={ReklamSzoveg}/> 
-              <Route exact path="/" component={FacebookComment}/> 
+            {/*  <Route exact path="/" component={FacebookComment}/> */}
               <Route exact path="/" component={Footer}/> 
 
               <Route path="/Seo" component={Seo}/>
@@ -49,9 +52,12 @@ class App extends Component {
               <Route path="/Kapcsolat" component={Kapcsolat}/>
               <Route path="/Kapcsolat" component={Footer}/>
          </div>  
+
+         </div>
         
             </BrowserRouter>
-            </div>
+
+         
             );
     }
 }

@@ -50,11 +50,11 @@
         border: 3px dashed red;
         width: auto;
 
-      /*  display: flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        max-height: 100rem;
-        width: 70%;*/
+        /*max-height: 100rem;*/
+        width: 100%;
         
      }
      .FaceFelso {
@@ -95,15 +95,7 @@
         
       }
 
-      .fb-post>span {
-        max-width: 100%;
-    }
-    .fb-post iframe {
-      border: 0;
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-    }
+  
     
   }
 
@@ -115,7 +107,7 @@
     .HozzaszolasEgesz {
         /* border: 3px solid red;*/
          display: flex;
-        
+        width:80%;
          flex-direction: column;
          max-height: 100rem;
      }
