@@ -34,7 +34,8 @@ class App extends Component {
               <Route path="/" component={NmNavBar}/>
           </div>
           <div className="AppEgeszBody">
-        
+          
+              <Route exact path="/" component={NmBemutatkozas2}/> 
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               <Route exact path="/" component={ReklamSzoveg}/> 
