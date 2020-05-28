@@ -47,38 +47,52 @@
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
     .HozzaszolasEgesz {
-        border: 3px solid red;
-         display: flex;
+        border: 3px dashed red;
+        width: auto;
+
+      /*  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 100rem;
+        width: 70%;*/
         
-         flex-direction: column;
-         max-height: 100rem;
      }
      .FaceFelso {
+         /*
          display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         max-height: 100rem;
-     
+         max-height: 100rem;*/
+      
      }
      
      .Hozzaszolas {
-      /* border: 3px solid green;*/
+        border: 3px solid purple;
+
+        /*
         display: flex;
         justify-content: center;
        /* margin-top:1rem;*/
-        padding-top: 3rem;
-        max-height: 100rem;
-        width:100%;
+      /*  padding-top: 3rem;
+        max-height: 100rem;*/
+      
      }
      .Hozzaszolas2 {
         /* border: 3px solid red;*/
+
+
+
+        /*
          display: flex;
+         flex-direction: column;
          justify-content: center;
+         align-items: center;
          margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
+         padding: 3rem;*/
+              
+         border: 3px solid green;
+        
       }
 
     

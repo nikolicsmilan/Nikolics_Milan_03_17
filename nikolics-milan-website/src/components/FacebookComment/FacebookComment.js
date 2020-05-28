@@ -8,53 +8,16 @@ class EmbeddedComment extends Component {
     render() {
         return (
             <div className="HozzaszolasEgesz">
-                   
-                <div className="FaceFelso">
-
-                    <div className="Hozzaszolas2">
-                        <FacebookProvider appId="483066125703881">
+                 <FacebookProvider width="auto" appId="483066125703881">
                             <Like href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" colorScheme="dark" showFaces share />
-                        </FacebookProvider>                  
-                    </div>
-               
-                    <div className="Hozzaszolas">
-                        <FacebookProvider appId="483066125703881">
-                            <Comments ></Comments>
-                        </FacebookProvider>                  
-                    </div>
-                    {/*
-                    <div className="Hozzaszolas2">
-                        <FacebookProvider appId="483066125703881">
-                        <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=145274667062735&id=108139094109626" /> 
-                        </FacebookProvider>                  
-                    </div>*/}
-                </div>
-{/*
-                <div className="FaceFelso">
-                    <div className="Hozzaszolas">
-                        <FacebookProvider appId="483066125703881">
-                            <Comments ></Comments>
-                        </FacebookProvider>                  
-                    </div>
-                    <div className="Hozzaszolas2">
-                        <FacebookProvider appId="483066125703881">
-                        <EmbeddedPost href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" /> 
-                        </FacebookProvider>                  
-                    </div>
+                        </FacebookProvider>   
 
-                    <div className="FaceFelso">
-                    <div className="Hozzaszolas">
-                        <FacebookProvider appId="483066125703881">
-                            <Comments ></Comments>
-                        </FacebookProvider>                  
-                    </div>
-                    <div className="Hozzaszolas2">
-                        <FacebookProvider appId="483066125703881">
-                        <EmbeddedPost href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" /> 
-                        </FacebookProvider>                  
-                    </div>
-                </div>
-</div>*/}
+                        <FacebookProvider width="auto"  appId="483066125703881">
+                            <Comments width="auto" ></Comments>
+                        </FacebookProvider>  
+                   izéééééééééééééééééééé
+                   <div class="fb-comments" data-href="https://testx7.hu" data-numposts="5" data-width="50%"></div>
+          
             </div>
         );
     }

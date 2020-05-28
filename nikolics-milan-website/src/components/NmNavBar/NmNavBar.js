@@ -17,10 +17,10 @@ const NmNavBar = props => {
                        return(
                     <div className="NM_NavBar_egesz">
                       <NmToolbar click={toogleHandler}></NmToolbar>
-                      <NmSideDrawer2
+                      <NmSideDrawer
                       open={isToggledOn}
                       click={toogleHandler}
-                      ></NmSideDrawer2>                      
+                      ></NmSideDrawer>                      
                     </div> 
                     )
                     }
