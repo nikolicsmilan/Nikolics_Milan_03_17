@@ -15,6 +15,7 @@
     .Open {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
       /*justify-content: left;*/
       border-bottom: 3px dashed rgba(40, 164, 241, 0.938);
       height: 100%;
@@ -31,17 +32,17 @@
       lennie mint minden más kivéve a backdrop*/
       /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
       KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
-      z-index: 860;
+      z-index: 2860;
       /*background:  #cca353;*/
       transform: translateY(0);
       transition: transform 0.3s ease-out;
       border: 3px solid violet;
-
+      padding-top: 3rem;
     }
 
     .Open ul {
      /* border: 6px solid orange;*/
-      padding-top: 3rem;
+     /*padding-top: 3rem;*/
      
     }
 
@@ -52,14 +53,15 @@
     }
 
     .Closed { 
-      transform: translateY(-500%);
+      transform: translateY(-1000%);
       transition: transform 0.3s ease-out;
       /*visibility: hidden;*/
     }
   
     /*  SAJÁT STATEBŐL JŐVŐ OSZTÁLYOK ELEJE */
  
-     .Nyit {
+     .Nyit
+      {
       display:flex;
      }
 
@@ -70,7 +72,14 @@
     .Nyit2 {
       display: flex;
       flex-direction: column;
-      border: 3px solid purple;
+      /*align-content: flex-end;*/
+      border: 3px solid yellow;
+      
+    }
+
+    .Nyit2 ul{
+      padding: 0;
+      margin:0;
     }
 
     /*  SAJÁT STATEBŐL JŐVŐ OSZTÁLYOK VÉGE */      

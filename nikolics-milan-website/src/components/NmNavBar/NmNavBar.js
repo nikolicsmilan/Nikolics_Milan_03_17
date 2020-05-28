@@ -11,7 +11,13 @@ const NmNavBar = props => {
   
     const toogleHandler = () => {
         setToggle(!isToggledOn);
-        console.log(isToggledOn)
+        console.log('Ez a NavBarban van az első: '+isToggledOn)
+      };    
+
+      /*KIKAPCSOL CSAK A BACKDROPON ÉRINTVE */
+      const toogleHandler2 = () => {
+        setToggle(false);
+        console.log('Ez a NavBarban van a második: '+isToggledOn)
       };    
 
                        return(
@@ -19,7 +25,7 @@ const NmNavBar = props => {
                       <NmToolbar click={toogleHandler}></NmToolbar>
                       <NmSideDrawer2
                       open={isToggledOn}
-                      click={toogleHandler}
+                      click={toogleHandler2}
                       ></NmSideDrawer2>                      
                     </div> 
                     )

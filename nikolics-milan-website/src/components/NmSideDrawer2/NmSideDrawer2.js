@@ -28,36 +28,42 @@ const NmSideDrawer2 = props => {
    }
    /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
 
-   let Fooszlop;
-   let changingCssClass1;
+   let FoSor;
+   let webaraklenyilo;
    let changingCssClass2;
    let changingCssClass3;
    let changingCssClass4;
 
    if(toogleState.toogles[0].number0 ===0) {
-    Fooszlop='Nyit';
-    changingCssClass1='Zar1';
+    FoSor='Nyit';
+    webaraklenyilo='Zar1';
     changingCssClass2='Zar';
     changingCssClass3='Zar';
     changingCssClass4='Zar';
     /*state hogy itt vagyok */
 
-   }else if (toogleState.toogles[0].number0 ===1) {
-    Fooszlop='Nyit';
-    changingCssClass1='Nyit2';
+   }else if (toogleState.toogles[0].number0 === 1) {
+    FoSor='Nyit';
+    webaraklenyilo='Nyit2';
     changingCssClass2='Zar';
     changingCssClass3='Zar';
     changingCssClass4='Zar';
 
    }else if (toogleState.toogles[0].number0 ===2){
-    Fooszlop='Nyit';
-    changingCssClass1='Zar1';
+    FoSor='Nyit';
+    webaraklenyilo='Zar1';
     changingCssClass2='Zar';
     changingCssClass3='Zar';
     changingCssClass4='Zar';
-   }else if (toogleState.toogles[0].number0 ===3){
-    Fooszlop='Nyit';
-    changingCssClass1='Zar1';
+   }else if (toogleState.toogles[0].number0 === 3){
+    FoSor='Nyit';
+    webaraklenyilo='Zar1';
+    changingCssClass2='Zar';
+    changingCssClass3='Zar';
+    changingCssClass4='Zar';
+   }else if (toogleState.toogles[0].number0 === 4){
+    FoSor='Nyit';
+    webaraklenyilo='Zar1';
     changingCssClass2='Zar';
     changingCssClass3='Zar';
     changingCssClass4='Zar';
@@ -102,7 +108,7 @@ const toogleHandler2 = () =>{
   const toogleHandler4 = () =>{  
   setToogleState ({
       toogles: [
-          { number1: 4},                       
+          { number0: 4},                       
    ] 
   }); 
   };
@@ -110,14 +116,17 @@ const toogleHandler2 = () =>{
   return (
 <div className="SideEgesz">
     {/* Open vagy Closed*/}
-    <nav className={sideDrawerClass}>  
+    <div className={sideDrawerClass}>
+        {/* Nyit vagy Zar1*/}
+    <nav className={FoSor}>  
    
-        <ul className={Fooszlop}>
-            <li onClick={toogleHandler0}><NavLink to="/"  >Főoldal</NavLink></li> 
-         </ul>
+        <ul >
+            <li onClick={toogleHandler0}><NavLink to="/" >Főoldal</NavLink></li> 
+        </ul>
+
         <ul>
-            <li onClick={toogleHandler1}> <NavLink to="/"  >Weboldal-Árak</NavLink> </li> 
-                <ul className={changingCssClass1}>
+            <li onClick={toogleHandler1}> <NavLink to="/" >Weboldal-Árak</NavLink> </li> 
+                <ul className={webaraklenyilo}>
                     <li> <NavLink to={{         
                                         pathname: "/",      
                                         hash: "#bemutatkozo",
@@ -130,22 +139,23 @@ const toogleHandler2 = () =>{
                                         pathname: "/",      
                                         hash: "#ugyfelszerzo",
                                         }}>Ügyfélszerző</NavLink>  </li>               
-                 </ul>
+                </ul>
         </ul>
+
         <ul>
             <li onClick={toogleHandler2}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
         </ul>
+
         <ul>
-            <li onClick={toogleHandler3}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
-      </ul>
-       <ul>
-            <li onClick={toogleHandler4}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
-     </ul>
-                    
-            
-       
+                <li onClick={toogleHandler3}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
+        </ul>
+
+        <ul>
+                <li onClick={toogleHandler4}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
+        </ul>                 
         
     </nav>
+    </div>
     <div>
     {backdrop} 
     </div>
