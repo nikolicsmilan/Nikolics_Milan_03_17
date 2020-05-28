@@ -13,10 +13,10 @@ class EmbeddedComment extends Component {
                         </FacebookProvider>   
 
                         <FacebookProvider width="auto"  appId="483066125703881">
-                            <Comments width="auto" ></Comments>
+                            <Comments width="auto" data-width="auto" ></Comments>
                         </FacebookProvider>  
                    izéééééééééééééééééééé
-                   <div class="fb-comments" data-href="https://testx7.hu" data-numposts="5" data-width="50%"></div>
+                 
           
             </div>
         );

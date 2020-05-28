@@ -31,9 +31,7 @@ class App extends Component {
               <Route path="/" component={NmNavBar}/>
           </div>
           <div className="App_egesz-body">
-          <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v7.0&appId=620383108811127&autoLogAppEvents=1"></script>
-              <Route exact path="/" component={NmBemutatkozas2}/>          
+        
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               <Route exact path="/" component={ReklamSzoveg}/> 

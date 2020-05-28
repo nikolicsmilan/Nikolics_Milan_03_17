@@ -95,7 +95,15 @@
         
       }
 
-    
+      .fb-post>span {
+        max-width: 100%;
+    }
+    .fb-post iframe {
+      border: 0;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
     
   }
 
