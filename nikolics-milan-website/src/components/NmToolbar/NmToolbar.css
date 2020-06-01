@@ -454,7 +454,7 @@ VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
 .DesktopMenu {
 display:flex;
 justify-content: space-between;
-height: 15rem;
+height: 12rem;
 }
 
 /*6*/
@@ -489,7 +489,7 @@ color:rgba(40, 164, 241, 0.938);
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: 30rem;
+width: 25rem;
 }
 
 /*6*/
@@ -500,7 +500,7 @@ width: 30rem;
 
 /*6*/
 .EuLogoKontenerDesktopBel img {
-height: 15rem;
+height: 12rem;
 } 
 
 }
