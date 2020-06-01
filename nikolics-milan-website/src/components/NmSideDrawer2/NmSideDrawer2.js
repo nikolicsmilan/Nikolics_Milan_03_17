@@ -229,7 +229,7 @@ const toogleHandler0 = () =>{
                     {/* WebarakNyit vagy WebarakZar" */}
                     <ul className={webarak} >
                                 
-                            <li id="lenyiloelejeid"><p>EGYEDI KÉSZÍTÉSŰ: </p> </li>    
+                               
                             <li>
                                  <NavLink  to={{         
                                                 pathname: "/",      
@@ -250,7 +250,7 @@ const toogleHandler0 = () =>{
                                                 }}>- Ügyfélszerző weboldal</NavLink> 
                             </li>    
 
-                            <li><p>HAGYOMÁNYOS:</p></li>  
+                          
                             <li> 
                                 <NavLink to={{         
                                                 pathname: "/",      
