@@ -46,7 +46,7 @@ const NmSideDrawer2 = props => {
    let webArCim="WEBOLDAL-ÁRAK";
    
  
-    /*000 */
+    /*000 =0 */
    if(
        toogleState.toogles[0].number0 === 0
      && toogleState.toogles[1].number1 === 0 
@@ -58,7 +58,7 @@ const NmSideDrawer2 = props => {
         seoGomb="▼ NYIT";
         seolenyilo="SeoZar";
    }
-   /*010 */
+   /*010 =2*/
    else if (
        toogleState.toogles[0].number0 === 0
     && toogleState.toogles[1].number1 === 1
@@ -70,7 +70,7 @@ const NmSideDrawer2 = props => {
         seolenyilo="SeoNyit";
 
    }
-   /*001*/
+   /*001 =1*/
    else if (toogleState.toogles[0].number0 === 0
     && toogleState.toogles[1].number1 === 0 
     && toogleState.toogles[2].number2 === 1     
@@ -81,7 +81,7 @@ const NmSideDrawer2 = props => {
         seoGomb="▼ NYIT";
         seolenyilo="SeoZar";
    }
-   /*011 */
+   /*011 =3 */
    else if (toogleState.toogles[0].number0 === 0
     && toogleState.toogles[1].number1 === 1 
     && toogleState.toogles[2].number2 === 1     
@@ -93,7 +93,7 @@ const NmSideDrawer2 = props => {
         seolenyilo="SeoNyit";
         
    }
-  /*100 */
+  /*100 =4*/
    else if (toogleState.toogles[0].number0 === 1
     && toogleState.toogles[1].number1 === 0
     && toogleState.toogles[2].number2 === 0     
@@ -105,7 +105,7 @@ const NmSideDrawer2 = props => {
         seolenyilo="SeoZar";
 
    }
-   /*110*/
+   /*110 =6*/
    else if (toogleState.toogles[0].number0 === 1
     && toogleState.toogles[1].number1 === 1 
     && toogleState.toogles[2].number2 === 0    
@@ -117,7 +117,7 @@ const NmSideDrawer2 = props => {
         seolenyilo="SeoNyit";
     
    } 
-   /*101 */
+   /*101 =5*/
    else if (toogleState.toogles[0].number0 === 1
     && toogleState.toogles[1].number1 === 0
     && toogleState.toogles[2].number2 === 1     
@@ -127,6 +127,16 @@ const NmSideDrawer2 = props => {
         webGomb="▲ ZAR";  
         seoGomb="▼ NYIT";
         seolenyilo="SeoZar";
+
+   } else if (toogleState.toogles[0].number0 === 1
+    && toogleState.toogles[1].number1 === 1
+    && toogleState.toogles[2].number2 === 1     
+    ) {
+    
+        webarak='WebarakNyit';
+        webGomb="▲ ZAR";  
+        seoGomb="▲ ZAR";
+        seolenyilo="SeoNyit";
 
    }
 
