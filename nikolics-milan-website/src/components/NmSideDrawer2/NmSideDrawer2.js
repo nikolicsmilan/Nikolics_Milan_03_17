@@ -214,7 +214,38 @@ const toogleHandler0 = () =>{
                     <ul>
                         <li><NavLink to="/" >FŐOLDAL</NavLink></li> 
                     </ul>
-                
+
+                    <ul className="NyiloMenu">     
+                                <li>
+                                    <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
+                                </li>      
+                                <li onClick={toogleHandler1}>
+                                    {seoGomb}
+                                </li>  
+                    </ul>  
+
+                        {/* SeoNyit vagy SeoZar */}
+                        <ul className={seolenyilo}>
+                                <li id="lenyiloelejeid">
+                                     <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seostart",
+                                        }}>- Seo Start</NavLink>
+                                </li>
+                                <li>
+                                     <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seoultimate",
+                                        }}>- Seo Ultimate</NavLink>
+                                </li>          
+                                <li id="lenyilovegeid"> 
+                                    <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seoultimate",
+                                        }}>- Seo Szövegírás</NavLink>
+                                </li>                          
+                    </ul>
+                {/* NEM EGYFORMA A KETTŐNÉL NAVLINK....*/}
                     <ul className="NyiloMenu">
 
                         <li onClick={toogleHandler0}>
@@ -229,7 +260,7 @@ const toogleHandler0 = () =>{
                     {/* WebarakNyit vagy WebarakZar" */}
                     <ul className={webarak} >
                                 
-                               
+                            <li id="lenyiloelejeid"><p>EGYEDI KÉSZÍTÉSŰ: </p> </li>    
                             <li>
                                  <NavLink  to={{         
                                                 pathname: "/",      
@@ -250,7 +281,7 @@ const toogleHandler0 = () =>{
                                                 }}>- Ügyfélszerző weboldal</NavLink> 
                             </li>    
 
-                          
+                            <li><p>HAGYOMÁNYOS:</p></li>  
                             <li> 
                                 <NavLink to={{         
                                                 pathname: "/",      
@@ -267,37 +298,10 @@ const toogleHandler0 = () =>{
                     
 
                    
-                    <ul className="NyiloMenu">     
-                                <li>
-                                    <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
-                                </li>      
-                                <li onClick={toogleHandler1}>
-                                    {seoGomb}
-                                </li>  
-                    </ul>  
+                   
 
                           
-                      {/* SeoNyit vagy SeoZar */}
-                    <ul className={seolenyilo}>
-                                <li id="lenyiloelejeid">
-                                     <NavLink to={{         
-                                        pathname: "/Seo",      
-                                        hash: "#seostart",
-                                        }}>- Seo Start</NavLink>
-                                </li>
-                                <li>
-                                     <NavLink to={{         
-                                        pathname: "/Seo",      
-                                        hash: "#seoultimate",
-                                        }}>- Seo Ultimate</NavLink>
-                                </li>          
-                                <li id="lenyilovegeid"> 
-                                    <NavLink to={{         
-                                        pathname: "/Seo",      
-                                        hash: "#seoultimate",
-                                        }}>- Seo Szövegírás</NavLink>
-                                </li>                          
-                    </ul>
+                  
                             
                   
 
