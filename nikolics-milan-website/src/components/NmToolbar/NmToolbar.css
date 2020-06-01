@@ -21,6 +21,7 @@
  /* border: 6px solid purple;*/
   width:100%;
   background-color: white;
+  position: relative;
   }         
 
    /*1*/
@@ -73,12 +74,14 @@
  /*1*/
 .Button h2 {       
   font-weight: 200;
- 
+  font-size: 1.5rem;
+  color:black;
   }
 
   /*1*/
 .ButKozepre {
   /* border: 1px dashed green;*/
+  font-size: 2rem;
   }
 
   /*1*/
@@ -147,10 +150,9 @@ right:0;
 
 /*1*/
 .EU_logo_Mobil {
-  width:8rem;
-  float:right;
+  width:9rem;
   z-index: 10000;    
- /* border:3px dashed black;*/
+/* border:3px dashed black;*/
   }
 
   /*MOBIL NÉZET ELEJE */

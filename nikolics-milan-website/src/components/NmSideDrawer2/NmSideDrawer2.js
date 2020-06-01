@@ -316,7 +316,7 @@ const toogleHandler0 = () =>{
         
             <div className="SideBezarkont">
                 <div className="SideBezar">
-                <h1 onClick={props.bezar}>Bezár </h1>
+                <h1 onClick={props.bezar}>BEZÁR </h1>
                 </div>    
             </div>
             
