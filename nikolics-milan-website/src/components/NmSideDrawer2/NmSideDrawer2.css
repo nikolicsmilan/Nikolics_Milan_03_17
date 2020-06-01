@@ -217,7 +217,7 @@
     } 
 
     .WebarakNyit {
-      display: flex;
+     
     }
 
     #lenyiloelejeid {
@@ -238,9 +238,7 @@
     .WebarakZar {
       display: none;
     }
-    .WebarakZar li{
-      display: none;
-    }
+ 
 
     .NyiloMenu {
       display: flex;
