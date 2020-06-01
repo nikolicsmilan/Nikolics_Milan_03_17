@@ -87,7 +87,7 @@
     .WebarakNyit li {
       color:rgba(40, 164, 241, 0.938);
       padding-left: 1.5rem;    
-    };
+    }
 
     .WebarakZar {
       display: none;
@@ -98,7 +98,7 @@
 
     .NyiloMenu {
       display: flex;
-    };
+    }
 
     .SeoNyit {
      /* display: flex;
