@@ -9,17 +9,17 @@ const Csomagok = props => {
       return (
           <div>
   <h2>EGYEDI KÉSZÍTÉSŰ WEBOLDALAK</h2>
-                <div className="Csomagok_egesz">
+                <div className="CsomagokEgesz">
                  
-                    <div className="Csomag_doboz" id="bemutatkozo">
+                    <div className="CsomagDoboz" id="bemutatkozo">
                     <BemutatkozoCsomag></BemutatkozoCsomag>
                     </div>
                   
-                    <div  className="Csomag_doboz" id="ceges">
+                    <div  className="CsomagDoboz" id="ceges">
                     <CegesCsomag></CegesCsomag>
                     </div>
                    
-                    <div className="Csomag_doboz" id="ugyfelszerzo"> 
+                    <div className="CsomagDoboz" id="ugyfelszerzo"> 
                     <UgyfelszerzoCsomag></UgyfelszerzoCsomag>
                     </div>
                 </div>
