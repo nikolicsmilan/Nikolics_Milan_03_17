@@ -216,9 +216,6 @@
       /*visibility: hidden;*/
     } 
 
-    .WebarakNyit {
-     
-    }
 
     #lenyiloelejeid {
     /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
@@ -230,15 +227,22 @@
     border-bottom: 1px dashed black;
      }
 
+     .WebarakNyit {
+     
+    }
+
     .WebarakNyit li {
       color:rgba(40, 164, 241, 0.938);
       padding-left: 1.5rem;    
     };
 
+    .WebarakNyit ul {
+      border:3px solid red;
+    };
+
     .WebarakZar {
-      display: none;
+     display: none;
     }
- 
 
     .NyiloMenu {
       display: flex;
@@ -287,8 +291,6 @@
       font-size: 1rem;
     }
    
-  
-
 }
 
 
