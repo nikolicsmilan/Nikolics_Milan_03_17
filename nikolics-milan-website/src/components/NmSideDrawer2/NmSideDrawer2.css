@@ -150,7 +150,145 @@
   
   /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-  
+  .SideEgesz {
+    display: flex;
+    flex-direction: column;
+    min-width:100%;
+  }
+
+  .SideDrawerNyit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*height: 100%;*/
+    width: 75%;
+    background: white;     
+    position: absolute;
+    z-index: 30000;
+    /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
+    /*top: 4rem;*/
+    /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
+   /* left: 0;      */ 
+    opacity:0.9;
+    /*Itt a megoldás- alacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 2860;
+    transform: translateX(0);
+    transition: transform 0.4s ease-out;
+    border: 3px solid rgba(40, 164, 241, 0.938);
+    padding-top: 1rem;
+    color:rgba(40, 164, 241, 0.938);
+  }
+
+  .SideDrawerNyit p {
+     /*EGYEDI KÉSZÍTÉSŰ*/
+   }
+
+   /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
+    CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
+    KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
+   .SideDrawerNyit ul {
+   /* background-color: red;*/
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);
+   border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   */
+    /*background-color: black;  */
+   }
+
+  .SideDrawerNyit li {
+    display: flex;
+    padding: 0.5rem;
+    width:100%;
+    color:rgba(40, 164, 241, 0.938);
+  }
+
+  /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
+  .SideDrawerNyit a {     
+    color:rgba(40, 164, 241, 0.938);  
+    /*border: 3px solid red; */ 
+  }
+
+  .SideDrawerZar { 
+    transform: translateX(-1000%);
+    transition: transform 0.3s ease-out;
+    /*visibility: hidden;*/
+  } 
+
+  .WebarakNyit {
+    
+  }
+
+  #lenyiloelejeid {
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
+  border-top: 1px dashed black;
+  }
+
+  #lenyilovegeid {
+  /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
+  border-bottom: 1px dashed black;
+   }
+
+  .WebarakNyit li {
+    color:rgba(40, 164, 241, 0.938);
+    padding-left: 1.5rem;    
+  };
+
+  .WebarakZar {
+    display: none;
+  }
+  .WebarakZar li{
+    display: none;
+  }
+
+  .NyiloMenu {
+    display: flex;
+  };
+
+  .SeoNyit {
+   /* display: flex;
+    flex-direction: column;
+    border-top: 1px dashed rgba(40, 164, 241, 0.938);
+    border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   
+    background-color: black;  */
+  }
+
+  .SeoNyit li {
+   /* padding-left: 1.5rem;*/
+    /*border:3px solid red;*/
+    padding-left: 1.5rem;
+  }
+
+  .SeoNyit ul {
+    border:3px solid green;
+  }
+
+  .SeoZar {
+    display: none;
+   /* border:3px solid green;*/
+  }
+
+  .SideBezarkont {
+    display: flex;    
+    justify-content: flex-end;      
+  }
+
+  .SideBezar {   
+    width:5rem;
+    margin-top:2%;
+    padding:1%;
+    text-align: center;
+    /*color:  rgba(40, 164, 241, 0.938);*/
+    color:black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border:2px solid black;
+    /*font-family: serif;*/
+   /* background-color: black;*/
+    font-size: 1rem;
+  }
+ 
   
 
 }
