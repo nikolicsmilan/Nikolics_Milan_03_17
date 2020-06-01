@@ -249,7 +249,7 @@ const toogleHandler0 = () =>{
                     <ul className="NyiloMenu">
 
                         <li onClick={toogleHandler0}>
-                        WEBOLDAL-ÁRAK
+                        <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
                         </li> 
 
                         <li onClick={toogleHandler0}>
