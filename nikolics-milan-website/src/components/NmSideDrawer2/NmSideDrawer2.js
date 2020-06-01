@@ -214,42 +214,11 @@ const toogleHandler0 = () =>{
                     <ul>
                         <li><NavLink to="/" >FŐOLDAL</NavLink></li> 
                     </ul>
-
-                    <ul className="NyiloMenu">     
-                                <li>
-                                    <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
-                                </li>      
-                                <li onClick={toogleHandler1}>
-                                    {seoGomb}
-                                </li>  
-                    </ul>  
-
-                        {/* SeoNyit vagy SeoZar */}
-                        <ul className={seolenyilo}>
-                                <li id="lenyiloelejeid">
-                                     <NavLink to={{         
-                                        pathname: "/Seo",      
-                                        hash: "#seostart",
-                                        }}>- Seo Start</NavLink>
-                                </li>
-                                <li>
-                                     <NavLink to={{         
-                                        pathname: "/Seo",      
-                                        hash: "#seoultimate",
-                                        }}>- Seo Ultimate</NavLink>
-                                </li>          
-                                <li id="lenyilovegeid"> 
-                                    <NavLink to={{         
-                                        pathname: "/Seo",      
-                                        hash: "#seoultimate",
-                                        }}>- Seo Szövegírás</NavLink>
-                                </li>                          
-                    </ul>
-                {/* NEM EGYFORMA A KETTŐNÉL NAVLINK....*/}
+                
                     <ul className="NyiloMenu">
 
                         <li onClick={toogleHandler0}>
-                        <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
+                        WEBOLDAL-ÁRAK
                         </li> 
 
                         <li onClick={toogleHandler0}>
@@ -298,10 +267,37 @@ const toogleHandler0 = () =>{
                     
 
                    
-                   
+                    <ul className="NyiloMenu">     
+                                <li>
+                                    <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
+                                </li>      
+                                <li onClick={toogleHandler1}>
+                                    {seoGomb}
+                                </li>  
+                    </ul>  
 
                           
-                  
+                      {/* SeoNyit vagy SeoZar */}
+                    <ul className={seolenyilo}>
+                                <li id="lenyiloelejeid">
+                                     <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seostart",
+                                        }}>- Seo Start</NavLink>
+                                </li>
+                                <li>
+                                     <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seoultimate",
+                                        }}>- Seo Ultimate</NavLink>
+                                </li>          
+                                <li id="lenyilovegeid"> 
+                                    <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seoultimate",
+                                        }}>- Seo Szövegírás</NavLink>
+                                </li>                          
+                    </ul>
                             
                   
 
