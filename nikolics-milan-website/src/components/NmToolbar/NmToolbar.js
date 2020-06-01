@@ -71,9 +71,9 @@ const NmToolbar = props => (
 
    {/*MOBIL NÉZETBEN LÁTHATÓ VÉGE*/}
       
-  <div className="desktop_menu">   
+  <div className="DesktopMenu">   
 
-            <div className='desktop_menu_belso'>  
+            <div className='DesktopMenuBelso'>  
                       <ul >
                         {/*DESKTOP NÉZETBEN LÁTHATÓ*/}
                         <li><NavLink to="/" >Főoldal</NavLink></li> 
@@ -89,7 +89,11 @@ const NmToolbar = props => (
             </div>
 
             <div className="EuLogoKontenerDesktop">
-                  <img className="EuLogoDesktop" src={EU_logo_Desktop} alt="EU_logo_Desktop"></img> 
+            
+                <div className="EuLogoKontenerDesktopBel">  
+            
+                  <img className="EuLogoDesktop" src={EU_logo_Desktop} alt="EU_logo_Desktop"></img>
+                </div>
             </div>        
 
    </div>    

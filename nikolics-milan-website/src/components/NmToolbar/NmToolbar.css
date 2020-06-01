@@ -162,7 +162,7 @@ right:0;
   display:none;
   }
   
-.desktop_menu {
+.DesktopMenu {
   display: none;
 }
 
@@ -191,221 +191,20 @@ right:0;
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
- 
+/*TOOLBAR EGESZ ELEJE*/
 
-}
-/* 4. Tablets, Ipads (landscape) VÉGE*/
-
-
-
-/* 5. Laptops, Desktops ELEJE  */
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-   /*TOOLBAR EGESZ*/
-
-   .Toolbar_header_egesz {
-    /*H2 beállítja*/
-    /* color:red;*/
-    /* border: 6px solid purple;*/
-     width:100%;
-    background-color: white;
-    }         
-              
-   .Toolbar_nav_egesz {
-    display: flex;
-   /*border:3px dashed black;*/
-    background-color: white;
-    /*  max-height: 3rem;*/
-    z-index: 999;  
-    top:0;
-    display:flex;
-    flex-direction: column;  
-    width:100%;
-    }  
-
-    .MobilNezet b{
-    /* border:3px solid blue;*/
-    display:none;
-    }
-              
-    .Button_Logo_kontener {
-     display:none;
-    }
-              
-    .Button{
-    display: none;
-    }
-
-    .Button h2 {
-    display:none;
-    }
-
-   .Tel_Email_kontener {
-    display:flex;
-    flex-direction: column; 
-    color: rgba(40, 164, 241, 0.938);  
-    /* border: 3px solid green;*/
-    width: 14rem;
-    }
-
-    .Telefon {
-    display: flex;
-    width:1.3rem;
-    /* border: 3px solid yellow;*/
-    width: 13rem;
-    align-items: center;
-    padding-bottom: 1%;
-    }
-
-   .Telefon img {
-   width:1rem;
-   height: 1rem;
-   margin-right:0.2rem;
-   /*border: 3px solid purple;*/
-   }
-
-   .Telefon p {
-   font-size:0.8rem;
-   }
-
-  .Szamkontener {
-  width:8rem;
-  /*border: 3px solid red;*/
-  }
-
-  .Szamkontener p {
-   
-  }
-
- .Email {
-    display: flex;
-    align-items: center;
-    width:1.3rem;
-    font-size: 1rem;
-  }
-
- .Email img {
-    width:1rem;
-    height: 1rem;
-    margin-right:0.2rem;
- }
-.Email h2 {
-    font-size:0.8rem;
- }
-
-.EU_Logo_kontener_mobil {
- display:none;
-}
-
-.EU_logo_Mobil {
- display: none;
-}
-
-.EuLogoKontenerDesktop {
- margin-bottom:2rem;
- /*border: 3px solid yellow;*/
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- height: 4rem;
- width:100%;
- }
-             
-.EuLogoKontenerDesktop ul {
-/*border:3px solid purple;*/
-display: flex;
-justify-content: flex-start;
-padding:0;
-margin:0;   
-width:100%; 
-height: 4rem;        
-}
-
-/*ÁTMÁSOLNI*/
-
-.EuLogoKontenerDesktop_belso {
-/* border: 6px solid green;*/
-display: flex;
-justify-self: flex-start;
-width: 100%;
-height:4rem;
-}
-
-.EuLogoKontenerDesktop_belso ul {
-/*border: 6px solid purple;*/
-width: 100%;
-height:4rem;
-text-align: center;
-}
-  
-.EuLogoKontenerDesktop_belso li {
-/* border: 3px solid orange;*/
-display: flex;  
-justify-content: center;           
-font-size: 31rem;
-width:100%;       
-height: 4rem;           
-}
-
-/*ÁTMÁSOLNI*/           
-
-.EuLogoKontenerDesktop li {
-/* margin:2%; */                                 
-/*border: 3px solid blue;*/          
-color:black;
-font-style: oblique;
-height: 2rem;
-width:15%;  
-}
-              
-.EuLogoKontenerDesktop a {
-font-size:2.2vw;
-color:black;
-font-style: oblique;
-height: 4rem;
-width: 100%;  
-/* border: 3px dashed red;*/
-}                
-         
-.EU_Logo_kontener_desktop {
-position: absolute;
-top:0;
-right: 0;
-float:right;
-min-height: 6rem;
-/*border:3px solid green;*/
-width:15rem;
-height: 12rem;
-}
-              
-.EU_logo_Desktop {
-width:15rem;
-min-height:10rem;
-}
-li .AktivMenu{
-  color:rgba(40, 164, 241, 0.938);;
-  } 
-}
-/* 5. Laptops, Desktops VÉGE  */
-
-
-/* 6. Higher resolution desktops ELEJE*/
-
-@media (min-width: 1281px) and (max-width:1599px) {
-
- /*TOOLBAR EGESZ*/
-
- .Toolbar_header_egesz {
+/*4*/
+.ToolbarHeaderEgesz {
   /*H2 beállítja*/
   /* color:red;*/
   /* border: 6px solid purple;*/
-   width:100%;
-  background-color: white;
-  }         
-            
- .Toolbar_nav_egesz {
+width:100%;
+background-color: white;
+}         
+    
+/*4*/
+.ToolbarNavEgesz {
   display: flex;
- /*border:3px dashed black;*/
   background-color: white;
   /*  max-height: 3rem;*/
   z-index: 999;  
@@ -413,171 +212,301 @@ li .AktivMenu{
   display:flex;
   flex-direction: column;  
   width:100%;
-  }  
+}  
+/*MOBIL NÉZET ELEJE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*EGYSZERŰBB HOGY NEM AZ EGYES OSZTÁLYOKAT
+HATÁROZOM MEG NÉZETENKÉNT HANEM EGY OSZTÁLYAL KAPCSOLOM KI
+AZ EGÉSZET. ÍGY KÉT FAJTA KELETT A JSX BEN DE BŐVEN MEGÉRI
+EGYSZERŰBB ÁTLÁTHATÓB HATÉKONYABB
+NAVBARBAN IS SZÉT LEHETET VOLNA
+VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
 
-  .MobilNezet b{
-  /* border:3px solid blue;*/
+/*4*/
+.MobilNezet {
   display:none;
-  }
-            
-  .Button_Logo_kontener {
-   display:none;
-  }
-            
-  .Button{
-  display: none;
-  }
-
-  .Button h2 {
-  display:none;
-  }
-
- .Tel_Email_kontener {
-  display:flex;
-  flex-direction: column; 
-  color: rgba(40, 164, 241, 0.938);  
-  /* border: 3px solid green;*/
-  width: 14rem;
-  }
-
-  .Telefon {
-  display: flex;
-  width:1.3rem;
-  /* border: 3px solid yellow;*/
-  width: 13rem;
-  align-items: center;
-  padding-bottom: 1%;
-  }
-
- .Telefon img {
- width:1rem;
- height: 1rem;
- margin-right:0.2rem;
- /*border: 3px solid purple;*/
- }
-
- .Telefon p {
- font-size:0.8rem;
- }
-
-.Szamkontener {
-width:8rem;
-/*border: 3px solid red;*/
 }
 
-.Szamkontener p {
+/*4*/
+.SideEgesz {
+    display:none;
+}
+
+/*MOBIL NÉZET VÉGE*/       
+
+/*DESKTOP NÉZET ELEJE*/
  
+/*4*/
+.DesktopMenu {
+display:flex;
+justify-content: space-between;
+height: 10rem;
 }
 
-.Email {
-  display: flex;
-  align-items: center;
-  width:1.3rem;
-  font-size: 1rem;
-}
-
-.Email img {
-  width:1rem;
-  height: 1rem;
-  margin-right:0.2rem;
-}
-.Email h2 {
-  font-size:0.8rem;
-}
-
-.EU_Logo_kontener_mobil {
-display:none;
-}
-
-.EU_logo_Mobil {
-display: none;
-}
-
-.EuLogoKontenerDesktop {
-margin-bottom:2rem;
-/*border: 3px solid yellow;*/
+/*4*/
+.DesktopMenuBelso {
 display: flex;
-flex-direction: column;
-justify-content: flex-start;
-height: 4rem;
+flex-direction: row;
 width:100%;
 }
-           
-.EuLogoKontenerDesktop ul {
-/*border:3px solid purple;*/
+
+/*4*/
+.DesktopMenuBelso ul {
 display: flex;
 justify-content: flex-start;
-padding:0;
-margin:0;   
-width:100%; 
-height: 4rem;        
+width:100%;
 }
 
-/*ÁTMÁSOLNI*/
-
-.EuLogoKontenerDesktop_belso {
-/* border: 6px solid green;*/
+/*4*/
+.DesktopMenuBelso li{
 display: flex;
-justify-self: flex-start;
-width: 100%;
-height:4rem;
+justify-content: center;
+font-size: 1.2rem;
+padding: 2%;
 }
 
-.EuLogoKontenerDesktop_belso ul {
-/*border: 6px solid purple;*/
-width: 100%;
-height:4rem;
-text-align: center;
+/*4*/
+.DesktopMenuBelso a {
+color:rgba(40, 164, 241, 0.938);  
+}
+    
+/*4*/
+.EuLogoKontenerDesktop {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 22rem;
 }
 
-.EuLogoKontenerDesktop_belso li {
-/* border: 3px solid orange;*/
-display: flex;  
-justify-content: center;           
-font-size: 31rem;
-width:100%;       
-height: 4rem;           
+/*4*/
+.EuLogoKontenerDesktopBel{
+/*border: 3px solid green;*/
+
 }
 
-/*ÁTMÁSOLNI*/           
+/*4*/
+.EuLogoKontenerDesktopBel img {
+height: 11rem;
+} 
 
-.EuLogoKontenerDesktop li {
-/* margin:2%; */                                 
-/*border: 3px solid blue;*/          
-color:black;
-font-style: oblique;
-height: 2rem;
-width:15%;  
 }
-            
-.EuLogoKontenerDesktop a {
-font-size:2.2vw;
-color:black;
-font-style: oblique;
-height: 4rem;
-width: 100%;  
-/* border: 3px dashed red;*/
-}                
-       
-.EU_Logo_kontener_desktop {
-position: absolute;
-top:0;
-right: 0;
-float:right;
-min-height: 6rem;
-/*border:3px solid green;*/
-width:15rem;
+
+/*DESKTOP NÉZET ELEJE*/
+/*TOOLBAR EGESZ VÉGE*/
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+/*TOOLBAR EGESZ ELEJE*/
+
+/*5*/
+.ToolbarHeaderEgesz {
+  /*H2 beállítja*/
+  /* color:red;*/
+  /* border: 6px solid purple;*/
+width:100%;
+background-color: white;
+}         
+    
+/*5*/
+.ToolbarNavEgesz {
+  display: flex;
+  background-color: white;
+  /*  max-height: 3rem;*/
+  z-index: 999;  
+  top:0;
+  display:flex;
+  flex-direction: column;  
+  width:100%;
+}  
+/*MOBIL NÉZET ELEJE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*EGYSZERŰBB HOGY NEM AZ EGYES OSZTÁLYOKAT
+HATÁROZOM MEG NÉZETENKÉNT HANEM EGY OSZTÁLYAL KAPCSOLOM KI
+AZ EGÉSZET. ÍGY KÉT FAJTA KELETT A JSX BEN DE BŐVEN MEGÉRI
+EGYSZERŰBB ÁTLÁTHATÓB HATÉKONYABB
+NAVBARBAN IS SZÉT LEHETET VOLNA
+VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
+
+/*5*/
+.MobilNezet {
+  display:none;
+}
+
+/*5*/
+.SideEgesz {
+    display:none;
+}
+
+/*MOBIL NÉZET VÉGE*/       
+
+/*DESKTOP NÉZET ELEJE*/
+ 
+/*5*/
+.DesktopMenu {
+display:flex;
+justify-content: space-between;
 height: 12rem;
 }
-            
-.EU_logo_Desktop {
-width:15rem;
-min-height:10rem;
+
+/*5*/
+.DesktopMenuBelso {
+display: flex;
+flex-direction: row;
+width:100%;
 }
-li .AktivMenu{
-  color:rgba(40, 164, 241, 0.938);;
-  } 
+
+/*5*/
+.DesktopMenuBelso ul {
+display: flex;
+justify-content: flex-start;
+width:100%;
 }
+
+/*5*/
+.DesktopMenuBelso li{
+display: flex;
+justify-content: center;
+font-size: 1.5rem;
+padding: 2%;
+}
+
+/*5*/
+.DesktopMenuBelso a {
+color:rgba(40, 164, 241, 0.938);  
+}
+    
+/*5*/
+.EuLogoKontenerDesktop {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 25rem;
+}
+
+/*5*/
+.EuLogoKontenerDesktopBel{
+/*border: 3px solid green;*/
+
+}
+
+/*5*/
+.EuLogoKontenerDesktopBel img {
+height: 12rem;
+} 
+
+}
+
+/*DESKTOP NÉZET ELEJE*/
+/*TOOLBAR EGESZ VÉGE*/
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width:1599px) {
+
+/*TOOLBAR EGESZ ELEJE*/
+
+/*6*/
+.ToolbarHeaderEgesz {
+  /*H2 beállítja*/
+  /* color:red;*/
+  /* border: 6px solid purple;*/
+width:100%;
+background-color: white;
+}         
+    
+/*6*/
+.ToolbarNavEgesz {
+  display: flex;
+  background-color: white;
+  /*  max-height: 3rem;*/
+  z-index: 999;  
+  top:0;
+  display:flex;
+  flex-direction: column;  
+  width:100%;
+}  
+/*MOBIL NÉZET ELEJE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*EGYSZERŰBB HOGY NEM AZ EGYES OSZTÁLYOKAT
+HATÁROZOM MEG NÉZETENKÉNT HANEM EGY OSZTÁLYAL KAPCSOLOM KI
+AZ EGÉSZET. ÍGY KÉT FAJTA KELETT A JSX BEN DE BŐVEN MEGÉRI
+EGYSZERŰBB ÁTLÁTHATÓB HATÉKONYABB
+NAVBARBAN IS SZÉT LEHETET VOLNA
+VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
+
+/*6*/
+.MobilNezet {
+  display:none;
+}
+
+/*6*/
+.SideEgesz {
+    display:none;
+}
+
+/*MOBIL NÉZET VÉGE*/       
+
+/*DESKTOP NÉZET ELEJE*/
+ 
+/*6*/
+.DesktopMenu {
+display:flex;
+justify-content: space-between;
+height: 15rem;
+}
+
+/*6*/
+.DesktopMenuBelso {
+display: flex;
+flex-direction: row;
+width:100%;
+}
+
+/*6*/
+.DesktopMenuBelso ul {
+display: flex;
+justify-content: flex-start;
+width:100%;
+}
+
+/*6*/
+.DesktopMenuBelso li{
+display: flex;
+justify-content: center;
+font-size: 2.2rem;
+padding: 2%;
+}
+
+/*6*/
+.DesktopMenuBelso a {
+color:rgba(40, 164, 241, 0.938);  
+}
+    
+/*6*/
+.EuLogoKontenerDesktop {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 30rem;
+}
+
+/*6*/
+.EuLogoKontenerDesktopBel{
+/*border: 3px solid green;*/
+
+}
+
+/*6*/
+.EuLogoKontenerDesktopBel img {
+height: 15rem;
+} 
+
+}
+
+/*DESKTOP NÉZET ELEJE*/
+/*TOOLBAR EGESZ VÉGE*/
 
 /* 6. Higher resolution desktops VÉGE*/
 
@@ -585,19 +514,20 @@ li .AktivMenu{
 
 @media (min-width: 1600px) {
 
-   /*TOOLBAR EGESZ*/
+/*TOOLBAR EGESZ ELEJE*/
 
-   .Toolbar_header_egesz {
+/*7*/
+.ToolbarHeaderEgesz {
     /*H2 beállítja*/
     /* color:red;*/
     /* border: 6px solid purple;*/
-    width:100%;
-    background-color: white;
-    }         
-              
-   .Toolbar_nav_egesz {
+  width:100%;
+  background-color: white;
+}         
+     
+/*7*/
+.ToolbarNavEgesz {
     display: flex;
-   /*border:3px dashed black;*/
     background-color: white;
     /*  max-height: 3rem;*/
     z-index: 999;  
@@ -605,171 +535,85 @@ li .AktivMenu{
     display:flex;
     flex-direction: column;  
     width:100%;
-    }  
+ }  
 
-    .MobilNezet b{
-    /* border:3px solid blue;*/
+/*MOBIL NÉZET ELEJE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*EGYSZERŰBB HOGY NEM AZ EGYES OSZTÁLYOKAT
+HATÁROZOM MEG NÉZETENKÉNT HANEM EGY OSZTÁLYAL KAPCSOLOM KI
+AZ EGÉSZET. ÍGY KÉT FAJTA KELETT A JSX BEN DE BŐVEN MEGÉRI
+EGYSZERŰBB ÁTLÁTHATÓB HATÉKONYABB
+NAVBARBAN IS SZÉT LEHETET VOLNA
+VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
+
+/*7*/
+.MobilNezet {
     display:none;
-    }
-              
-    .Button_Logo_kontener {
-     display:none;
-    }
-              
-    .Button{
-    display: none;
-    }
+}
 
-    .Button h2 {
-    display:none;
-    }
+/*7*/
+.SideEgesz {
+      display:none;
+}
 
-   .Tel_Email_kontener {
-    display:flex;
-    flex-direction: column; 
-    color: rgba(40, 164, 241, 0.938);  
-    /* border: 3px solid green;*/
-    width: 14rem;
-    }
+/*MOBIL NÉZET VÉGE*/       
 
-    .Telefon {
-    display: flex;
-    width:1.3rem;
-    /* border: 3px solid yellow;*/
-    width: 13rem;
-    align-items: center;
-    padding-bottom: 1%;
-    }
-
-   .Telefon img {
-   width:1rem;
-   height: 1rem;
-   margin-right:0.2rem;
-   /*border: 3px solid purple;*/
-   }
-
-   .Telefon p {
-   font-size:0.8rem;
-   }
-
-  .Szamkontener {
-  width:8rem;
-  /*border: 3px solid red;*/
-  }
-
-  .Szamkontener p {
+/*DESKTOP NÉZET ELEJE*/
    
-  }
-
- .Email {
-    display: flex;
-    align-items: center;
-    width:1.3rem;
-    font-size: 1rem;
-  }
-
- .Email img {
-    width:1rem;
-    height: 1rem;
-    margin-right:0.2rem;
- }
-.Email h2 {
-    font-size:0.8rem;
- }
-
-.EU_Logo_kontener_mobil {
- display:none;
+/*7*/
+.DesktopMenu {
+  display:flex;
+  justify-content: space-between;
+  height: 15rem;
 }
 
-.EU_logo_Mobil {
- display: none;
+/*7*/
+.DesktopMenuBelso {
+  display: flex;
+  flex-direction: row;
+  width:100%;
 }
 
-.EuLogoKontenerDesktop {
- margin-bottom:2rem;
- /*border: 3px solid yellow;*/
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- height: 4rem;
- width:100%;
- }
-             
-.EuLogoKontenerDesktop ul {
-/*border:3px solid purple;*/
-display: flex;
-justify-content: flex-start;
-padding:0;
-margin:0;   
-width:100%; 
-height: 4rem;        
+/*7*/
+.DesktopMenuBelso ul {
+  display: flex;
+  justify-content: flex-start;
+  width:100%;
 }
 
-/*ÁTMÁSOLNI*/
-
-.EuLogoKontenerDesktop_belso {
-/* border: 6px solid green;*/
-display: flex;
-justify-self: flex-start;
-width: 100%;
-height:4rem;
+/*7*/
+.DesktopMenuBelso li{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  padding: 2%;
 }
 
-.EuLogoKontenerDesktop_belso ul {
-/*border: 6px solid purple;*/
-width: 100%;
-height:4rem;
-text-align: center;
+/*7*/
+.DesktopMenuBelso a {
+  color:rgba(40, 164, 241, 0.938);  
 }
   
-.EuLogoKontenerDesktop_belso li {
-/* border: 3px solid orange;*/
-display: flex;  
-justify-content: center;           
-font-size: 31rem;
-width:100%;       
-height: 4rem;           
+/*7*/
+.EuLogoKontenerDesktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
 }
 
-/*ÁTMÁSOLNI*/           
-
-.EuLogoKontenerDesktop li {
-/* margin:2%; */                                 
-/*border: 3px solid blue;*/          
-color:black;
-font-style: oblique;
-height: 2rem;
-width:15%;  
-}
-              
-.EuLogoKontenerDesktop a {
-font-size:2.2vw;
-color:black;
-font-style: oblique;
-height: 4rem;
-width: 100%;  
-/* border: 3px dashed red;*/
-}                
-         
-.EU_Logo_kontener_desktop {
-position: absolute;
-top:0;
-right: 0;
-float:right;
-min-height: 6rem;
-/*border:3px solid green;*/
-width:15rem;
-height: 12rem;
-}
-              
-.EU_logo_Desktop {
-width:15rem;
-min-height:10rem;
-}
-li .AktivMenu{
-  color:rgba(40, 164, 241, 0.938);;
-  }  
+/*7*/
+.EuLogoKontenerDesktopBel{
+  /*border: 3px solid green;*/  
 }
 
+/*7*/
+.EuLogoKontenerDesktopBel img {
+ height: 15rem;
+} 
+
+}
+
+/*DESKTOP NÉZET ELEJE*/
+/*TOOLBAR EGESZ VÉGE*/
 /* 7. Larger screen VÉGE*/
     
