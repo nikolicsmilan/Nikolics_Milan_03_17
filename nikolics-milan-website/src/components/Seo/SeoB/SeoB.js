@@ -426,7 +426,7 @@ const toogleHandler10 = () => {
 
   return (
      /*  SeoBegesz */
-  <div className={egesz}>
+  <div className={egesz} id="seoultimate">
      { /*SeoBcim */}
           <div className={cim}>
                 <h1>SEO ULTIMATE</h1>

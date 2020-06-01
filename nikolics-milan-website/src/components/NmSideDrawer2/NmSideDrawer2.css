@@ -7,20 +7,15 @@
     .SideEgesz {
       display: flex;
       flex-direction: column;
-     /* border: 3px solid red;*/
       min-width:100%;
-    /*  background-color: blue;*/
     }
 
-    .Open {
+    .SideDrawerNyit {
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      /*justify-content: left;*/
-      border-bottom: 3px dashed rgba(40, 164, 241, 0.938);
+      flex-direction: column;
+      justify-content: space-between;
       height: 100%;
-      max-height: 20rem;
-      width: 100%;
+      width: 75%;
       background: white;     
       position: relative;
       /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
@@ -33,56 +28,112 @@
       /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
       KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
       z-index: 2860;
-      /*background:  #cca353;*/
-      transform: translateY(0);
-      transition: transform 0.3s ease-out;
-      border: 3px solid violet;
-      padding-top: 3rem;
+      transform: translateX(0);
+      transition: transform 0.4s ease-out;
+      border: 3px solid rgba(40, 164, 241, 0.938);
+      padding-top: 1rem;
+      color:rgba(40, 164, 241, 0.938);
     }
 
-    .Open ul {
-     /* border: 6px solid orange;*/
-     /*padding-top: 3rem;*/
-     
-    }
-
-    .Open li {
-    /*  border: 3px solid yellow;*/
-      padding: 0.5rem;
-    
-    }
-
-    .Closed { 
-      transform: translateY(-1000%);
-      transition: transform 0.3s ease-out;
-      /*visibility: hidden;*/
-    }
-  
-    /*  SAJÁT STATEBŐL JŐVŐ OSZTÁLYOK ELEJE */
- 
-     .Nyit
-      {
-      display:flex;
+    .SideDrawerNyit p {
+       /*EGYEDI KÉSZÍTÉSŰ*/
      }
 
-    .Zar1 {
-      display:none;
+     /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
+      CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
+      KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
+     .SideDrawerNyit ul {
+     /* background-color: red;*/
+    /* border-top: 1px dashed rgba(40, 164, 241, 0.938);
+     border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   */
+      /*background-color: black;  */
+     }
+
+    .SideDrawerNyit li {
+      display: flex;
+      padding: 0.5rem;
+      width:100%;
+      color:rgba(40, 164, 241, 0.938);
     }
 
-    .Nyit2 {
-      display: flex;
-      flex-direction: column;
-      /*align-content: flex-end;*/
-      border: 3px solid yellow;
+    /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
+    .SideDrawerNyit a {     
+      color:rgba(40, 164, 241, 0.938);  
+      /*border: 3px solid red; */ 
+    }
+
+    .SideDrawerZar { 
+      transform: translateX(-1000%);
+      transition: transform 0.3s ease-out;
+      /*visibility: hidden;*/
+    } 
+
+    .WebarakNyit {
       
     }
 
-    .Nyit2 ul{
-      padding: 0;
-      margin:0;
+    #lenyiloelejeid {
+     border-top: 1px dashed rgba(40, 164, 241, 0.938);
     }
 
-    /*  SAJÁT STATEBŐL JŐVŐ OSZTÁLYOK VÉGE */      
+    #lenyilovegeid {
+      border-bottom: 1px dashed rgba(40, 164, 241, 0.938); 
+     }
+
+    .WebarakNyit li {
+      color:rgba(40, 164, 241, 0.938);
+      padding-left: 1.5rem;    
+    };
+
+    .WebarakZar {
+      display: none;
+    }
+    .WebarakZar li{
+      display: none;
+    }
+
+    .NyiloMenu {
+      display: flex;
+    };
+
+    .SeoNyit {
+     /* display: flex;
+      flex-direction: column;
+      border-top: 1px dashed rgba(40, 164, 241, 0.938);
+      border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   
+      background-color: black;  */
+    }
+
+    .SeoNyit li {
+     /* padding-left: 1.5rem;*/
+      /*border:3px solid red;*/
+      padding-left: 1.5rem;
+    }
+
+    .SeoNyit ul {
+      border:3px solid green;
+    }
+
+    .SeoZar {
+      display: none;
+     /* border:3px solid green;*/
+    }
+
+    .SideBezarkont {
+      display: flex;    
+      justify-content: flex-end;      
+    }
+
+    .SideBezar {   
+      width:5rem;
+      margin:2%;
+      padding:1%;
+      text-align: center;
+      color:  rgba(40, 164, 241, 0.938);
+      /*font-family: serif;*/
+    }
+   
   }
   
   /* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/

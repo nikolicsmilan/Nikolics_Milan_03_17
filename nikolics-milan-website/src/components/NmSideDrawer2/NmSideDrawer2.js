@@ -11,6 +11,8 @@ const NmSideDrawer2 = props => {
   
         toogles: [
            { number0: 0},
+           { number1: 0},
+           { number2: 0},
           /* { number1: 1}, 
            { number2: 2},  
            { number3: 3},
@@ -22,145 +24,298 @@ const NmSideDrawer2 = props => {
    let backdrop=  <NmBackdrop click={props.click}></NmBackdrop>
 
    /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
-   let sideDrawerClass = "Closed";
-   if (props.open){
-    sideDrawerClass="Open";
+   let sideDrawer = "SideDrawerZar";
+   if (props.sideDrawer){
+    sideDrawer="SideDrawerNyit";
    }
    /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
 
-   let FoSor;
-   let webaraklenyilo;
-   let changingCssClass2;
-   let changingCssClass3;
-   let changingCssClass4;
+  
+   let webarak="WebarakZar";
+   let seolenyilo="SeoZar";
 
-   if(toogleState.toogles[0].number0 ===0) {
-    FoSor='Nyit';
-    webaraklenyilo='Zar1';
-    changingCssClass2='Zar';
-    changingCssClass3='Zar';
-    changingCssClass4='Zar';
-    /*state hogy itt vagyok */
 
-   }else if (toogleState.toogles[0].number0 === 1) {
-    FoSor='Nyit';
-    webaraklenyilo='Nyit2';
-    changingCssClass2='Zar';
-    changingCssClass3='Zar';
-    changingCssClass4='Zar';
 
-   }else if (toogleState.toogles[0].number0 ===2){
-    FoSor='Nyit';
-    webaraklenyilo='Zar1';
-    changingCssClass2='Zar';
-    changingCssClass3='Zar';
-    changingCssClass4='Zar';
-   }else if (toogleState.toogles[0].number0 === 3){
-    FoSor='Nyit';
-    webaraklenyilo='Zar1';
-    changingCssClass2='Zar';
-    changingCssClass3='Zar';
-    changingCssClass4='Zar';
-   }else if (toogleState.toogles[0].number0 === 4){
-    FoSor='Nyit';
-    webaraklenyilo='Zar1';
-    changingCssClass2='Zar';
-    changingCssClass3='Zar';
-    changingCssClass4='Zar';
+   
+   let seoGomb="▼";
+   let webGomb="▼";
+
+   /*NEM VÁLTOZIK */
+   let NyiloMenu="NyiloMenu";
+   /* Megjelnő menüpont*/
+   let webArCim="WEBOLDAL-ÁRAK";
+   
+ 
+    /*000 */
+   if(
+       toogleState.toogles[0].number0 === 0
+     && toogleState.toogles[1].number1 === 0 
+     && toogleState.toogles[2].number2 === 0 ) {
+        /* number0 >> Webarakat nyitja vagy zárja és a gombot*/
+        webarak='WebarakZar'; 
+        webGomb="▼ NYIT";  
+        /*number1 >> */
+        seoGomb="▼ NYIT";
+        seolenyilo="SeoZar";
+   }
+   /*010 */
+   else if (
+       toogleState.toogles[0].number0 === 0
+    && toogleState.toogles[1].number1 === 1
+    && toogleState.toogles[2].number2 === 0      
+    ) {
+        webarak='WebarakZar';
+        webGomb="▼ NYIT";  
+        seoGomb="▲ ZAR";
+        seolenyilo="SeoNyit";
+
+   }
+   /*001*/
+   else if (toogleState.toogles[0].number0 === 0
+    && toogleState.toogles[1].number1 === 0 
+    && toogleState.toogles[2].number2 === 1     
+    ) {
+    
+        webarak='WebarakZar';
+        webGomb="▼ NYIT";  
+        seoGomb="▼ NYIT";
+        seolenyilo="SeoZar";
+   }
+   /*011 */
+   else if (toogleState.toogles[0].number0 === 0
+    && toogleState.toogles[1].number1 === 1 
+    && toogleState.toogles[2].number2 === 1     
+    ) {
+    
+        webarak='WebarakZar';
+        webGomb="▼ NYIT";  
+        seoGomb="▲ ZAR";
+        seolenyilo="SeoNyit";
+        
+   }
+  /*100 */
+   else if (toogleState.toogles[0].number0 === 1
+    && toogleState.toogles[1].number1 === 0
+    && toogleState.toogles[2].number2 === 0     
+    ) {
+    
+        webarak='WebarakNyit';
+        webGomb="▲ ZAR";  
+        seoGomb="▼ NYIT";
+        seolenyilo="SeoZar";
+
+   }
+   /*110*/
+   else if (toogleState.toogles[0].number0 === 1
+    && toogleState.toogles[1].number1 === 1 
+    && toogleState.toogles[2].number2 === 0    
+    ) {
+    
+        webarak='WebarakNyit';
+        webGomb="▲ ZAR";  
+        seoGomb="▲ ZAR";
+        seolenyilo="SeoNyit";
+    
+   } 
+   /*101 */
+   else if (toogleState.toogles[0].number0 === 1
+    && toogleState.toogles[1].number1 === 0
+    && toogleState.toogles[2].number2 === 1     
+    ) {
+    
+        webarak='WebarakNyit';
+        webGomb="▲ ZAR";  
+        seoGomb="▼ NYIT";
+        seolenyilo="SeoZar";
+
    }
 
- 
-/*First Handlers*/
-const toogleHandler0 = () =>{
-  console.log('Be');
-  console.log(toogleState.toogles[0].number0);
-setToogleState ({
-    toogles: [
-        { number0: 0},           
- ] 
-}); 
-};
 
-const toogleHandler1 = () =>{ 
-setToogleState ({
-    toogles: [
-        { number0: 1},                       
- ] 
-}); 
-};
+/*Weboldal-Árak handlere eleje*/
+const toogleHandler0 = () =>{ 
+    if(toogleState.toogles[0].number0 === 0) {
+        setToogleState ({
+          toogles: [
+              { number0: 1 },
+              { number1:toogleState.toogles[1].number1 }, 
+              { number2: toogleState.toogles[2].number2 }                        
+       ]   
+      });      
+      console.log('Ez tooglehandler0 if number0:  '+toogleState.toogles[0].number0);
+      console.log('Ez tooglehandler0  if number1:  '+toogleState.toogles[1].number1);
+      console.log('Ez tooglehandler0 if number2: '+toogleState.toogles[2].number2);
+      console.log('ToogleHandler0 if: '+webarak);    
 
-const toogleHandler2 = () =>{
-  setToogleState ({
-      toogles: [
-          { number0: 2},                       
-   ] 
-  }); 
-  };
+     }
+     else if (toogleState.toogles[0].number0 === 1) {        
+      setToogleState ({
+          toogles: [
+              { number0: 0},  
+              { number1:toogleState.toogles[1].number1 }, 
+              { number2: toogleState.toogles[2].number2 }                          
+       ]   
+      });       
+      console.log('Ez tooglehandler0 else number0:  '+toogleState.toogles[0].number0);
+      console.log('Ez tooglehandler0  else number1:  '+toogleState.toogles[1].number1);
+      console.log('Ez tooglehandler0 else number2: '+toogleState.toogles[2].number2);
+      console.log('ToogleHandler0 else-if: '+webarak);   
+     }
+    };
 
-  const toogleHandler3 = () =>{ 
-  setToogleState ({
-      toogles: [
-          { number0: 3},                       
-   ] 
-  }); 
-  };
-
-  const toogleHandler4 = () =>{  
-  setToogleState ({
-      toogles: [
-          { number0: 4},                       
-   ] 
-  }); 
-  };
+    const toogleHandler1 = () =>{ 
+        if(toogleState.toogles[1].number1 === 0) {
+            setToogleState ({
+              toogles: [
+                  { number0: toogleState.toogles[0].number0  },
+                  { number1:1}, 
+                  { number2: toogleState.toogles[2].number2 }                        
+           ]   
+          });      
+          console.log('Ez tooglehandler0 if number0:  '+toogleState.toogles[0].number0);
+          console.log('Ez tooglehandler0  if number1:  '+toogleState.toogles[1].number1);
+          console.log('Ez tooglehandler0 if number2: '+toogleState.toogles[2].number2);
+          console.log('ToogleHandler1 if: '+webarak);   
+    
+         }
+         else if (toogleState.toogles[1].number1 === 1) {        
+          setToogleState ({
+              toogles: [
+                  { number0: toogleState.toogles[0].number0 },  
+                  { number1:0 }, 
+                  { number2: toogleState.toogles[2].number2 }                          
+           ]   
+          });       
+          console.log('Ez tooglehandler0 else number0:  '+toogleState.toogles[0].number0);
+          console.log('Ez tooglehandler0  else number1:  '+toogleState.toogles[1].number1);
+          console.log('Ez tooglehandler0 else number2: '+toogleState.toogles[2].number2);
+          console.log('ToogleHandler1 else-if: '+webarak);   
+         }
+        };
 
   return (
 <div className="SideEgesz">
-    {/* Open vagy Closed*/}
-    <div className={sideDrawerClass}>
-        {/* Nyit vagy Zar1*/}
-    <nav className={FoSor}>  
-   
-        <ul >
-            <li onClick={toogleHandler0}><NavLink to="/" >Főoldal</NavLink></li> 
-        </ul>
-
-        <ul>
-            <li onClick={toogleHandler1}> <NavLink to="/" >Weboldal-Árak</NavLink> </li> 
-                <ul className={webaraklenyilo}>
-                    <li> <NavLink to={{         
-                                        pathname: "/",      
-                                        hash: "#bemutatkozo",
-                                        }}>Bemutatkozó</NavLink>  </li>
-                    <li> <NavLink to={{         
-                                        pathname: "/",      
-                                        hash: "#ceges",
-                                        }}>Céges</NavLink>  </li>
-                    <li> <NavLink to={{         
-                                        pathname: "/",      
-                                        hash: "#ugyfelszerzo",
-                                        }}>Ügyfélszerző</NavLink>  </li>               
-                </ul>
-        </ul>
-
-        <ul>
-            <li onClick={toogleHandler2}><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
-        </ul>
-
-        <ul>
-                <li onClick={toogleHandler3}><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
-        </ul>
-
-        <ul>
-                <li onClick={toogleHandler4}><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
-        </ul>                 
+        {/* SideDrawerNyit vagy SideDrawerZar*/}
+        <div className={sideDrawer}>
         
-    </nav>
-    </div>
-    <div>
-    {backdrop} 
-    </div>
-      
-    </div> 
+            <nav>  
+
+                    {/*Open ul lesz az ezt tartalmazó li hiszen az ul-nek nem adtam osztalyt
+                    Az eggyel felette levőtől örökli */}
+                    <ul>
+                        <li><NavLink to="/" >FŐOLDAL</NavLink></li> 
+                    </ul>
+                
+                    <ul className="NyiloMenu">
+
+                        <li onClick={toogleHandler0}>
+                        WEBOLDAL-ÁRAK
+                        </li> 
+
+                        <li onClick={toogleHandler0}>
+                            {webGomb}
+                        </li>               
+                    </ul>     
+
+                    {/* WebarakNyit vagy WebarakZar" */}
+                    <ul className={webarak} >
+                                
+                            <li id="lenyiloelejeid"><p>EGYEDI KÉSZÍTÉSŰ: </p> </li>    
+                            <li>
+                                 <NavLink  to={{         
+                                                pathname: "/",      
+                                                hash: "#bemutatkozo",
+                                                }}>- Bemutatkozó weboldal</NavLink>
+                                                
+                            </li>
+                            <li>
+                                <NavLink to={{         
+                                                pathname: "/",      
+                                                hash: "#ceges",
+                                                }}>- Céges weboldal</NavLink>
+                            </li>
+                            <li> 
+                                <NavLink to={{         
+                                                pathname: "/",      
+                                                hash: "#ugyfelszerzo",
+                                                }}>- Ügyfélszerző weboldal</NavLink> 
+                            </li>    
+
+                            <li><p>HAGYOMÁNYOS:</p></li>  
+                            <li> 
+                                <NavLink to={{         
+                                                pathname: "/",      
+                                                hash: "#ugyfelszerzo",
+                                                }}>- WordPress weboldal</NavLink> 
+                            </li>   
+                            <li id="lenyilovegeid"> 
+                                <NavLink to={{         
+                                                pathname: "/",      
+                                                hash: "#ugyfelszerzo",
+                                                }}>- Webshop</NavLink> 
+                            </li>  
+                    </ul>
+                    
+
+                   
+                    <ul className="NyiloMenu">     
+                                <li>
+                                    <NavLink to="/SEO" activeClassName='AktivMenu'> SEO</NavLink>
+                                </li>      
+                                <li onClick={toogleHandler1}>
+                                    {seoGomb}
+                                </li>  
+                    </ul>  
+
+                          
+                      {/* SeoNyit vagy SeoZar */}
+                    <ul className={seolenyilo}>
+                                <li id="lenyiloelejeid">
+                                     <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seostart",
+                                        }}>- Seo Start</NavLink>
+                                </li>
+                                <li>
+                                     <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seoultimate",
+                                        }}>- Seo Ultimate</NavLink>
+                                </li>          
+                                <li id="lenyilovegeid"> 
+                                    <NavLink to={{         
+                                        pathname: "/Seo",      
+                                        hash: "#seoultimate",
+                                        }}>- Seo Szövegírás</NavLink>
+                                </li>                          
+                    </ul>
+                            
+                  
+
+                <ul>
+                        <li ><NavLink to="/Technologia" activeClassName='AktivMenu'>TECHNOLOÓGIA</NavLink></li> 
+                </ul>
+
+                <ul>
+                        <li ><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>KAPCSOLAT</NavLink></li> 
+                </ul>                 
+                
+            </nav>
+        
+        
+        
+        
+            <div className="SideBezarkont">
+                <div className="SideBezar">
+                <h1 onClick={props.bezar}>Bezár </h1>
+                </div>    
+            </div>
+            
+        </div>
+
+        <div>
+        {backdrop} 
+        </div>      
+ </div> 
   );
 };
 

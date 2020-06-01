@@ -24,8 +24,9 @@ const NmNavBar = props => {
                     <div className="NM_NavBar_egesz">
                       <NmToolbar click={toogleHandler}></NmToolbar>
                       <NmSideDrawer2
-                      open={isToggledOn}
+                      sideDrawer={isToggledOn}
                       click={toogleHandler2}
+                      bezar={toogleHandler2}
                       ></NmSideDrawer2>                      
                     </div> 
                     )
