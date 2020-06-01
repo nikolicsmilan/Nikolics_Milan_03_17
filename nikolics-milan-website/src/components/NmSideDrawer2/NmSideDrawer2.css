@@ -17,7 +17,7 @@
       /*height: 100%;*/
       width: 75%;
       background: white;     
-      position: absolute;
+      position: relative;
       z-index: 30000;
       /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
       /*top: 4rem;*/
