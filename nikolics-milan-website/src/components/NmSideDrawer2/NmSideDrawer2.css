@@ -243,10 +243,10 @@
     .WebarakZar {
      display: none;
     }
-
+/*ezután van egy pontos vesszű amit most elveszek!!!!!!!!*/
     .NyiloMenu {
       display: flex;
-    };
+    }
 
     .SeoNyit {
      /* display: flex;
