@@ -128,18 +128,7 @@ const NmSideDrawer2 = props => {
         seoGomb="▼ NYIT";
         seolenyilo="SeoZar";
 
-   } else if (toogleState.toogles[0].number0 === 1
-    && toogleState.toogles[1].number1 === 1
-    && toogleState.toogles[2].number2 === 1     
-    ) {
-    
-        webarak='WebarakNyit';
-        webGomb="▲ ZAR";  
-        seoGomb="▲ ZAR";
-        seolenyilo="SeoNyit";
-
    }
-
 
 /*Weboldal-Árak handlere eleje*/
 const toogleHandler0 = () =>{ 
