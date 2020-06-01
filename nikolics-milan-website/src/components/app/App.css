@@ -520,20 +520,16 @@ textarea {
           /*position: relative;*/
          /* border: 3px dashed orange;*/
          /* justify-self: center;
-          align-items: center;*/
-         
+          align-items: center;*/         
           /*margin-bottom: 3rem;*/
-      }
-      
+      }      
       
       .AppEgeszBody{
        padding-top: 0.5%;
        padding-left: 1.5%;
-       padding-right: 1.5%;
-      
+       padding-right: 1.5%;      
       /* width:100%; */
-     /* border: 3px dashed blue;*/
-      
+     /* border: 3px dashed blue;*/      
       }
       
     
@@ -545,22 +541,42 @@ textarea {
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
   
-  
-
+    .AppEgesz {
+        display:flex;
+        flex-direction: column;
+        /*position: relative;*/
+       /* border: 3px dashed red;*/
+       /* align-items: flex-start;*/
+       /* width:100%; */
+       
+      }
+      
+      .AppNavbar {
+          display:flex;
+          flex-direction: row;
+          justify-content: flex-start;
+         /* width:100%;  */
+          /*position: relative;*/
+         /* border: 3px dashed orange;*/
+         /* justify-self: center;
+          align-items: center;*/         
+          /*margin-bottom: 3rem;*/
+      }      
+      
+      .AppEgeszBody{
+       padding-top: 0.5%;
+       padding-left: 1.5%;
+       padding-right: 1.5%;      
+      /* width:100%; */
+     /* border: 3px dashed blue;*/      
+      } 
 }
-
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
 
-
-
-
-
-
-
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
-    .App_egesz {
+    .AppEgesz {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
@@ -570,7 +586,7 @@ textarea {
         width:100%;        
       }
       
-    .App_navbar {
+    .AppNavbar {
           display:flex;
           flex-direction: row;
           /*position: relative;*/
@@ -581,7 +597,7 @@ textarea {
           /*margin-bottom: 3rem;*/
       }     
       
-    .App_egesz-body {
+    .AppEgeszBody {
        padding-top: 0.5%;
        padding-left: 1.5%;
        padding-right: 1.5%;
@@ -590,9 +606,7 @@ textarea {
        justify-self: center;
        width:100%; 
       /*border: 3px dashed blue;*/      
-    } 
- 
-  
+    }   
 }
 
 /* 3. Device = Tablets, Ipads (portrait) VÉGE*/
@@ -600,7 +614,7 @@ textarea {
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-    .App_egesz {
+    .AppEgesz {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
@@ -610,7 +624,7 @@ textarea {
         width:100%;        
       }
       
-    .App_navbar {
+    .AppNavbar {
           display:flex;
           flex-direction: row;
           /*position: relative;*/
@@ -621,7 +635,7 @@ textarea {
           /*margin-bottom: 3rem;*/
       }     
       
-    .App_egesz-body {
+    .AppEgeszBody {
        padding-top: 0.5%;
        padding-left: 1.5%;
        padding-right: 1.5%;
@@ -639,7 +653,7 @@ textarea {
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-    .App_egesz {
+    .AppEgesz {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
@@ -649,7 +663,7 @@ textarea {
         width:100%;        
       }
       
-      .App_navbar {
+      .AppNavbar {
           display:flex;
           flex-direction: row;
           /*position: relative;*/
@@ -660,7 +674,7 @@ textarea {
           /*margin-bottom: 3rem;*/
       }     
       
-      .App_egesz-body {
+      .AppEgeszBody {
        padding-top: 0.5%;
        padding-left: 1.5%;
        padding-right: 1.5%;
@@ -678,7 +692,7 @@ textarea {
 
 @media (min-width: 1281px) and (max-width: 1599px) {
   
-    .App_egesz {
+    .AppEgesz {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
@@ -688,7 +702,7 @@ textarea {
         width:100%;        
       }
       
-      .App_navbar {
+      .AppNavbar {
           display:flex;
           flex-direction: row;
           /*position: relative;*/
@@ -699,7 +713,7 @@ textarea {
           /*margin-bottom: 3rem;*/
       }     
       
-      .App_egesz-body {
+      .AppEgeszBody {
        padding-top: 0.5%;
        padding-left: 1.5%;
        padding-right: 1.5%;
@@ -707,7 +721,7 @@ textarea {
        flex-direction: column;
        justify-self: center;
        width:100%; 
-      /*border: 3px dashed blue;*/      
+       /* border: 3px dashed blue;      */
       }  
 }
 
@@ -718,7 +732,7 @@ textarea {
 
 @media (min-width: 1600px) {
 
-    .App_egesz {
+    .AppEgesz {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
@@ -728,7 +742,7 @@ textarea {
         width:100%;        
       }
       
-      .App_navbar {
+      .AppNavbar {
           display:flex;
           flex-direction: row;
           /*position: relative;*/
@@ -739,7 +753,7 @@ textarea {
           /*margin-bottom: 3rem;*/
       }     
       
-      .App_egesz-body {
+      .AppEgeszBody {
        padding-top: 0.5%;
        padding-left: 1.5%;
        padding-right: 1.5%;
