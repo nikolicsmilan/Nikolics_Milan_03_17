@@ -18,7 +18,7 @@
 .ToolbarHeaderEgesz {
       /*H2 beállítja*/
       /* color:red;*/
- /* border: 6px solid purple;*/
+ /*border: 6px solid purple;*/
   width:100%;
   background-color: white;
   position: relative;
@@ -50,8 +50,9 @@
 .ButtonLogoKontener {
   display: flex;
   flex-direction: column;
+  align-content: space-between;
  /* float: left;*/
-  align-items: left;
+ /* align-items: left;*/
  /* border: 3px solid purple;*/
   margin-left: 1rem;
   padding-left: 1%;
@@ -75,14 +76,18 @@
 .Button h2 {       
   font-weight: 200;
   font-size: 1.5rem;
+  padding-top: 0;
   color:black;
+ /* border: 3px solid yellow;*/
   }
 
   /*1*/
 .ButKozepre {
-  /* border: 1px dashed green;*/
+  /*border: 3px dashed green;*/
   font-size: 2rem;
   }
+
+
 
   /*1*/
 .TelEmailKontener {
