@@ -7,8 +7,9 @@ import './Csomagok.css';
 const Csomagok = props => {
       
       return (
-          <div>
+          <div className="CsomagokEgeszKulso">
   <h2>EGYEDI KÉSZÍTÉSŰ WEBOLDALAK</h2>
+    <p>(Szükséges idő: 3-4 hét)</p>
                 <div className="CsomagokEgesz">
                  
                     <div className="CsomagDoboz" id="bemutatkozo">
@@ -23,6 +24,13 @@ const Csomagok = props => {
                     <UgyfelszerzoCsomag></UgyfelszerzoCsomag>
                     </div>
                 </div>
+
+ <h2>HAGYOMÁNYOS KÍNÁLAT</h2>
+ <p>(Szükséges idő: kevesebb)</p>
+
+ <div className=""> 
+
+ </div>
         </div>
       )
 }

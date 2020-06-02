@@ -2,11 +2,14 @@ import React from 'react';
 import './NmButton.css';
 
 const NmButton = props => (
-    <button className="toggle-button" onClick={props.click}>
-        <div className="toggle-button__line" />
-        <div className="toggle-button__line" />
-        <div className="toggle-button__line" />
+    <div className="KulsoToogleButton">
+     <button className="ToggleButton" onClick={props.click}>
+        <div className="ToggleButtonLine" />
+        <div className="ToggleButtonLine" />
+        <div className="ToggleButtonLine" />
     </button>
+    </div>
+   
 );
 
 export default NmButton;

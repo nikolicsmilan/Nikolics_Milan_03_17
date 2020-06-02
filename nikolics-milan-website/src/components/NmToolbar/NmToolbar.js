@@ -63,7 +63,7 @@ const NmToolbar = props => (
               
 
           {/*3*/}
-                <div className="EU_Logo_kontener_mobil">
+                <div className="EuLogoKontenerMobil">
                   <img className="EU_logo_Mobil" src={EU_logo_Mobil} alt="EU_logo_Mobil" ></img> 
                 </div>
           
