@@ -298,7 +298,6 @@
    .SideEgesz {
       display: flex;
       flex-direction: column;
-      min-width:100%;
     }
 
     .SideDrawerNyit {
@@ -325,6 +324,7 @@
       border: 3px solid rgba(40, 164, 241, 0.938);
       padding-top: 1rem;
       color:rgba(40, 164, 241, 0.938);
+      align-items: stretch;
     }
 
     .SideDrawerNyit p {
