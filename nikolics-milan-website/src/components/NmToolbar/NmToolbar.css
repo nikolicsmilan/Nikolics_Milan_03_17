@@ -138,21 +138,24 @@
   justify-content: space-between;
   position: relative;
   z-index: 990; 
-  width: 100%;
+  width: 100%;  
+  /*margin-bottom: 2rem;*/
 }
 
  /*1*/
 .ButtonLogoKontener {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+ justify-content: space-around;
  /* float: left;*/
  /* align-items: left;*/
  /* border: 3px solid purple;*/
-  margin-left: 1rem;
-  padding-left: 1%;
+  margin-left: 0.5rem;
+ /* padding-left: 1%;
   /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
  /* height:10rem;*/
+ /*border:3px solid green;*/
+
 }
 
  /*1*/
@@ -162,9 +165,10 @@
   flex-direction: column;
   align-items: center; 
  /* padding-left: 0.5rem;*/
-  color:grey;
+  color:black;
  /* border: 3px solid yellow;*/
   width:2.8rem;
+ 
 }
 
  /*1*/
@@ -189,43 +193,44 @@
   display:flex;
   flex-direction: column; 
   color: rgba(40, 164, 241, 0.938);  
+  color:black;
  /* border: 3px solid green;*/
   width: 100%;
-  padding-left: 2%;
   margin-top: 2%;
 }   
 
 /*1*/
 .Telefon {
   display: flex;
-  width:1.3rem;
   /*border: 3px solid yellow;*/
   width: 13rem;
   align-items: center;
   padding-bottom: 1%;
+  padding-left: 0;
 }
 
 /*1*/
 .Telefon img {
-width:1rem;
-height: 1rem;
+width:3rem;
+height: 3rem;
 margin-right:0.2rem;
 /*border: 3px solid purple;*/
 }
 
 /*1*/
-.Telefon p {
- font-size:0.8rem;
+.Email p {
+ font-size:1.2rem;
 }
 
 /*1*/
 .Szamkontener {
-width:8rem;
+width:100%;
+/*border:3px solid red;*/
 }
 
 /*1*/
 .Szamkontener p{
- font-size: 1rem;
+ font-size: 1.2rem;
 }
 
 /*1*/
@@ -237,8 +242,8 @@ width:8rem;
 }
 
 .Email img {
-  width:1rem;
-  height: 1rem;
+  width:3rem;
+  height:3rem;
   margin-right:0.2rem;
 }
 

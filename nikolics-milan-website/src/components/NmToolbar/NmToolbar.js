@@ -3,8 +3,8 @@ import './NmToolbar.css';
 import NmButton from'../NmButton/NmButton';
 import EU_logo_Mobil from '../../assets/EU_logo_Mobil.jpg';
 import EU_logo_Desktop from '../../assets/EU_logo_Desktop.jpg';
-import tel from '../../assets/telefon-min.PNG';
-import email from '../../assets/email-min.PNG';
+import tel from '../../assets/telefon2.PNG';
+import email from '../../assets/email2.PNG';
 /*import { HashLink as Link } from 'react-router-hash-link';*/
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 /*import DropDown from '../../components/DropDown/DropDown';*/
@@ -39,18 +39,12 @@ const NmToolbar = props => (
                     
                     <div className="TelEmailKontener">
                       
-                      <div className="Telefon">
-                        <div>
-                           <img src={tel} alt="telefon" ></img> 
-                        </div>
-                      
-                         <div className="Szamkontener">
-                           <p>+36 20 475 24 60</p>
-                         </div>
-                      
+                      <div className="Telefon">                        
+                           <img src={tel} alt="telefon" ></img>                        
+                               <p>+36 20 475 24 60</p>                      
                       </div>
                    
-                      <div className="Email" >
+                      <div className="Telefon" >
                         <img src={email} alt="email" ></img> 
                          <p>nikolicsmilan@gmail.com</p>
                       </div>

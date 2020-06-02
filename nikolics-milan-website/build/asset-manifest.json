@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.86e8656e.chunk.css",
-    "main.js": "/static/js/main.0e39100f.chunk.js",
-    "main.js.map": "/static/js/main.0e39100f.chunk.js.map",
+    "main.css": "/static/css/main.08812c20.chunk.css",
+    "main.js": "/static/js/main.6cd3ac16.chunk.js",
+    "main.js.map": "/static/js/main.6cd3ac16.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.a5ebb884.chunk.js": "/static/js/2.a5ebb884.chunk.js",
-    "static/js/2.a5ebb884.chunk.js.map": "/static/js/2.a5ebb884.chunk.js.map",
+    "static/js/2.7533a8eb.chunk.js": "/static/js/2.7533a8eb.chunk.js",
+    "static/js/2.7533a8eb.chunk.js.map": "/static/js/2.7533a8eb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dc88a0b022aa45c3882214619c8caf59.js": "/precache-manifest.dc88a0b022aa45c3882214619c8caf59.js",
+    "precache-manifest.79e3733be7c5bf001afb06d903f9fbda.js": "/precache-manifest.79e3733be7c5bf001afb06d903f9fbda.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.86e8656e.chunk.css.map": "/static/css/main.86e8656e.chunk.css.map",
-    "static/js/2.a5ebb884.chunk.js.LICENSE.txt": "/static/js/2.a5ebb884.chunk.js.LICENSE.txt",
+    "static/css/main.08812c20.chunk.css.map": "/static/css/main.08812c20.chunk.css.map",
+    "static/js/2.7533a8eb.chunk.js.LICENSE.txt": "/static/js/2.7533a8eb.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
     "static/media/Bevetel5.png": "/static/media/Bevetel5.bdad138e.png",
@@ -27,6 +27,7 @@
     "static/media/Ugyfelszerzo_Mobil-min.png": "/static/media/Ugyfelszerzo_Mobil-min.72c64d0d.png",
     "static/media/celtalan.jpg": "/static/media/celtalan.be53e226.jpg",
     "static/media/email-min.PNG": "/static/media/email-min.aa7faa1a.PNG",
+    "static/media/email2.PNG": "/static/media/email2.49943c27.PNG",
     "static/media/felfele13.PNG": "/static/media/felfele13.69e17332.PNG",
     "static/media/finish.jpg": "/static/media/finish.f00fce78.jpg",
     "static/media/info-gomb3.svg": "/static/media/info-gomb3.4c955413.svg",
@@ -36,13 +37,14 @@
     "static/media/osztonzo_szoveg_2.PNG": "/static/media/osztonzo_szoveg_2.c526a05b.PNG",
     "static/media/pipa2.svg": "/static/media/pipa2.586316b4.svg",
     "static/media/telefon-min.PNG": "/static/media/telefon-min.c32d6193.PNG",
+    "static/media/telefon2.PNG": "/static/media/telefon2.198b02f2.PNG",
     "static/media/xa.svg": "/static/media/xa.56f4be01.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3f67dda9.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.a5ebb884.chunk.js",
-    "static/css/main.86e8656e.chunk.css",
-    "static/js/main.0e39100f.chunk.js"
+    "static/js/2.7533a8eb.chunk.js",
+    "static/css/main.08812c20.chunk.css",
+    "static/js/main.6cd3ac16.chunk.js"
   ]
 }

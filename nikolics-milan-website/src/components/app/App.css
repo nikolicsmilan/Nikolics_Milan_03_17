@@ -507,9 +507,9 @@ textarea {
         flex-direction: column;
         /*position: relative;*/
        /* border: 3px dashed red;*/
-       /* align-items: flex-start;*/
-       /* width:100%; */
        
+       /* width:100%; */
+      /* border: 3px dashed orange;*/
       }
       
       .AppNavbar {
