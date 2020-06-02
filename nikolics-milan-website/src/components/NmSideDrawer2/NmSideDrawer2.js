@@ -203,6 +203,7 @@ const toogleHandler0 = () =>{
         };
 
   return (
+      <div className="SafariIgeny">
 <div className="SideEgesz">
         {/* SideDrawerNyit vagy SideDrawerZar*/}
         <div className={sideDrawer}>
@@ -212,7 +213,7 @@ const toogleHandler0 = () =>{
                     {/*Open ul lesz az ezt tartalmazó li hiszen az ul-nek nem adtam osztalyt
                     Az eggyel felette levőtől örökli */}
                     <ul>
-                        <li><NavLink to="/" >FŐOLDALa</NavLink></li> 
+                        <li><NavLink to="/" >FŐOLDALb</NavLink></li> 
                     </ul>
                 
                     <ul className="NyiloMenu">
@@ -326,6 +327,7 @@ const toogleHandler0 = () =>{
         {backdrop} 
         </div>      
  </div> 
+ </div>
   );
 };
 

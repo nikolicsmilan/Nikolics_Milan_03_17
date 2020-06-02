@@ -148,6 +148,10 @@
   
   /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
   @media (min-width: 320px) and (max-width: 480px) {
+
+    .SafariIgeny{
+      display: flex;
+    }
     
     .SideEgesz {
       display: flex;
