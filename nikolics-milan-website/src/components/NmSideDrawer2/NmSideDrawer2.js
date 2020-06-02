@@ -212,7 +212,7 @@ const toogleHandler0 = () =>{
                     {/*Open ul lesz az ezt tartalmazó li hiszen az ul-nek nem adtam osztalyt
                     Az eggyel felette levőtől örökli */}
                     <ul>
-                        <li><NavLink to="/" >FŐOLDAL</NavLink></li> 
+                        <li><NavLink to="/" >FŐOLDALa</NavLink></li> 
                     </ul>
                 
                     <ul className="NyiloMenu">

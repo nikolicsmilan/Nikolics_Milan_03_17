@@ -152,10 +152,11 @@
     .SideEgesz {
       display: flex;
       flex-direction: column;
-      min-width:100%;
+     
     }
 
     .SideDrawerNyit {
+      height: auto;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
