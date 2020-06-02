@@ -160,7 +160,7 @@
       flex-direction: column;
       justify-content: space-between;
       /*height: 100%;*/
-      width: 75%;
+      width: 15rem;
       background: white;     
       position: relative;
       z-index: 30000;
@@ -179,6 +179,7 @@
       border: 3px solid rgba(40, 164, 241, 0.938);
       padding-top: 1rem;
       color:rgba(40, 164, 241, 0.938);
+      align-items: stretch;
     }
 
     .SideDrawerNyit p {
@@ -305,7 +306,7 @@
       flex-direction: column;
       justify-content: space-between;
       /*height: 100%;*/
-      width: 75%;
+      width: 10rem;
       background: white;     
       position: relative;
       z-index: 30000;
