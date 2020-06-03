@@ -489,7 +489,8 @@ const toogleHandler10 = () => {
                 <p>
                 Egy teljesen új weboldal esetében általában folyamatos
                 Keresőmotor-optimalizálás munkát igényel, hogy 10 új kulcsszó
-                rangsorolását a top 10 pozicióba fejlesszük.<br></br>
+                rangsorolását a top 10 pozicióba fejlesszük.
+                <br></br><br></br>
                 * vagy eggyel kevesebb vállalkozás típusától függően, de mindenképpen
                 lassabb mint a SEO ULTIMATE csomag.
                 </p>

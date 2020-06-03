@@ -25,7 +25,7 @@ const Seo= props => {
                         </div>
             </div>
 
-             <div className="SeoAlsok">
+             <div className="SeoAlsok" >
                         <div className="SeoCsomag">
 
                         </div>
@@ -36,7 +36,7 @@ const Seo= props => {
             </div>
 
               <SeoDiagram></SeoDiagram>
-           
+             <div id="footerseoid"></div>
       </div>
    
 

@@ -1,105 +1,142 @@
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
-    /*TOOLBAR EGESZ*/
+ /*TOOLBAR EGESZ*/
 
-  /*0*/
-  .ToolbarHeaderEgesz {
-  /*H2 beállítja*/
+    /*0*/
+.ToolbarHeaderEgesz {
+ /*H2 beállítja*/
+  /* color:red;*/
+ /*border: 6px solid purple;*/
   width:100%;
   background-color: white;
   position: relative;
   }         
 
-  /*0*/
-  .ToolbarNavEgesz {
-    display: flex;
-    width: 100%;  
-    flex-direction: column; 
-    background-color: white;
-  /* max-height: 3rem;*/
-    z-index: 999;  
-    top:0;
-  /* border: 3px solid purple;*/
-  }
-
-  /*0*/
-  .MobilNezet {
-    /* border:3px solid blue;*/
-    display:flex;
-    justify-content: space-between;
-    position: relative;
-    z-index: 990; 
-    width: 100%;
-  }
-
-  /*0*/
-  .ButtonLogoKontener {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin-left: 1rem;
-    padding-left: 1%;
-    /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
-  /* height:10rem;*/
-  }
-
-  /*0*/
-  .Button {
-    /*H2 beállítja*/   
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  /* padding-left: 0.5rem;*/
-    color:grey;
-  /* border: 3px solid yellow;*/
-    width:2.8rem;
-  }
-
-  /*0*/
-  .Button h2 {       
-    font-weight: 200;
-    font-size: 1.5rem;
-    padding-top: 0;
-    color:black;
-    }
-
-  /*0*/
-  .ButKozepre {
-    font-size: 2rem;
-    }
-
-    /*0*/
-  .TelEmailKontener {
-    display:none; 
-    }   
-
-  /*0*/
-  .EuLogoKontenerMobil {
-  border:3px solid red;
-  }
-
-  /*0*/
-  .EU_logo_Mobil {
-    width:9rem;
-    z-index: 10000;    
-  /* border:3px dashed black;*/
-    }
-
-    /*MOBIL NÉZET VÉGE */
-
-    /*DESKTOP ELEJE*/
-
    /*0*/
-  .EuLogoKontenerDesktop {
-    display:none;
-    }
-    
-    /*0*/
-  .DesktopMenu {
-    display: none;
+.ToolbarNavEgesz {
+  display: flex;
+  width: 100%;  
+  flex-direction: column; 
+  background-color: white;
+ /* max-height: 3rem;*/
+  z-index: 999;  
+  top:0;
+ /* border: 3px solid purple;*/
+}
+
+ /*0*/
+.MobilNezet {
+  /* border:3px solid blue;*/
+  display:flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 990; 
+  width: 100%;  
+  /*margin-bottom: 2rem;*/
+}
+
+ /*0*/
+.ButtonLogoKontener {
+  display: flex;
+  flex-direction: column;
+ justify-content: space-around;
+ /* float: left;*/
+ /* align-items: left;*/
+ /* border: 3px solid purple;*/
+  margin-left: 1rem;
+ /* padding-left: 1%;
+  /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
+ /* height:10rem;*/
+ /*border:3px solid green;*/
+}
+
+/*0*/
+.Button {
+  /*H2 beállítja*/   
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+ /* padding-left: 0.5rem;*/
+  color:black;
+ /* border: 3px solid yellow;*/
+  width:2.8rem;
+ 
+}
+
+ /*0*/
+.Button h2 {       
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-top: 0;
+  color:black;
+ /* border: 3px solid yellow;*/
   }
 
-    }
+  /*0*/
+.ButKozepre {
+  /*border: 3px dashed green;*/
+  font-size: 2rem;
+  }
+
+ /*0*/
+.ElerhetKontener {
+  display:flex;
+  flex-direction: column; 
+  color: rgba(40, 164, 241, 0.938);  
+  color:black;
+  /*border: 3px solid green;*/
+  width: 100%;
+  margin-top: 2%;
+}   
+
+/*0*/
+.Elerhet {
+  display: flex;
+  /*border: 3px solid yellow;*/
+  width: 13rem;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-left: 0;
+}
+
+/*0*/
+.Elerhet img {
+width:2.7rem;
+height: 2.7rem;
+margin-right:0.2rem;
+/*border: 3px solid purple;*/
+}
+
+/*0*/
+.EuLogoKontenerMobil {
+position: absolute;
+right:0;
+}
+
+/*0*/
+.EU_logo_Mobil {
+  width:9rem;
+  z-index: 10000;    
+/* border:3px dashed black;*/
+  }
+
+  /*MOBIL NÉZET ELEJE */
+
+  /*DESKTOP ELEJE*/
+
+  /*0*/
+.EuLogoKontenerDesktop {
+  display:none;
+  }
+  
+  /*0*/
+.DesktopMenu {
+  display: none;
+}
+
+/*DESKTOP vÉGE*/
+  }
+
 
   /* 0. Mini SmartPhones VÉGE*/
 
@@ -155,7 +192,6 @@
   /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
  /* height:10rem;*/
  /*border:3px solid green;*/
-
 }
 
  /*1*/
@@ -186,21 +222,19 @@
   font-size: 2rem;
   }
 
-
-
   /*1*/
-.TelEmailKontener {
+.ElerhetKontener {
   display:flex;
   flex-direction: column; 
   color: rgba(40, 164, 241, 0.938);  
   color:black;
- /* border: 3px solid green;*/
+  /*border: 3px solid green;*/
   width: 100%;
   margin-top: 2%;
 }   
 
 /*1*/
-.Telefon {
+.Elerhet {
   display: flex;
   /*border: 3px solid yellow;*/
   width: 13rem;
@@ -210,41 +244,11 @@
 }
 
 /*1*/
-.Telefon img {
+.Elerhet img {
 width:2.7rem;
 height: 2.7rem;
 margin-right:0.2rem;
 /*border: 3px solid purple;*/
-}
-
-/*1*/
-.Email p {
- font-size:1.2rem;
-}
-
-/*1*/
-.Szamkontener {
-width:100%;
-/*border:3px solid red;*/
-}
-
-/*1*/
-.Szamkontener p{
- font-size: 1.2rem;
-}
-
-/*1*/
-.Email {
-  display: flex;
-  align-items: center;
-  width:1.3rem;
-  font-size: 1rem;
-}
-
-.Email img {
-  width:3rem;
-  height:3rem;
-  margin-right:0.2rem;
 }
 
 /*1*/
@@ -280,145 +284,115 @@ right:0;
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
- 
-  /*2*/
-  .ToolbarHeaderEgesz {
-    /*H2 beállítja*/
-    /* color:red;*/
-    /*border: 6px solid purple;*/
-    width:100%;
-    background-color: white;
-    position: relative;
-  }         
+    /*TOOLBAR EGESZ*/
 
-  /*2*/
-  .ToolbarNavEgesz {
-  display: flex;
-  width: 100%;  
-  flex-direction: column; 
-  background-color: white;
-  /* max-height: 3rem;*/
-  z-index: 999;  
-  top:0;
-  /* border: 3px solid purple;*/
-  }
-
-  /*2*/
-  .MobilNezet {
-  /* border:3px solid blue;*/
-  display:flex;
-  justify-content: space-between;
-  position: relative;
-  z-index: 990; 
-  width: 100%;
-  }
-
-  /*2*/
-  .ButtonLogoKontener {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  margin-left: 1rem;
-  padding-left: 1%;
-  /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
-  /* height:10rem;*/
-  }
+    /*2*/
+.ToolbarHeaderEgesz {
+  /*H2 beállítja*/
+  /* color:red;*/
+/*border: 6px solid purple;*/
+width:100%;
+background-color: white;
+position: relative;
+}         
 
  /*2*/
-  .Button {
-  /*H2 beállítja*/   
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  width:2.8rem;
-  }
+.ToolbarNavEgesz {
+display: flex;
+width: 100%;  
+flex-direction: column; 
+background-color: white;
+/* max-height: 3rem;*/
+z-index: 999;  
+top:0;
+/* border: 3px solid purple;*/
+}
 
  /*2*/
-  .Button h2 {       
-  font-weight: 200;
-  font-size: 1.5rem;
-  padding-top: 0;
-  color:black;
-  /* border: 3px solid yellow;*/
-  }
+.MobilNezet {
+/* border:3px solid blue;*/
+display:flex;
+justify-content: space-between;
+position: relative;
+z-index: 990; 
+width: 100%;  
+/*margin-bottom: 2rem;*/
+}
 
-  /*1*/
-  .ButKozepre {
-  /*border: 3px dashed green;*/
-  font-size: 2rem;
-  }
+ /*2*/
+.ButtonLogoKontener {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-left: 1rem;
+}
 
+ /*2*/
+.Button {
+/*H2 beállítja*/   
+display: flex;
+flex-direction: column;
+align-items: center; 
+color:black;
+/* border: 3px solid yellow;*/
+width:2.8rem;
+}
 
+ /*2*/
+.Button h2 {       
+font-weight: 200;
+font-size: 1.5rem;
+padding-top: 0;
+color:black;
+/* border: 3px solid yellow;*/
+}
 
-  /*1*/
-  .TelEmailKontener {
-  display:flex;
-  flex-direction: column; 
-  color: rgba(40, 164, 241, 0.938);  
-  /* border: 3px solid green;*/
-  width: 100%;
-  padding-left: 2%;
-  margin-top: 2%;
-  }   
+ /*2*/
+.ButKozepre {
+/*border: 3px dashed green;*/
+font-size: 2rem;
+}
 
-  /*1*/
-  .Telefon {
-  display: flex;
-  width:1.3rem;
-  /*border: 3px solid yellow;*/
-  width: 13rem;
-  align-items: center;
-  padding-bottom: 1%;
-  }
+ /*2*/
+.ElerhetKontener {
+display:flex;
+flex-direction: column; 
+color: rgba(40, 164, 241, 0.938);  
+color:black;
+/*border: 3px solid green;*/
+width: 100%;
+margin-top: 2%;
+}   
 
-  /*1*/
-  .Telefon img {
-  width:1rem;
-  height: 1rem;
-  margin-right:0.2rem;
-  /*border: 3px solid purple;*/
-  }
+/*1*/
+.Elerhet {
+display: flex;
+/*border: 3px solid yellow;*/
+width: 13rem;
+align-items: center;
+padding-bottom: 1%;
+padding-left: 0;
+}
 
-  /*1*/
-  .Telefon p {
-  font-size:0.8rem;
-  }
+ /*2*/
+.Elerhet img {
+width:2.7rem;
+height: 2.7rem;
+margin-right:0.2rem;
+/*border: 3px solid purple;*/
+}
 
-  /*1*/
-  .Szamkontener {
-  width:8rem;
-  }
+ /*2*/
+.EuLogoKontenerMobil {
+position: absolute;
+right:0;
+}
 
-  /*1*/
-  .Szamkontener p{
-  font-size: 1rem;
-  }
-
-  /*1*/
-  .Email {
-  display: flex;
-  align-items: center;
-  width:1.3rem;
-  font-size: 1rem;
-  }
-
-  .Email img {
-  width:1rem;
-  height: 1rem;
-  margin-right:0.2rem;
-  }
-
-  /*1*/
-  .EuLogoKontenerMobil {
-  position: absolute;
-  right:0;
-  }
-
-  /*1*/
-  .EU_logo_Mobil {
-  width:9rem;
-  z-index: 10000;    
-  /* border:3px dashed black;*/
+ /*2*/
+.EU_logo_Mobil {
+width:15rem;
+z-index: 10000;    
+/* border:3px dashed black;*/
 }
 
 /*MOBIL NÉZET ELEJE */
@@ -434,6 +408,7 @@ display:none;
 display: none;
 }
 
+/*DESKTOP vÉGE*/
 }
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
@@ -918,6 +893,15 @@ width: 25rem;
 height: 12rem;
 } 
 
+/*7*/ /*Ezt a végér kell tenni*/
+li .AktivMenu {
+background-color:rgba(40, 164, 241, 0.938) ;
+color:white;
+height: 2.5rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}  
+
 }
 
 /*DESKTOP NÉZET ELEJE*/
@@ -930,6 +914,7 @@ height: 12rem;
 @media (min-width: 1600px) {
 
 /*TOOLBAR EGESZ ELEJE*/
+
 
 /*7*/
 .ToolbarHeaderEgesz {
@@ -1025,6 +1010,15 @@ VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
 .EuLogoKontenerDesktopBel img {
  height: 15rem;
 } 
+
+/*7*/ /*Ezt a végér kell tenni*/
+  li .AktivMenu{
+  background-color:rgba(40, 164, 241, 0.938) ;
+  color:white;
+ height: 2.5rem;
+ padding-left: 0.5rem;
+ padding-right: 0.5rem;
+  }  
 
 }
 

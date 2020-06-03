@@ -1,6 +1,6 @@
 import React from 'react';
 import './NmToolbar.css';
-import NmButton from'../NmButton/NmButton';
+import NmButton from '../NmButton/NmButton'
 import EU_logo_Mobil from '../../assets/EU_logo_Mobil.jpg';
 import EU_logo_Desktop from '../../assets/EU_logo_Desktop.jpg';
 import tel from '../../assets/telefon2.PNG';
@@ -30,21 +30,21 @@ const NmToolbar = props => (
                       <div className="ButKozepre">
                       <h2>Menü</h2>
                       </div>
-
+                    
                       <div className="ButKozepre"> 
                       <NmButton click={props.click} ></NmButton>
                       </div>
                      
                     </div>
                     
-                    <div className="TelEmailKontener">
+                    <div className="ElerhetKontener">
                       
-                      <div className="Telefon">                        
+                      <div className="Elerhet">                        
                            <img src={tel} alt="telefon" ></img>                        
                                <p>+36 20 475 24 60</p>                      
                       </div>
                    
-                      <div className="Telefon" >
+                      <div className="Elerhet" >
                         <img src={email} alt="email" ></img> 
                          <p>nikolicsmilan@gmail.com</p>
                       </div>

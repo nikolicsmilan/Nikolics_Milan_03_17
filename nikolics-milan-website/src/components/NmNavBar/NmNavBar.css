@@ -36,14 +36,18 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-  
   .NM_NavBar_egesz {
-   border-bottom:1px solid rgba(40, 164, 241, 0.938);
-   width:100%;
-   height:8.5rem;
-   display: flex;
-  /* align-items: center;*/
-  }
+    border-bottom:1px solid rgba(40, 164, 241, 0.938);
+    width:100%;
+    height:11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+   /* border: 3px solid red;*/
+    margin-top: 0.1rem; 
+    position: relative;
+    z-index: 2800;
+}    
 }
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/

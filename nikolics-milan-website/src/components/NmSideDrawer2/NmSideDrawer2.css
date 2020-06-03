@@ -67,8 +67,9 @@
     /*visibility: hidden;*/
   } 
 
-  .WebarakNyit {
-    
+  .WebarakNyit p{
+    color: black;
+    font-weight: 900;
   }
 
   #lenyiloelejeid {
@@ -148,7 +149,7 @@
   
   /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
   @media (min-width: 320px) and (max-width: 480px) {
-
+    /*1*/
     .SafariIgeny{
       display: flex;
       flex-direction: column;
@@ -159,12 +160,14 @@
      position: relative;*/
     }
     
+    /*1*/
     .SideEgesz {
       display: flex;
       flex-direction: column;
       position: absolute;
     }
 
+    /*1*/
     .SideDrawerNyit {
       height: auto;
       display: flex;
@@ -193,6 +196,7 @@
       
     }
 
+    /*1*/
     .SideDrawerNyit p {
        /*EGYEDI KÉSZÍTÉSŰ*/
      }
@@ -208,6 +212,7 @@
       /*background-color: black;  */
      }
 
+     /*1*/
     .SideDrawerNyit li {
       display: flex;
       padding: 0.5rem;
@@ -215,48 +220,60 @@
       color:rgba(40, 164, 241, 0.938);
     }
 
+    /*1*/
     /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
     .SideDrawerNyit a {     
       color:rgba(40, 164, 241, 0.938);  
       /*border: 3px solid red; */ 
     }
 
+    /*1*/
     .SideDrawerZar { 
       transform: translateX(-1000%);
       transition: transform 0.3s ease-out;
       /*visibility: hidden;*/
     } 
 
-    .WebarakNyit {
-      
+    /*1*/
+    .WebarakNyit p{
+      color: black;
+      font-weight: 900;
     }
 
+    /*1*/
     #lenyiloelejeid {
     /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
     border-top: 1px dashed black;
     }
 
+    /*1*/
     #lenyilovegeid {
     /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
     border-bottom: 1px dashed black;
      }
 
+     /*1*/
     .WebarakNyit li {
       color:rgba(40, 164, 241, 0.938);
       padding-left: 1.5rem;    
     }
 
+    /*1*/
     .WebarakZar {
       display: none;
     }
-    .WebarakZar li{
+
+    /*1*/
+    .WebarakZar li {
       display: none;
     }
 
+    /*1*/
     .NyiloMenu {
       display: flex;
     }
 
+    /*1*/
     .SeoNyit {
      /* display: flex;
       flex-direction: column;
@@ -265,26 +282,31 @@
       background-color: black;  */
     }
 
+    /*1*/
     .SeoNyit li {
      /* padding-left: 1.5rem;*/
       /*border:3px solid red;*/
       padding-left: 1.5rem;
     }
 
+    /*1*/
     .SeoNyit ul {
-      border:3px solid green;
+     /* border:3px solid green;*/
     }
 
+    /*1*/
     .SeoZar {
       display: none;
      /* border:3px solid green;*/
     }
 
+    /*1*/
     .SideBezarkont {
       display: flex;    
       justify-content: flex-end;      
     }
 
+    /*1*/
     .SideBezar {   
       width:5rem;
       margin-top:2%;
@@ -307,148 +329,401 @@
   
   /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-   .SideEgesz {
-      display: flex;
-      flex-direction: column;
-    }
+  
+  /*2*/
+  .SafariIgeny{
+    display: flex;
+    flex-direction: column;
+   /* border:3px dashed blue;*/
+    /*justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+   position: relative;*/
+  }
+  
+  /*2*/
+  .SideEgesz {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
 
-    .SideDrawerNyit {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      /*height: 100%;*/
-      width: 10rem;
-      background: white;     
-      position: relative;
-      z-index: 30000;
-      /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
-      /*top: 4rem;*/
-      /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
-     /* left: 0;      */ 
-      opacity:0.9;
-      /*Itt a megoldás- alacsonybnak kell 
-      lennie mint minden más kivéve a backdrop*/
-      /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
-      KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
-      z-index: 2860;
-      transform: translateX(0);
-      transition: transform 0.4s ease-out;
-      border: 3px solid rgba(40, 164, 241, 0.938);
-      padding-top: 1rem;
-      color:rgba(40, 164, 241, 0.938);
-      align-items: stretch;
-    }
+  /*2*/
+  .SideDrawerNyit {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*height: 100%;*/
+    width: 15rem;
+    background: white;     
+    position: relative;
+    z-index: 30000;
+    /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
+    /*top: 4rem;*/
+    /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
+   /* left: 0;      */ 
+    opacity:0.9;
+    /*Itt a megoldás- alacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 2860;
+    transform: translateX(0);
+    transition: transform 0.4s ease-out;
+    border: 3px solid rgba(40, 164, 241, 0.938);
+    padding-top: 1rem;
+    color:rgba(40, 164, 241, 0.938);
+  }
 
-    .SideDrawerNyit p {
-       /*EGYEDI KÉSZÍTÉSŰ*/
-     }
+  /*2*/
+  .SideDrawerNyit p {
+     /*EGYEDI KÉSZÍTÉSŰ*/
+   }
 
-     /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
-      CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
-      KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
-     .SideDrawerNyit ul {
-     /* background-color: red;*/
-    /* border-top: 1px dashed rgba(40, 164, 241, 0.938);
-     border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   */
-      /*background-color: black;  */
-     }
+   /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
+    CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
+    KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
 
-    .SideDrawerNyit li {
-      display: flex;
-      padding: 0.5rem;
-      width:100%;
-      color:rgba(40, 164, 241, 0.938);
-    }
+    /*2*/
+   .SideDrawerNyit ul {
+   /* background-color: red;*/
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);
+   border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   */
+    /*background-color: black;  */
+   }
 
-    /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
-    .SideDrawerNyit a {     
-      color:rgba(40, 164, 241, 0.938);  
-      /*border: 3px solid red; */ 
-    }
+   /*2*/
+  .SideDrawerNyit li {
+    display: flex;
+    padding: 0.5rem;
+    width:100%;
+    color:rgba(40, 164, 241, 0.938);
+  }
 
-    .SideDrawerZar { 
-      transform: translateX(-1000%);
-      transition: transform 0.3s ease-out;
-      /*visibility: hidden;*/
-    } 
+  /*2*/
+  /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
+  .SideDrawerNyit a {     
+    color:rgba(40, 164, 241, 0.938);  
+    /*border: 3px solid red; */ 
+  }
 
+  /*2*/
+  .SideDrawerZar { 
+    transform: translateX(-1000%);
+    transition: transform 0.3s ease-out;
+    /*visibility: hidden;*/
+  } 
 
-    #lenyiloelejeid {
-    /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
-    border-top: 1px dashed black;
-    }
+  /*2*/
+  .WebarakNyit p{
+    color: black;
+    font-weight: 900;
+  }
 
-    #lenyilovegeid {
-    /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
-    border-bottom: 1px dashed black;
-     }
+  /*2*/
+  #lenyiloelejeid {
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
+  border-top: 1px dashed black;
+  }
 
-     .WebarakNyit {
-     
-    }
+  /*2*/
+  #lenyilovegeid {
+  /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
+  border-bottom: 1px dashed black;
+   }
 
-    .WebarakNyit li {
-     /* color:rgba(40, 164, 241, 0.938);*/
-      /*padding-left: 1.5rem;  */  
-    };
+   /*2*/
+  .WebarakNyit li {
+    color:rgba(40, 164, 241, 0.938);
+    padding-left: 1.5rem;    
+  }
 
-    .WebarakNyit ul {
-      border:3px solid red;
-    };
+  /*2*/
+  .WebarakZar {
+    display: none;
+  }
 
-    .WebarakZar {
-     display: none;
-    }
-/*ezután van egy pontos vesszű amit most elveszek!!!!!!!!*/
-    .NyiloMenu {
-      display: flex;
-    }
+  /*2*/
+  .WebarakZar li{
+    display: none;
+  }
 
-    .SeoNyit {
-     /* display: flex;
-      flex-direction: column;
-      border-top: 1px dashed rgba(40, 164, 241, 0.938);
-      border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   
-      background-color: black;  */
-    }
+  /*2*/
+  .NyiloMenu {
+    display: flex;
+  }
 
-    .SeoNyit li {
-     /* padding-left: 1.5rem;*/
-      /*border:3px solid red;*/
-      padding-left: 1.5rem;
-    }
+  /*2*/
+  .SeoNyit {
+   /* display: flex;
+    flex-direction: column;
+    border-top: 1px dashed rgba(40, 164, 241, 0.938);
+    border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   
+    background-color: black;  */
+  }
 
-    .SeoNyit ul {
-      border:3px solid green;
-    }
+  /*2*/
+  .SeoNyit li {
+   /* padding-left: 1.5rem;*/
+    /*border:3px solid red;*/
+    padding-left: 1.5rem;
+  }
 
-    .SeoZar {
-      display: none;
-     /* border:3px solid green;*/
-    }
+  /*2*/
+  .SeoNyit ul {
+    border:3px solid green;
+  }
 
-    .SideBezarkont {
-      display: flex;    
-      justify-content: flex-end;      
-    }
+  /*2*/
+  .SeoZar {
+    display: none;
+   /* border:3px solid green;*/
+  }
 
-    .SideBezar {   
-      width:5rem;
-      margin-top:2%;
-      padding:1%;
-      text-align: center;
-      /*color:  rgba(40, 164, 241, 0.938);*/
-      color:black;
-      border-top:2px solid black;
-      border-left:2px solid black;
-      border:2px solid black;
-      /*font-family: serif;*/
-     /* background-color: black;*/
-      font-size: 1rem;
-    }
+  /*2*/
+  .SideBezarkont {
+    display: flex;    
+    justify-content: flex-end;      
+  }
+
+  /*2*/
+  .SideBezar {   
+    width:5rem;
+    margin-top:2%;
+    padding:1%;
+    text-align: center;
+    /*color:  rgba(40, 164, 241, 0.938);*/
+    color:black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border:2px solid black;
+    /*font-family: serif;*/
+   /* background-color: black;*/
+    font-size: 1rem;
+  }
    
 }
 
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*3*/
+  .SafariIgeny{
+    display: flex;
+    flex-direction: column;
+   /* border:3px dashed blue;*/
+    /*justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+   position: relative;*/
+  }
+  
+   /*3*/
+  .SideEgesz {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+
+   /*3*/
+  .SideDrawerNyit {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*height: 100%;*/
+    width: 15rem;
+    background: white;     
+    position: relative;
+    z-index: 30000;
+    /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
+    /*top: 4rem;*/
+    /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
+   /* left: 0;      */ 
+    opacity:0.9;
+    /*Itt a megoldás- alacsonybnak kell 
+    lennie mint minden más kivéve a backdrop*/
+    /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
+    KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
+    z-index: 2860;
+    transform: translateX(0);
+    transition: transform 0.4s ease-out;
+    border: 3px solid rgba(40, 164, 241, 0.938);
+    padding-top: 1rem;
+    color:rgba(40, 164, 241, 0.938);
+  }
+
+   /*3*/
+  .SideDrawerNyit p {
+     /*EGYEDI KÉSZÍTÉSŰ*/
+   }
+
+   /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
+    CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
+    KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
+
+    /*2*/
+   .SideDrawerNyit ul {
+   /* background-color: red;*/
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);
+   border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   */
+    /*background-color: black;  */
+   }
+
+    /*3*/
+  .SideDrawerNyit li {
+    display: flex;
+    padding: 0.5rem;
+    width:100%;
+    color:rgba(40, 164, 241, 0.938);
+  }
+
+   /*3*/
+  /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
+  .SideDrawerNyit a {     
+    color:rgba(40, 164, 241, 0.938);  
+    /*border: 3px solid red; */ 
+  }
+
+   /*3*/
+  .SideDrawerZar { 
+    transform: translateX(-1000%);
+    transition: transform 0.3s ease-out;
+    /*visibility: hidden;*/
+  } 
+
+ /*3*/
+  .WebarakNyit p{
+    color: black;
+    font-weight: 900;
+  }
+
+  /*3*/
+  #lenyiloelejeid {
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
+  border-top: 1px dashed black;
+  }
+
+   /*3*/
+  #lenyilovegeid {
+  /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
+  border-bottom: 1px dashed black;
+   }
+
+  /*3*/
+  .WebarakNyit li {
+    color:rgba(40, 164, 241, 0.938);
+    padding-left: 1.5rem;    
+  }
+
+  /*3*/
+  .WebarakZar {
+    display: none;
+  }
+
+  /*3*/
+  .WebarakZar li{
+    display: none;
+  }
+
+   /*3*/
+  .NyiloMenu {
+    display: flex;
+  }
+
+  /*3*/
+  .SeoNyit {
+   /* display: flex;
+    flex-direction: column;
+    border-top: 1px dashed rgba(40, 164, 241, 0.938);
+    border-bottom: 1px dashed rgba(40, 164, 241, 0.938);   
+    background-color: black;  */
+  }
+
+   /*3*/
+  .SeoNyit li {
+   /* padding-left: 1.5rem;*/
+    /*border:3px solid red;*/
+    padding-left: 1.5rem;
+  }
+
+   /*3*/
+  .SeoNyit ul {
+    border:3px solid green;
+  }
+
+   /*3*/
+  .SeoZar {
+    display: none;
+   /* border:3px solid green;*/
+  }
+
+   /*3*/
+  .SideBezarkont {
+    display: flex;    
+    justify-content: flex-end;      
+  }
+
+   /*3*/
+  .SideBezar {   
+    width:5rem;
+    margin-top:2%;
+    padding:1%;
+    text-align: center;
+    /*color:  rgba(40, 164, 241, 0.938);*/
+    color:black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border:2px solid black;
+    /*font-family: serif;*/
+   /* background-color: black;*/
+    font-size: 1rem;
+  }
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+  
+  
+  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+
+
+
+}
+
+/* 7. Larger screen VÉGE*/

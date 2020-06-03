@@ -72,7 +72,9 @@
     .FooterLink li {
         padding:0.5rem;
         font-size: 1.5rem;
-        color:white;    
+        color:white;  
+      /* border:3px solid blue;*/
+        text-align: center;  
     }
 /*
     .FooterLink a{
@@ -90,15 +92,18 @@
         min-height: 1rem;
         background-color:   rgb(15, 11, 11);
         color:white;
+        /*border:3px solid rgb(88, 87, 87);*/
     }
 
     .Copy {
-        padding: 1rem;
-       
+        padding: 0.5rem;
+       /* border:3px solid red;*/
+        width:100%;
     }
 
     .Copy h1{
         font-size: 1rem;
+        text-align: center;
        /* border:3px solid red;*/
     }
     

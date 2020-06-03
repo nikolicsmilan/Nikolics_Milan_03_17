@@ -8,7 +8,7 @@ const Footer= props => {
       
       return (            
        <div className="FooterEgesz">        
-             <div className='FooterLink'>  
+             <div className='FooterLink' id="footerid">  
                       <ul >
                         {/*DESKTOP NÉZETBEN LÁTHATÓ*/}
                         <li><NavLink to="/" >Főoldal</NavLink></li> 
@@ -16,9 +16,20 @@ const Footer= props => {
                           pathname: "/",      
                           hash: "#bemutatkozo",
                           }}>Weboldal-Árak</NavLink>  </li>
-                        <li><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
-                        <li><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
-                        <li><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
+                       {/* <li><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li>*/} 
+                        <li> <NavLink activeClassName='AktivMenu' to={{         
+                          pathname: "/Seo",      
+                          hash: "#footerseoid",
+                          }}>SEO</NavLink>  </li>
+                            <li> <NavLink activeClassName='AktivMenu' to={{         
+                          pathname: "/Technologia",      
+                          hash: "#techfooterid",
+                          }}>Technológia</NavLink>  </li>
+                            <li> <NavLink activeClassName='AktivMenu' to={{         
+                          pathname: "/Kapcsolat",      
+                          hash: "#footerkapcsid",
+                          }}>Kapcsolat</NavLink>  </li>
+                       
                                                   
                       </ul>               
             </div>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './NmNavBar.css';
 import NmToolbar from '../NmToolbar/NmToolbar';
-import NmSideDrawer from '../NmSideDrawer/NmSideDrawer';
+
 import NmSideDrawer2 from '../NmSideDrawer2/NmSideDrawer2';
 /*import NmBackdrop from '../NmBackdrop/NmBackdrop';*/
 

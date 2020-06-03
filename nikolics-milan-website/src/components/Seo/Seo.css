@@ -255,36 +255,6 @@
     width:100%;  
   }
 
-  /*7*/
-  .SeoDiagram{
-    display: flex;
-    justify-content: space-evenly;
-    /*border: 30px solid purple;*/
-    /*text-align: center;*/
-    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
-  }
-
-  /*7*/
-  .SeoDiagramKep {
-   /* border: 3px solid red;*/
-    width:40%;
-  }
-
-  /*7*/
-  .SeoDiagramSzoveg {
-   /* border: 1px solid rgba(40, 164, 241, 0.938);*/
-    width:40%;
-    font-size: 2.5rem; 
-    line-height: 3.5rem;
-    padding: 1%; 
-  }
-
-  /*7*/
-  .SeoDiagramSzoveg h1{
-    text-align: center;
-    font-size: 3rem;  
-    padding: 1%;
-  }
 
   /*7*/
   .SeoFelsok {
