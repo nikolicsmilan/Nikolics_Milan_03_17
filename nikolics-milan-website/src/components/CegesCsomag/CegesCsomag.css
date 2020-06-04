@@ -21,7 +21,7 @@
       border-radius: 25px;
       border:2px solid rgba( 49,193,245);
       border:2px solid rgba(40, 164, 241, 0.938);
-      box-shadow: 0px 0px 10px rgba(40, 164, 241, 0.938);
+     box-shadow: 0px 0px 10px rgba(40, 164, 241, 0.938);
       padding-left: 2%;
       padding-right: 2%;
       padding-bottom:2%;
@@ -154,6 +154,7 @@
       border:2px solid rgba( 49,193,245);
       border:2px solid rgba(40, 164, 241, 0.938);
       box-shadow: 0px 0px 10px rgba(40, 164, 241, 0.938);
+     /* border:3px solid red;*/
       padding-left: 2%;
       padding-right: 2%;
       padding-bottom:2%;

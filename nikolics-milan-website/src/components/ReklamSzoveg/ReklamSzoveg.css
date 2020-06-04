@@ -1,5 +1,6 @@
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
+ /*0*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -9,14 +10,17 @@
     padding:1%;
   }
 
+  /*0*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 1.2rem;   
+    font-size: 1.5rem; 
+    font-weight: 900;  
   }
 
+  /*0*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -26,6 +30,7 @@
     /*border: 3px solid purple;*/
   }
 
+  /*0*/
   .ReklamKepekKontener {
       display: flex;
       flex-direction: column;
@@ -35,11 +40,13 @@
       padding-bottom: 1%;
   }
   
+  /*0*/
   .ReklamKep1 {
     min-width:50%;
      max-height: 30rem;
   }
 
+  /*0*/
   .ReklamKep1 img {
      /*üres*/
      min-width:50%;
@@ -48,6 +55,7 @@
      min-width: 100%;*/
   }
 
+  /*0*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -56,6 +64,7 @@
       justify-content: center;
   }
 
+  /*0*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -64,10 +73,12 @@
       font-size: 2rem;
     }
   
+    /*0*/
   .ReklamSzovKont {
       display: flex;
   }
 
+  /*0*/
   .ReklamSzoveg1 {
     padding: 2%;
     margin: 0;
@@ -80,6 +91,7 @@
     /*border: 3px solid green; */
   }
 
+  /*0*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -88,6 +100,7 @@
     /*border: 3px solid purple;*/
    }
   
+   /*0*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -102,14 +115,17 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
+  /*0*/
   .AjanlomGombR2 h1{
    color:white;
   }
   
+  /*0*/
   .AjanlomGombR2:hover {
     background-color:red ;
   }
 
+  /*0*/
   .AjanlomGombR2 a {
    text-decoration: none;
   }
@@ -120,6 +136,8 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
+ 
+  /*1*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -129,14 +147,17 @@
     padding:1%;
   }
 
+  /*1*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 2rem;   
+    font-size: 1.6rem;   
+    font-weight: 900; 
   }
 
+  /*1*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -146,6 +167,7 @@
     /*border: 3px solid purple;*/
   }
 
+  /*1*/
   .ReklamKepekKontener {
       display: flex;
       flex-direction: column;
@@ -155,11 +177,13 @@
       padding-bottom: 1%;
   }
   
+  /*1*/
   .ReklamKep1 {
     min-width:50%;
      max-height: 30rem;
   }
 
+  /*1*/
   .ReklamKep1 img {
      /*üres*/
      min-width:50%;
@@ -168,6 +192,7 @@
      min-width: 100%;*/
   }
 
+  /*1*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -176,6 +201,7 @@
       justify-content: center;
   }
 
+  /*1*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -184,10 +210,12 @@
       font-size: 2rem;
     }
   
+    /*1*/
   .ReklamSzovKont {
       display: flex;
-  }
+   }
 
+   /*1*/
   .ReklamSzoveg1 {
     padding: 2%;
     margin: 0;
@@ -200,6 +228,7 @@
     /*border: 3px solid green; */
   }
 
+  /*1*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -208,6 +237,7 @@
     /*border: 3px solid purple;*/
    }
   
+   /*1*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -223,14 +253,17 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
+  /*1*/
   .AjanlomGombR2 h1{
    color:white;
   }
   
+  /*1*/
   .AjanlomGombR2:hover {
     background-color:red ;
   }
 
+  /*1*/
   .AjanlomGombR2 a {
    text-decoration: none;
   }
@@ -242,6 +275,8 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
+  
+  /*2*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -251,14 +286,17 @@
     padding:1%;
   }
 
+  /*2*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 2.5rem;   
+    font-size: 2rem;  
+    font-weight: 900;  
   }
 
+  /*2*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -267,22 +305,26 @@
     /*border: 3px solid purple;*/
   }
 
+  /*2*/
   .ReklamKepekKontener {
       display: flex;
      /* border: 3px solid red;*/
       padding-bottom: 1%;
       min-height: 15rem;
-  }
+   }
   
+   /*2*/
   .ReklamKep1 {
      /*üres*/
   }
 
+  /*2*/
   .ReklamKep1 img {
      /*üres*/
      min-height: 15rem;
   }
 
+  /*2*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -290,6 +332,7 @@
       align-items: center;
   }
 
+  /*2*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -298,10 +341,12 @@
       font-size: 2rem;
   }
  
+  /*2*/
   .ReklamSzovKont {
       display: flex;
   }
 
+  /*2*/
   .ReklamSzoveg1 {
     display: flex;
     font-size: 1.2rem;
@@ -312,6 +357,7 @@
     /*border: 3px solid green; */
   }
 
+  /*2*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -320,6 +366,7 @@
     /*border: 3px solid purple;*/
    }
   
+   /*2*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -336,14 +383,16 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
+  /*2*/
   .AjanlomGombR2 h1{
    color:white;
   }
 
+  /*2*/
   .AjanlomGombR2:hover {
     background-color:red ;
   }
-
+  /*2*/
   .AjanlomGombR2 a {
    text-decoration: none;
   }
@@ -354,6 +403,8 @@
 
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
+ 
+  /*3*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -363,14 +414,17 @@
     padding:2%;
   }
 
+  /*3*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 3rem;   
+    font-size: 2.2rem;   
+    font-weight: 900; 
   }
 
+  /*3*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -379,20 +433,24 @@
     /*border: 3px solid purple;*/
   }
 
+  /*3*/
   .ReklamKepekKontener {
       display: flex;
       /*border: 3px solid red;*/
       padding-bottom: 1%;
   }
   
+  /*3*/
   .ReklamKep1 {
      /*üres*/
   }
 
+  /*3*/
   .ReklamKep1 img {
      /*üres*/
   }
 
+  /*3*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -400,6 +458,7 @@
       align-items: center;
   }
 
+  /*3*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -408,10 +467,12 @@
       font-size: 5rem;
   }
  
+  /*3*/
   .ReklamSzovKont {
       display: flex;
   }
 
+  /*3*/
   .ReklamSzoveg1 {
     font-size: 1.5rem;
     line-height: 1.7rem; 
@@ -420,6 +481,7 @@
     /*border: 3px solid green; */
   }
 
+  /*3*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -428,6 +490,7 @@
     /*border: 3px solid purple;*/
    }
   
+   /*3*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -442,14 +505,17 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
+  /*3*/
   .AjanlomGombR2 h1{
    color:white;
   }
   
+  /*3*/
   .AjanlomGombR2:hover {
     background-color:red ;
   }
 
+  /*3*/
   .AjanlomGombR2 a {
    text-decoration: none;
   }
@@ -459,6 +525,8 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+ 
+  /*4*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -468,14 +536,17 @@
     padding:1%;
   }
 
+  /*4*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 3rem;   
+    font-size: 2rem;   
+    font-weight: 900; 
   }
 
+  /*4*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -484,20 +555,24 @@
     /*border: 3px solid purple;*/
   }
 
+  /*4*/
   .ReklamKepekKontener {
       display: flex;
      /* border: 3px solid red;*/
       padding-bottom: 1%;
   }
   
+  /*4*/
   .ReklamKep1 {
      /*üres*/
   }
 
+  /*4*/
   .ReklamKep1 img {
      /*üres*/
   }
 
+  /*4*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -505,6 +580,7 @@
       align-items: center;
   }
 
+  /*4*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -513,10 +589,12 @@
       font-size: 5rem;
   }
  
+  /*4*/
   .ReklamSzovKont {
       display: flex;
   }
 
+  /*4*/
   .ReklamSzoveg1 {
     font-size: 1.2rem;
     line-height: 1.5rem;  
@@ -525,6 +603,7 @@
     /*border: 3px solid green; */
   }
 
+  /*4*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -533,6 +612,7 @@
     /*border: 3px solid purple;*/
    }
   
+   /*4*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -547,14 +627,17 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
+  /*4*/
   .AjanlomGombR2 h1 {
    color:white;
   }
 
+  /*4*/
   .AjanlomGombR2:hover {
     background-color:red ;
   }
 
+  /*4*/
   .AjanlomGombR2 a {
    text-decoration: none;
   }
@@ -565,6 +648,8 @@
 
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /*5*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -574,14 +659,18 @@
     padding:1%;
   }
 
+   /*5*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
-    font-size: 3rem;   
+    font-size: 2.2rem;   
+    font-weight: 900; 
+   
   }
 
+   /*5*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -590,20 +679,24 @@
     /*border: 3px solid purple;*/
   }
 
+   /*5*/
   .ReklamKepekKontener {
       display: flex;
      /* border: 3px solid red;*/
       padding-bottom: 1%;
   }
   
+   /*5*/
   .ReklamKep1 {
      /*üres*/
   }
 
+   /*5*/
   .ReklamKep1 img {
      /*üres*/
   }
 
+   /*5*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -611,6 +704,7 @@
       align-items: center;
   }
 
+   /*5*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -619,10 +713,12 @@
       font-size: 5rem;
   }
  
+   /*5*/
   .ReklamSzovKont {
       display: flex;
   }
 
+   /*5*/
   .ReklamSzoveg1 {
     font-size: 1.5rem;
     line-height: 2rem;  
@@ -631,6 +727,7 @@
     /*border: 3px solid green; */
   }
 
+   /*5*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -639,6 +736,7 @@
     /*border: 3px solid purple;*/
    }
   
+    /*5*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -653,24 +751,28 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR2 h1{
+   /*5*/
+  .AjanlomGombR2 h1 {
    color:white;
   }
   
+   /*5*/
   .AjanlomGombR2:hover {
     background-color:red ;
   }
 
+   /*5*/
   .AjanlomGombR2 a {
    text-decoration: none;
-  }
-  
+  }  
 }
 /* 5. Laptops, Desktops VÉGE  */
 
 
 /* 6. Higher resolution desktops ELEJE*/
 @media (min-width: 1281px) and (max-width: 1599px) {
+  
+   /*6*/
   .ReklamEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -680,14 +782,17 @@
     padding:1%;
   }
 
+   /*6*/
   .ReklamCim {   
     display: flex;
     justify-content: center;
     text-align: center;
    /* color:red;*/
     font-size: 3rem;   
+    font-weight: 900; 
   }
 
+   /*6*/
   .ReklamKontener {
     display:flex;
     flex-direction: column;
@@ -696,20 +801,24 @@
     /*border: 3px solid purple;*/
   }
 
+   /*6*/
   .ReklamKepekKontener {
       display: flex;
      /* border: 3px solid red;*/
       padding-bottom: 1%;
   }
   
+   /*6*/
   .ReklamKep1 {
      /*üres*/
   }
 
+   /*6*/
   .ReklamKep1 img {
      /*üres*/
   }
 
+   /*6*/
   .ReklamVsKontener {
       display: flex;
     /*  border: 3px solid orange;*/
@@ -717,6 +826,7 @@
       align-items: center;
   }
 
+   /*6*/
   .ReklamVs {
       display: flex;
       justify-content: center;
@@ -725,10 +835,12 @@
       font-size: 5rem;
   }
  
+   /*6*/
   .ReklamSzovKont {
       display: flex;
   }
 
+   /*6*/
   .ReklamSzoveg1 {
     font-size: 1.5rem;
     line-height: 2rem;  
@@ -737,6 +849,7 @@
     /*border: 3px solid green; */
   }
 
+   /*6*/
   .AjanlomGombR {
     display: flex;
     justify-content: center; 
@@ -745,6 +858,7 @@
     /*border: 3px solid purple;*/
    }
   
+    /*6*/
   .AjanlomGombR2 {
     display: flex;
     flex-direction: column;
@@ -759,7 +873,8 @@
     background-color: rgba(40, 164, 241, 0.938);
   }
   
-  .AjanlomGombR2 h1{
+   /*6*/
+  .AjanlomGombR2 h1 {
    color:white;
   }
 
@@ -767,6 +882,7 @@
     background-color:red ;
   }
 
+   /*6*/
   .AjanlomGombR2 a {
    text-decoration: none;
   }  
@@ -793,6 +909,7 @@
       text-align: center;
      /* color:red;*/
       font-size: 4rem;   
+      font-weight: 900; 
     }
   
     .ReklamKontener {

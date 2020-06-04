@@ -30,6 +30,7 @@
         text-align: center;
         font-size: 2rem;
         margin-bottom:0;
+        font-weight: 900; 
     }
 
     .CsomagokEgeszKulso p {
@@ -52,7 +53,7 @@
           justify-content: center;
           /*padding:1%;
           margin:1%;*/
-          flex-grow: 1;
+        /*  flex-grow: 1;*/
           width:100%;
           padding:0;
           margin:0;
@@ -69,12 +70,15 @@
       .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-bottom:0;
+        font-weight: 900; 
     }
 
     .CsomagokEgeszKulso p {
         text-align: center;
+        padding-top: 0.5rem;
+        font-size: 1.2rem;
     }
     
   }
@@ -110,12 +114,15 @@
       .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-bottom:0;
+        font-weight: 900; 
         }
 
      .CsomagokEgeszKulso p {
         text-align: center;
+        padding-top: 0.5rem;
+        font-size: 1.2rem;
         }
 }
 
@@ -149,14 +156,17 @@
     }
   
     .CsomagokEgeszKulso h2 {
-        padding-top: 5rem;
+        padding-top: 2rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-bottom:0;
+        font-weight: 900; 
         }
 
      .CsomagokEgeszKulso p {
         text-align: center;
+        padding-top: 0.8rem;
+        font-size: 1.8rem;
         }
   }
 
@@ -192,12 +202,14 @@
         text-align: center;
         font-size: 2rem;
         margin-bottom:1rem;
-        }
+        font-weight: 900; 
+    }
 
      .CsomagokEgeszKulso p {
         text-align: center;
         font-size: 1.5rem;
-        }
+        padding-top: 0;
+    }
  
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/
@@ -219,7 +231,7 @@
         margin:0;
     }
     
-    .CsomagDoboz{
+    .CsomagDoboz {
        padding:1%;
        /* margin:1%;*/
        margin-bottom:5%;
@@ -231,9 +243,11 @@
     .CsomagokEgeszKulso h2 {
         padding-top: 5rem;
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         margin-bottom:1rem;
-        }
+        font-weight: 900; 
+     
+    }
 
      .CsomagokEgeszKulso p {
         text-align: center;
@@ -248,7 +262,7 @@
 
 @media (min-width: 1281px) and (max-width: 1599px) {
   
-    .CsomagokEgesz{
+    .CsomagokEgesz {
         /*border: 3px dashed black;*/
         display: flex;
         flex-direction: row;
@@ -261,7 +275,7 @@
         margin:0;
     }
     
-    .CsomagDoboz{
+    .CsomagDoboz {
         padding:2%;
        /* margin:1%;*/
      /*   margin-bottom:15%;*/
@@ -275,7 +289,8 @@
         text-align: center;
         font-size: 2.5rem;
         margin-bottom:2rem;
-        }
+        font-weight: 900; 
+     }
 
      .CsomagokEgeszKulso p {
         text-align: center;
@@ -318,6 +333,7 @@
         text-align: center;
         font-size: 4rem;
         margin-bottom:1.5rem;
+        font-weight: 900; 
         }
 
      .CsomagokEgeszKulso p {

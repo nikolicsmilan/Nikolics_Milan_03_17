@@ -1,5 +1,5 @@
 import React from 'react';
-import './NmBemutatkozas2.css';
+import './NmBemutatkozas3.css';
 import nikolics_logo from './../../assets/nikolicsmilan_logo_12.PNG';
 import bevetel from './../../assets/SzovegKep/Bevetel5.png';
 import nepszeru from './../../assets/SzovegKep/Nepszeru5.PNG';
@@ -8,13 +8,11 @@ import ugyfel from './../../assets/SzovegKep/Ugyfel5.PNG';
 import osztonzo from './../../assets/SzovegKep/osztonzo_szoveg_2.PNG';
 import felfele2 from './../../assets/SzovegKep/felfele13.PNG';
 
-const NmBemutatkozas2 = props => (
+const NmBemutatkozas3 = props => (
 
 <div className="Bemutat_egesz_2">
   
-            <div className="Szoveg_focim_kontener_2">
-                <img className="Nikolics_logo_2" src={nikolics_logo} alt="nikolics_logo" ></img> 
-            </div>
+           
 
             <div className="Szoveg-Kep_kontener_2">                      
                         <ul className="Bemutat_szoveg_keret_ul_2">
@@ -33,10 +31,10 @@ const NmBemutatkozas2 = props => (
                             
                             </div>
                             */}
-
-                            <div className="Osztonzo_szoveg_2">
-                            <img src={osztonzo} alt="osztonzo"></img>
+                            <div className="Szoveg_focim_kontener_2">
+                                <img className="Nikolics_logo_2" src={nikolics_logo} alt="nikolics_logo" ></img> 
                             </div>
+                                        
                         </ul>   
                         
          </div>
@@ -49,4 +47,4 @@ const NmBemutatkozas2 = props => (
 );
 
 
-export default NmBemutatkozas2;
+export default NmBemutatkozas3;

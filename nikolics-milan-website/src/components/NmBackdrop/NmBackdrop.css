@@ -61,12 +61,12 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .NMbackdrop { 
         position: relative;
-        width: 200%;
+        width: 400%;
         height: 45rem;   
         background: white;
         z-index: 100;
-        border:6px solid green;
-        opacity: 1;
+       /* border:6px solid green;*/
+        opacity: 0;
     }
  
   
@@ -77,7 +77,15 @@
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
- 
+    .NMbackdrop { 
+        position: relative;
+        width: 400%;
+        height: 45rem;   
+        background: white;
+        z-index: 100;
+        border:6px solid purple;
+       /* opacity: 1;*/
+    }
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/
 

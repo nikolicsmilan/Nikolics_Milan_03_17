@@ -1,8 +1,9 @@
 
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
+  
+  /*0*/
   .AjanlasEgesz {
-    /* border: 3px solid blue;*/
      display: flex;
      flex-direction: column;
      border-top: 1px solid rgba(40, 164, 241, 0.938); 
@@ -10,15 +11,17 @@
      padding:1%;
    }
  
+    /*0*/
    .AjanlasCim {       
      display: flex;
      justify-content: center;
      text-align: center;
-    /* color:red;*/
-     font-size: 1.2rem;     
+     font-size: 1.5rem;    
+     font-weight: 900;  
     /* border: 3px solid purple; */
    }
  
+    /*0*/
    .AjanlasKontener {
      display:flex;
      flex-direction: column;
@@ -27,7 +30,8 @@
      padding-top: 3%;  
    }
  
-   .AjanlasSzoveguj{
+    /*0*/
+   .AjanlasSzoveguj {
      padding: 2%;
      margin: 0;
      width:100%;
@@ -38,22 +42,26 @@
      /*padding:1%;*/
    }
  
+    /*0*/
    .AjanlasSzoveguj ul {
      padding:2%;
      padding-left: 15%;
      list-style-type: circle;
    }
 
+    /*0*/
    .AjanlasKep {
      min-width:50%;
      max-height: 30rem;
    }
  
-   .AjanlasKep img{
+    /*0*/
+   .AjanlasKep img { 
    min-width:50%;
    max-height: 30rem;
    }  
  
+    /*0*/
    .AjanlomGomb {
     display: flex;
     justify-content: center; 
@@ -62,6 +70,7 @@
   /*  border: 3px solid purple;*/
   }
  
+   /*0*/
    .AjanlomGomb2 {
    display: flex;
    flex-direction: column;
@@ -74,14 +83,17 @@
    background-color: rgba(40, 164, 241, 0.938);
  }
  
- .AjanlomGomb2 h1{
+  /*0*/
+ .AjanlomGomb2 h1 {
   color:white;
  }
 
+  /*0*/
  .AjanlomGomb2:hover { 
   background-color:red;
  }
 
+  /*0*/
  .AjanlomGomb2 a { 
   text-decoration: none;
  }
@@ -91,6 +103,8 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
+ 
+  /*1*/
   .AjanlasEgesz {
     /* border: 3px solid blue;*/
      display: flex;
@@ -100,15 +114,17 @@
      padding:1%;
    }
  
+   /*1*/
    .AjanlasCim {       
      display: flex;
      justify-content: center;
      text-align: center;
-    /* color:red;*/
-     font-size: 2rem;     
+     font-size: 1.6rem; 
+     font-weight: 900;     
     /* border: 3px solid purple; */
    }
  
+   /*1*/
    .AjanlasKontener {
      display:flex;
      flex-direction: column;
@@ -117,6 +133,7 @@
      padding-top: 3%;  
    }
  
+    /*1*/
    .AjanlasSzoveguj {
      padding: 2%;
      margin: 0;
@@ -128,23 +145,27 @@
      /*padding:1%;*/
    }
  
+    /*1*/
    .AjanlasSzoveguj ul {
      padding:2%;
      padding-left: 5%;
      list-style-type: circle;
    }
 
-   .AjanlasKep {
+    /*1*/
+  .AjanlasKep {
      min-width:50%;
      max-height: 30rem;
    }
  
+    /*1*/
   .AjanlasKep img {  
    min-width:50%;
    max-height: 30rem;
  }  
  
-   .AjanlomGomb {
+  /*1*/
+ .AjanlomGomb {
     display: flex;
     justify-content: center; 
     height: 5rem;
@@ -152,7 +173,8 @@
   /* border: 3px solid purple;*/
   }
  
-   .AjanlomGomb2 {
+   /*1*/
+ .AjanlomGomb2 {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -164,14 +186,17 @@
    background-color: rgba(40, 164, 241, 0.938);
  }
  
+  /*1*/
  .AjanlomGomb2 h1 {
   color:white;
  }
 
+  /*1*/
  .AjanlomGomb2:hover { 
   background-color:red;
-}
+ }
 
+  /*1*/
  .AjanlomGomb2 a { 
   text-decoration: none;
 }
@@ -182,7 +207,8 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-
+  
+  /*2*/
   .AjanlasEgesz {
     /* border: 3px solid blue;*/
      display: flex;
@@ -192,15 +218,17 @@
      padding:1%;
    }
  
+   /*2*/
    .AjanlasCim {       
      display: flex;
      justify-content: center;
      text-align: center;
-    /* color:red;*/
-     font-size: 2.5rem;     
+     font-size: 2rem;   
+     font-weight: 900;   
     /* border: 3px solid purple; */
    }
  
+   /*2*/
    .AjanlasKontener {
      display:flex;
      flex-direction: column;
@@ -209,7 +237,8 @@
      padding-top: 3%;  
    }
  
-   .AjanlasSzoveguj{  
+   /*2*/
+   .AjanlasSzoveguj {  
      width:100%;
      min-width: 50%;
      font-size: 1.2rem;
@@ -220,22 +249,27 @@
      /*padding:1%;*/
    }
  
+   /*2*/
    .AjanlasSzoveguj ul {
      padding:2%;
      padding-left: 5%;
      list-style-type: circle;
    }
+
+   /*2*/
    .AjanlasKep {
      min-width:50%;
      max-height: 30rem;
    }
  
+   /*2*/
   .AjanlasKep img {
    min-width:50%;
    max-height: 30rem;
   }  
  
-   .AjanlomGomb {
+  /*2*/
+  .AjanlomGomb {
     display: flex;
     justify-content: center; 
     margin-top:2rem;
@@ -243,6 +277,7 @@
   /*  border: 3px solid purple;*/
   }
  
+  /*2*/
    .AjanlomGomb2 {
    display: flex;
    flex-direction: column;
@@ -255,14 +290,17 @@
    background-color: rgba(40, 164, 241, 0.938);
   }
  
+  /*2*/
   .AjanlomGomb2 h1{
    color:white;
   }
 
- .AjanlomGomb2:hover { 
+  /*2*/
+  .AjanlomGomb2:hover { 
   background-color:red;
- }
+  }
 
+  /*2*/
  .AjanlomGomb2 a { 
   text-decoration: none;
  }
@@ -275,6 +313,7 @@
 
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
+  /*3*/
   .AjanlasEgesz {
     /* border: 3px solid blue;*/
      display: flex;
@@ -284,15 +323,17 @@
      padding:2%;
    }
  
+    /*3*/
    .AjanlasCim {       
      display: flex;
      justify-content: center;
      text-align: center;
-    /* color:red;*/
-     font-size: 3rem;     
+     font-size: 2.2rem;  
+     font-weight: 900;    
     /* border: 3px solid purple; */
    }
  
+   /*3*/
    .AjanlasKontener {
      display:flex;
      flex-direction: column;
@@ -302,6 +343,7 @@
     /* border: 3px solid red;*/
    }
  
+   /*3*/
    .AjanlasSzoveguj {
     /*padding-left:5%;
     padding-right:5%;*/
@@ -314,12 +356,14 @@
      /*padding:1%;*/
    }
  
+   /*3*/
    .AjanlasSzoveguj ul {
      padding:2%;
      padding-left: 5%;
      list-style-type: circle;
    }
 
+   /*3*/
    .AjanlasKep {
      margin: 0 auto;
      min-width:80%;
@@ -329,6 +373,7 @@
     /* max-height: 30rem;*/
    }
  
+   /*3*/
   .AjanlasKep img {
    /*min-width:80%;*/
    width:100%;
@@ -337,7 +382,8 @@
   /* max-height: 30rem;*/
   }  
  
-   .AjanlomGomb {
+  /*3*/
+ .AjanlomGomb {
     display: flex;
     justify-content: center; 
     margin-top:2rem;
@@ -345,7 +391,8 @@
   /* border: 3px solid purple;*/
   }
  
-   .AjanlomGomb2 {
+  /*3*/
+  .AjanlomGomb2 {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -357,14 +404,17 @@
    background-color: rgba(40, 164, 241, 0.938);
  }
  
+ /*3*/
  .AjanlomGomb2 h1 {
   color:white;
- }
+  }
 
+  /*3*/
  .AjanlomGomb2:hover { 
   background-color:red;
  }
 
+ /*3*/
  .AjanlomGomb2 a { 
   text-decoration: none;
  }
@@ -375,6 +425,8 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /*4*/
   .AjanlasEgesz {
    /* border: 3px solid blue;*/
     display: flex;
@@ -384,15 +436,17 @@
     padding:1%;
   }
 
+  /*4*/
   .AjanlasCim {       
     display: flex;
     justify-content: center;
     text-align: center;
-   /* color:red;*/
-    font-size: 3rem;     
+    font-size: 2rem;
+    font-weight: 900;      
     /*border: 3px solid purple; */ 
   }
 
+  /*4*/
   .AjanlasKontener {
     display:flex;
     flex-direction: row;
@@ -401,7 +455,8 @@
     padding-top: 3%;  
   }
 
-  .AjanlasSzoveguj{
+  /*4*/
+  .AjanlasSzoveguj {
     padding: 0;
     margin: 0;
     width:50%;
@@ -412,21 +467,26 @@
     /*padding:1%;*/
   }
 
+  /*4*/
   .AjanlasSzoveguj ul {
     padding:2%;
     padding-left: 5%;
     list-style-type: circle;
   }
+
+  /*4*/
   .AjanlasKep {
     min-width:50%;
     max-height: 30rem;
   }
 
-.AjanlasKep img{
+  /*4*/
+  .AjanlasKep img{
   min-width:50%;
   max-height: 30rem;
-}  
+  }  
 
+  /*4*/
   .AjanlomGomb {
    display: flex;
    justify-content: center; 
@@ -435,6 +495,7 @@
  /*  border: 3px solid purple;*/
  }
 
+ /*4*/
   .AjanlomGomb2 {
   display: flex;
   flex-direction: column;
@@ -447,24 +508,28 @@
   background-color: rgba(40, 164, 241, 0.938);
 }
 
+/*4*/
 .AjanlomGomb2 h1{
  color:white;
 }
 
+/*4*/
 .AjanlomGomb2:hover { 
   background-color:red;
 }
 
+/*4*/
 .AjanlomGomb2 a { 
   text-decoration: none;
 }
-
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/
 
 
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
+ 
+  /*5*/
   .AjanlasEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -474,47 +539,55 @@
     padding:1%;
   }
 
+  /*5*/
   .AjanlasCim {       
     display: flex;
     justify-content: center;
     text-align: center;
-   /* color:red;*/
-    font-size: 3rem;       
+    font-size: 2.2rem;
+    font-weight: 900;     
   }
 
+  /*5*/
   .AjanlasKontener {
     display:flex;
     padding: 1%;
     padding-top: 5%;
   }
 
-  .AjanlasSzoveguj{
+  /*5*/
+  .AjanlasSzoveguj {
     font-size: 1.5rem;
     line-height: 1.5rem;  
    /* padding:1%;*/
     /*padding:1%;*/
   }
 
+  /*5*/
   .AjanlasSzoveguj ul {
     padding:5%;
     list-style-type: circle;
   }
 
+  /*5*/
   .AjanlasSzoveguj li {
     padding:2%;  
       
   }
 
+  /*5*/
   .AjanlasKep {
       min-width:50%;
       max-height: 30rem;
   }
 
-  .AjanlasKep img{
+  /*5*/
+  .AjanlasKep img {
     min-width:50%;
     max-height: 30rem;
-}  
+ }  
 
+ /*5*/
   .AjanlomGomb {
    display: flex;
    justify-content: center; 
@@ -523,6 +596,7 @@
    /* border: 3px solid purple;*/
  }
 
+ /*5*/
   .AjanlomGomb2 {
   display: flex;
   flex-direction: column;
@@ -535,14 +609,17 @@
   background-color: rgba(40, 164, 241, 0.938);
 }
 
-.AjanlomGomb2 h1{
+/*5*/
+.AjanlomGomb2 h1 {
  color:white;
 }
 
+/*5*/
 .AjanlomGomb2:hover { 
   background-color:red;
 }
 
+/*5*/
 .AjanlomGomb2 a { 
   text-decoration: none;
 }  
@@ -553,7 +630,8 @@
 /* 6. Higher resolution desktops ELEJE*/
 
 @media (min-width: 1281px) and (max-width: 1599px) {
-    .AjanlasEgesz {
+   /*6*/
+  .AjanlasEgesz {
         /*border: 3px solid red;*/
         display: flex;
         flex-direction: column;
@@ -562,47 +640,55 @@
         padding:1%;
       }
     
-      .AjanlasCim {       
+     /*6*/
+   .AjanlasCim {       
         display: flex;
         justify-content: center;
         text-align: center;
-       /* color:red;*/
-        font-size: 3rem;       
-      }
-    
-      .AjanlasKontener {
+        font-size: 3rem;  
+        font-weight: 900;      
+    }
+   
+    /*6*/
+   .AjanlasKontener {
         display:flex;
         padding: 1%;
         padding-top: 5%;
-      }
+    }
     
-      .AjanlasSzoveguj{
+      /*6*/
+    .AjanlasSzoveguj {
         font-size: 1.5rem;
         line-height: 2rem;  
         padding:1%;
         /*padding:1%;*/
-      }
+    }
     
-      .AjanlasSzoveguj ul {
+      /*6*/
+    .AjanlasSzoveguj ul {
         padding:5%;
         list-style-type: circle;
       }
     
-      .AjanlasSzoveguj li {
+     /*6*/
+    .AjanlasSzoveguj li {
         padding:2%;            
       }
     
-      .AjanlasKep {
+        /*6*/
+     .AjanlasKep {
           min-width:50%;
           max-height: 30rem;
       }
-    
+
+    /*6*/
       .AjanlasKep img{
         min-width:50%;
         max-height: 30rem;
-    }  
+     }  
 
-      .AjanlomGomb {
+       /*6*/
+    .AjanlomGomb {
        display: flex;
        justify-content: center; 
        margin-top:2rem;
@@ -610,7 +696,8 @@
        /* border: 3px solid purple;*/
      }
     
-      .AjanlomGomb2 {
+       /*6*/
+    .AjanlomGomb2 {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -622,14 +709,17 @@
       background-color: rgba(40, 164, 241, 0.938);
     }
     
+      /*6*/
     .AjanlomGomb2 h1{
      color:white;
     }
 
+      /*6*/
     .AjanlomGomb2:hover { 
       background-color:red;
     }
 
+      /*6*/
     .AjanlomGomb2 a { 
       text-decoration: none;
     }
@@ -655,8 +745,8 @@
   .AjanlasCim {   
     display: flex;
     justify-content: center;
-   /* color:red;*/
-    font-size: 4rem;   
+    font-size: 4rem; 
+    font-weight: 900;   
   }
 
   .AjanlasKontener {

@@ -3,7 +3,7 @@
 
   /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
-  .Kapcsolat_egesz{
+  .KapcsolatEgesz{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@
 }
 
 /*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
+.TelEmailKontenerKapcs{
     display:flex;
     flex-direction: column;    
     color: rgba(40, 164, 241, 0.938);  
@@ -41,7 +41,7 @@
     margin-top:1rem;
   }    
 
-  .Nev_fog{
+  .NevFog{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -52,11 +52,11 @@
       padding-bottom: 4%;
     }
   
-  .Nev_fog h1{
+  .NevFog h1{
     padding-bottom: 2%;
     text-align: center;
   }
-  .Nev_fog h2{
+  .NevFog h2{
     text-align: center;
   }
   .centerbe{
@@ -131,122 +131,86 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
-  .Kapcsolat_egesz{
+
+  /*1*/
+  .KapcsolatEgesz {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   /* border: 3px solid red;*/
-   /* margin: 0 auto;*/
+    /* border: 3px solid red;*/
+    /* margin: 0 auto;*/
    align-items: center;
   }
+
+  /*1*/
+  .KapcsolatEgesz h1 {
+    /*color:red;*/
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
   
-  /*Képem*/
-.Bemutatkozas{
+  /*1*/
+.Bemutatkozas {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   /* border: 3px solid rgba(40, 164, 241, 0.938);*/
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
     width:90%;
     padding-top:1rem;
+    padding-bottom: 1rem;
+   /* border: 3px solid red;*/
 }
 
-.Kepem{
-   /* min-width: 13rem;*/
-    max-width: 13rem;
-    /*margin-right: 1%;*/
-     margin: 0 auto;
-  
+/*1*/
+.Kepem  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  /*width:13rem;*/
+  /*border: 3px solid red;*/
+  margin: 0 auto;
 }
 
-/*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
-    display:flex;
-    flex-direction: column;    
-    color: rgba(40, 164, 241, 0.938);  
-     border: 3px solid rgba(40, 164, 241, 0.938);
-   /* width: 50rem;*/
-    height: 12rem;      
-    margin-top:1rem;
-  }    
-
-  .Nev_fog{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-     /* border: 3px solid yellow;*/
-      font-size: 1.2rem;
-      text-align: center;
-      padding-top: 4%;
-      padding-bottom: 4%;
-    }
+/*1*/
+.NevFog {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    /* border: 3px solid yellow;*/
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
   
-  .Nev_fog h1{
+/*1*/
+.NevFog h1 {
     padding-bottom: 2%;
+    font-size: 1.5rem;
     text-align: center;
+   /* border: 3px solid red;*/
   }
-  .Nev_fog h2{
+
+  /*1*/
+.NevFog h2{
     text-align: center;
-  }
-  .centerbe{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;   
-    
-  }
-  .centerbe_2{
-  /*  border: 3px solid yellow;*/
-    width:10rem;
-    
-  }
-  .Telefon_kapcs{
-    display: flex;
-    flex-direction: row;   
-    justify-content: flex-start;
-    align-items: center;
-    width:10rem;
-    font-size: 0.8rem;
-  /*  border: 3px solid red;   */
-  }
-  .Telefon_kapcs img{
-    width:1.5rem;
-    height: 1.5rem;
-    margin-right:0.5rem;   
-    /*border: 3px solid purple;*/
+    margin-bottom: 1rem;
+    /*border: 3px solid yellow*/
   }
 
-  .Telefon_kapcs h2{
-  /* border: 3px solid purple;*/
-   font-size:0.8rem;  
-  }
-  
-  .Email_kapcs{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;   
-    width:10rem;
-    font-size: 2rem;
-  /*  border: 3px solid red;*/
-   /* padding-left: 5.2rem;*/      
-  }
+  /*1*/
+.NevFog p {
+    /*color:red;*/
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: left;
+}
 
-  .Email_kapcs img {
-    width:1.5rem;
-    height: 1.5rem;
-    margin-right:0.5rem;   
-   /* border: 3px solid purple;*/   
-  }
-
-  .Email_kapcs h2{
-    /*border: 3px solid purple;*/
-    font-size:0.8rem;
-  }
-
-  #form-1{
+/*1*/
+#form-1{
     width:90%;
-  }
-    
-    
+  }    
   }
 
 /* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
@@ -254,238 +218,172 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
-  .Kapcsolat_egesz{
+  /*2*/
+  .KapcsolatEgesz {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   /* border: 3px solid red;*/
-   /* margin: 0 auto;*/
+    /* border: 3px solid red;*/
+    /* margin: 0 auto;*/
    align-items: center;
   }
+
+  /*2*/
+  .KapcsolatEgesz h1 {
+    /*color:red;*/
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
   
-  /*Képem*/
-.Bemutatkozas{
+  /*2*/
+.Bemutatkozas {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-   /* border: 3px solid green;*/
-    width:70%;
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+    width:90%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+   /* border: 3px solid red;*/
 }
 
-.Kepem{
-    min-width: 10rem;
-    max-width: 10rem;
-    margin-right: 1%;
+/*2*/
+.Kepem  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  width:15rem;
+  /*border: 3px solid red;*/
+  margin: 0 auto;
 }
 
-/*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
-    display:flex;
-    flex-direction: column;    
-    color: rgba(40, 164, 241, 0.938);  
-    border: 3px solid rgba(40, 164, 241, 0.938);
-    width: 50rem;
-    height: 10rem;      
-  }    
-
-  .Nev_fog{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    /*  border: 3px solid yellow;*/
-      font-size: 1.2rem;
-      text-align: center;
-      padding-bottom: 4%;
-    }
+/*2*/
+.NevFog {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    /* border: 3px solid yellow;*/
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
   
-  .Nev_fog h1{
+/*2*/
+.NevFog h1 {
     padding-bottom: 2%;
+    font-size: 1.5rem;
     text-align: center;
+   /* border: 3px solid red;*/
   }
-  .Nev_fog h2{
+
+  /*2*/
+.NevFog h2{
     text-align: center;
-  }
-  .centerbe{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;   
-  }
-  .centerbe_2{
-   /* border: 3px solid yellow;*/
-    width:10rem;
-    
-  }
-  .Telefon_kapcs{
-    display: flex;
-    flex-direction: row;   
-    justify-content: flex-start;
-    align-items: center;
-    width:10rem;
-    font-size: 0.8rem;
-   /* border: 3px solid red;   */
-  }
-  .Telefon_kapcs img{
-    width:1rem;
-    height: 1rem;
-    margin-right:0.5rem;   
-    /*border: 3px solid purple;*/
+    margin-bottom: 1rem;
+    /*border: 3px solid yellow*/
   }
 
-  .Telefon_kapcs h2{
-  /* border: 3px solid purple;*/
-   font-size:0.8rem;  
-  }
-  
-  .Email_kapcs{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;   
-    width:10rem;
-    font-size: 1.3rem;
-  /*  border: 3px solid red;*/
-   /* padding-left: 5.2rem;*/      
-  }
-
-  .Email_kapcs img {
-    width:1rem;
-    height: 1rem;
-    margin-right:0.5rem;   
-   /* border: 3px solid purple;*/   
-  }
-
-  .Email_kapcs h2{
-    /*border: 3px solid purple;*/
-    font-size:0.8rem;
-  }
-
-  #form-1{
-    width:70%;
-  }
-
-  
-
+  /*2*/
+.NevFog p {
+    /*color:red;*/
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: left;
 }
 
-
+/*2*/
+#form-1{
+    width:90%;
+  }  
+  }
+  
 /* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
-
-
-
-
 
 
 
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  .Kapcsolat_egesz{
+   /*3*/
+   .KapcsolatEgesz {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   /* border: 3px solid red;*/
-   /* margin: 0 auto;*/
+    /* border: 3px solid red;*/
+    /* margin: 0 auto;*/
    align-items: center;
   }
-  
-  /*Képem*/
-.Bemutatkozas{
-    display: flex;
-    justify-content: center;
-   /* border: 3px solid green;*/
-    width:70%;
-}
 
-.Kepem{
-    min-width: 16rem;
-    max-width: 16rem;
-    margin-right: 1%;
-}
-
-/*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
-    display:flex;
-    flex-direction: column;    
-    color: rgba(40, 164, 241, 0.938);  
-    border: 3px solid rgba(40, 164, 241, 0.938);
-    width: 50rem;
-    height: 16rem;      
-  }    
-
-  .Nev_fog{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    /*  border: 3px solid yellow;*/
-      font-size: 2rem;
-      text-align: center;
-      padding-bottom: 4%;
-    }
-  
-  .Nev_fog h1{
-    padding-bottom: 2%;
+  /*3*/
+  .KapcsolatEgesz h1 {
+    /*color:red;*/
     text-align: center;
-  }
-  .Nev_fog h2{
-    text-align: center;
-  }
-  .centerbe{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;   
-  }
-  .centerbe_2{
-   /* border: 3px solid yellow;*/
-    width:15rem;
-    
-  }
-  .Telefon_kapcs{
-    display: flex;
-    flex-direction: row;   
-    justify-content: flex-start;
-    align-items: center;
-    width:15rem;
-    font-size: 1rem;
-  /*  border: 3px solid red;   */
-  }
-  .Telefon_kapcs img{
-    width:1.5rem;
-    height: 1.5rem;
-    margin-right:1rem;   
-    /*border: 3px solid purple;*/
-  }
-
-  .Telefon_kapcs h2{
-  /* border: 3px solid purple;*/
-   font-size:1.1rem;  
+    font-size: 2rem;
+    font-weight: 900;
   }
   
-  .Email_kapcs{
+  /*3*/
+.Bemutatkozas {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid rgba(40, 164, 241, 0.938);
+    width:90%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+   /* border: 3px solid red;*/
+}
+
+/*3*/
+.Kepem  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  width:15rem;
+  /*border: 3px solid red;*/
+  margin: 0 auto;
+}
+
+/*3*/
+.NevFog {
+   display: flex;
+   flex-direction: column;
     align-items: center;
-    justify-content:flex-start;   
-    width:15rem;
-    font-size: 1.3rem;
-  /*  border: 3px solid red;*/
-   /* padding-left: 5.2rem;*/      
+    /* border: 3px solid yellow;*/
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+  
+/*3*/
+.NevFog h1 {
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+    text-align: center;
+   /* border: 3px solid red;*/
   }
 
-  .Email_kapcs img {
-    width:1.5rem;
-    height: 1.5rem;
-    margin-right:1rem;   
-   /* border: 3px solid purple;*/   
+  /*3*/
+.NevFog h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    /*border: 3px solid yellow*/
   }
 
-  .Email_kapcs h2{
-    /*border: 3px solid purple;*/
-    font-size:1.1rem;
-  }
+  /*3*/
+.NevFog p {
+    /*color:red;*/
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: left;
+}
 
-  #form-1{
-    width:70%;
-  }
-
- 
+/*3*/
+#form-1{
+    width:90%;
+  }  
   
 }
 
@@ -493,7 +391,7 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .Kapcsolat_egesz{
+  .KapcsolatEgesz{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -517,7 +415,7 @@
 }
 
 /*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
+.TelEmailKontenerKapcs{
     display:flex;
     flex-direction: column;    
     color: rgba(40, 164, 241, 0.938);  
@@ -526,7 +424,7 @@
     height: 16rem;      
   }    
 
-  .Nev_fog{
+  .NevFog{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -536,11 +434,11 @@
       padding-bottom: 4%;
     }
   
-  .Nev_fog h1{
+  .NevFog h1{
     padding-bottom: 2%;
     text-align: center;
   }
-  .Nev_fog h2{
+  .NevFog h2{
     text-align: center;
   }
   .centerbe{
@@ -608,7 +506,7 @@
 
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .Kapcsolat_egesz{
+  .KapcsolatEgesz{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -632,7 +530,7 @@
 }
 
 /*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
+.TelEmailKontenerKapcs{
     display:flex;
     flex-direction: column;    
     color: rgba(40, 164, 241, 0.938);  
@@ -641,7 +539,7 @@
     height: 16rem;      
   }    
 
-  .Nev_fog{
+  .NevFog{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -651,11 +549,11 @@
       padding-bottom: 2%;
     }
   
-  .Nev_fog h1{
+  .NevFog h1{
     padding-bottom: 2%;
     text-align: center;
   }
-  .Nev_fog h2{
+  .NevFog h2{
     text-align: center;
   }
   .centerbe{
@@ -726,7 +624,7 @@
 
 @media (min-width: 1281px) and (max-width: 1599px) {
  
-  .Kapcsolat_egesz{
+  .KapcsolatEgesz{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -750,7 +648,7 @@
 }
 
 /*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
+.TelEmailKontenerKapcs{
     display:flex;
     flex-direction: column;    
     color: rgba(40, 164, 241, 0.938);  
@@ -759,7 +657,7 @@
     height: 20rem;      
   }    
 
-  .Nev_fog{
+  .NevFog{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -770,11 +668,11 @@
       padding-top: 10%;
     }
   
-  .Nev_fog h1{
+  .NevFog h1{
     padding-bottom: 2%;
     text-align: center;
   }
-  .Nev_fog h2{
+  .NevFog h2{
     text-align: center;
   }
   .centerbe{
@@ -844,7 +742,7 @@
 
 @media (min-width: 1600px) {
 
-  .Kapcsolat_egesz{
+  .KapcsolatEgesz{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -867,7 +765,7 @@
 }
 
 /*Elérhetőség*/
-.Tel_Email_kontener_kapcs{
+.TelEmailKontenerKapcs{
     display:flex;
     flex-direction: column;    
     color: rgba(40, 164, 241, 0.938);  
@@ -877,7 +775,7 @@
     
   }    
 
-  .Nev_fog{
+  .NevFog{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -888,11 +786,11 @@
       padding-top: 6%;
     }
   
-  .Nev_fog h1{
+  .NevFog h1{
     padding-bottom: 2%;
     text-align: center;
   }
-  .Nev_fog h2{
+  .NevFog h2{
     text-align: center;
   }
   .centerbe{

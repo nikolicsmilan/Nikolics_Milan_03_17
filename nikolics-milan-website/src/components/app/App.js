@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-g-analytics';
 import Route from 'react-router-dom/Route';
 /*import { HashLink as Link } from 'react-router-hash-link';*/
 import NmNavBar from '../NmNavBar/NmNavBar';
-import NmBemutatkozas2 from '../NmBemutatkozas2/NmBemutatkozas2';
+import NmBemutatkozas3 from '../NmBemutatkozas3/NmBemutatkozas3';
 import Ajanlas from '../Ajanlas/Ajanlas';
 import ReklamSzoveg from '../ReklamSzoveg/ReklamSzoveg';
 import Footer from '../Footer/Footer';
@@ -35,10 +35,11 @@ class App extends Component {
           </div>
           <div className="AppEgeszBody">
           
-              <Route exact path="/" component={NmBemutatkozas2}/> 
+              <Route exact path="/" component={NmBemutatkozas3}/> 
+              <Route exact path="/" component={ReklamSzoveg}/> 
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
-              <Route exact path="/" component={ReklamSzoveg}/> 
+              
             {/*  <Route exact path="/" component={FacebookComment}/> */}
               <Route exact path="/" component={Footer}/> 
 
