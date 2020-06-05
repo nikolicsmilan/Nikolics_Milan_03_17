@@ -893,7 +893,7 @@
 /* 7. Larger screen ELEJE*/
 
 @media (min-width: 1600px) {
-
+  /*7*/
     .ReklamEgesz {
       /*border: 3px solid red;*/
       display: flex;
@@ -903,6 +903,7 @@
       padding:1%;
     }
   
+    /*7*/
     .ReklamCim {   
       display: flex;
       justify-content: center;
@@ -912,6 +913,7 @@
       font-weight: 900; 
     }
   
+    /*7*/
     .ReklamKontener {
       display:flex;
       flex-direction: column;
@@ -920,20 +922,24 @@
       /*border: 3px solid purple;*/
     }
 
+    /*7*/
     .ReklamKepekKontener {
         display: flex;
        /* border: 3px solid red;*/
         padding-bottom: 1%;
     }
     
+    /*7*/
     .ReklamKep1 {
        /*üres*/
     }
 
+    /*7*/
     .ReklamKep1 img {
        /*üres*/
     }
 
+   /*7*/
     .ReklamVsKontener {
         display: flex;
       /*  border: 3px solid orange;*/
@@ -941,6 +947,7 @@
         align-items: center;
     }
 
+    /*7*/
     .ReklamVs {
         display: flex;
         justify-content: center;
@@ -949,16 +956,19 @@
         font-size: 5rem;
     }
    
+    /*7*/
     .ReklamSzovKont {
         display: flex;
     }
 
+    /*7*/
     .ReklamSzoveg1 {
        font-size: 2rem;
        line-height: 3rem;   
       /*border: 3px solid green; */
     }
 
+    /*7*/
     .AjanlomGombR {
      display: flex;
      justify-content: center; 
@@ -967,6 +977,7 @@
      /* border: 3px solid purple;*/
      }
     
+     /*7*/
     .AjanlomGombR2 {
       display: flex;
       flex-direction: column;
@@ -981,14 +992,17 @@
       background-color: rgba(40, 164, 241, 0.938);
     }
     
-    .AjanlomGombR2 h1{
+    /*7*/
+    .AjanlomGombR2 h1 {
      color:white;
     }
 
+    /*7*/
     .AjanlomGombR2:hover {
      background-color:red ;
      }
 
+     /*7*/
     .AjanlomGombR2 a {
       text-decoration: none;
       }

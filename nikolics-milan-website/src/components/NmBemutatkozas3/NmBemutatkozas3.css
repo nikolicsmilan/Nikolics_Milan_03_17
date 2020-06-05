@@ -878,6 +878,7 @@
 
 @media (min-width: 1600px) {
 
+  /*7*/
 .Bemutat_egesz_2 {
   display: flex;
   flex-direction: column; 
@@ -891,6 +892,7 @@
   padding: 7%;*/
 }
 
+/*7*/
 .Szoveg_focim_kontener_2 {
   display: flex;     
   justify-content: center;
@@ -899,15 +901,17 @@
   /* border: 3px solid red;*/
 }
  
+/*7*/
 .Nikolics_logo_2 {
    width:70%;
    height: 16rem;
   /* border:3px solid red;*/
    margin:0;
    padding: 0;
-   
+   margin-top: 1rem;
 }
 
+/*7*/
 .Szoveg-Kep_kontener_2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: flex;
@@ -915,18 +919,18 @@
   width:100%;
   margin: 0;
   padding: 0;
- 
 }    
 
+/*7*/
 .Bemutat_szoveg_keret_ul_2 {
   display: flex;
   flex-direction: column;
   width:100%;
   margin: 0;
-  padding: 0;
- 
+  padding: 0; 
 }
 
+/*7*/
 .Li_kontener_2 {
  display: flex;
  justify-content:space-around;
@@ -936,6 +940,7 @@
  /*border:3px solid red;*/
 }
 
+/*7*/
 .Li_kontener_3 {
  display: flex;
  justify-content: center;
@@ -945,14 +950,16 @@
  /* border:3px solid green;*/
  }
 
+ /*7*/
 .BemSzovLi_1_2 {
  display: flex;
- width:36rem;
+ width:30rem;
  height:15rem;
  margin:0;
  padding:0;  
 }
 
+/*7*/
 .BemSzovLi_1_2 img {
  /* width:32rem;*/
  /* padding:0.5rem;*/
@@ -961,6 +968,7 @@
   /*border:3px solid green;*/
 }
 
+/*7*/
 .Osztonzo_szoveg_3 {
   display: flex;
   flex-direction: column;
@@ -972,11 +980,13 @@
  /* height: 50rem;*/
  }
 
+ /*7*/
  .Osztonzo_szoveg_3 img{
   margin-top:3rem;
   height: 60rem;
  }
 
+ /*7*/
 .Osztonzo_szoveg_2 {
   display: flex;
   flex-direction: column;
@@ -988,6 +998,7 @@
   margin-top:2rem;
  }
 
+ /*7*/
 .Bold_kontener_2 {
  display: flex;
  flex-direction: row;
@@ -995,6 +1006,7 @@
  width:100%;
 }
 
+/*7*/
 .NM_Bemutat_szoveg_bold_2 {
   display: flex;
   justify-content: center;   

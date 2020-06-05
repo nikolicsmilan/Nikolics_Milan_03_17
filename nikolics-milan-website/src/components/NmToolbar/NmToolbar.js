@@ -64,10 +64,11 @@ const NmToolbar = props => (
       </div>  
 
    {/*MOBIL NÉZETBEN LÁTHATÓ VÉGE*/}
-      
+   
   <div className="DesktopMenu">   
 
-            <div className='DesktopMenuBelso'>  
+            <div  className="DesktopMenuOszlop">  
+            <div className='DesktopMenuBelso'>
                       <ul >
                         {/*DESKTOP NÉZETBEN LÁTHATÓ*/}
                         <li><NavLink to="/" >Főoldal</NavLink></li> 
@@ -77,9 +78,23 @@ const NmToolbar = props => (
                           }}>Weboldal-Árak</NavLink>  </li>
                         <li><NavLink to="/SEO" activeClassName='AktivMenu'>SEO</NavLink></li> 
                         <li><NavLink to="/Technologia" activeClassName='AktivMenu'>Technológia</NavLink></li> 
-                        <li><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li> 
-                                                  
-                      </ul>               
+                        <li><NavLink to="/Kapcsolat" activeClassName='AktivMenu'>Kapcsolat</NavLink></li>                       
+                      </ul>  
+                      </div>
+
+                      <div className="ElerhetKontener">
+                      
+                      <div className="Elerhet">                        
+                           <img src={tel} alt="telefon" ></img>                        
+                               <p>+36 20 475 24 60</p>                      
+                      </div>
+                   
+                      <div className="Elerhet" >
+                        <img src={email} alt="email" ></img> 
+                         <p>nikolicsmilan@gmail.com</p>
+                      </div>
+                    
+      </div>         
             </div>
 
             <div className="EuLogoKontenerDesktop">
@@ -90,8 +105,9 @@ const NmToolbar = props => (
                 </div>
             </div>        
 
-   </div>    
-   
+   </div>   
+  
+  
     {/*DESKTOP NÉZETBEN LÁTHATÓ*/}
 
     </nav>

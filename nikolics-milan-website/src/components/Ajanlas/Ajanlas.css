@@ -733,6 +733,7 @@
 
 @media (min-width: 1600px) {
 
+  /*7*/
   .AjanlasEgesz {
     /*border: 3px solid red;*/
     display: flex;
@@ -742,6 +743,7 @@
     padding:1%;
   }
 
+  /*7*/
   .AjanlasCim {   
     display: flex;
     justify-content: center;
@@ -749,12 +751,14 @@
     font-weight: 900;   
   }
 
+  /*7*/
   .AjanlasKontener {
     display:flex;
     padding: 2%;
     padding-top: 5%;
   }
 
+  /*7*/
   .AjanlasSzoveguj {
     max-height: 1rem;
     font-size: 2rem;
@@ -762,26 +766,31 @@
     /*padding:1%;*/
   }
 
+  /*7*/
   .AjanlasSzoveguj ul {
     padding:4%;
     list-style-type: circle;
     padding-bottom: 2%;
   }
 
+  /*7*/
   .AjanlasSzoveguj li {
     padding:1%;   
   }
 
+  /*7*/
   .AjanlasKep {
       min-width:50%;
       max-height: 40rem;
   }
 
+  /*7*/
   .AjanlasKep img {
     min-width:50%;
     max-height: 40rem;
 }
 
+/*7*/
 .AjanlomGomb {
   display: flex;
   justify-content: center; 
@@ -790,6 +799,7 @@
  /* border: 3px solid purple;*/
  }
 
+ /*7*/
 .AjanlomGomb2 {
   display: flex;
   flex-direction: column;
@@ -804,14 +814,17 @@
   background-color: rgba(40, 164, 241, 0.938);
 }
 
+/*7*/
 .AjanlomGomb2 h1 {
  color:white;
 }
 
+/*7*/
 .AjanlomGomb2:hover { 
   background-color:red;
 }
 
+/*7*/
 .AjanlomGomb2 a { 
   text-decoration: none;
 }

@@ -10,18 +10,26 @@ const Kapcsolat = props => {
       
       return (
                 <div  className='KapcsolatEgesz'>  
-                            <h1>Rólam</h1>
+              
+                <div className="KapcsCim">
+                    <h1>Rólam</h1>
+                </div>
+                            
                 <div className='Bemutatkozas'>    
                                   
                 <div className='Kepem'>
                     <img src={milan} alt="milan"></img>
-                </div>                  
 
-                <div className='NevFog'>                                
+                    <div className='NevFog'>                                
                      <h1>NIKOLICS MILAN</h1>
                      <h2>Web-fejlesztő</h2>                                                       
-                
-                           
+                    </div> 
+
+                </div>                  
+
+                  
+
+                 <div className="KapcsSzoveg">    
                  <p>
                  2000 óta foglalkozom informatikával, de 9 éve úgy 
                  döntöttem komolyabban belevettem magam.
