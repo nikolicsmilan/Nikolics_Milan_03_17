@@ -8,13 +8,20 @@ class MyComment extends Component {
     render() {
         return (
             <div className="HozzaszolasEgesz">
-                 <FacebookProvider  appId="483066125703881">
+                <div className="FaceFelso">
+                <FacebookProvider  appId="483066125703881">
                             <Like href="https://www.facebook.com/Nikolicsmilanhu-108139094109626/?modal=admin_todo_tour" colorScheme="dark" showFaces share />
-                        </FacebookProvider>   
+                </FacebookProvider>  
 
-                        <FacebookProvider appId="483066125703881">
+                </div>
+                 <div className="Hozzaszolas">
+                 <FacebookProvider appId="483066125703881">
                             <Comments  ></Comments>
-                        </FacebookProvider>                  
+                        </FacebookProvider> 
+
+                 </div>
+
+                                       
           
             </div>
         );

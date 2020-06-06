@@ -46,30 +46,35 @@
 
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
+   
+   /*1*/
     .HozzaszolasEgesz {
-        border: 3px dashed red;
-        width: auto;
-
+       /* border: 3px dashed red;*/
+       /* width: auto;*/
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /*max-height: 100rem;*/
+        /*margin-top: 1rem;*/
         width: 100%;
-        
      }
-     .FaceFelso {
-         /*
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: center;
-         max-height: 100rem;*/
-      
+
+     /*1*/
+     .FaceFelso {         
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-height: 100rem;
      }
      
+     /*1*/
      .Hozzaszolas {
-        border: 3px solid purple;
-
+       /* border: 3px solid purple;*/
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
         /*
         display: flex;
         justify-content: center;
@@ -78,24 +83,6 @@
         max-height: 100rem;*/
       
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-
-
-
-        /*
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         margin-top:5rem;
-         padding: 3rem;*/
-              
-         border: 3px solid green;
-        
-      }
-
-  
     
   }
 
@@ -104,22 +91,26 @@
 
 /* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
 @media (min-width: 481px) and (max-width: 767px) {
+   
+    /*2*/
     .HozzaszolasEgesz {
-        /* border: 3px solid red;*/
-         display: flex;
-        width:80%;
-         flex-direction: column;
-         max-height: 100rem;
-     }
-     .FaceFelso {
-         display: flex;
-         flex-direction: column;
-         align-items: center;
+        display: flex;
          justify-content: center;
+         flex-direction: column;
          max-height: 100rem;
-     
+         margin-top: 2rem;
+     }
+
+       /*2*/
+     .FaceFelso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-height: 100rem;
      }
      
+       /*2*/
      .Hozzaszolas {
       /* border: 3px solid green;*/
         display: flex;
@@ -129,17 +120,6 @@
         max-height: 100rem;
         width:100%;
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-         display: flex;
-         justify-content: center;
-         margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
-      }
-
-  
 
 }
 
@@ -150,15 +130,20 @@
 
 /* 3. Device = Tablets, Ipads (portrait) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) {
+   
+    /*3*/
     .HozzaszolasEgesz {
         /* border: 3px solid red;*/
          display: flex;
-        
+         margin-top: 2rem;
          flex-direction: column;
          max-height: 100rem;
+        
      }
+
+     /*3*/
      .FaceFelso {
-         display: flex;
+        display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
@@ -166,8 +151,9 @@
      
      }
      
+     /*3*/
      .Hozzaszolas {
-      /* border: 3px solid green;*/
+        /* border: 3px solid green;*/
         display: flex;
         justify-content: center;
        /* margin-top:1rem;*/
@@ -175,17 +161,6 @@
         max-height: 100rem;
         width:100%;
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-         display: flex;
-         justify-content: center;
-         margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
-      }
-
- 
   
 }
 
@@ -193,22 +168,26 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /*4*/
     .HozzaszolasEgesz {
         /* border: 3px solid red;*/
          display: flex;
-        
+         margin-top: 2rem;
          flex-direction: column;
          max-height: 100rem;
      }
+
+     /*4*/
      .FaceFelso {
-         display: flex;
+        display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
          max-height: 100rem;
-     
      }
      
+     /*4*/
      .Hozzaszolas {
       /* border: 3px solid green;*/
         display: flex;
@@ -218,16 +197,6 @@
         max-height: 100rem;
         width:100%;
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-         display: flex;
-         justify-content: center;
-         margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
-      }
-
  
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/
@@ -235,22 +204,28 @@
 
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
+   
+   /*5*/
     .HozzaszolasEgesz {
         /* border: 3px solid red;*/
          display: flex;
-        
+         margin-top: 2rem;
          flex-direction: column;
          max-height: 100rem;
+         width: 100%;
      }
+
+     /*5*/
      .FaceFelso {
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: center;
-         max-height: 100rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-height: 100rem;
      
      }
      
+     /*5*/
      .Hozzaszolas {
       /* border: 3px solid green;*/
         display: flex;
@@ -260,17 +235,6 @@
         max-height: 100rem;
         width:100%;
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-         display: flex;
-         justify-content: center;
-         margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
-      }
-
-  
   
 }
 /* 5. Laptops, Desktops VÉGE  */
@@ -279,22 +243,26 @@
 /* 6. Higher resolution desktops ELEJE*/
 
 @media (min-width: 1281px) and (max-width: 1599px) {
+   
+    /*6*/
     .HozzaszolasEgesz {
         /* border: 3px solid red;*/
          display: flex;
-        
          flex-direction: column;
          max-height: 100rem;
+         margin-top: 2rem;
      }
+
+     /*6*/
      .FaceFelso {
-         display: flex;
+        display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
          max-height: 100rem;
-     
      }
      
+     /*6*/
      .Hozzaszolas {
       /* border: 3px solid green;*/
         display: flex;
@@ -304,16 +272,6 @@
         max-height: 100rem;
         width:100%;
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-         display: flex;
-         justify-content: center;
-         margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
-      }
-
   
 }
 
@@ -324,13 +282,17 @@
 
 @media (min-width: 1600px) {
 
+    /*7*/
     .HozzaszolasEgesz {
-        /* border: 3px solid red;*/
+       /*  border: 3px solid red;*/
          display: flex;
-        
+         justify-content: center;
          flex-direction: column;
          max-height: 100rem;
+         margin-top: 2rem;
      }
+
+      /*7*/
      .FaceFelso {
          display: flex;
          flex-direction: column;
@@ -340,8 +302,9 @@
      
      }
      
+      /*7*/
      .Hozzaszolas {
-      /* border: 3px solid green;*/
+        /* border: 3px solid green;*/
         display: flex;
         justify-content: center;
        /* margin-top:1rem;*/
@@ -349,15 +312,6 @@
         max-height: 100rem;
         width:100%;
      }
-     .Hozzaszolas2 {
-        /* border: 3px solid red;*/
-         display: flex;
-         justify-content: center;
-         margin-top:5rem;
-         /*padding: 3rem;*/
-         max-height: 100rem;
-         width:100%;
-      }
 
 }
 

@@ -315,6 +315,7 @@
     .Tech2Bevzeto {
     display: flex;
     justify-content: space-evenly;
+    padding:1%;
     /*border: 3px solid red;*/
     }
 
@@ -361,6 +362,7 @@
     .Tech2Bevzeto {
     display: flex;
     justify-content: space-evenly;
+    padding:1%;
     /*border: 3px solid red;*/
     }
 
