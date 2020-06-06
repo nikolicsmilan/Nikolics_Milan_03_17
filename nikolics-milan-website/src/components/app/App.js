@@ -12,7 +12,8 @@ import Footer from '../Footer/Footer';
 
 import Seo from '../Seo/Seo';
 import Kapcsolat from '../Kapcsolat/Kapcsolat';
-import Technologia from '../Technologia/Technologia';
+/*import Technologia from '../Technologia/Technologia';*/
+import Technologia2 from '../Technologia2/Technologia2';
 import Nmchat from '../NM_chat/Nmchat';
 import Csomagok from '../Csomagok/Csomagok';
 import FacebookComment from '../MyComment/MyComment';
@@ -40,14 +41,14 @@ class App extends Component {
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               
-            {/*  <Route exact path="/" component={FacebookComment}/> */}
+              <Route exact path="/" component={FacebookComment}/> 
               <Route exact path="/" component={Footer}/> 
 
               <Route path="/Seo" component={Seo}/>
               <Route path="/Seo" component={Footer}/>
 
 
-              <Route path="/Technologia" component={Technologia}/>
+              <Route path="/Technologia" component={Technologia2}/>
               <Route path="/Technologia" component={Footer}/>
 
 
@@ -56,7 +57,7 @@ class App extends Component {
          </div>  
 
          </div>
-        
+      
             </BrowserRouter>
 
          

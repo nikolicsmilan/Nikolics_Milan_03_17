@@ -406,6 +406,11 @@
     
     .felirat {
     font-size: 1.2rem;
+    color:red;
+    }
+    
+    #FelugroMagasagKep {
+      color:black;
     }
 
     .hidden {

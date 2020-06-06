@@ -450,11 +450,24 @@ textarea {
 
 /*EZ EGY MÁSIK RESET VÉGE*/
 
+/*Kiegészítés üres rész ellen eleje!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+html,body
+{
+  /*  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;*/
+    overflow-x: hidden; 
+}
+
+/*Kiegészítés üres rész ellen vége!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
 .App_egesz{
   display:flex;
   flex-direction: column;
   /*position: relative;*/
-  border: 3px dashed red;
+ /* border: 3px dashed red;*/
   width:100%; 
  
 }
@@ -487,7 +500,36 @@ textarea {
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
 
-
+    .AppEgesz {
+        display:flex;
+        flex-direction: column;
+        /*position: relative;*/
+       /* border: 3px dashed red;*/
+       
+       /* width:100%; */
+     /* border: 3px dashed orange;*/
+      }
+      
+      .AppNavbar {
+          display:flex;
+          flex-direction: row;
+         /* justify-content: flex-start;*/
+         /* width:100%;  */
+          /*position: relative;*/
+         /* border: 3px dashed orange;*/
+         /* justify-self: center;
+          align-items: center;*/         
+          /*margin-bottom: 3rem;*/
+      }      
+      
+      .AppEgeszBody{
+       padding-top: 0.5%;
+       padding-left: 1.5%;
+       padding-right: 1.5%;      
+      /* width:100%; */
+     /* border: 3px dashed blue;*/      
+      }
+      
 
 
 }
@@ -506,7 +548,7 @@ textarea {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
-       /* border: 3px dashed red;*/
+        /* border: 3px dashed purple;*/
        
        /* width:100%; */
       /* border: 3px dashed orange;*/
@@ -515,7 +557,7 @@ textarea {
       .AppNavbar {
           display:flex;
           flex-direction: row;
-          justify-content: flex-start;
+         /* justify-content: flex-start;*/
          /* width:100%;  */
           /*position: relative;*/
          /* border: 3px dashed orange;*/
@@ -545,16 +587,17 @@ textarea {
         display:flex;
         flex-direction: column;
         /*position: relative;*/
-       /* border: 3px dashed red;*/
+      /* border: 3px dashed green;*/
        /* align-items: flex-start;*/
        /* width:100%; */
+       margin-right: 0px;
        
       }
       
       .AppNavbar {
           display:flex;
           flex-direction: row;
-          justify-content: flex-start;
+        /*  justify-content: flex-start;*/
          /* width:100%;  */
           /*position: relative;*/
          /* border: 3px dashed orange;*/

@@ -54,7 +54,7 @@ setToogleState ({
                        <img className="info_gomb"
                        onMouseLeave={toogleHandler_out} onMouseEnter={toogleHandler_in}
                        src={info_button} alt='I button'/>
-                        <div className="felirat">{props.felirat}</div>  
+                        <div className="felirat" id={props.FelugroMagasag}>{props.felirat}</div>  
                    </div>                            
                       
                     <div className="pipa">

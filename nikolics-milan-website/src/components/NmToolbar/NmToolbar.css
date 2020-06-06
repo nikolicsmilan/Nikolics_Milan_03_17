@@ -86,13 +86,13 @@
   color:black;
   /*border: 3px solid green;*/
   width: 100%;
-  margin-top: 2%;
+  margin-top: 15%;
 }   
 
 /*0*/
 .Elerhet {
   display: flex;
-  /*border: 3px solid yellow;*/
+ /* border: 3px solid yellow;*/
   width: 13rem;
   align-items: center;
   padding-bottom: 1%;
@@ -101,8 +101,8 @@
 
 /*0*/
 .Elerhet img {
-width:2.7rem;
-height: 2.7rem;
+width:2rem;
+height: 2rem;
 margin-right:0.2rem;
 /*border: 3px solid purple;*/
 }
@@ -306,6 +306,7 @@ li .AktivMenu {
 width:100%;
 background-color: white;
 position: relative;
+/*margin:0;*/
 }         
 
  /*2*/
@@ -476,6 +477,8 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 margin-left: 1rem;
+/*border: 3px solid blue;*/
+width:40rem;
 }
 
 /*3*/
@@ -511,7 +514,8 @@ flex-direction: column;
 color: rgba(40, 164, 241, 0.938);  
 color:black;
 /*border: 3px solid green;*/
-width: 100%;
+/*min-width: 30rem;*/
+width: 40rem;
 margin-top: 2%;
 }   
 
@@ -519,7 +523,8 @@ margin-top: 2%;
 .Elerhet {
 display: flex;
 /*border: 3px solid yellow;*/
-width: 13rem;
+/*min-width: 30rem;*/
+width: 40rem;
 align-items: center;
 padding-bottom: 1%;
 padding-left: 0;
@@ -527,9 +532,15 @@ padding-left: 0;
 
  /*3*/
 .Elerhet img {
-width:2.7rem;
-height: 2.7rem;
+width:3rem;
+height: 3rem;
 margin-right:0.2rem;
+/*border: 3px solid purple;*/
+}
+
+.Elerhet p {
+font-size: 1.5rem;
+width: 40rem;
 /*border: 3px solid purple;*/
 }
 
@@ -579,138 +590,149 @@ li .AktivMenu {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
  /*TOOLBAR EGESZ*/
 
-    /*4*/
-    .ToolbarHeaderEgesz {
-      /*H2 beállítja*/
-      /* color:red;*/
-    /*border: 6px solid purple;*/
-    width:100%;
-    background-color: white;
-    position: relative;
-    }         
-    
-    /*4*/
-    .ToolbarNavEgesz {
-    display: flex;
-    width: 100%;  
-    flex-direction: column; 
-    background-color: white;
-    /* max-height: 3rem;*/
-    z-index: 999;  
-    top:0;
-    /* border: 3px solid purple;*/
-    }
-    
-    /*4*/
-    .MobilNezet {
-    /* border:3px solid blue;*/
-    display:flex;
-    justify-content: space-between;
-    position: relative;
-    z-index: 990; 
-    width: 100%;  
-    /*margin-bottom: 2rem;*/
-    }
-    
-     /*4*/
-    .ButtonLogoKontener {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 1rem;
-    }
-    
-     /*4*/
-    .Button {
-    /*H2 beállítja*/   
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    color:black;
-    /* border: 3px solid yellow;*/
-    width:2.8rem;
-    }
-    
-    /*4*/
-    .Button h2 {       
-    font-weight: 200;
-    font-size: 1.5rem;
-    padding-top: 0;
-    color:black;
-    /* border: 3px solid yellow;*/
-    }
-    
-     /*4*/
-    .ButKozepre {
-    /*border: 3px dashed green;*/
-    font-size: 2rem;
-    }
-    
-     /*4*/
-    .ElerhetKontener {
-    display:flex;
-    flex-direction: column; 
-    color: rgba(40, 164, 241, 0.938);  
-    color:black;
-    /*border: 3px solid green;*/
-    width: 100%;
-    margin-top: 2%;
-    }   
-    
-   /*4*/
-    .Elerhet {
-    display: flex;
-    /*border: 3px solid yellow;*/
-    width: 13rem;
-    align-items: center;
-    padding-bottom: 1%;
-    padding-left: 0;
-    }
-    
-    /*4*/
-    .Elerhet img {
-    width:2.7rem;
-    height: 2.7rem;
-    margin-right:0.2rem;
-    /*border: 3px solid purple;*/
-    }
-    
-      /*4*/
-    .EuLogoKontenerMobil {
-    position: absolute;
-    right:0;
-    }
-    
-      /*4*/
-    .EU_logo_Mobil {
-    width:15rem;
-    z-index: 10000;    
-    /* border:3px dashed black;*/
-    }
-    
-    /*MOBIL NÉZET ELEJE */
-    
-    /*DESKTOP ELEJE*/
-    
-    /*4*/
-    .EuLogoKontenerDesktop {
-    display:none;
-    }
-    
-     /*4*/
-    .DesktopMenu {
-    display: none;
-    }
+    /*3*/
+.ToolbarHeaderEgesz {
+  /*H2 beállítja*/
+  /* color:red;*/
+/*border: 6px solid purple;*/
+width:100%;
+background-color: white;
+position: relative;
+}         
 
-    li .AktivMenu {
-      background-color: rgb(69, 69, 97);
-      color:white; 
-      padding: 0.5rem;
-     /* border: 30px solid red;*/
-      } 
+ /*3*/
+.ToolbarNavEgesz {
+display: flex;
+width: 100%;  
+flex-direction: column; 
+background-color: white;
+/* max-height: 3rem;*/
+z-index: 999;  
+top:0;
+/* border: 3px solid purple;*/
+}
+
+ /*3*/
+.MobilNezet {
+/* border:3px solid blue;*/
+display:flex;
+justify-content: space-between;
+position: relative;
+z-index: 990; 
+width: 100%;  
+/*margin-bottom: 2rem;*/
+}
+
+/*3*/
+.ButtonLogoKontener {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-left: 1rem;
+/*border: 3px solid blue;*/
+width:40rem;
+}
+
+/*3*/
+.Button {
+/*H2 beállítja*/   
+display: flex;
+flex-direction: column;
+align-items: center; 
+color:black;
+/* border: 3px solid yellow;*/
+width:2.8rem;
+}
+
+ /*3*/
+.Button h2 {       
+font-weight: 200;
+font-size: 1.5rem;
+padding-top: 0;
+color:black;
+/* border: 3px solid yellow;*/
+}
+
+ /*3*/
+.ButKozepre {
+/*border: 3px dashed green;*/
+font-size: 2rem;
+}
+
+ /*3*/
+.ElerhetKontener {
+display:flex;
+flex-direction: column; 
+color: rgba(40, 164, 241, 0.938);  
+color:black;
+/*border: 3px solid green;*/
+/*min-width: 30rem;*/
+width: 40rem;
+margin-top: 2%;
+}   
+
+/*3*/
+.Elerhet {
+display: flex;
+/*border: 3px solid yellow;*/
+/*min-width: 30rem;*/
+width: 40rem;
+align-items: center;
+padding-bottom: 1%;
+padding-left: 0;
+}
+
+ /*3*/
+.Elerhet img {
+width:3rem;
+height: 3rem;
+margin-right:0.2rem;
+/*border: 3px solid purple;*/
+}
+
+.Elerhet p {
+font-size: 1.5rem;
+width: 40rem;
+/*border: 3px solid purple;*/
+}
+
+/*3*/
+.EuLogoKontenerMobil {
+position: absolute;
+right:0;
+}
+
+ /*3*/
+.EU_logo_Mobil {
+width:15rem;
+z-index: 10000;    
+/* border:3px dashed black;*/
+}
+
+/*MOBIL NÉZET ELEJE */
+
+/*DESKTOP ELEJE*/
+
+/*3*/
+.EuLogoKontenerDesktop {
+display:none;
+}
+
+/*3*/
+.DesktopMenu {
+display: none;
+}
+
+/*DESKTOP vÉGE*/
+}
+
+li .AktivMenu {
+  background-color: rgb(69, 69, 97);
+  color:white; 
+  padding: 0.5rem;
+ /* border: 30px solid red;*/
+  } 
     
-    /*DESKTOP vÉGE*/
-    }
     
 /* 4. Tablets, Ipads (landscape) VÉGE*/
 
@@ -799,7 +821,7 @@ height: 12rem;
 .DesktopMenuBelso li{
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   /*NEM SZABAD PADDINGET HASZNÁLNI MERT ÖSSZEUGRIKA WEBOLDAL-ÁRAK*/
  /* padding: 2%;*/
    margin:1%;
@@ -849,7 +871,7 @@ height: 12rem;
   /*border: 3px solid yellow;*/
   width: 20rem;
   align-items: center;
-  /*padding-bottom: 1%;*/
+  padding-bottom: 1%;
   padding-left: 1.5rem;
 }
 
@@ -863,14 +885,14 @@ margin-right:0.2rem;
 
 /*5*/
 .Elerhet p {
- font-size: 1.2rem;
+ font-size: 1.5rem;
  font-weight: 900;
 }
 
 li .AktivMenu {
   background-color:rgba(40, 164, 241, 0.938) ;
   color:white;
-  height: 2rem;
+  height: 2.2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0rem;

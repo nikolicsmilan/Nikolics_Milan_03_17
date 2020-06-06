@@ -1,0 +1,396 @@
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+
+  /*0*/
+  .Tech2Egesz {
+   /* border:3px solid black;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 900;
+    padding:1%;
+    }
+        
+    /*0*/
+    .Tech2Cim h1{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 900;
+    margin-top: 3rem;
+     }
+    
+     /*0*/
+    .Tech2Bevzeto {
+     display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    }
+    
+    /*0*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width:4rem;
+     margin-top: 3rem;
+    /* border: 3px solid red;*/
+    }
+    
+    /*0*/
+    .Tech2BevKep h2{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+
+
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /*1*/
+   .Tech2Egesz {
+    /*border:3px solid green;*/
+    display: flex;
+    flex-direction: column;
+     position: relative;
+    z-index: 900;
+    padding: 1%;
+    }
+        
+    /*1*/
+    .Tech2Cim h1{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 900;
+    margin-top: 3rem;
+     }
+    
+     /*1*/
+    .Tech2Bevzeto {
+     display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    }
+    
+    /*1*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width:4rem;
+     margin-top: 3rem;
+    /* border: 3px solid red;*/
+    }
+    
+    /*1*/
+    .Tech2BevKep h2{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /*2*/
+    .Tech2Egesz {
+   /* border:3px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 900;
+    }
+        
+    /*2*/
+    .Tech2Cim h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 3rem;
+     }
+    
+     /*2*/
+    .Tech2Bevzeto {
+     display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    }
+    
+    /*2*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width:5rem;
+     margin-top: 3rem;
+    /* border: 3px solid red;*/
+    }
+    
+    /*2*/
+    .Tech2BevKep h2{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    }
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+        /*3*/
+        .Tech2Egesz {
+      /*  border:3px solid purple;*/
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 900;
+        }
+            
+        /*3*/
+        .Tech2Cim h1{
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 900;
+        margin-top: 3rem;
+         }
+        
+         /*3*/
+        .Tech2Bevzeto {
+         display: flex;
+        justify-content: space-evenly;
+        /*border: 3px solid red;*/
+        }
+        
+        /*3*/
+        .Tech2BevKep {
+         display: flex;
+         flex-direction: column;
+         width:9rem;
+         margin-top: 3rem;
+        }
+        
+        /*3*/
+        .Tech2BevKep h2{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        }
+ 
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /*4*/
+  .Tech2Egesz {
+  /*  border:3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 900;
+    }
+        
+    /*4*/
+    .Tech2Cim h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 3rem;
+     }
+    
+     /*4*/
+    .Tech2Bevzeto {
+     display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    }
+    
+    /*4*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     width:9rem;
+     margin-top: 3rem;
+    }
+    
+    /*4*/
+    .Tech2BevKep h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    }
+  
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+    /*5*/
+    .Tech2Egesz {
+   /* border:3px solid red;*/
+    display: flex;
+     flex-direction: column;
+    }
+        
+    /*5*/
+     .Tech2Cim h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 3rem;
+     }
+    
+    /*5*/
+    .Tech2Bevzeto {
+     display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    padding: 1%;
+    }
+    
+    /*5*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     width:9rem;
+     margin-top: 3rem;
+    }
+    
+    /*5*/
+     .Tech2BevKep h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    }
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+  
+    /*6*/
+  .Tech2Egesz {
+    /*border:3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    }
+    
+     /*6*/
+    .Tech2Cim h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 3rem;
+    }
+
+       /*6*/
+    .Tech2Bevzeto {
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    }
+
+    /*6*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     width:10rem;
+     margin-top: 3rem;
+  
+    }
+
+    /*6*/
+    .Tech2BevKep h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+    /*7*/
+   .Tech2Egesz {
+    /*border:3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    }
+    
+     /*7*/
+    .Tech2Cim h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    }
+
+    /*7*/
+    .Tech2Bevzeto {
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 3px solid red;*/
+    }
+
+    /*7*/
+    .Tech2BevKep {
+     display: flex;
+     flex-direction: column;
+     width:10rem;
+     margin-top: 3rem;
+  
+    }
+
+    .Tech2BevKep h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+}
+
+/* 7. Larger screen VÉGE*/
+
+
+
+
+
+
+
+
+
+
+
+
+

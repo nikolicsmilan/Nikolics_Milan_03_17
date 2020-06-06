@@ -517,7 +517,7 @@
     flex-direction: column;
     justify-content: space-between;
     /*height: 100%;*/
-    width: 15rem;
+    width: 25rem;
     background: white;     
     position: relative;
     z-index: 30000;
@@ -528,6 +528,7 @@
     border: 3px solid rgba(40, 164, 241, 0.938);
     padding-top: 1rem;
     color:rgba(40, 164, 241, 0.938);
+    font-size: 1.5rem;
   }
 
    /*3*/
@@ -635,7 +636,7 @@
 
    /*3*/
   .SideBezar {   
-    width:5rem;
+    width:8rem;
     margin-top:2%;
     padding:1%;
     text-align: center;
@@ -644,7 +645,7 @@
     border-top:2px solid black;
     border-left:2px solid black;
     border:2px solid black;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
 }
@@ -653,155 +654,156 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-      /*3*/
-      .SafariIgeny{
-        display: flex;
-        flex-direction: column;
-      }
-      
-       /*3*/
-      .SideEgesz {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-      }
-    
-       /*3*/
-      .SideDrawerNyit {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /*height: 100%;*/
-        width: 15rem;
-        background: white;     
-        position: relative;
-        z-index: 30000;
-        opacity:0.9;    
-        z-index: 2860;
-        transform: translateX(0);
-        transition: transform 0.4s ease-out;
-        border: 3px solid rgba(40, 164, 241, 0.938);
-        padding-top: 1rem;
-        color:rgba(40, 164, 241, 0.938);
-      }
-    
-       /*3*/
-      .SideDrawerNyit p {
-         /*EGYEDI KÉSZÍTÉSŰ*/
-       }
-    
-       /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
-        CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
-        KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
-    
-        /*2*/
-       .SideDrawerNyit ul {
-      /*most üres*/
-       }
-    
-        /*3*/
-      .SideDrawerNyit li {
-        display: flex;
-        padding: 0.5rem;
-        width:100%;
-        color:rgba(40, 164, 241, 0.938);
-      }
-    
-       /*3*/
-      /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
-      .SideDrawerNyit a {     
-        color:rgba(40, 164, 241, 0.938); 
-        /*border: 3px solid red; */ 
-      }
-    
-       /*3*/
-      .SideDrawerZar { 
-        transform: translateX(-1000%);
-        transition: transform 0.3s ease-out;
-        /*visibility: hidden;*/
-      } 
-    
-     /*3*/
-      .WebarakNyit p{
-        color: black;
-        font-weight: 900;
-      }
-    
-      /*3*/
-      #lenyiloelejeid {
-      /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
-      border-top: 1px dashed black;
-      }
-    
-       /*3*/
-      #lenyilovegeid {
-      /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
-      border-bottom: 1px dashed black;
-       }
-    
-      /*3*/
-      .WebarakNyit li {
-        color:rgba(40, 164, 241, 0.938);
-        padding-left: 1.5rem;    
-      }
-    
-      /*3*/
-      .WebarakZar {
-        display: none;
-      }
-    
-      /*3*/
-      .WebarakZar li{
-        display: none;
-      }
-    
-       /*3*/
-      .NyiloMenu {
-        display: flex;
-      }
-    
-      /*3*/
-      .SeoNyit {
-    /*most üres*/
-      }
-    
-       /*3*/
-      .SeoNyit li {
-        padding-left: 1.5rem;
-      }
-    
-       /*3*/
-      .SeoNyit ul {
-        border:3px solid green;
-      }
-    
-       /*3*/
-      .SeoZar {
-        display: none;
-       /* border:3px solid green;*/
-      }
-    
-       /*3*/
-      .SideBezarkont {
-        display: flex;    
-        justify-content: flex-end;      
-      }
-    
-       /*3*/
-      .SideBezar {   
-        width:5rem;
-        margin-top:2%;
-        padding:1%;
-        text-align: center;
-        /*color:  rgba(40, 164, 241, 0.938);*/
-        color:black;
-        border-top:2px solid black;
-        border-left:2px solid black;
-        border:2px solid black;
-        font-size: 1rem;
-      }
+     /*4*/
+  .SafariIgeny{
+    display: flex;
+    flex-direction: column;
+  }
+  
+   /*4*/
+  .SideEgesz {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+
+   /*4*/
+  .SideDrawerNyit {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*height: 100%;*/
+    width: 25rem;
+    background: white;     
+    position: relative;
+    z-index: 30000;
+    opacity:0.9;    
+    z-index: 2860;
+    transform: translateX(0);
+    transition: transform 0.4s ease-out;
+    border: 3px solid rgba(40, 164, 241, 0.938);
+    padding-top: 1rem;
+    color:rgba(40, 164, 241, 0.938);
+    font-size: 1.5rem;
+  }
+
+   /*4*/
+  .SideDrawerNyit p {
+     /*EGYEDI KÉSZÍTÉSŰ*/
+   }
+
+   /*FORDÍTVA VAN AZ ELSŐ ÍRJA FELÜL AZ UTOLSÓT KÉSŐBB NEM LEHET FELÜLÍRNI!!!
+    CSAK ID -VAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    AZ ID -T VISZONT MINDEN EGYES ELEMHEZ KÜLÖN HOZZÁ KELL ADNI!!!!!!!!!!!!!
+    KÜLÖN LI ÉS UL ÉS NAVLINK AHHOZ HOGY HASSON*/
+
+    /*2*/
+   .SideDrawerNyit ul {
+  /*most üres*/
+   }
+
+    /*4*/
+  .SideDrawerNyit li {
+    display: flex;
+    padding: 0.5rem;
+    width:100%;
+    color:rgba(40, 164, 241, 0.938);
+  }
+
+   /*4*/
+  /*A linkek a divben lévő osztályokból erednek, nem olyanok mint a li-k*/
+  .SideDrawerNyit a {     
+    color:rgba(40, 164, 241, 0.938);  
+    /*border: 3px solid red; */ 
+  }
+
+   /*4*/
+  .SideDrawerZar { 
+    transform: translateX(-1000%);
+    transition: transform 0.3s ease-out;
+    /*visibility: hidden;*/
+  } 
+
+ /*4*/
+  .WebarakNyit p{
+    color: black;
+    font-weight: 900;
+  }
+
+  /*4*/
+  #lenyiloelejeid {
+  /* border-top: 1px dashed rgba(40, 164, 241, 0.938);*/
+  border-top: 1px dashed black;
+  }
+
+   /*4*/
+  #lenyilovegeid {
+  /*  border-bottom: 1px dashed rgba(40, 164, 241, 0.938); */
+  border-bottom: 1px dashed black;
+   }
+
+  /*4*/
+  .WebarakNyit li {
+    color:rgba(40, 164, 241, 0.938);
+    padding-left: 1.5rem;    
+  }
+
+  /*4*/
+  .WebarakZar {
+    display: none;
+  }
+
+  /*4*/
+  .WebarakZar li{
+    display: none;
+  }
+
+   /*4*/
+  .NyiloMenu {
+    display: flex;
+  }
+
+  /*4*/
+  .SeoNyit {
+/*most üres*/
+  }
+
+   /*4*/
+  .SeoNyit li {
+    padding-left: 1.5rem;
+  }
+
+   /*4*/
+  .SeoNyit ul {
+    border:3px solid green;
+  }
+
+   /*4*/
+  .SeoZar {
+    display: none;
+   /* border:3px solid green;*/
+  }
+
+   /*4*/
+  .SideBezarkont {
+    display: flex;    
+    justify-content: flex-end;      
+  }
+
+   /*4*/
+  .SideBezar {   
+    width:8rem;
+    margin-top:2%;
+    padding:1%;
+    text-align: center;
+    /*color:  rgba(40, 164, 241, 0.938);*/
+    color:black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border:2px solid black;
+    font-size: 1.5rem;
+  }
  
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/

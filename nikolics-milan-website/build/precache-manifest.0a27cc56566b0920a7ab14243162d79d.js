@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72aab1cf4b8fbd79c915df9236471278",
+    "revision": "387fc3bc9e27b68b08280a3405804ecc",
     "url": "/index.html"
   },
   {
-    "revision": "bf6bed3591cbe4e6c8a7",
+    "revision": "3485cf1b52ad5221f8e5",
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "3f44062ce2c937febddf",
-    "url": "/static/css/main.0add4dd0.chunk.css"
+    "revision": "e529f2e5ebff2ebacb6e",
+    "url": "/static/css/main.a2471e6b.chunk.css"
   },
   {
-    "revision": "bf6bed3591cbe4e6c8a7",
-    "url": "/static/js/2.64d2f30c.chunk.js"
+    "revision": "3485cf1b52ad5221f8e5",
+    "url": "/static/js/2.af01d0de.chunk.js"
   },
   {
     "revision": "6a7903cba7c07c04b74cefcf79c6a3f5",
-    "url": "/static/js/2.64d2f30c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.af01d0de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f44062ce2c937febddf",
-    "url": "/static/js/main.c42726bb.chunk.js"
+    "revision": "e529f2e5ebff2ebacb6e",
+    "url": "/static/js/main.125d8ca6.chunk.js"
   },
   {
     "revision": "a277459dddbcac43ed44",
@@ -52,8 +52,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ceges_Mobil.bd7e9759.png"
   },
   {
+    "revision": "c20d5f48bae512973b44d16f3dfa3ae0",
+    "url": "/static/media/Css2.c20d5f48.png"
+  },
+  {
+    "revision": "61bf2ba5c6a371d5202578c868e974c4",
+    "url": "/static/media/Docker1.61bf2ba5.png"
+  },
+  {
     "revision": "5e3dd14f6126055f4a6f9911959d1a90",
     "url": "/static/media/EU_logo_Desktop.5e3dd14f.jpg"
+  },
+  {
+    "revision": "a3aca5fb7a8a707f28accac703790013",
+    "url": "/static/media/Github1.a3aca5fb.png"
+  },
+  {
+    "revision": "426b5abe61c185dbc11ed32ac6ed68e2",
+    "url": "/static/media/Html1.426b5abe.png"
+  },
+  {
+    "revision": "04dcc3319a8290b8775f59d1a9fd170a",
+    "url": "/static/media/Java1.04dcc331.png"
+  },
+  {
+    "revision": "36700bee9a1831f2691165d291d62d78",
+    "url": "/static/media/Javascript1.36700bee.png"
+  },
+  {
+    "revision": "cde544b20885886530256ae7268c86b1",
+    "url": "/static/media/Linux1.cde544b2.png"
+  },
+  {
+    "revision": "218a15a47a5dac5b8a8eca37d2986444",
+    "url": "/static/media/Magento1.218a15a4.png"
+  },
+  {
+    "revision": "277d252279241230ddfb8c55b27ee20c",
+    "url": "/static/media/Mongodb1.277d2522.png"
   },
   {
     "revision": "ebac684e5e7f1a136ab287963239df7b",
@@ -64,12 +100,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Nepszeru5.3141f942.PNG"
   },
   {
+    "revision": "32e55ca0c3f225cabc1b8a9fe6cdc719",
+    "url": "/static/media/Node1.32e55ca0.png"
+  },
+  {
+    "revision": "82a318ccea22a8af9fc4590f41df9238",
+    "url": "/static/media/React1.82a318cc.png"
+  },
+  {
     "revision": "2a4829e02f47cf72814ff23fa61701e9",
     "url": "/static/media/Ugyfel5.2a4829e0.PNG"
   },
   {
     "revision": "72c64d0dc7d78242a53f0a39be54a895",
     "url": "/static/media/Ugyfelszerzo_Mobil-min.72c64d0d.png"
+  },
+  {
+    "revision": "6d290d1187c83d069d62af04787023b1",
+    "url": "/static/media/Wordpress1.6d290d11.png"
   },
   {
     "revision": "be53e2262e76977620cf20565f441d75",

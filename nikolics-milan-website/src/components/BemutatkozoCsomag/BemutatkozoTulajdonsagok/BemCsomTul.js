@@ -99,6 +99,7 @@ const BemCsomTul = props => {
                  de minden egyes plusz tartalom, főként képek, videók, lassítják weboldalát és plusz munka 
                  is mivel méretezni és konvertálni kell őket.'
                 appear='BemAppear'  
+                FelugroMagasag="FelugroMagasagKep"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
