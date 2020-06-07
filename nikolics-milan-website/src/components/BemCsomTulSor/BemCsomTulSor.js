@@ -48,13 +48,13 @@ setToogleState ({
                      <p>{props.felugro}</p>        
                   </div>             
                                       
-                  <div className="Mindig-lathato">
+                  <div className="Mindig-lathato" >
 
                     <div className="info_kontener"  >                            
                         <img className="info_gomb"
                         onMouseLeave={toogleHandler_out} onMouseEnter={toogleHandler_in}
                         src={info_button} alt='I button'/>
-                          <div className="felirat" >{props.felirat}</div>  
+                          <div className="felirat" id={props.FeliratSpec}>{props.felirat}</div>  
                     </div>                            
                         
                       <div className="pipa">
