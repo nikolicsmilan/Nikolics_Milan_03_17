@@ -84,7 +84,7 @@
         border:1px dashed rgba(40, 164, 241, 0.938);
         border: 3px dashed rgba(40, 164, 241, 0.938);
         text-align: left; 
-        line-height: 1rem;
+        line-height: 1.2rem;
         font-size: 1rem; 
         letter-spacing: -0.5px; 
         padding:2%;
@@ -129,7 +129,7 @@
         list-style-type: circle;
         margin-left:3rem;
         text-align: left; 
-        line-height: 1rem;
+        line-height: 1.2rem;
         font-size: 1rem; 
         letter-spacing: -0.5px; 
        /* border: 3px solid red;*/
