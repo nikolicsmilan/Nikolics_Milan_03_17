@@ -25,6 +25,26 @@
          width:75%;
       } 
 
+      .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      /* border: 3px solid red;*/
+       }
+       
+    .CsomagokEgeszInfo img {
+           width:2.5rem;
+       }
+
+    .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
+
     .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
         text-align: center;
@@ -66,6 +86,26 @@
          /* max-width:30rem;*/
          width:85%;
       } 
+
+      .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      /* border: 3px solid red;*/
+       }
+       
+    .CsomagokEgeszInfo img {
+           width:2.5rem;
+       }
+
+    .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
     
       .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
@@ -79,6 +119,13 @@
         text-align: center;
         padding-top: 0.5rem;
         font-size: 1.2rem;
+    }
+
+    .CsomagokEgeszInfo2 p {
+        padding-top:0rem;
+        font-size: 1.5rem;
+       /* border: 30px solid green;
+        color:red;*/
     }
     
   }
@@ -111,6 +158,26 @@
          width:65%;
       } 
 
+      .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       /* border: 3px solid red;*/
+       }
+       
+    .CsomagokEgeszInfo img {
+           width:3rem;
+       }
+
+    .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
+
       .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
         text-align: center;
@@ -124,6 +191,13 @@
         padding-top: 0.5rem;
         font-size: 1.2rem;
         }
+
+     .CsomagokEgeszInfo2 p {
+        padding-top:0rem;
+        font-size: 1.5rem;
+           /* border: 30px solid green;
+            color:red;*/
+     }
 }
 
 
@@ -154,6 +228,28 @@
        /* max-width:30rem;*/
        width:65%;
     }
+
+    .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       /* border: 3px solid red;*/
+        padding-top:1rem;
+       }
+       
+    .CsomagokEgeszInfo img {
+           width:3rem;
+       }
+
+    .CsomagokEgeszInfo2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      /*  padding-top: 1rem;*/
+       /* border: 3px solid blue;*/
+        padding-top:0rem;
+       }
   
     .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
@@ -167,6 +263,12 @@
         text-align: center;
         padding-top: 0.8rem;
         font-size: 1.8rem;
+        }
+
+        .CsomagokEgeszInfo2 p {
+            padding-top:0rem;
+           /* border: 30px solid green;
+            color:red;*/
         }
   }
 
@@ -196,6 +298,26 @@
        /* max-width:30rem;*/
        width:33%;
     }
+
+    .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      /* border: 3px solid red;*/
+       }
+       
+    .CsomagokEgeszInfo img {
+           width:3rem;
+       }
+
+    .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
     
     .CsomagokEgeszKulso h2 {
         padding-top: 2rem;
@@ -240,6 +362,26 @@
        width:33%;
     }
 
+    .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       /* border: 3px solid red;*/
+       }
+       
+       .CsomagokEgeszInfo img {
+           width:3rem;
+       }
+
+       .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
+
     .CsomagokEgeszKulso h2 {
         padding-top: 5rem;
         text-align: center;
@@ -283,6 +425,26 @@
        /* max-width:30rem;*/
        width:100%;
     }
+
+    .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       /* border: 3px solid red;*/
+       }
+       
+       .CsomagokEgeszInfo img {
+           width:4rem;
+       }
+
+       .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
  
     .CsomagokEgeszKulso h2 {
         padding-top: 5rem;
@@ -328,6 +490,26 @@
           width:100%;
        }
 
+       .CsomagokEgeszInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       /* border: 3px solid red;*/
+       }
+       
+       .CsomagokEgeszInfo img {
+           width:4rem;
+       }
+
+       .CsomagokEgeszInfo2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        /*border: 3px solid blue;*/
+       }
+
        .CsomagokEgeszKulso h2 {
         padding-top: 5rem;
         text-align: center;
@@ -340,6 +522,11 @@
         text-align: center;
         font-size: 2rem;
         }
+        
+        .CsomagokEgeszKulso  {
+           
+            text-align: center
+        };
 }
 
 /* 7. Larger screen VÉGE*/

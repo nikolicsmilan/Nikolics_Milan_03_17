@@ -78,7 +78,7 @@
          }
         
         .info_gomb {
-        width:1.3rem;
+        width:1.4rem;
         margin-right: 3%;
         }
         
@@ -184,7 +184,7 @@
          }
         
         .info_gomb {
-        width:1.5rem;
+        width:1.8rem;
         margin-right: 3%;
         }
         
@@ -237,7 +237,7 @@
     }
         
     .info_gomb {
-        width:1.2rem;
+        width:1.4rem;
         margin-right: 3%;
       }
         
@@ -291,7 +291,7 @@
           }
         
         .info_gomb {
-        width:1rem;
+        width:1.4rem;
         margin-right: 1%;
         }
         
@@ -347,7 +347,7 @@
           }
         
         .info_gomb {
-        width:1.2rem;
+        width:1.5rem;
         margin-right: 1%;
         }
         
@@ -380,6 +380,7 @@
     /*border-radius: 21px;*/
     padding-top:1%;
     padding-bottom:1%;
+    font-size: 1rem;
     }
 
     .Mindig-lathato {
@@ -394,23 +395,19 @@
     display: flex;
     width:20rem;
     align-items: center;
-    /*  border:3px solid yellow; */
+   /* border:3px solid yellow; */
     font-weight: 500;
     font-size: 1rem;
       }
     
     .info_gomb {
-    width:2rem;
+    width:1.8rem;
     margin-right: 1%;
     }
     
     .felirat {
     font-size: 1.2rem;
-    color:red;
-    }
-    
-    #FelugroMagasagKep {
-      color:black;
+    /*color:red;*/
     }
 
     .hidden {

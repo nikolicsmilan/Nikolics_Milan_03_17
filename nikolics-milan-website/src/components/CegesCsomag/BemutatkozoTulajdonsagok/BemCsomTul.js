@@ -16,6 +16,7 @@ const BemCsomTul = props => {
                 Ezzel szemben a sablonból készült weboldalaknak több ezer klónja is lehet,
                 amit így egy lehetséges vásárló bóvlinak mínősíthet.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -24,7 +25,8 @@ const BemCsomTul = props => {
                 Az internetet használók fele nem asztali számítógépet, hanem
                 mobiltelefont vagy más okoseszközt használ. Ha nem akar elesni kliensei 
                 felétől, szüksége van erre az opcióra.'
-                appear='CegAppear'  
+                appear='CegAppear' 
+                FelugroBeallitas="AltSzovegForma" 
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -33,6 +35,7 @@ const BemCsomTul = props => {
                 kiszolgálási sebbeség, ami kulcsfontosságú tényező a vásárlók szempontjából. Ha
                 weboldala nem tőltödik be néhány másodperc alatt, a legtöbben elkattintanak...'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -44,6 +47,7 @@ const BemCsomTul = props => {
                 Nem érdemes ilyen weboldalakkal foglalkozni, adatokat megadni pedig főleg nem
                 (pedig a weboldalak fele még ilyen).'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -54,6 +58,7 @@ const BemCsomTul = props => {
                 a cookie kezelés, valamint az adatvédelmi tájékoztató.
                 Ennek hiánya büntetést vonhat maga után.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -66,6 +71,7 @@ const BemCsomTul = props => {
                 ami SPA (single-page application), így sokkal gyorsabb, mint a más,
                 MPA-t (multi-page application) használó weboldalak.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
                <BemCsomTulSor
                 kep={pipa2}
@@ -75,6 +81,7 @@ const BemCsomTul = props => {
                 akár 10 000 szál is lehet. A többi technológiával együtt ez lehetővé teszi, hogy
                 weboldala akkor is elérhető legyen, ha egyszerre sokan látogatják meg.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <BemCsomTulSor
                   kep={pipa2}
@@ -84,6 +91,7 @@ const BemCsomTul = props => {
                  A bemutatkozó csomagban 5 ilyen aloldalra van lehetőség. Ha ennél többre
                  van igénye az megegyezés kérdése'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -98,6 +106,7 @@ const BemCsomTul = props => {
                  de minden egyes plusz tartalom, főként képek, videók, lassítják weboldalát és plusz munka 
                  is mivel méretezni és konvertálni kell őket.'
                 appear='CegAppear'  
+                FelugroBeallitas="SpecSzovegForma"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -108,6 +117,7 @@ const BemCsomTul = props => {
                 gyakorisága, menyisége, ráfordítandó idő... stb. Bemutatkozó csomagban
                 heti maximum 1 óra ingyenes az első hónapban.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -117,6 +127,7 @@ const BemCsomTul = props => {
                 eszközön optimálisan jelenjen meg. Ezenkívül weboladala kiegészülhet igény szerint
                 különböző grafikai elemmekkel például: Slider, Slidehsow, Animációk, Efektusok ...stb'
                  appear='CegAppear'  
+                 FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}
@@ -126,6 +137,7 @@ const BemCsomTul = props => {
                 Ha már rendelkezik vele felölthetjük vagy akár újat is tervezhetünk igényei szerint.
                 Fontos: A logó levédetése külön procedúra, amit nem válalunk.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>             
              <BemCsomTulSor
                 kep={pipa2}
@@ -136,6 +148,7 @@ const BemCsomTul = props => {
                  Ezen megvalósításban viszont a weboldala gmail API -n keresztül authentikálódik,
                  ami a magasabb szintű biztonságról gondoskodik egy átlagos weblaphoz képest.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
               <BemCsomTulSor
                 kep={pipa2}
@@ -146,6 +159,7 @@ const BemCsomTul = props => {
                  weblapjába ezáltal azonali üzenetküldést tesz lehetővé, ami
                  a prémium érzését kölcsönzi ügyfeleinek.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
@@ -156,6 +170,7 @@ const BemCsomTul = props => {
                  A Szövegírás nem része a Bemutatkozó csomagnak,
                   ebben az esetben azt önnek kell kitalálnia weboldala szövegezését.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={xa}
@@ -165,6 +180,7 @@ const BemCsomTul = props => {
                 megtérülő része weblapjának. Akkora jelentőséggel bír mint egy autóban 
                 a motor. Részletek a SEO aloldalon.'
                 appear='CegAppear'  
+                FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <div className="MegrendelemGomb">
                 <div  className="MegrendelemGomb2">
