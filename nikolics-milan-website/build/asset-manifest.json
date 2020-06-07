@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.072e9833.chunk.css",
-    "main.js": "/static/js/main.f13015a7.chunk.js",
-    "main.js.map": "/static/js/main.f13015a7.chunk.js.map",
+    "main.css": "/static/css/main.36141772.chunk.css",
+    "main.js": "/static/js/main.6e2139cb.chunk.js",
+    "main.js.map": "/static/js/main.6e2139cb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.1e801db0.chunk.js": "/static/js/2.1e801db0.chunk.js",
-    "static/js/2.1e801db0.chunk.js.map": "/static/js/2.1e801db0.chunk.js.map",
+    "static/js/2.b9dacace.chunk.js": "/static/js/2.b9dacace.chunk.js",
+    "static/js/2.b9dacace.chunk.js.map": "/static/js/2.b9dacace.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.249c4e5a14271242382acdd03b79eee2.js": "/precache-manifest.249c4e5a14271242382acdd03b79eee2.js",
+    "precache-manifest.faee08bba928666ceefe90efe0a54aea.js": "/precache-manifest.faee08bba928666ceefe90efe0a54aea.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.072e9833.chunk.css.map": "/static/css/main.072e9833.chunk.css.map",
-    "static/js/2.1e801db0.chunk.js.LICENSE.txt": "/static/js/2.1e801db0.chunk.js.LICENSE.txt",
+    "static/css/main.36141772.chunk.css.map": "/static/css/main.36141772.chunk.css.map",
+    "static/js/2.b9dacace.chunk.js.LICENSE.txt": "/static/js/2.b9dacace.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
     "static/media/Bevetel5.png": "/static/media/Bevetel5.bdad138e.png",
@@ -21,6 +21,7 @@
     "static/media/CarSeo2.jpg": "/static/media/CarSeo2.1855deeb.jpg",
     "static/media/Ceges_Mobil.png": "/static/media/Ceges_Mobil.bd7e9759.png",
     "static/media/Css2.png": "/static/media/Css2.c20d5f48.png",
+    "static/media/Development1.png": "/static/media/Development1.9928ee5b.png",
     "static/media/Docker1.png": "/static/media/Docker1.61bf2ba5.png",
     "static/media/EU_logo_Desktop.jpg": "/static/media/EU_logo_Desktop.5e3dd14f.jpg",
     "static/media/Github1.png": "/static/media/Github1.a3aca5fb.png",
@@ -36,6 +37,8 @@
     "static/media/React1.png": "/static/media/React1.82a318cc.png",
     "static/media/Ugyfel5.PNG": "/static/media/Ugyfel5.2a4829e0.PNG",
     "static/media/Ugyfelszerzo_Mobil-min.png": "/static/media/Ugyfelszerzo_Mobil-min.72c64d0d.png",
+    "static/media/WebPage3.png": "/static/media/WebPage3.7b889195.png",
+    "static/media/WebShop1.png": "/static/media/WebShop1.23e02a16.png",
     "static/media/Wordpress1.png": "/static/media/Wordpress1.6d290d11.png",
     "static/media/celtalan.jpg": "/static/media/celtalan.be53e226.jpg",
     "static/media/email-min.PNG": "/static/media/email-min.aa7faa1a.PNG",
@@ -55,8 +58,8 @@
   "entrypoints": [
     "static/js/runtime-main.3f67dda9.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.1e801db0.chunk.js",
-    "static/css/main.072e9833.chunk.css",
-    "static/js/main.f13015a7.chunk.js"
+    "static/js/2.b9dacace.chunk.js",
+    "static/css/main.36141772.chunk.css",
+    "static/js/main.6e2139cb.chunk.js"
   ]
 }

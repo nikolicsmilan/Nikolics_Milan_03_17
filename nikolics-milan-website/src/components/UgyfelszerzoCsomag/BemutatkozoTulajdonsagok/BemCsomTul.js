@@ -120,6 +120,7 @@ const BemCsomTul = props => {
                 heti maximum 1 óra ingyenes az első hónapban.'
                 appear='UgyAppear'  
                 FelugroBeallitas="AltSzovegForma"
+                FeliratSpec="FeliratSpec"
             ></BemCsomTulSor>
              <BemCsomTulSor
                 kep={pipa2}

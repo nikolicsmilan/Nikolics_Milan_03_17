@@ -1,0 +1,650 @@
+
+
+/* 0. Mini SmartPhones ELEJE*/
+@media (min-width: 120px) and (max-width: 319px) {
+
+/*0*/
+.HagyomCsomagokEgesz {
+    display: flex;
+    justify-content: space-around;
+  /*  border:3px solid red;*/
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+/*0*/
+.HagyCsomagAkcio{
+    height: 3.5rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color:red;
+    
+}
+
+/*0*/
+.HagyCsomagAkcio p{
+    font-size: 1rem;
+}
+
+/*0*/
+.HagyCsomagDoboz {
+/*border:3px solid blue;*/
+}
+
+/*0*/
+.HagyCsomagDoboz h1 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: 900;
+}
+
+/*0*/
+.HagyCsomagKep {
+  /*  border:3px solid blue;*/
+    /* height:20rem;
+     width:20rem;*/
+     width:15rem;
+    /* height: 20rem;*/
+}
+
+/*0*/
+.HagyCsomagSzoveg {
+ /*   border:3px solid red;*/
+    width:15rem;
+   /* height: 30rem;*/
+}
+
+/*0*/
+.HagyCsomagFelirat {
+   /*border:3px solid green;*/
+    margin-top: 1rem;
+    height: 3rem;
+   /* margin-bottom: 1rem;*/
+}
+  
+/*0*/
+ .HagyCsomagFelirat h1 {
+    text-align: center;
+}
+
+/*0*/
+.HagyCsomagFelirat2 {
+   /*most üres*/
+}
+
+ /*0*/
+.HagyCsomagFelirat2 h1 {
+    font-size: 1rem;
+    color: grey;
+    opacity: 0.6;
+    text-align: center;
+}
+}
+
+/* 0. Mini SmartPhones VÉGE*/
+
+
+
+/* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/*1*/
+ .HagyomCsomagokEgesz {
+    display: flex;
+    justify-content: space-around;
+    /*border:3px solid red;*/
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+/*1*/
+.HagyCsomagAkcio{
+    height: 3.5rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color:red;
+    
+}
+
+.HagyCsomagAkcio p{
+    font-size: 1.5rem;
+}
+
+/*1*/
+.HagyCsomagDoboz {
+   /* border:3px solid blue;*/
+}
+
+/*1*/
+.HagyCsomagDoboz h1 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: 900;
+}
+
+/*1*/
+.HagyCsomagKep {
+  /*  border:3px solid blue;*/
+    /* height:20rem;
+     width:20rem;*/
+     width:17rem;
+    /* height: 20rem;*/
+}
+
+/*1*/
+.HagyCsomagSzoveg {
+ /*   border:3px solid red;*/
+    width:17rem;
+   /* height: 30rem;*/
+}
+
+/*1*/
+.HagyCsomagFelirat {
+  /* border:3px solid green;*/
+    margin-top: 1rem;
+    height: 4rem;
+   /* margin-bottom: 1rem;*/
+}
+  
+/*1*/
+ .HagyCsomagFelirat h1 {
+    text-align: center;
+}
+
+/*1*/
+.HagyCsomagFelirat2 {
+   /*most üres*/
+}
+
+ /*1*/
+.HagyCsomagFelirat2 h1 {
+    font-size: 1rem;
+    color: grey;
+    opacity: 0.6;
+    text-align: center;
+}
+    
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /*2*/
+ .HagyomCsomagokEgesz {
+    display: flex;
+    justify-content: space-around;
+  /*  border:3px solid red;*/
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+/*2*/
+.HagyCsomagAkcio{
+    height: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color:red;
+    /*border:3px solid blue;*/
+}
+
+/*2*/
+.HagyCsomagDoboz {
+/*most üres*/
+}
+
+/*2*/
+.HagyCsomagDoboz h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 900;
+}
+
+/*2*/
+.HagyCsomagKep {
+  /* border:3px solid blue;*/
+    /* height:20rem;
+     width:20rem;*/
+     width:17rem;
+    height: 17rem;
+}
+
+/*2*/
+.HagyCsomagSzoveg {
+ /*   border:3px solid red;*/
+    width:17rem;
+   /* height: 30rem;*/
+}
+
+/*2*/
+.HagyCsomagFelirat {
+  /* border:3px solid green;*/
+    margin-top: 1rem;
+    height: 5rem;
+    padding-bottom: 0;
+   /* margin-bottom: 1rem;*/
+}
+  
+/*2*/
+ .HagyCsomagFelirat h1 {
+    text-align: center;
+}
+
+/*2*/
+.HagyCsomagFelirat2 {
+   /*most üres*/
+   height: 3rem;
+  /* border:3px solid green;*/
+}
+
+ /*2*/
+.HagyCsomagFelirat2 h1 {
+    font-size: 1.5rem;
+    color: grey;
+    opacity: 0.6;
+    text-align: center;
+}
+
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /*3*/
+ .HagyomCsomagokEgesz {
+    display: flex;
+    justify-content: space-around;
+  /*  border:3px solid red;*/
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+/*3*/
+.HagyCsomagAkcio{
+    height: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color:red;
+}
+
+/*3*/
+.HagyCsomagDoboz {
+/*most üres*/
+}
+
+/*3*/
+.HagyCsomagDoboz h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 900;
+}
+
+/*3*/
+.HagyCsomagKep {
+  /*  border:3px solid blue;*/
+    /* height:20rem;
+     width:20rem;*/
+     width:17rem;
+    /* height: 20rem;*/
+}
+
+/*3*/
+.HagyCsomagSzoveg {
+ /*   border:3px solid red;*/
+    width:17rem;
+   /* height: 30rem;*/
+}
+
+/*3*/
+.HagyCsomagFelirat {
+  /*  border:3px solid green;*/
+    margin-top: 1rem;
+    height: 5rem;
+   /* margin-bottom: 1rem;*/
+}
+  
+/*3*/
+ .HagyCsomagFelirat h1 {
+    text-align: center;
+}
+
+/*3*/
+.HagyCsomagFelirat2 {
+   /*most üres*/
+}
+
+ /*3*/
+.HagyCsomagFelirat2 h1 {
+    font-size: 1.5rem;
+    color: grey;
+    opacity: 0.6;
+    text-align: center;
+}
+ 
+  
+}
+
+/* 3. Device = Tablets, Ipads (portrait) VÉGE*/
+
+/* 4. Tablets, Ipads (landscape) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+/*4*/
+ .HagyomCsomagokEgesz {
+    display: flex;
+    justify-content: space-around;
+  /*  border:3px solid red;*/
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+/*4*/
+.HagyCsomagAkcio{
+    height: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color:red;
+}
+
+/*4*/
+.HagyCsomagDoboz {
+/*most üres*/
+}
+
+/*4*/
+.HagyCsomagDoboz h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 900;
+}
+
+/*4*/
+.HagyCsomagKep {
+  /*  border:3px solid blue;*/
+    /* height:20rem;
+     width:20rem;*/
+     width:17rem;
+    /* height: 20rem;*/
+}
+
+/*4*/
+.HagyCsomagSzoveg {
+ /*   border:3px solid red;*/
+    width:17rem;
+    /*height: 30rem;*/
+}
+
+/*4*/
+.HagyCsomagFelirat {
+  /*  border:3px solid green;*/
+    margin-top: 1rem;
+    height: 5rem;
+   /* margin-bottom: 1rem;*/
+}
+  
+/*4*/
+ .HagyCsomagFelirat h1 {
+    text-align: center;
+}
+
+/*4*/
+.HagyCsomagFelirat2 {
+   /*most üres*/
+}
+
+ /*4*/
+.HagyCsomagFelirat2 h1 {
+    font-size: 1.5rem;
+    color: grey;
+    opacity: 0.6;
+    text-align: center;
+}
+
+ 
+}
+/* 4. Tablets, Ipads (landscape) VÉGE*/
+
+
+/* 5. Laptops, Desktops ELEJE  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+      /*5*/
+     .HagyomCsomagokEgesz {
+        display: flex;
+        justify-content: space-around;
+      /*  border:3px solid red;*/
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    /*5*/
+    .HagyCsomagAkcio{
+        height: 3rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+        color:red;
+    }
+
+    /*5*/
+    .HagyCsomagDoboz {
+    /*most üres*/
+    }
+
+    /*5*/
+    .HagyCsomagDoboz h1 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        font-weight: 900;
+    }
+
+    /*5*/
+    .HagyCsomagKep {
+     /* border:3px solid blue;*/
+        /* height:20rem;
+         width:20rem;*/
+        width:20rem;
+        height: 20rem;
+    }
+
+    /*5*/
+    .HagyCsomagSzoveg {
+     /*   border:3px solid red;*/
+        width:20rem;
+       /* height: 30rem;*/
+    }
+    
+    /*5*/
+    .HagyCsomagFelirat {
+      /*  border:3px solid green;*/
+        margin-top: 1rem;
+        height: 5rem;
+       /* margin-bottom: 1rem;*/
+    }
+      
+    /*5*/
+       .HagyCsomagFelirat h1 {
+        text-align: center;
+    }
+
+    /*5*/
+    .HagyCsomagFelirat2 {
+       /*most üres*/
+    }
+
+     /*5*/
+    .HagyCsomagFelirat2 h1 {
+        font-size: 1.5rem;
+        color: grey;
+        opacity: 0.6;
+        text-align: center;
+    }
+  
+  
+}
+/* 5. Laptops, Desktops VÉGE  */
+
+
+/* 6. Higher resolution desktops ELEJE*/
+
+@media (min-width: 1281px) and (max-width: 1599px) {
+     /*6*/
+     .HagyomCsomagokEgesz {
+        display: flex;
+        justify-content: space-around;
+      /*  border:3px solid red;*/
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    /*6*/
+    .HagyCsomagAkcio{
+        height: 3rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+        color:red;
+    }
+
+    /*6*/
+    .HagyCsomagDoboz {
+    /*most üres*/
+    }
+
+    /*6*/
+    .HagyCsomagDoboz h1 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        font-weight: 900;
+    }
+
+    /*6*/
+    .HagyCsomagKep {
+      /* border:3px solid blue;*/
+        /* height:20rem;
+         width:20rem;*/
+         width:20rem;
+         height: 20rem;
+    }
+
+    /*6*/
+    .HagyCsomagSzoveg {
+      /*  border:3px solid red;*/
+        width:20rem;
+      /*  height: 20rem;*/
+    }
+    
+    /*6*/
+    .HagyCsomagFelirat {
+      /*  border:3px solid green;*/
+        margin-top: 1rem;
+        height: 5rem;
+       /* margin-bottom: 1rem;*/
+    }
+    
+    /*6*/
+    .HagyCsomagFelirat h1 {
+        text-align: center;
+    }
+
+    /*6*/
+    .HagyCsomagFelirat2 {
+       /*most üres*/
+    }
+
+     /*6*/
+    .HagyCsomagFelirat2 h1 {
+        font-size: 1.5rem;
+        color: grey;
+        opacity: 0.6;
+        text-align: center;
+    }
+  
+  
+}
+
+/* 6. Higher resolution desktops VÉGE*/
+
+
+/* 7. Larger screen ELEJE*/
+
+@media (min-width: 1600px) {
+
+    /*7*/
+    .HagyomCsomagokEgesz {
+        display: flex;
+        justify-content: space-around;
+      /*  border:3px solid red;*/
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    /*7*/
+    .HagyCsomagAkcio{
+        height: 3rem;
+        padding-bottom: 1rem;
+        font-weight: 900;
+        color:red;
+    }
+
+    /*7*/
+    .HagyCsomagDoboz {
+    /*most üres*/
+    }
+
+    /*7*/
+    .HagyCsomagDoboz h1 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        font-weight: 900;
+    }
+
+    /*7*/
+    .HagyCsomagKep {
+      /*  border:3px solid blue;*/
+        /* height:20rem;
+         width:20rem;*/
+         width:20rem;
+         height: 20rem;
+    }
+
+    /*7*/
+    .HagyCsomagSzoveg {
+     /*   border:3px solid red;*/
+       width:20rem;
+       /* height: 30rem;*/
+    }
+    
+    /*7*/
+    .HagyCsomagFelirat {
+      /*  border:3px solid green;*/
+        margin-top: 1rem;
+        height: 5rem;
+       /* margin-bottom: 1rem;*/
+    }
+
+    /*7*/
+    .HagyCsomagFelirat2 {
+       /*most üres*/
+    }
+
+     /*7*/
+    .HagyCsomagFelirat2 h1 {
+        font-size: 1.5rem;
+        color: grey;
+        opacity: 0.6;
+    }
+
+}
+
+/* 7. Larger screen VÉGE*/

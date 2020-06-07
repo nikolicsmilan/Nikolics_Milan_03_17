@@ -4,6 +4,7 @@ import CegesCsomag from '../CegesCsomag/CegesCsomag';
 import UgyfelszerzoCsomag from '../UgyfelszerzoCsomag/UgyfelszerzoCsomag';
 import './Csomagok.css';
 import info_button from '../../assets/Card/info-gomb3.svg';
+import HagyomCsomagok from '../HagyomCsomagok/HagyomCsomagok';
 
 const Csomagok = props => {
       
@@ -14,7 +15,7 @@ const Csomagok = props => {
 
      <div className="CsomagokEgeszInfo">
          
-              <div className="CsomagokEgeszInfo2"><img src={info_button} alt='pipa'/></div>
+              <div className="CsomagokEgeszInfo2"><img src={info_button} alt='infogomb'/></div>
               <div className="CsomagokEgeszInfo2"><p>= Információ</p></div>  
    
      </div> 
@@ -34,9 +35,10 @@ const Csomagok = props => {
                 </div>
 
  <h2>HAGYOMÁNYOS KÍNÁLAT</h2>
- <p>(Szükséges idő: kevesebb)</p>
  
- <div className=""> 
+ 
+ <div> 
+<HagyomCsomagok></HagyomCsomagok>
 
  </div>
         </div>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7a1020cbcc160a064044bb61fe3c776",
+    "revision": "0a8684c1815699bdc25237b4b7c50ec9",
     "url": "/index.html"
   },
   {
-    "revision": "fdef96637b22aaab0d3a",
+    "revision": "6369c2344bdc545cdc58",
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "0c10241076a603845582",
-    "url": "/static/css/main.072e9833.chunk.css"
+    "revision": "6d9f8101b899eb11c735",
+    "url": "/static/css/main.36141772.chunk.css"
   },
   {
-    "revision": "fdef96637b22aaab0d3a",
-    "url": "/static/js/2.1e801db0.chunk.js"
+    "revision": "6369c2344bdc545cdc58",
+    "url": "/static/js/2.b9dacace.chunk.js"
   },
   {
     "revision": "6a7903cba7c07c04b74cefcf79c6a3f5",
-    "url": "/static/js/2.1e801db0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b9dacace.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c10241076a603845582",
-    "url": "/static/js/main.f13015a7.chunk.js"
+    "revision": "6d9f8101b899eb11c735",
+    "url": "/static/js/main.6e2139cb.chunk.js"
   },
   {
     "revision": "a277459dddbcac43ed44",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c20d5f48bae512973b44d16f3dfa3ae0",
     "url": "/static/media/Css2.c20d5f48.png"
+  },
+  {
+    "revision": "9928ee5bc14a592f96b3eb08ec762530",
+    "url": "/static/media/Development1.9928ee5b.png"
   },
   {
     "revision": "61bf2ba5c6a371d5202578c868e974c4",
@@ -114,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "72c64d0dc7d78242a53f0a39be54a895",
     "url": "/static/media/Ugyfelszerzo_Mobil-min.72c64d0d.png"
+  },
+  {
+    "revision": "7b8891951f26c13dcf6bd7aa86e12d76",
+    "url": "/static/media/WebPage3.7b889195.png"
+  },
+  {
+    "revision": "23e02a16f21c7d997543ff32ad261ad8",
+    "url": "/static/media/WebShop1.23e02a16.png"
   },
   {
     "revision": "6d290d1187c83d069d62af04787023b1",
