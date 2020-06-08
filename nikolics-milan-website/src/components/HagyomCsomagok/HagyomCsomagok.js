@@ -29,7 +29,7 @@ const HagyomCsomagok = props => {
                         <h1>SABLON ALAPÚ WEBLAPOK</h1>
                      </div>  
                      <div className="HagyCsomagFelirat2">
-                        <h1>Kérjen egyedi ajánlatot!</h1>
+                        <h1>Kérjen egyedi árajánlatot!</h1>
                      </div>  
                                  
                 
@@ -51,7 +51,7 @@ const HagyomCsomagok = props => {
                         <h1>WEBÁRUHÁZ</h1>
                         </div>   
                         <div className="HagyCsomagFelirat2">
-                        <h1>Kérjen egyedi ajánlatot!</h1>
+                        <h1>Kérjen egyedi árajánlatot!</h1>
                         </div>  
                                           
                     </div>
@@ -75,7 +75,7 @@ const HagyomCsomagok = props => {
                  </div>    
 
                  <div className="HagyCsomagFelirat2">
-                        <h1>Kérjen egyedi ajánlatot!</h1>
+                        <h1>Kérjen egyedi árajánlatot!</h1>
                 </div>  
                       
                  </div>
