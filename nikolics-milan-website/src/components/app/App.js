@@ -16,7 +16,7 @@ import Kapcsolat from '../Kapcsolat/Kapcsolat';
 import Technologia2 from '../Technologia2/Technologia2';
 import Nmchat from '../NM_chat/Nmchat';
 import Csomagok from '../Csomagok/Csomagok';
-import FacebookComment from '../MyComment/MyComment';
+import FacebookComment2 from '../MyComment2/MyComment2';
 /*const AsyncNmchat = asyncComponent(() => {
   return import('./../NM_chat/Nmchat');
 });*/
@@ -41,7 +41,7 @@ class App extends Component {
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               
-            {/*  <Route exact path="/" component={FacebookComment}/> */}
+            <Route exact path="/" component={FacebookComment2}/> 
               <Route exact path="/" component={Footer}/> 
 
               <Route path="/Seo" component={Seo}/>
