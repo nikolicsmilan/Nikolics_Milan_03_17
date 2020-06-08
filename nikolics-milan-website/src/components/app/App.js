@@ -41,7 +41,7 @@ class App extends Component {
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               
-              <Route exact path="/" component={FacebookComment}/> 
+            {/*  <Route exact path="/" component={FacebookComment}/> */}
               <Route exact path="/" component={Footer}/> 
 
               <Route path="/Seo" component={Seo}/>
