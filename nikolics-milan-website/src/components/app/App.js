@@ -22,6 +22,8 @@ import FacebookComment2 from '../MyComment2/MyComment2';
 });*/
 /*import MetaTags from 'react-meta-tags';*/
 
+import CustomerChat from "../messenger/CustomerChat";
+
 class App extends Component {
   componentDidMount() {
     /*document.getElementById("nav-home").style.backgroundColor = "#ffffff";
@@ -55,7 +57,8 @@ class App extends Component {
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               <Route exact path="/" component={ReklamSzoveg}/> 
-            <Route exact path="/" component={FacebookComment2}/> 
+              <Route exact path="/" component={FacebookComment2}/> 
+              <Route exact path="/" component={CustomerChat}/> 
               <Route exact path="/" component={Footer}/> 
 
               <Route path="/Seo" component={Seo}/>
