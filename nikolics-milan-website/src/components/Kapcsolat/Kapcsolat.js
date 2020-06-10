@@ -47,8 +47,7 @@ const Kapcsolat = props => {
                  hogy ha valaki meg is tud belőle élni.
                  Van egy közmondás miszerint: 
                  "Ha valaki szereti a munkáját nem kell dolgoznia".
-                 A webfejlesztés számomra egy ilyen dolog:
-                 szeretem csinálni és ebből akarok megélni.
+                 A webfejlesztés számomra egy ilyen dolog...
                 </p>                           
                 </div>                  
                 </div>

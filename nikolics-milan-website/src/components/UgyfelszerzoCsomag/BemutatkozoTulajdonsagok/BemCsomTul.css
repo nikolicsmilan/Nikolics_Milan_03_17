@@ -140,7 +140,7 @@
 /* 5. Laptops, Desktops ELEJE  */
 @media (min-width: 1025px) and (max-width: 1280px) {
   .UgyAppear {
-    border: 20px solid rgba(40, 164, 241, 0.938);
+    border: 2px solid rgba(40, 164, 241, 0.938);
     background-color: white;
     border-radius:2%;
     position: absolute;

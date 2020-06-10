@@ -14,14 +14,14 @@ const BemCsomTul = props => {
                 felugro='Az Ön weboldala egyedi tervezéssel készül, így az 
                 Ön igényeihez van szabva, és  igazán kiemelkedik a többi közül. 
                 Ezzel szemben a sablonból készült weboldalaknak több ezer klónja is lehet,
-                amit így egy lehetséges vásárló bóvlinak mínősíthet.'
+                amit így egy lehetséges vásárló bóvlinak minősíthet.'
                 appear='CegAppear'  
                 FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
                 felirat='Mobilbarát'
-                felugro='Weboldala mínőségi módon jelenik meg több fajta eszközön is.
+                felugro='Weboldala minőségi módon jelenik meg több fajta eszközön is.
                 Az internetet használók fele nem asztali számítógépet, hanem
                 mobiltelefont vagy más okoseszközt használ. Ha nem akar elesni kliensei 
                 felétől, szüksége van erre az opcióra.'
@@ -32,7 +32,7 @@ const BemCsomTul = props => {
                 kep={pipa2}
                 felirat='SSD tárhely'
                 felugro='Modernebb és drágább, mint a hagyományos tárhelyek. Az eredmény megnövekedett
-                kiszolgálási sebbeség, ami kulcsfontosságú tényező a vásárlók szempontjából. Ha
+                kiszolgálási sebesség, ami kulcsfontosságú tényező a vásárlók szempontjából. Ha
                 weboldala nem tőltödik be néhány másodperc alatt, a legtöbben elkattintanak...'
                 appear='CegAppear'  
                 FelugroBeallitas="AltSzovegForma"
@@ -40,7 +40,7 @@ const BemCsomTul = props => {
              <BemCsomTulSor
                 kep={pipa2}
                 felirat='Biztonság'
-                felugro='Weboldalát  SSL tanusítvány védi.
+                felugro='Weboldalát  SSL tanúsítvány védi.
                 Így a  weboldalán megadott adatok nem láthatók mindenki számára, 
                 aki az internetet használja. Ez ma már alapkövetelmény egy weboldaltól.
                 Az SSL nélküli weboldalakat a Chrome webböngésző  nem biztonságosnak minősíti.
@@ -52,7 +52,7 @@ const BemCsomTul = props => {
             <BemCsomTulSor
                 kep={pipa2}
                 felirat='GDPR kompatibilis'
-                felugro='A weboldala megefelel a GDPR irányelveinek
+                felugro='A weboldala megfelel a GDPR irányelveinek
                 (General Data Protection Regulation -
                 Általános Adatvédelmi Szabályozás). Ennek megfelelő
                 a cookie kezelés, valamint az adatvédelmi tájékoztató.
@@ -63,13 +63,13 @@ const BemCsomTul = props => {
             <BemCsomTulSor
                 kep={pipa2}
                 felirat='Webgyorsítás'
-                felugro='Weboldalának sebbesége nem csak
+                felugro='Weboldalának sebessége nem csak
                 a kiszolgáló szervertől, illetve az internetkapcsolat minőségétől
                 függ. A megírt kódot bizonyos struktúrába kell helyezni, a képeket és szövegeket
                 be kell tömöríteni, hogy minél kevésbé terhelje meg az ügyfél eszközét, és 
-                ezáltal minél gyorsabb legyen a betöltődés. Az Ön weboldlala React-tal készül,
-                ami SPA (single-page application), így sokkal gyorsabb, mint a más,
-                MPA-t (multi-page application) használó weboldalak.'
+                ezáltal minél gyorsabb legyen a betöltődés. Az Ön weboldala React-tal készül,
+                ami úgynevezet Virtual DOM technológiát használ, így sokkal gyorsabb, mint a más,
+                e képpeséget nélkülöző  weboldalak.'
                 appear='CegAppear'  
                 FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
@@ -89,7 +89,7 @@ const BemCsomTul = props => {
                 felugro='Weboldala nem csupán egy főoldalból áll. Vállalkozásától függően több
                 aloldalra lehet szüksége, amiken főtéma több altémára van bontva.
                  A bemutatkozó csomagban 5 ilyen aloldalra van lehetőség. Ha ennél többre
-                 van igénye az megegyezés kérdése'
+                 van igénye az megegyezés kérdése.'
                 appear='CegAppear'  
                 FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
@@ -102,7 +102,8 @@ const BemCsomTul = props => {
                  az ön vállalkozásához. Ebben az esetben - ami elég valószínű - a képeket
                  meg kell vásárolni. Bemutatkozó csomagban 5 ilyenre van lehetőség alapesetben.
                  Ha ennél többre van igénye akkor az megegyezés kérdése. A fent lévő korlátozás
-                 természetesen nem vonatkozik az ön által biztosított képekre(részletek a szerződésben),
+                 természetesen nem vonatkozik az ön által biztosított képekre(részletek a szerződésben
+                 arra vonatkozóan, hogy milyen témájú képek feltöltését vállaljuk),
                  de minden egyes plusz tartalom, főként képek, videók, lassítják weboldalát és plusz munka 
                  is mivel méretezni és konvertálni kell őket.'
                 appear='CegAppear'  
@@ -164,12 +165,13 @@ const BemCsomTul = props => {
             ></BemCsomTulSor>
             <BemCsomTulSor
                 kep={pipa2}
-                felirat='Szövegírás'
-                felugro='A szövegírás kulcsfontoságú és egy külön "tudományágat" képvisel.
+                felirat='Szövegírás  - 20 000 karakterleütés'
+                felugro='A szövegírás kulcsfontosságú és egy külön "tudományágat" képvisel.
                 Ennél az opciónál két választási lehetősége van: vagy megadja
                 ön, hogy milyen szöveget helyezünk el a weblapjára, vagy ránk bízza annak tartalommarketingjét.
-                 A Szövegírás nem része a Bemutatkozó csomagnak,
-                  ebben az esetben azt önnek kell kitalálnia weboldala szövegezését.'
+                Bemutatkozó csomagban 5000 karakterleütésre van lehetőség.
+                A Céges és Ügyfélszerző csomag esetében 20 000 karakterleütésnyi szöveget tartalmaz maximum.
+                Ha ennél többre van igénye az 1.2 Ft/leütött karakterbe kerül.'
                 appear='CegAppear'  
                 FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>
@@ -178,8 +180,8 @@ const BemCsomTul = props => {
                 felirat='SEO START (6 hónap)'
                 felugro='Bevétel szerzés szempontjából a legfontosabb eleme weboldalának.
                 A SEO azaz a keresőmotor optimalizálás legdrágább ugyanakkor a leginkább 
-                megtérülő része weblapjának. Akkora jelentőséggel bír mint egy autóban 
-                a motor. Részletek a SEO aloldalon.'
+                megtérülő része weblapjának. Legalább akkora jelentőséggel bír, mint maga a 
+                weboldal. Szemléltetésül ha weblap egy versenyautó akkor SEO jelenti benne a motort.'
                 appear='CegAppear'  
                 FelugroBeallitas="AltSzovegForma"
             ></BemCsomTulSor>

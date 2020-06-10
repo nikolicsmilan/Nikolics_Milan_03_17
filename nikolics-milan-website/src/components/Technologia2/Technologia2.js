@@ -21,7 +21,7 @@ const Technologia2 = props => {
           <div  className='Tech2Egesz'>  
             
             <div className="Tech2Cim">
-            <h1>Itt a használt technológiákról lesz néhány információ a közeljövőben...</h1>
+            <h1>Itt a felhasznált technológiákról lesz néhány információ a közeljövőben...</h1>
             </div>
 
             <div className="Tech2Bevzeto"> 
