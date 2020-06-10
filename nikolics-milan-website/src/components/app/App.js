@@ -27,13 +27,13 @@ import CustomerChat from "../messenger/CustomerChat";
 class App extends Component {
   
 
-
+/*
         componentDidMount() {
           FacebookComment2.XFBML.parse();
       }
       componentDidUpdate() {
         FacebookComment2.XFBML.parse();
-      }
+      }*/
 
  
         render() {
