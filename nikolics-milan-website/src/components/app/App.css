@@ -458,6 +458,8 @@ html,body
     margin: 0px;
     padding: 0px;*/
     overflow-x: hidden; 
+    font-family: Arial;
+    /*font-size: 1rem;*/
 }
 
 /*Kiegészítés üres rész ellen vége!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -728,6 +730,7 @@ html,body
        justify-self: center;
        width:100%; 
       /*border: 3px dashed blue;*/
+      
       }   
 }
 /* 5. Laptops, Desktops VÉGE  */
@@ -767,6 +770,9 @@ html,body
        justify-self: center;
        width:100%; 
        /* border: 3px dashed blue;      */
+       /*font-family: 'Catamaran-Regular';*/
+     /*  font-family: Catamaran-Regular;*/
+     /*  font-family: audiowide;*/
       }  
 }
 
@@ -807,6 +813,7 @@ html,body
        justify-self: center;
        width:100%; 
       /*border: 3px dashed blue;*/      
+      font-family: 'Catamaran-Regular';
       }
 }
 
