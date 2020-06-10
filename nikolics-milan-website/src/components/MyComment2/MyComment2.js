@@ -21,6 +21,7 @@ class MyComment2 extends Component {
   */}
 
                         <FacebookProvider  appId="620383108811127">
+                            <h1>izé</h1>
                             <Like href="https://www.facebook.com/Elek-Teszt-Oldala-104415887976723/settings/?tab=admin_roles&ref=page_edit" colorScheme="dark" showFaces share />
                          </FacebookProvider>  
       

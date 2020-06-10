@@ -36,46 +36,43 @@
 }
 
  /*0*/
-.ButtonLogoKontener {
+ .ButtonLogoKontener {
   display: flex;
   flex-direction: column;
- justify-content: space-around;
- /* float: left;*/
- /* align-items: left;*/
- /* border: 3px solid purple;*/
-  margin-left: 1rem;
- /* padding-left: 1%;
-  /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
- /* height:10rem;*/
- /*border:3px solid green;*/
-}
-
-/*0*/
-.Button {
-  /*H2 beállítja*/   
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
- /* padding-left: 0.5rem;*/
-  color:black;
- /* border: 3px solid yellow;*/
-  width:2.8rem;
- 
-}
-
- /*0*/
-.Button h2 {       
-  font-weight: 200;
-  font-size: 1.5rem;
-  padding-top: 0;
-  color:black;
- /* border: 3px solid yellow;*/
+  justify-content: space-around;
+  margin-left: 0.5rem;
+ /* border: 3px solid blue;*/
+  width:40rem;
   }
-
+  
   /*0*/
-.ButKozepre {
-  /*border: 3px dashed green;*/
-  font-size: 2rem;
+  .Button2 {
+/*  border:3px solid red;*/
+  width:3rem;
+  margin: 0 auto;
+  }
+  
+   /*0*/
+  .Button2 h2 {       
+  color:rgba(40, 164, 241, 0.938);
+  font-size: 1.3rem;
+  margin: 0 auto;
+  font-weight: 500;
+  }
+  
+  /*0*/
+  .Button3 {
+    /*border:3px solid red;*/
+    width:2.5rem;
+    margin: 0 auto;
+    }
+  
+   /*0*/
+  .ButKozepre {
+ /* border: 3px solid green;*/
+  font-size: 1.8rem;
+  width:3rem;
+  /*margin: 0 auto;*/
   }
 
  /*0*/
@@ -185,47 +182,44 @@ right:0;
   /*margin-bottom: 2rem;*/
 }
 
- /*1*/
+   /*1*/
 .ButtonLogoKontener {
   display: flex;
   flex-direction: column;
- justify-content: space-around;
- /* float: left;*/
- /* align-items: left;*/
- /* border: 3px solid purple;*/
-  margin-left: 1rem;
- /* padding-left: 1%;
-  /*SAFARI LEHET HOGY KELL NEKI MAGASÁGOT ÁLLÍTANI!!!!!!!!!!!!!!!!!!!!!!!*/
- /* height:10rem;*/
- /*border:3px solid green;*/
-}
-
- /*1*/
-.Button {
-  /*H2 beállítja*/   
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
- /* padding-left: 0.5rem;*/
-  color:black;
- /* border: 3px solid yellow;*/
-  width:2.8rem;
- 
-}
-
- /*1*/
-.Button h2 {       
-  font-weight: 200;
-  font-size: 1.5rem;
-  padding-top: 0;
-  color:black;
- /* border: 3px solid yellow;*/
+  justify-content: space-around;
+  margin-left: 0.5rem;
+  /*border: 3px solid blue;*/
+  width:40rem;
   }
-
+  
   /*1*/
-.ButKozepre {
-  /*border: 3px dashed green;*/
-  font-size: 2rem;
+  .Button2 {
+/*  border:3px solid red;*/
+  width:3rem;
+  margin: 0 auto;
+  }
+  
+   /*1*/
+  .Button2 h2 {       
+  color:rgba(40, 164, 241, 0.938);
+  font-size: 1.3rem;
+  margin: 0 auto;
+  font-weight: 500;
+  }
+  
+  /*1*/
+  .Button3 {
+    /*border:3px solid red;*/
+    width:2.5rem;
+    margin: 0 auto;
+    }
+  
+   /*1*/
+  .ButKozepre {
+ /* border: 3px solid green;*/
+  font-size: 1.8rem;
+  width:3rem;
+  /*margin: 0 auto;*/
   }
 
   /*1*/
@@ -332,39 +326,46 @@ width: 100%;
 /*margin-bottom: 2rem;*/
 }
 
- /*2*/
+  /*2*/
 .ButtonLogoKontener {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin-left: 1rem;
-}
-
- /*2*/
-.Button {
-/*H2 beállítja*/   
-display: flex;
-flex-direction: column;
-align-items: center; 
-color:black;
-/* border: 3px solid yellow;*/
-width:2.8rem;
-}
-
- /*2*/
-.Button h2 {       
-font-weight: 200;
-font-size: 1.5rem;
-padding-top: 0;
-color:black;
-/* border: 3px solid yellow;*/
-}
-
- /*2*/
-.ButKozepre {
-/*border: 3px dashed green;*/
-font-size: 2rem;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0.5rem;
+ /* border: 3px solid blue;*/
+  width:40rem;
+  }
+  
+  /*2*/
+  .Button2 {
+/*  border:3px solid red;*/
+  width:3rem;
+  margin: 0 auto;
+  }
+  
+   /*2*/
+  .Button2 h2 {       
+  color:rgba(40, 164, 241, 0.938);
+  font-size: 1.3rem;
+  margin: 0 auto;
+  font-weight: 600;
+  }
+  
+  /*2*//*BUTTON3 AT KELL 0.X REM MEL KISEBBRE ÁLLÍTANI MINT A BUTTON KÖZÉPRE*/
+  .Button3 {
+    /*border:3px solid red;*/
+    width:2.2rem;
+    margin: 0 auto;
+    }
+  
+   /*2*/
+  .ButKozepre {
+ /* border: 3px solid green;*/
+  font-size: 1.8rem;
+  width:3rem;
+  /*margin: 0 auto;*/
+  }
+    
 
  /*2*/
 .ElerhetKontener {
@@ -377,7 +378,7 @@ width: 100%;
 margin-top: 2%;
 }   
 
-/*1*/
+/*2*/
 .Elerhet {
 display: flex;
 /*border: 3px solid yellow;*/
@@ -482,30 +483,36 @@ width:40rem;
 }
 
 /*3*/
-.Button {
-/*H2 beállítja*/   
-display: flex;
-flex-direction: column;
-align-items: center; 
-color:black;
-/* border: 3px solid yellow;*/
-width:2.8rem;
+.Button2 {
+/*border:3px solid red;*/
+width:3.8rem;
+margin: 0 auto;
 }
 
  /*3*/
-.Button h2 {       
-font-weight: 200;
+.Button2 h2 {       
+color:rgba(40, 164, 241, 0.938);
 font-size: 1.5rem;
-padding-top: 0;
-color:black;
-/* border: 3px solid yellow;*/
+margin: 0 auto;
+font-weight: 600;
 }
+
+/*3*/
+.Button3 {
+  /*border:3px solid red;*/
+  width:2.9rem;
+  margin: 0 auto;
+  }
 
  /*3*/
 .ButKozepre {
-/*border: 3px dashed green;*/
-font-size: 2rem;
+/*border: 3px solid orange;*/
+font-size: 1.8rem;
+width:3.8rem;
+/*margin: 0 auto;*/
 }
+
+
 
  /*3*/
 .ElerhetKontener {
@@ -574,6 +581,7 @@ display: none;
 /*DESKTOP vÉGE*/
 }
 
+/*3*/
 li .AktivMenu {
   background-color: rgb(69, 69, 97);
   color:white; 
@@ -590,7 +598,7 @@ li .AktivMenu {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
  /*TOOLBAR EGESZ*/
 
-    /*3*/
+    /*4*/
 .ToolbarHeaderEgesz {
   /*H2 beállítja*/
   /* color:red;*/
@@ -600,7 +608,7 @@ background-color: white;
 position: relative;
 }         
 
- /*3*/
+ /*4*/
 .ToolbarNavEgesz {
 display: flex;
 width: 100%;  
@@ -612,7 +620,7 @@ top:0;
 /* border: 3px solid purple;*/
 }
 
- /*3*/
+ /*4*/
 .MobilNezet {
 /* border:3px solid blue;*/
 display:flex;
@@ -623,43 +631,49 @@ width: 100%;
 /*margin-bottom: 2rem;*/
 }
 
-/*3*/
+/*4*/
 .ButtonLogoKontener {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin-left: 1rem;
-/*border: 3px solid blue;*/
-width:40rem;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  margin-left: 1rem;
+  /*border: 3px solid blue;*/
+  width:40rem;
+  }
+  
+  /*4*/
+  .Button2 {
+  /*border:3px solid red;*/
+  width:3.8rem;
+  margin: 0 auto;
+  }
+  
+   /*4*/
+  .Button2 h2 {       
+  color:rgba(40, 164, 241, 0.938);
+  font-size: 1.5rem;
+  margin: 0 auto;
+  font-weight: 600;
+  }
+  
+  /*4*/
+  .Button3 {
+    /*border:3px solid red;*/
+    width:2.9rem;
+    margin: 0 auto;
+    }
+  
+   /*4*/
+  .ButKozepre {
+ /*border: 3px solid purple;*/
+  font-size: 1.8rem;
+  width:3.8rem;
+  /*margin: 0 auto;*/
+  }
+  
 
-/*3*/
-.Button {
-/*H2 beállítja*/   
-display: flex;
-flex-direction: column;
-align-items: center; 
-color:black;
-/* border: 3px solid yellow;*/
-width:2.8rem;
-}
-
- /*3*/
-.Button h2 {       
-font-weight: 200;
-font-size: 1.5rem;
-padding-top: 0;
-color:black;
-/* border: 3px solid yellow;*/
-}
-
- /*3*/
-.ButKozepre {
-/*border: 3px dashed green;*/
-font-size: 2rem;
-}
-
- /*3*/
+ /*4*/
 .ElerhetKontener {
 display:flex;
 flex-direction: column; 
@@ -671,7 +685,7 @@ width: 40rem;
 margin-top: 2%;
 }   
 
-/*3*/
+/*4*/
 .Elerhet {
 display: flex;
 /*border: 3px solid yellow;*/
@@ -682,7 +696,7 @@ padding-bottom: 1%;
 padding-left: 0;
 }
 
- /*3*/
+ /*4*/
 .Elerhet img {
 width:3rem;
 height: 3rem;
@@ -690,19 +704,20 @@ margin-right:0.2rem;
 /*border: 3px solid purple;*/
 }
 
+/*4*/
 .Elerhet p {
 font-size: 1.5rem;
 width: 40rem;
 /*border: 3px solid purple;*/
 }
 
-/*3*/
+/*4*/
 .EuLogoKontenerMobil {
 position: absolute;
 right:0;
 }
 
- /*3*/
+ /*4*/
 .EU_logo_Mobil {
 width:15rem;
 z-index: 10000;    
@@ -713,12 +728,12 @@ z-index: 10000;
 
 /*DESKTOP ELEJE*/
 
-/*3*/
+/*4*/
 .EuLogoKontenerDesktop {
 display:none;
 }
 
-/*3*/
+/*4*/
 .DesktopMenu {
 display: none;
 }
@@ -1146,6 +1161,7 @@ VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
   flex-direction: row;
  /* border:3px solid purple;*/
   justify-content: space-between;
+  position: relative;
 }
 
 /*7*/
@@ -1205,6 +1221,8 @@ VÁLASZTANI DE ÉN EZT VÁLASZOTTAM*/
   /*border: 3px solid green;*/
   width: 100%;
   /*margin-top: 2%;*/
+  /*position: fixed;
+  margin-top: 7rem;*/
 }   
 
 /*7*/

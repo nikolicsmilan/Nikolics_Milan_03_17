@@ -494,6 +494,7 @@ html,body
  width:100%; 
 /*border: 3px dashed blue;*/
 
+
 }
 
 
@@ -648,7 +649,8 @@ html,body
        flex-direction: column;
        justify-self: center;
        width:100%; 
-      /*border: 3px dashed blue;*/      
+      /*border: 3px dashed blue;*/     
+ 
     }   
 }
 

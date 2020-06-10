@@ -20,13 +20,14 @@ const NmSideDrawer2 = props => {
         ]
     });   
  
-   /*A click egy onclick ami egy tooglehanlerhez van bekötve a navbarban */
-   let backdrop=  <NmBackdrop click={props.click}></NmBackdrop>
+  let backdrop;
 
    /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
    let sideDrawer = "SideDrawerZar";
    if (props.sideDrawer){
     sideDrawer="SideDrawerNyit";
+     /*A click egy onclick ami egy tooglehanlerhez van bekötve a navbarban */
+    backdrop=  <NmBackdrop click={props.click}></NmBackdrop>
    }
    /*ELDÖNTI HOGY A SIDEDRAWER NYITVA VAGY ZÁRVA VAN ELEJE*/
 

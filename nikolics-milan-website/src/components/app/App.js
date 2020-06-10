@@ -23,12 +23,26 @@ import FacebookComment2 from '../MyComment2/MyComment2';
 /*import MetaTags from 'react-meta-tags';*/
 
 class App extends Component {
-  
+  componentDidMount() {
+    /*document.getElementById("nav-home").style.backgroundColor = "#ffffff";
+    document.getElementById("nav-home").style.color = "#7ABEC2";*/
+    console.log('izéééééééééééééééééééééééééé');
+   /* document.getElementById("megfogom").style.backgroundColor = "red";*/
+    console.log('lefutott');
+ /*  document.getElementById("megfogom").classList.add('megfogom2');
+  /*  document.getElementById("megfogom").className = "megfogom2";*/
+ /* console.log('lefutott');
+  document.getElementById("megfogom").classList.add('megfogom3');*/
+
+}
+ 
         render() {
         return (
              
 
           <BrowserRouter id="UA-158844454-1">
+
+           <div classname="stilus">Válts stílust
         <div className="AppEgesz">   
 
           <div className="AppNavbar">
@@ -37,10 +51,10 @@ class App extends Component {
           <div className="AppEgeszBody">
           
               <Route exact path="/" component={NmBemutatkozas3}/> 
-              <Route exact path="/" component={ReklamSzoveg}/> 
+              
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
-              
+              <Route exact path="/" component={ReklamSzoveg}/> 
             <Route exact path="/" component={FacebookComment2}/> 
               <Route exact path="/" component={Footer}/> 
 
@@ -57,7 +71,8 @@ class App extends Component {
          </div>  
 
          </div>
-      
+
+         </div> 
             </BrowserRouter>
 
          

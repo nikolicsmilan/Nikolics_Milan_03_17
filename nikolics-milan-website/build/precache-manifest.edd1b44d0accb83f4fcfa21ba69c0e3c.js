@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1485a4029ef2b3429285845057307af7",
+    "revision": "b6d7d26ce862eb2c73593d8363ede203",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "bc0c7cc3c135d337386f",
-    "url": "/static/css/main.f41c26c1.chunk.css"
+    "revision": "e7d239bf3e386ee94297",
+    "url": "/static/css/main.64f24069.chunk.css"
   },
   {
     "revision": "6369c2344bdc545cdc58",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b9dacace.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc0c7cc3c135d337386f",
-    "url": "/static/js/main.ed6046fb.chunk.js"
+    "revision": "e7d239bf3e386ee94297",
+    "url": "/static/js/main.1936adf7.chunk.js"
   },
   {
     "revision": "a277459dddbcac43ed44",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg"
   },
   {
-    "revision": "bdad138e12fa4acb61f7e93ed0bc9717",
-    "url": "/static/media/Bevetel5.bdad138e.png"
+    "revision": "5ad3b65f845378f8f8b46dee03b6174a",
+    "url": "/static/media/BevetelOK.5ad3b65f.png"
   },
   {
     "revision": "d9f99acbd894c6725ea310e1013f1c47",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NM_kep.ebac684e.jpg"
   },
   {
-    "revision": "3141f94269ff98b8a2f598f639df36de",
-    "url": "/static/media/Nepszeru5.3141f942.PNG"
+    "revision": "b7bb6ee7668e67e4c1f13b22d9400642",
+    "url": "/static/media/NepszeruOK.b7bb6ee7.png"
   },
   {
     "revision": "32e55ca0c3f225cabc1b8a9fe6cdc719",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/React1.82a318cc.png"
   },
   {
-    "revision": "2a4829e02f47cf72814ff23fa61701e9",
-    "url": "/static/media/Ugyfel5.2a4829e0.PNG"
+    "revision": "7fe45a93a3534352a7093f01c059f360",
+    "url": "/static/media/UgyfelOK.7fe45a93.png"
   },
   {
     "revision": "72c64d0dc7d78242a53f0a39be54a895",

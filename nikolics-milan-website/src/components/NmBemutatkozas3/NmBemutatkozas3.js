@@ -1,50 +1,60 @@
 import React from 'react';
 import './NmBemutatkozas3.css';
 import nikolics_logo from './../../assets/nikolicsmilan_logo_12.PNG';
-import bevetel from './../../assets/SzovegKep/Bevetel5.png';
-import nepszeru from './../../assets/SzovegKep/Nepszeru5.PNG';
-import ugyfel from './../../assets/SzovegKep/Ugyfel5.PNG';
+import bevetel from './../../assets/SzovegKep/BevetelOK.png';
+import nepszeru from './../../assets/SzovegKep/NepszeruOK.png';
+import ugyfel from './../../assets/SzovegKep/UgyfelOK.png';
 /*import thinking from './../../assets/SzovegKep/thinking.PNG';*/
 import osztonzo from './../../assets/SzovegKep/osztonzo_szoveg_2.PNG';
 import felfele2 from './../../assets/SzovegKep/felfele13.PNG';
 
-const NmBemutatkozas3 = props => (
+const NmBemutatkozas3 = props => {
 
-<div className="Bemutat_egesz_2">
-  
-           
+ 
+/*A régihelyet itt a jsx ben definiálod az újhelyet kell a css- ben
+és az eredti elemen egy transition -t */
 
-            <div className="Szoveg-Kep_kontener_2">                      
-                        <ul className="Bemutat_szoveg_keret_ul_2">
-                            <div className="Li_kontener_2">
-                                <li  className="BemSzovLi_1_2"> <img src={nepszeru} alt="nepszeru_kep"></img></li>
-                                <li className="BemSzovLi_1_2"> <img src={bevetel} alt="bevetel_kep"></img> </li>                                
-                                <li  className="BemSzovLi_1_2 "> <img src={ugyfel} alt="ugyfel_kep"></img></li>            
-                            </div>
 
-                            {/*   További lehetőségek                
-                            <div className="Li_kontener_3">
-                                             
-                            </div>
 
-                            <div className="Osztonzo_szoveg_3">
-                            
-                            </div>
-                            */}
-                            <div className="Szoveg_focim_kontener_2">
-                                <img className="Nikolics_logo_2" src={nikolics_logo} alt="nikolics_logo" ></img> 
-                            </div>
-                                        
-                        </ul>   
-                        
-         </div>
+   const toogleHandler_in = () =>{
+      console.log('asddffzfhfjhfjh')
+     /* document.getElementById("megfogom").className = "megfogom2";*/
+     /* document.getElementById("megfogom").className = "megfogom3";*/
+     document.getElementById("FelhoRegiHely").className = "FelhoUjHely";
+     document.getElementById("FelhoRegiHely2").className = "FelhoUjHely";
+     document.getElementById("FelhoRegiHely3").className = "FelhoUjHely";
+     
+      };
+
+      const toogleHandler_in2 = () =>{
+         console.log('asddffzfhfjhfjh')
+        /* document.getElementById("megfogom").className = "megfogom2";*/
+        /* document.getElementById("megfogom").className = "megfogom3";*/
+        document.getElementById("stilus").className = "stilus2";
        
-</div>
+        
+         };
    
+    return (
+            <div className="FelhoKerdesekEgesz" onMouseEnter={toogleHandler_in}> 
+           
+                <div className="FelhoKerdesekKeret">                    
+                     <div className="FelhoKerdesekKont" id="megfogom">
+                         <li  className="FelhoKerdesNep" onMouseEnter={toogleHandler_in} id="FelhoRegiHely"> <img src={nepszeru} alt="nepszeru_kep"></img></li>
+                         <li className="FelhoKerdesBev" onMouseEnter={toogleHandler_in} id="FelhoRegiHely2"> <img src={bevetel} alt="bevetel_kep"></img> </li>                                
+                         <li  className="FelhoKerdesUj" onMouseEnter={toogleHandler_in} id="FelhoRegiHely3"> <img src={ugyfel} alt="ugyfel_kep"></img></li>            
+                     </div>
+                            
+                     <div className="SzovegLogoKont">
+                        <img className="NikolicsLogo" src={nikolics_logo} alt="nikolics_logo" ></img> 
+                     </div>       
 
-  
+                      <div className="SzovegLogoKont" onMouseEnter={toogleHandler_in}>
+                      <h1>Stílus váltás</h1>
+                     </div>                                               
+            </div>       
+</div>  
 
-);
-
-
+)
+                        }
 export default NmBemutatkozas3;

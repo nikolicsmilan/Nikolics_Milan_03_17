@@ -1,48 +1,51 @@
 /* 0. Mini SmartPhones ELEJE*/
 @media (min-width: 120px) and (max-width: 319px) {
 
-    .KulsoToogleButton {
-        display: flex;
-    }
-
-    .ToggleButton {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 2.2rem;
-        width: 2.2rem;
-        /*background: transparent;*/
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        box-sizing: border-box;
-       
-    }
-    .ToggleButton ul {
-       /* color:#fa923f;*/
-       color: rgba(40, 164, 241, 0.938);
-    }
+         /*0*/
+         .KulsoToogleButton {
+            display: flex;
+           /* border:3px solid red;*/
+           background-color: white;
+        }
     
-    /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
-    .ToggleButton:focus {
-       /* background-color:red;*/
-           
-        /*Eltvolítja a külső keretet ami megjelenik*/
-        outline: none;
-    }
+           /*0*/
+        .ToggleButton {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 3rem;
+            width:3rem;
+            /*background: transparent;*/
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: white;       
+        }
     
-    .ToggleButtonLine {
-        width: 30px;
-        height: 4px;
-       /* background-color: #fa923f;
-        background-color: rgba(40, 164, 241, 0.938);
-        background-color:grey;
-        background-color: orange;*/
-        background-color: black;
-    }
-    
-
+           /*0*/
+        .ToggleButton ul {
+           /* color:#fa923f;*/
+           color: rgba(40, 164, 241, 0.938);
+           background-color: white;
+        }
+        
+           /*0*/
+        /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
+        .ToggleButton:focus {
+           /* background-color:red;*/
+               
+            /*Eltvolítja a külső keretet ami megjelenik*/
+            outline: none;
+        }
+        
+           /*0*/
+        .ToggleButtonLine {
+            width: 2.5rem;
+            height: 0.3rem;
+            background-color: rgba(40, 164, 241, 0.938);
+        }
 
 }
 
@@ -53,102 +56,14 @@
 /* 1. Most of the Smartphones Mobiles (Portrait) ELEJE */
 @media (min-width: 320px) and (max-width: 480px) {
     
-    .KulsoToogleButton {
+       /*1*/
+       .KulsoToogleButton {
         display: flex;
+       /* border:3px solid red;*/
+       background-color: white;
     }
 
-    .ToggleButton {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 2.2rem;
-        width: 2.2rem;
-        /*background: transparent;*/
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        box-sizing: border-box;
-       
-    }
-    .ToggleButton ul {
-       /* color:#fa923f;*/
-       color: rgba(40, 164, 241, 0.938);
-    }
-    
-    /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
-    .ToggleButton:focus {
-       /* background-color:red;*/
-           
-        /*Eltvolítja a külső keretet ami megjelenik*/
-        outline: none;
-    }
-    
-    .ToggleButtonLine {
-        width: 30px;
-        height: 4px;
-        background-color: black;
-    }
-    
-  }
-
-/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
-
-
-/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
-@media (min-width: 481px) and (max-width: 767px) {
-    .KulsoToogleButton {
-        display: flex;
-    }
-
-    .ToggleButton {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 2.2rem;
-        width: 2.2rem;
-        /*background: transparent;*/
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        box-sizing: border-box;
-       
-    }
-    .ToggleButton ul {
-       /* color:#fa923f;*/
-       color: rgba(40, 164, 241, 0.938);
-    }
-    
-    /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
-    .ToggleButton:focus {
-       /* background-color:red;*/
-           
-        /*Eltvolítja a külső keretet ami megjelenik*/
-        outline: none;
-    }
-    
-    .ToggleButtonLine {
-        width: 30px;
-        height: 4px;
-        background-color: black;
-    }
-  
-
-}
-
-
-/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
-
-
-
-/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-    .KulsoToogleButton {
-        display: flex;
-    }
-
+       /*1*/
     .ToggleButton {
         height: auto;
         display: flex;
@@ -161,13 +76,17 @@
         cursor: pointer;
         padding: 0;
         box-sizing: border-box;
-       
+        background-color: white;       
     }
+
+       /*1*/
     .ToggleButton ul {
        /* color:#fa923f;*/
        color: rgba(40, 164, 241, 0.938);
+       background-color: white;
     }
     
+       /*1*/
     /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
     .ToggleButton:focus {
        /* background-color:red;*/
@@ -176,10 +95,121 @@
         outline: none;
     }
     
+       /*1*/
     .ToggleButtonLine {
-        width: 40px;
-        height: 6px;
-        background-color: black;
+        width: 2.5rem;
+        height: 0.3rem;
+        background-color: rgba(40, 164, 241, 0.938);
+    }
+    
+  }
+
+/* 1. Most of the Smartphones Mobiles (Portrait)  VÉGE*/
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) ELEJE*/
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+       /*2*/
+       .KulsoToogleButton {
+        display: flex;
+       /* border:3px solid red;*/
+       background-color: white;
+    }
+
+       /*2*/
+    .ToggleButton {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 3rem;
+        width:3rem;
+        /*background: transparent;*/
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: white;       
+    }
+
+       /*2*/
+    .ToggleButton ul {
+       /* color:#fa923f;*/
+       color: rgba(40, 164, 241, 0.938);
+       background-color: white;
+    }
+    
+       /*2*/
+    /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
+    .ToggleButton:focus {
+       /* background-color:red;*/
+           
+        /*Eltvolítja a külső keretet ami megjelenik*/
+        outline: none;
+    }
+    
+       /*2*/
+    .ToggleButtonLine {
+        width: 2.5rem;
+        height: 0.3rem;
+        background-color: rgba(40, 164, 241, 0.938);
+    }
+
+}
+
+
+/* 2. Low Resolution Tablets, Mobiles (Landscape) VÉGE*/
+
+
+
+/* 3. Device = Tablets, Ipads (portrait) ELEJE*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /*3*/
+    .KulsoToogleButton {
+        display: flex;
+       /* border:3px solid red;*/
+       background-color: white;
+    }
+
+       /*3*/
+    .ToggleButton {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 3rem;
+        width:3rem;
+        /*background: transparent;*/
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: white;       
+    }
+
+       /*3*/
+    .ToggleButton ul {
+       /* color:#fa923f;*/
+       color: rgba(40, 164, 241, 0.938);
+       background-color: white;
+    }
+    
+       /*3*/
+    /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
+    .ToggleButton:focus {
+       /* background-color:red;*/
+           
+        /*Eltvolítja a külső keretet ami megjelenik*/
+        outline: none;
+    }
+    
+       /*3*/
+    .ToggleButtonLine {
+        width: 3rem;
+        height: 0.3rem;
+        background-color: rgba(40, 164, 241, 0.938);
     }
   
 }
@@ -188,29 +218,37 @@
 
 /* 4. Tablets, Ipads (landscape) ELEJE*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /*4*/
     .KulsoToogleButton {
         display: flex;
+       /* border:3px solid red;*/
+       background-color: white;
     }
 
+       /*4*/
     .ToggleButton {
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 2.2rem;
-        width: 2.2rem;
+        height: 3rem;
+        width:3rem;
         /*background: transparent;*/
         border: none;
         cursor: pointer;
         padding: 0;
         box-sizing: border-box;
-       
+        background-color: white;       
     }
+
+       /*4*/
     .ToggleButton ul {
        /* color:#fa923f;*/
        color: rgba(40, 164, 241, 0.938);
+       background-color: white;
     }
     
+       /*4*/
     /*Ezt csinálja ha bele, rákatintasz akár egér,billentyű*/
     .ToggleButton:focus {
        /* background-color:red;*/
@@ -219,11 +257,13 @@
         outline: none;
     }
     
+       /*4*/
     .ToggleButtonLine {
-        width: 30px;
-        height: 4px;
-        background-color: black;
+        width: 3rem;
+        height: 0.3rem;
+        background-color: rgba(40, 164, 241, 0.938);
     }
+  
  
 }
 /* 4. Tablets, Ipads (landscape) VÉGE*/

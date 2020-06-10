@@ -14,8 +14,8 @@
     /*height: 100%;*/
     width: 75%;
     background: white;     
-    position: relative;
-    z-index: 30000;
+    position:relative;
+    z-index:3005;
     /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
     /*top: 4rem;*/
     /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
@@ -25,7 +25,6 @@
     lennie mint minden más kivéve a backdrop*/
     /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
     KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
-    z-index: 2860;
     transform: translateX(0);
     transition: transform 0.4s ease-out;
     border: 3px solid rgba(40, 164, 241, 0.938);
@@ -176,8 +175,6 @@
       /*height: 100%;*/
       width: 15rem;
       background: white;     
-      position: relative;
-      z-index: 30000;
       /*position: absolute;*/  /*SAFARI LEHET EZ NEM MINDEGY NEKI*/
       /*top: 4rem;*/
       /*EZ RONTOTTA EL A SAFARIT!!!!!!!!!!!!!!!!!!!!!!*/
@@ -187,7 +184,8 @@
       lennie mint minden más kivéve a backdrop*/
       /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
       KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
-      z-index: 2860;
+      position:relative;
+      z-index:3005;
       transform: translateX(0);
       transition: transform 0.4s ease-out;
       border: 3px solid rgba(40, 164, 241, 0.938);
@@ -363,7 +361,8 @@
     lennie mint minden más kivéve a backdrop*/
     /*FONTOS HA A PARENT ELEMNT ALACSONYABB Z INDEXEN VAN  MINT AMIT
     KI AKAROK TAKARNI A CHILDET HIÁBA TESZEM MAGASBRA*/
-    z-index: 2860;
+    position:relative;
+    z-index:3005;
     transform: translateX(0);
     transition: transform 0.4s ease-out;
     border: 3px solid rgba(40, 164, 241, 0.938);
@@ -488,6 +487,8 @@
     /*font-family: serif;*/
    /* background-color: black;*/
     font-size: 1rem;
+    position: relative;
+    z-index: 3000;
   }
    
 }
@@ -519,10 +520,9 @@
     /*height: 100%;*/
     width: 25rem;
     background: white;     
-    position: relative;
-    z-index: 30000;
+    position:relative;
+    z-index:3005;
     opacity:0.9;    
-    z-index: 2860;
     transform: translateX(0);
     transition: transform 0.4s ease-out;
     border: 3px solid rgba(40, 164, 241, 0.938);
@@ -676,10 +676,9 @@
     /*height: 100%;*/
     width: 25rem;
     background: white;     
-    position: relative;
-    z-index: 30000;
+    position:relative;
+    z-index:105;
     opacity:0.9;    
-    z-index: 2860;
     transform: translateX(0);
     transition: transform 0.4s ease-out;
     border: 3px solid rgba(40, 164, 241, 0.938);

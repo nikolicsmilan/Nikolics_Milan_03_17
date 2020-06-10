@@ -24,20 +24,23 @@ const NmToolbar = props => (
       <div className="MobilNezet">
 
           {/*1*/}
-                <div className="ButtonLogoKontener">
+          <div className="ButtonLogoKontener">     
 
-                    <div className="Button">
-                      <div className="ButKozepre">
-                      <h2>Menü</h2>
-                      </div>
-                    
-                      <div className="ButKozepre"> 
-                      <NmButton click={props.click} ></NmButton>
-                      </div>
-                     
+              <div className="ButKozepre">
+                            
+                    <div>
+                          <div className="Button2">
+                              <h2>Menü</h2>
+                            </div>                  
+                            <div className="Button3"> 
+                                <NmButton click={props.click} ></NmButton>
+                            </div>
                     </div>
+                      
+                     
+              </div>
                     
-                    <div className="ElerhetKontener">
+                <div className="ElerhetKontener">
                       
                       <div className="Elerhet">                        
                            <img src={tel} alt="telefon" ></img>                        

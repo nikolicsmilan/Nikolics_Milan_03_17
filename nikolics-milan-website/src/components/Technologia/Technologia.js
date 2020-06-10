@@ -5,6 +5,8 @@ import '../form/MyForm';
 
 const Technologia = props => { 
 
+     
+
       const [toogleState, setToogleState] = useState({
   
             toogles: [
