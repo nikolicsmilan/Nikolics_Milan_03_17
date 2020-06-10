@@ -16,13 +16,18 @@ import Kapcsolat from '../Kapcsolat/Kapcsolat';
 import Technologia2 from '../Technologia2/Technologia2';
 import Nmchat from '../NM_chat/Nmchat';
 import Csomagok from '../Csomagok/Csomagok';
-import FacebookComment2 from '../MyComment2/MyComment2';
+/*import FacebookComment2 from '../MyComment2/MyComment2';*/
 /*const AsyncNmchat = asyncComponent(() => {
   return import('./../NM_chat/Nmchat');
 });*/
 /*import MetaTags from 'react-meta-tags';*/
 
 import CustomerChat from "../messenger/CustomerChat";
+
+import { Suspense, lazy } from 'react';
+const FacebookComment2 = lazy(() => import('../MyComment2/MyComment2'))
+
+
 
 class App extends Component {
   
@@ -58,7 +63,16 @@ class App extends Component {
               <Route exact path="/" component={Csomagok}/> 
               <Route exact path="/" component={Ajanlas}/> 
               <Route exact path="/" component={ReklamSzoveg}/> 
-              <Route exact path="/" component={FacebookComment2}/> 
+            {/*  <Route exact path="/" component={FacebookComment2}/> */}
+
+
+
+
+              <Suspense fallback={<h1>Still Loading…</h1>}>
+              <FacebookComment2/>
+            </Suspense>
+
+
               <Route exact path="/" component={CustomerChat}/> 
               <Route exact path="/" component={Footer}/> 
 

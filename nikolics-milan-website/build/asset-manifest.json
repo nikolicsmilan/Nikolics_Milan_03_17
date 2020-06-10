@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.520b7e1b.chunk.css",
-    "main.js": "/static/js/main.dc32140c.chunk.js",
-    "main.js.map": "/static/js/main.dc32140c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3f67dda9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3f67dda9.js.map",
+    "main.css": "/static/css/main.422c7ed4.chunk.css",
+    "main.js": "/static/js/main.f946b5b6.chunk.js",
+    "main.js.map": "/static/js/main.f946b5b6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a08bf34.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a08bf34.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.6fbb8cd6.chunk.js": "/static/js/2.6fbb8cd6.chunk.js",
-    "static/js/2.6fbb8cd6.chunk.js.map": "/static/js/2.6fbb8cd6.chunk.js.map",
+    "static/js/2.a94a1a15.chunk.js": "/static/js/2.a94a1a15.chunk.js",
+    "static/js/2.a94a1a15.chunk.js.map": "/static/js/2.a94a1a15.chunk.js.map",
+    "static/css/3.257ce0df.chunk.css": "/static/css/3.257ce0df.chunk.css",
+    "static/js/3.559c687c.chunk.js": "/static/js/3.559c687c.chunk.js",
+    "static/js/3.559c687c.chunk.js.map": "/static/js/3.559c687c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0728e694a7a865fec292839a531625d0.js": "/precache-manifest.0728e694a7a865fec292839a531625d0.js",
+    "precache-manifest.871aac5675f997515be7547987603ca9.js": "/precache-manifest.871aac5675f997515be7547987603ca9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.520b7e1b.chunk.css.map": "/static/css/main.520b7e1b.chunk.css.map",
-    "static/js/2.6fbb8cd6.chunk.js.LICENSE.txt": "/static/js/2.6fbb8cd6.chunk.js.LICENSE.txt",
+    "static/css/3.257ce0df.chunk.css.map": "/static/css/3.257ce0df.chunk.css.map",
+    "static/css/main.422c7ed4.chunk.css.map": "/static/css/main.422c7ed4.chunk.css.map",
+    "static/js/2.a94a1a15.chunk.js.LICENSE.txt": "/static/js/2.a94a1a15.chunk.js.LICENSE.txt",
     "static/media/Ajanlas.jpg": "/static/media/Ajanlas.dbf1b066.jpg",
     "static/media/Bemutatkozo_Mobil.jpg": "/static/media/Bemutatkozo_Mobil.986fe0a4.jpg",
     "static/media/BevetelOK.png": "/static/media/BevetelOK.5ad3b65f.png",
@@ -56,10 +60,10 @@
     "static/media/xa.svg": "/static/media/xa.56f4be01.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f67dda9.js",
+    "static/js/runtime-main.7a08bf34.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.6fbb8cd6.chunk.js",
-    "static/css/main.520b7e1b.chunk.css",
-    "static/js/main.dc32140c.chunk.js"
+    "static/js/2.a94a1a15.chunk.js",
+    "static/css/main.422c7ed4.chunk.css",
+    "static/js/main.f946b5b6.chunk.js"
   ]
 }
