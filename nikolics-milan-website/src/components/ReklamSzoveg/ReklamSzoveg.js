@@ -31,7 +31,7 @@ const ReklamSzoveg= props => {
 
                         <div className="ReklamKepKontener">
                                  <div className="ReklamSzoveg1">
-                                    Akár most indítja vállalkozását akár van már egy mükődő
+                                    Akár most indítja vállalkozását akár van már egy működő
                                     vállalkozása a bevételszerzéshez ügyfelekre van szüksége. Két választási lehetősége van:
                                     Várhatja a sült galambot is, vagy tehet azért, hogy sikeres legyen.
                                     Manapság minden az interneten zajlik. Ha az embereknek problémájuk
@@ -39,7 +39,7 @@ const ReklamSzoveg= props => {
                                     Tehát felmerül egy igény a piacon és ön is kínál valamit. De sokszor nincs
                                     kapcsolat a kettő között. Nem tudnak egymásról.   
                                     Hogyan lehet kiépíteni egy  hidat az ön által nyújtott szolgáltatás és a potenciális ügyfelei között?
-                                    Egy profeszionális weblap által!
+                                    Egy professzionális weblap által!
                                     Ha versenytársainak van, de Önnek nincs, akkor komoly hátrányba kerül.
                                     A XXI. században a legolcsóbb és leghatékonyabb eszköz a célcsoportja elérése
                                     érdekében a vállalkozásához kapcsolódó saját honlap.
