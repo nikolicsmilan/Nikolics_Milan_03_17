@@ -25,26 +25,27 @@ import FacebookComment2 from '../MyComment2/MyComment2';
 import CustomerChat from "../messenger/CustomerChat";
 
 class App extends Component {
-  componentDidMount() {
-    /*document.getElementById("nav-home").style.backgroundColor = "#ffffff";
-    document.getElementById("nav-home").style.color = "#7ABEC2";*/
-    console.log('izéééééééééééééééééééééééééé');
-   /* document.getElementById("megfogom").style.backgroundColor = "red";*/
-    console.log('lefutott');
- /*  document.getElementById("megfogom").classList.add('megfogom2');
-  /*  document.getElementById("megfogom").className = "megfogom2";*/
- /* console.log('lefutott');
-  document.getElementById("megfogom").classList.add('megfogom3');*/
+  
 
-}
+
+        componentDidMount() {
+          FacebookComment2.XFBML.parse();
+      }
+      componentDidUpdate() {
+        FacebookComment2.XFBML.parse();
+      }
+
  
         render() {
+
+  
+
         return (
              
 
           <BrowserRouter id="UA-158844454-1">
-
-           <div classname="stilus">Válts stílust
+             
+     
         <div className="AppEgesz">   
 
           <div className="AppNavbar">
@@ -75,7 +76,7 @@ class App extends Component {
 
          </div>
 
-         </div> 
+      
             </BrowserRouter>
 
          

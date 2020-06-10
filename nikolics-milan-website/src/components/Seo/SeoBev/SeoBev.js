@@ -37,7 +37,7 @@ const SeoBev= props => {
                                     </div>
                       
                                     <div>
-                                    A SEO célja az, hogy ennek a programnak(google kereső motor) az igényeit figyelembe
+                                    A SEO célja az, hogy ennek a programnak (google keresőmotor) az igényeit figyelembe
                                     véve alakítsuk a weblapunkat. Minél inkább megfelelünk az igényeinek
                                     annál előbbre kerülünk a találati listán.
                                     </div>          
@@ -55,7 +55,7 @@ const SeoBev= props => {
 
                     <div className="SeoBevSzovbev">
                     <div className="SeoBevSzovbevCim"> 
-                              Melyik csomagot válaszam?
+                              Melyik csomagot válasszam?
                       </div>
                       
                                     <div>
@@ -80,10 +80,10 @@ const SeoBev= props => {
                                
                       
                                     <div>
-                                    A kereső optimalizálás olyan mint egy autóverseny. Szükség van hozzá Önnre és egy 
+                                    A keresőmotor optimalizálás olyan mint egy autóverseny. Szükség van hozzá Önnre és egy 
                  megfelelő eszközre. Ezektől függ hányadik helyre fog befutni. Az út hosszú és
                  áldozatokkal jár, de az eredmény megéri, nem marad el. 
-                 Ha a veresnytársai jobb eszköket használnak Önnek is érdemes fejleszteni. Mindkét
+                 Ha a versenytársai jobb eszközöket használnak önnek is érdemes fejleszteni. Mindkét
                  csomaggal be lehet érni a célba. Mindkettővel érhet el sikereket.
                 Azonban azt, hogy Önnek melyik eszközt szükséges/érdemes választania a körülmények
                  (piac, versenytársak, vállalkozás típusa... stb) döntik el. 

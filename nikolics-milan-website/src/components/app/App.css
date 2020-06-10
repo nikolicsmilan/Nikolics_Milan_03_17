@@ -818,3 +818,13 @@ html,body
 }
 
 /* 7. Larger screen VÉGE*/
+
+.stilus1{
+
+ border:3px solid red;
+  
+}
+
+.stilus2 {
+    border:3px solid green;
+}
